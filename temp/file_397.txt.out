@@ -1,0 +1,114 @@
+Document: ID=file_397.txt (2 sentences, 40 tokens)
+
+Sentence #1 (11 tokens):
+VARGAS VIVIANO, Arturo Exp.100-10-1-75
+H-183 L-50
+13-Mar-75.
+
+Tokens:
+[Text=VARGAS CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=PROPN Lemma=vargas NamedEntityTag=PERSON]
+[Text=VIVIANO CharacterOffsetBegin=7 CharacterOffsetEnd=14 PartOfSpeech=PROPN Lemma=viviano NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Arturo CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=PROPN Lemma=arturo NamedEntityTag=PERSON]
+[Text=Exp.100-10-1-75 CharacterOffsetBegin=23 CharacterOffsetEnd=38 PartOfSpeech=PROPN Lemma=exp.100-10-1-75 NamedEntityTag=O]
+[Text=H-183 CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=PROPN Lemma=h-183 NamedEntityTag=O]
+[Text=L-50 CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=PROPN Lemma=l-50 NamedEntityTag=O]
+[Text=13 CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=NUM Lemma=13 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Mar-75 CharacterOffsetBegin=53 CharacterOffsetEnd=59 PartOfSpeech=PROPN Lemma=mar-75 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, VARGAS-1)
+flat(VARGAS-1, VIVIANO-2)
+punct(Arturo-4, ,-3)
+flat(VARGAS-1, Arturo-4)
+flat(Arturo-4, Exp.100-10-1-75-5)
+flat(Arturo-4, H-183-6)
+flat(Arturo-4, L-50-7)
+nummod(Arturo-4, 13-8)
+punct(Arturo-4, --9)
+flat(VARGAS-1, Mar-75-10)
+punct(VARGAS-1, .-11)
+
+Extracted the following NER entity mentions:
+VARGAS VIVIANO	PERSON	PERSON:0.9806518996996317
+Arturo	PERSON	PERSON:0.4638943645418509
+
+Sentence #2 (29 tokens):
+DOMICILIO:
+
+
+- TELEFONO:-
+FOTOGRAFIA:-
+ANTECEDENTES:-
+-Controla a los “paracaidistas” de la Barranca
+La Laja en Acapulco, Gro.
+
+Tokens:
+[Text=DOMICILIO CharacterOffsetBegin=61 CharacterOffsetEnd=70 PartOfSpeech=NOUN Lemma=domicilio NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=TELEFONO CharacterOffsetBegin=76 CharacterOffsetEnd=84 PartOfSpeech=NOUN Lemma=telefono NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=FOTOGRAFIA CharacterOffsetBegin=87 CharacterOffsetEnd=97 PartOfSpeech=NOUN Lemma=fotografia NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ANTECEDENTES CharacterOffsetBegin=100 CharacterOffsetEnd=112 PartOfSpeech=NOUN Lemma=antecedentes NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Controla CharacterOffsetBegin=116 CharacterOffsetEnd=124 PartOfSpeech=VERB Lemma=controla NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=paracaidistas CharacterOffsetBegin=132 CharacterOffsetEnd=145 PartOfSpeech=NOUN Lemma=paracaidistas NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Barranca CharacterOffsetBegin=153 CharacterOffsetEnd=161 PartOfSpeech=PROPN Lemma=barranca NamedEntityTag=CITY]
+[Text=La CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=DET Lemma=la NamedEntityTag=LOCATION]
+[Text=Laja CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=PROPN Lemma=laja NamedEntityTag=CITY]
+[Text=en CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=173 CharacterOffsetEnd=181 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, DOMICILIO-1)
+punct(TELEFONO-4, :-2)
+punct(TELEFONO-4, --3)
+appos(DOMICILIO-1, TELEFONO-4)
+punct(FOTOGRAFIA-7, :-5)
+punct(FOTOGRAFIA-7, --6)
+conj(TELEFONO-4, FOTOGRAFIA-7)
+punct(ANTECEDENTES-10, :-8)
+punct(ANTECEDENTES-10, --9)
+appos(FOTOGRAFIA-7, ANTECEDENTES-10)
+punct(ANTECEDENTES-10, :-11)
+punct(ANTECEDENTES-10, --12)
+punct(ANTECEDENTES-10, --13)
+acl(FOTOGRAFIA-7, Controla-14)
+case(paracaidistas-18, a-15)
+det(paracaidistas-18, los-16)
+punct(paracaidistas-18, "-17)
+obj(Controla-14, paracaidistas-18)
+punct(paracaidistas-18, "-19)
+case(Barranca-22, de-20)
+det(Barranca-22, la-21)
+nmod(paracaidistas-18, Barranca-22)
+det(Laja-24, La-23)
+flat(Barranca-22, Laja-24)
+case(Acapulco-26, en-25)
+nmod(paracaidistas-18, Acapulco-26)
+punct(Gro-28, ,-27)
+flat(Acapulco-26, Gro-28)
+punct(DOMICILIO-1, .-29)
+
+Extracted the following NER entity mentions:
+Barranca	CITY	LOCATION:0.5212213522216341
+La	LOCATION	LOCATION:0.5091458009814323
+Laja	CITY	LOCATION:0.5117095968185024
+Acapulco	CITY	LOCATION:0.9799959868535432

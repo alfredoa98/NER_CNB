@@ -1,0 +1,98 @@
+Document: ID=file_455.txt (2 sentences, 34 tokens)
+
+Sentence #1 (32 tokens):
+CLAVEL, MARIOA009-011-014
+18 Oct.80
+En declaraciones de JUAN GARCIA COSTILLA de las
+Fuerzas Armadas de Liberación, menciona a esta
+persona que en 1976 participo en secuestros pero
+que deserto.
+
+Tokens:
+[Text=CLAVEL CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=PROPN Lemma=clavel NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=MARIOA009-011-014 CharacterOffsetBegin=8 CharacterOffsetEnd=25 PartOfSpeech=PROPN Lemma=marioa009-011-014 NamedEntityTag=O]
+[Text=18 CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=NUM Lemma=18 NamedEntityTag=NUMBER NormalizedNamedEntityTag=18.0]
+[Text=Oct.80 CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=PROPN Lemma=oct.80 NamedEntityTag=O]
+[Text=En CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=declaraciones CharacterOffsetBegin=39 CharacterOffsetEnd=52 PartOfSpeech=NOUN Lemma=declaraciones NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=JUAN CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=PROPN Lemma=juan NamedEntityTag=PERSON]
+[Text=GARCIA CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=PROPN Lemma=garcia NamedEntityTag=PERSON]
+[Text=COSTILLA CharacterOffsetBegin=68 CharacterOffsetEnd=76 PartOfSpeech=PROPN Lemma=costilla NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=Fuerzas CharacterOffsetBegin=84 CharacterOffsetEnd=91 PartOfSpeech=PROPN Lemma=fuerzas NamedEntityTag=ORGANIZATION]
+[Text=Armadas CharacterOffsetBegin=92 CharacterOffsetEnd=99 PartOfSpeech=PROPN Lemma=armadas NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Liberación CharacterOffsetBegin=103 CharacterOffsetEnd=113 PartOfSpeech=PROPN Lemma=liberación NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=menciona CharacterOffsetBegin=115 CharacterOffsetEnd=123 PartOfSpeech=VERB Lemma=menciona NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=persona CharacterOffsetBegin=131 CharacterOffsetEnd=138 PartOfSpeech=NOUN Lemma=persona NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=1976 CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=NOUN Lemma=1976 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1976.0]
+[Text=participo CharacterOffsetBegin=151 CharacterOffsetEnd=160 PartOfSpeech=VERB Lemma=participo NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=secuestros CharacterOffsetBegin=164 CharacterOffsetEnd=174 PartOfSpeech=NOUN Lemma=secuestros NamedEntityTag=O]
+[Text=pero CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=CCONJ Lemma=pero NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=deserto CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=VERB Lemma=deserto NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, menciona-19)
+nsubj(menciona-19, CLAVEL-1)
+punct(MARIOA009-011-014-3, ,-2)
+appos(CLAVEL-1, MARIOA009-011-014-3)
+nummod(MARIOA009-011-014-3, 18-4)
+flat(MARIOA009-011-014-3, Oct.80-5)
+case(declaraciones-7, En-6)
+nmod(MARIOA009-011-014-3, declaraciones-7)
+case(JUAN-9, de-8)
+nmod(declaraciones-7, JUAN-9)
+flat(JUAN-9, GARCIA-10)
+flat(JUAN-9, COSTILLA-11)
+case(Fuerzas-14, de-12)
+det(Fuerzas-14, las-13)
+nmod(declaraciones-7, Fuerzas-14)
+flat(Fuerzas-14, Armadas-15)
+case(Liberación-17, de-16)
+flat(Fuerzas-14, Liberación-17)
+punct(MARIOA009-011-014-3, ,-18)
+case(persona-22, a-20)
+det(persona-22, esta-21)
+obj(menciona-19, persona-22)
+nsubj(participo-26, que-23)
+case(1976-25, en-24)
+obl(participo-26, 1976-25)
+acl(persona-22, participo-26)
+case(secuestros-28, en-27)
+obl(participo-26, secuestros-28)
+cc(deserto-31, pero-29)
+obj(deserto-31, que-30)
+acl(persona-22, deserto-31)
+conj:pero(participo-26, deserto-31)
+punct(menciona-19, .-32)
+
+Extracted the following NER entity mentions:
+CLAVEL	ORGANIZATION	ORGANIZATION:0.7107394503631749
+18	NUMBER	NUMBER:-1.0
+JUAN GARCIA	PERSON	PERSON:0.9032499024222722
+Fuerzas Armadas de Liberación	ORGANIZATION	ORGANIZATION:0.9649235597726976
+1976	NUMBER	NUMBER:-1.0
+
+Sentence #2 (2 tokens):
+-Pmmc
+
+Tokens:
+[Text=- CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Pmmc CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=PROPN Lemma=pmmc NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Pmmc-2)
+punct(Pmmc-2, --1)
+
+Extracted the following NER entity mentions:

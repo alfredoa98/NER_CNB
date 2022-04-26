@@ -1,0 +1,289 @@
+Document: ID=file_329.txt (5 sentences, 105 tokens)
+
+Sentence #1 (8 tokens):
+012-028-002
+25-ene-80
+Chilpancingo,Gro.
+
+Tokens:
+[Text=012-028-002 CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NUM Lemma=012-028-002 NamedEntityTag=O]
+[Text=25 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NUM Lemma=25 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ene-80 CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=NUM Lemma=ene-80 NamedEntityTag=O]
+[Text=Chilpancingo CharacterOffsetBegin=22 CharacterOffsetEnd=34 PartOfSpeech=PROPN Lemma=chilpancingo NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 012-028-002-1)
+compound(012-028-002-1, 25-2)
+punct(012-028-002-1, --3)
+appos(012-028-002-1, ene-80-4)
+flat(ene-80-4, Chilpancingo-5)
+punct(012-028-002-1, ,-6)
+appos(012-028-002-1, Gro-7)
+punct(012-028-002-1, .-8)
+
+Extracted the following NER entity mentions:
+Chilpancingo	CITY	LOCATION:0.9764384236527176
+Gro	PERSON	PERSON:0.5630854131510086
+
+Sentence #2 (6 tokens):
+, a las 21.00 hrs.
+
+Tokens:
+[Text=, CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=21.00 CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NOUN Lemma=21.00 NamedEntityTag=NUMBER NormalizedNamedEntityTag=21.0]
+[Text=hrs CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=NOUN Lemma=hrs NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 21.00-4)
+punct(21.00-4, ,-1)
+case(21.00-4, a-2)
+det(21.00-4, las-3)
+nmod(21.00-4, hrs-5)
+punct(21.00-4, .-6)
+
+Extracted the following NER entity mentions:
+21.00	NUMBER	NUMBER:-1.0
+
+Sentence #3 (69 tokens):
+de ayer, un
+catedrático no identificado, miembro del P.C.M.
+se presentó en las oficinas de la Rectoría de la
+U.A.G. ubicadas en Abasolo 33 de esta ciudad,con
+el Tesorero General ANTONIO BARBA ALVAREZ y el
+Contador General JOSE SANTOS MADARIAGA CECEÑA, -
+quienes firmaron cheques por las cantidades de -
+$10,000.00, $15,000,00 y $50.000,00 como anticipo
+de cuotas sindicales.
+
+Tokens:
+[Text=de CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=ayer CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=ADV Lemma=ayer NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-1D Timex=<TIMEX3 alt_value="OFFSET P-1D" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">ayer</TIMEX3>]
+[Text=, CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=catedrático CharacterOffsetBegin=70 CharacterOffsetEnd=81 PartOfSpeech=NOUN Lemma=catedrático NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=identificado CharacterOffsetBegin=85 CharacterOffsetEnd=97 PartOfSpeech=ADJ Lemma=identificado NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=miembro CharacterOffsetBegin=99 CharacterOffsetEnd=106 PartOfSpeech=NOUN Lemma=miembro NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=P.C.M. CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=PROPN Lemma=p.c.m. NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=presentó CharacterOffsetBegin=121 CharacterOffsetEnd=129 PartOfSpeech=VERB Lemma=presentó NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=oficinas CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=NOUN Lemma=oficinas NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Rectoría CharacterOffsetBegin=152 CharacterOffsetEnd=160 PartOfSpeech=PROPN Lemma=rectoría NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=la CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=DET Lemma=la NamedEntityTag=ORGANIZATION]
+[Text=U.A.G. CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=PROPN Lemma=u.a.g. NamedEntityTag=ORGANIZATION]
+[Text=ubicadas CharacterOffsetBegin=174 CharacterOffsetEnd=182 PartOfSpeech=ADJ Lemma=ubicadas NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Abasolo CharacterOffsetBegin=186 CharacterOffsetEnd=193 PartOfSpeech=PROPN Lemma=abasolo NamedEntityTag=CITY]
+[Text=33 CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=NUM Lemma=33 NamedEntityTag=NUMBER NormalizedNamedEntityTag=33.0]
+[Text=de CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=ciudad CharacterOffsetBegin=205 CharacterOffsetEnd=211 PartOfSpeech=NOUN Lemma=ciudad NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Tesorero CharacterOffsetBegin=219 CharacterOffsetEnd=227 PartOfSpeech=PROPN Lemma=tesorero NamedEntityTag=ORGANIZATION]
+[Text=General CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=PROPN Lemma=general NamedEntityTag=ORGANIZATION]
+[Text=ANTONIO CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=PROPN Lemma=antonio NamedEntityTag=PERSON]
+[Text=BARBA CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=PROPN Lemma=barba NamedEntityTag=PERSON]
+[Text=ALVAREZ CharacterOffsetBegin=250 CharacterOffsetEnd=257 PartOfSpeech=PROPN Lemma=alvarez NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Contador CharacterOffsetBegin=263 CharacterOffsetEnd=271 PartOfSpeech=PROPN Lemma=contador NamedEntityTag=PERSON]
+[Text=General CharacterOffsetBegin=272 CharacterOffsetEnd=279 PartOfSpeech=PROPN Lemma=general NamedEntityTag=PERSON]
+[Text=JOSE CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=PERSON]
+[Text=SANTOS CharacterOffsetBegin=285 CharacterOffsetEnd=291 PartOfSpeech=PROPN Lemma=santos NamedEntityTag=PERSON]
+[Text=MADARIAGA CharacterOffsetBegin=292 CharacterOffsetEnd=301 PartOfSpeech=PROPN Lemma=madariaga NamedEntityTag=PERSON]
+[Text=CECEÑA CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=PROPN Lemma=ceceña NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=quienes CharacterOffsetBegin=312 CharacterOffsetEnd=319 PartOfSpeech=PRON Lemma=quienes NamedEntityTag=O]
+[Text=firmaron CharacterOffsetBegin=320 CharacterOffsetEnd=328 PartOfSpeech=VERB Lemma=firmaron NamedEntityTag=O]
+[Text=cheques CharacterOffsetBegin=329 CharacterOffsetEnd=336 PartOfSpeech=NOUN Lemma=cheques NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=cantidades CharacterOffsetBegin=345 CharacterOffsetEnd=355 PartOfSpeech=NOUN Lemma=cantidades NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=361 CharacterOffsetEnd=362 PartOfSpeech=INTJ Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$10000.0]
+[Text=10,000.00 CharacterOffsetBegin=362 CharacterOffsetEnd=371 PartOfSpeech=INTJ Lemma=10,000.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$10000.0]
+[Text=, CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=INTJ Lemma=$ NamedEntityTag=O]
+[Text=15,000,00 CharacterOffsetBegin=374 CharacterOffsetEnd=383 PartOfSpeech=NUM Lemma=15,000,00 NamedEntityTag=NUMBER]
+[Text=y CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=O]
+[Text=50.000,00 CharacterOffsetBegin=387 CharacterOffsetEnd=396 PartOfSpeech=NUM Lemma=50.000,00 NamedEntityTag=O]
+[Text=como CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=SCONJ Lemma=como NamedEntityTag=O]
+[Text=anticipo CharacterOffsetBegin=402 CharacterOffsetEnd=410 PartOfSpeech=NOUN Lemma=anticipo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=cuotas CharacterOffsetBegin=414 CharacterOffsetEnd=420 PartOfSpeech=NOUN Lemma=cuotas NamedEntityTag=O]
+[Text=sindicales CharacterOffsetBegin=421 CharacterOffsetEnd=431 PartOfSpeech=ADJ Lemma=sindicales NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, presentó-13)
+case(ayer-2, de-1)
+advmod(presentó-13, ayer-2)
+punct(ayer-2, ,-3)
+det(catedrático-5, un-4)
+obl(presentó-13, catedrático-5)
+advmod(identificado-7, no-6)
+amod(catedrático-5, identificado-7)
+punct(miembro-9, ,-8)
+nsubj(presentó-13, miembro-9)
+case(P.C.M.-11, del-10)
+nmod(miembro-9, P.C.M.-11)
+obj(presentó-13, se-12)
+case(oficinas-16, en-14)
+det(oficinas-16, las-15)
+obl(presentó-13, oficinas-16)
+case(Rectoría-19, de-17)
+det(Rectoría-19, la-18)
+nmod(oficinas-16, Rectoría-19)
+case(U.A.G.-22, de-20)
+det(U.A.G.-22, la-21)
+flat(Rectoría-19, U.A.G.-22)
+amod(Rectoría-19, ubicadas-23)
+case(Abasolo-25, en-24)
+obl(presentó-13, Abasolo-25)
+nummod(Abasolo-25, 33-26)
+case(ciudad-29, de-27)
+det(ciudad-29, esta-28)
+nmod(Abasolo-25, ciudad-29)
+punct(Tesorero-33, ,-30)
+case(Tesorero-33, con-31)
+det(Tesorero-33, el-32)
+nmod(Abasolo-25, Tesorero-33)
+flat(Tesorero-33, General-34)
+flat(Tesorero-33, ANTONIO-35)
+flat(Tesorero-33, BARBA-36)
+flat(Tesorero-33, ALVAREZ-37)
+cc(Contador-40, y-38)
+det(Contador-40, el-39)
+nmod(Abasolo-25, Contador-40)
+conj:y(Tesorero-33, Contador-40)
+flat(Contador-40, General-41)
+flat(Contador-40, JOSE-42)
+flat(Contador-40, SANTOS-43)
+flat(Contador-40, MADARIAGA-44)
+flat(Contador-40, CECEÑA-45)
+punct(Tesorero-33, ,-46)
+punct(firmaron-49, --47)
+nsubj(firmaron-49, quienes-48)
+advcl(presentó-13, firmaron-49)
+obj(firmaron-49, cheques-50)
+case(cantidades-53, por-51)
+det(cantidades-53, las-52)
+nmod(cheques-50, cantidades-53)
+case($-56, de-54)
+punct($-56, --55)
+nmod(cantidades-53, $-56)
+flat($-56, 10,000.00-57)
+punct(15,000,00-60, ,-58)
+det(15,000,00-60, $-59)
+conj(cheques-50, 15,000,00-60)
+cc($-62, y-61)
+obj(firmaron-49, $-62)
+conj:y(cheques-50, $-62)
+nummod($-62, 50.000,00-63)
+mark(anticipo-65, como-64)
+nmod(cheques-50, anticipo-65)
+case(cuotas-67, de-66)
+nmod(anticipo-65, cuotas-67)
+amod(cuotas-67, sindicales-68)
+punct(presentó-13, .-69)
+
+Extracted the following NER entity mentions:
+ayer	DATE	DATE:-1.0
+Rectoría de la
+U.A.G.	ORGANIZATION	ORGANIZATION:0.7319993916187065
+Abasolo	CITY	LOCATION:0.618154871614416
+33	NUMBER	NUMBER:-1.0
+Tesorero General	ORGANIZATION	ORGANIZATION:0.5224270539886126
+ANTONIO BARBA ALVAREZ	PERSON	PERSON:0.6239558608441783
+Contador General JOSE SANTOS MADARIAGA CECEÑA	PERSON	PERSON:0.33309307118072773
+$10,000.00	MONEY	MONEY:-1.0
+15,000,00	NUMBER	-
+
+Extracted the following KBP triples:
+1.0	Tesorero General	org:top_members_employees	ANTONIO BARBA ALVAREZ
+
+Sentence #4 (8 tokens):
+-Se hace notar que el Srio.
+
+Tokens:
+[Text=- CharacterOffsetBegin=432 CharacterOffsetEnd=433 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Se CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=hace CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=AUX Lemma=hace NamedEntityTag=O]
+[Text=notar CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=VERB Lemma=notar NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=451 CharacterOffsetEnd=453 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Srio CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=PROPN Lemma=srio NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, notar-4)
+punct(notar-4, --1)
+obj(notar-4, Se-2)
+aux(notar-4, hace-3)
+mark(Srio-7, que-5)
+det(Srio-7, el-6)
+obj(notar-4, Srio-7)
+punct(notar-4, .-8)
+
+Extracted the following NER entity mentions:
+Srio	LOCATION	LOCATION:0.3998203985951676
+
+Sentence #5 (14 tokens):
+General de la U.S.C.U.A.G. EFRAIN BERMUDEZ RIVE-
+RA miembro del P.C.M. hamanifestado constantemente
+
+Tokens:
+[Text=General CharacterOffsetBegin=460 CharacterOffsetEnd=467 PartOfSpeech=PROPN Lemma=general NamedEntityTag=TITLE]
+[Text=de CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=U.S.C.U.A.G. CharacterOffsetBegin=474 CharacterOffsetEnd=486 PartOfSpeech=PROPN Lemma=u.s.c.u.a.g. NamedEntityTag=O]
+[Text=EFRAIN CharacterOffsetBegin=487 CharacterOffsetEnd=493 PartOfSpeech=PROPN Lemma=efrain NamedEntityTag=PERSON]
+[Text=BERMUDEZ CharacterOffsetBegin=494 CharacterOffsetEnd=502 PartOfSpeech=PROPN Lemma=bermudez NamedEntityTag=PERSON]
+[Text=RIVE CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=PROPN Lemma=rive NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=RA CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=PROPN Lemma=ra NamedEntityTag=MISC]
+[Text=miembro CharacterOffsetBegin=512 CharacterOffsetEnd=519 PartOfSpeech=NOUN Lemma=miembro NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=P.C.M. CharacterOffsetBegin=524 CharacterOffsetEnd=530 PartOfSpeech=PROPN Lemma=p.c.m. NamedEntityTag=O]
+[Text=hamanifestado CharacterOffsetBegin=531 CharacterOffsetEnd=544 PartOfSpeech=VERB Lemma=hamanifestado NamedEntityTag=O]
+[Text=constantemente CharacterOffsetBegin=545 CharacterOffsetEnd=559 PartOfSpeech=ADV Lemma=constantemente NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, General-1)
+case(U.S.C.U.A.G.-4, de-2)
+det(U.S.C.U.A.G.-4, la-3)
+flat(General-1, U.S.C.U.A.G.-4)
+flat(U.S.C.U.A.G.-4, EFRAIN-5)
+flat(U.S.C.U.A.G.-4, BERMUDEZ-6)
+flat(U.S.C.U.A.G.-4, RIVE-7)
+punct(RA-9, --8)
+flat(General-1, RA-9)
+flat(RA-9, miembro-10)
+case(P.C.M.-12, del-11)
+flat(RA-9, P.C.M.-12)
+flat(RA-9, hamanifestado-13)
+advmod(General-1, constantemente-14)
+
+Extracted the following NER entity mentions:
+General	TITLE	-
+EFRAIN BERMUDEZ	PERSON	PERSON:0.9436072174045845
+RA	MISC	MISC:0.33832081127667246

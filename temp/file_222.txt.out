@@ -1,0 +1,324 @@
+Document: ID=file_222.txt (3 sentences, 135 tokens)
+
+Sentence #1 (6 tokens):
+UNIVERSIDAD AUTONOMA DE GUERRERO
+Exp.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=O]
+[Text=AUTONOMA CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=autonoma NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=24 CharacterOffsetEnd=32 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=Exp CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUTONOMA-2)
+case(GUERRERO-4, DE-3)
+flat(UNIVERSIDAD-1, GUERRERO-4)
+flat(UNIVERSIDAD-1, Exp-5)
+punct(UNIVERSIDAD-1, .-6)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	MISC:0.351071460405707
+Exp	MISC	MISC:0.40093502963829686
+
+Sentence #2 (59 tokens):
+-100-10-1-76
+H-148 L-61
+(29)
+VERSITAIO DE LA U.A.G., EN LA SESION DEL 27 DE
+LOS CORRIENTES ACORDO RECHAZAR LA POSTURA DEL_
+RECTOR DE LA UNAM, EN RLACION A SU PRETENSION
+DE QUE SE ADICIONE EL INCISO "C" AL ARTICULO__
+123 CONSTITUCIONAL, POR LO QUE": MANIFIESTA....
+PRIMERO.
+
+Tokens:
+[Text=-100-10-1-76 CharacterOffsetBegin=37 CharacterOffsetEnd=49 PartOfSpeech=NUM Lemma=-100-10-1-76 NamedEntityTag=O]
+[Text=H-148 CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=PROPN Lemma=h-148 NamedEntityTag=O]
+[Text=L-61 CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=PROPN Lemma=l-61 NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=29 CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=NUM Lemma=29 NamedEntityTag=NUMBER NormalizedNamedEntityTag=29.0]
+[Text=) CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=VERSITAIO CharacterOffsetBegin=66 CharacterOffsetEnd=75 PartOfSpeech=PROPN Lemma=versitaio NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=U.A.G. CharacterOffsetBegin=82 CharacterOffsetEnd=88 PartOfSpeech=NOUN Lemma=u.a.g. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=SESION CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=PROPN Lemma=sesion NamedEntityTag=O]
+[Text=DEL CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=27 CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=NUM Lemma=27 NamedEntityTag=NUMBER NormalizedNamedEntityTag=27.0]
+[Text=DE CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LOS CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=CORRIENTES CharacterOffsetBegin=117 CharacterOffsetEnd=127 PartOfSpeech=NOUN Lemma=corrientes NamedEntityTag=O]
+[Text=ACORDO CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=ADJ Lemma=acordo NamedEntityTag=O]
+[Text=RECHAZAR CharacterOffsetBegin=135 CharacterOffsetEnd=143 PartOfSpeech=ADJ Lemma=rechazar NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=POSTURA CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=NOUN Lemma=postura NamedEntityTag=O]
+[Text=DEL CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=_ CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=DET Lemma=_ NamedEntityTag=O]
+[Text=RECTOR CharacterOffsetBegin=160 CharacterOffsetEnd=166 PartOfSpeech=PROPN Lemma=rector NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=UNAM CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=PROPN Lemma=unam NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=RLACION CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=PROPN Lemma=rlacion NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=SU CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=PRETENSION CharacterOffsetBegin=195 CharacterOffsetEnd=205 PartOfSpeech=NOUN Lemma=pretension NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=QUE CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=SE CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=ADICIONE CharacterOffsetBegin=216 CharacterOffsetEnd=224 PartOfSpeech=VERB Lemma=adicione NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=INCISO CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=PROPN Lemma=inciso NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=C CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=PROPN Lemma=c NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=AL CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=ARTICULO CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=PROPN Lemma=articulo NamedEntityTag=O]
+[Text=__ CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=ADP Lemma=__ NamedEntityTag=O]
+[Text=123 CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=NUM Lemma=123 NamedEntityTag=NUMBER NormalizedNamedEntityTag=123.0]
+[Text=CONSTITUCIONAL CharacterOffsetBegin=257 CharacterOffsetEnd=271 PartOfSpeech=NOUN Lemma=constitucional NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=POR CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=LO CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=DET Lemma=lo NamedEntityTag=O]
+[Text=QUE CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=MANIFIESTA CharacterOffsetBegin=286 CharacterOffsetEnd=296 PartOfSpeech=VERB Lemma=manifiesta NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=PUNCT Lemma=... NamedEntityTag=O]
+[Text=PRIMERO CharacterOffsetBegin=301 CharacterOffsetEnd=308 PartOfSpeech=PROPN Lemma=primero NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-148-2)
+nummod(H-148-2, -100-10-1-76-1)
+flat(H-148-2, L-61-3)
+punct(29-5, (-4)
+appos(H-148-2, 29-5)
+punct(29-5, )-6)
+flat(H-148-2, VERSITAIO-7)
+case(U.A.G.-10, DE-8)
+det(U.A.G.-10, LA-9)
+nmod(H-148-2, U.A.G.-10)
+punct(SESION-14, ,-11)
+case(SESION-14, EN-12)
+det(SESION-14, LA-13)
+nmod(H-148-2, SESION-14)
+case(27-16, DEL-15)
+nummod(SESION-14, 27-16)
+case(CORRIENTES-19, DE-17)
+det(CORRIENTES-19, LOS-18)
+nmod(SESION-14, CORRIENTES-19)
+amod(CORRIENTES-19, ACORDO-20)
+amod(CORRIENTES-19, RECHAZAR-21)
+det(POSTURA-23, LA-22)
+appos(SESION-14, POSTURA-23)
+case(RECTOR-26, DEL-24)
+det(RECTOR-26, _-25)
+nmod(POSTURA-23, RECTOR-26)
+case(UNAM-29, DE-27)
+det(UNAM-29, LA-28)
+flat(RECTOR-26, UNAM-29)
+punct(RLACION-32, ,-30)
+case(RLACION-32, EN-31)
+nmod(POSTURA-23, RLACION-32)
+case(PRETENSION-35, A-33)
+det(PRETENSION-35, SU-34)
+nmod(RLACION-32, PRETENSION-35)
+case(QUE-37, DE-36)
+obj(ADICIONE-39, QUE-37)
+obj(ADICIONE-39, SE-38)
+acl(PRETENSION-35, ADICIONE-39)
+det(INCISO-41, EL-40)
+nsubj(ADICIONE-39, INCISO-41)
+punct(C-43, "-42)
+flat(INCISO-41, C-43)
+punct(C-43, "-44)
+case(ARTICULO-46, AL-45)
+flat(RLACION-32, ARTICULO-46)
+case(CONSTITUCIONAL-49, __-47)
+nummod(CONSTITUCIONAL-49, 123-48)
+nmod(RLACION-32, CONSTITUCIONAL-49)
+punct(RLACION-32, ,-50)
+case(QUE-53, POR-51)
+det(QUE-53, LO-52)
+nmod(POSTURA-23, QUE-53)
+punct(SESION-14, "-54)
+punct(MANIFIESTA-56, :-55)
+acl(H-148-2, MANIFIESTA-56)
+punct(MANIFIESTA-56, ...-57)
+dep(MANIFIESTA-56, PRIMERO-58)
+punct(H-148-2, .-59)
+
+Extracted the following NER entity mentions:
+29	NUMBER	NUMBER:-1.0
+27	NUMBER	NUMBER:-1.0
+UNAM	ORGANIZATION	ORGANIZATION:0.7343826058590927
+123	NUMBER	NUMBER:-1.0
+
+Sentence #3 (70 tokens):
+-Se RECHAZA LA INICIATIVA DE REFORMAS_
+AL ARTICULO 123 CONSTITUCIONAL PRESENTADA POR_
+EL RECTOR GUILLERMO SOBERON ACEEDO AL C.PRESI
+DENTE DE LA REPUBLICA L.E.A., PUES CONSIDERAMOS
+QUE, AL HABLAR EN NOMBRE DE LAS UNIVERSIDADES -
+E INSTITUCIONES DE EDUCACION SUPERIOR SE ABRO_
+GA FACULTADES QUE POR NINGUN MOTIVO LE COMPETEN
+AL RECTOR DE LA UNAM, YA QUE NO TOMO EN CUENTA -
+
+Tokens:
+[Text=- CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Se CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=RECHAZA CharacterOffsetBegin=313 CharacterOffsetEnd=320 PartOfSpeech=PROPN Lemma=rechaza NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=INICIATIVA CharacterOffsetBegin=324 CharacterOffsetEnd=334 PartOfSpeech=PROPN Lemma=iniciativa NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=REFORMAS CharacterOffsetBegin=338 CharacterOffsetEnd=346 PartOfSpeech=PROPN Lemma=reformas NamedEntityTag=O]
+[Text=_ CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=SYM Lemma=_ NamedEntityTag=O]
+[Text=AL CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=ARTICULO CharacterOffsetBegin=351 CharacterOffsetEnd=359 PartOfSpeech=PROPN Lemma=articulo NamedEntityTag=O]
+[Text=123 CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=NUM Lemma=123 NamedEntityTag=NUMBER NormalizedNamedEntityTag=123.0]
+[Text=CONSTITUCIONAL CharacterOffsetBegin=364 CharacterOffsetEnd=378 PartOfSpeech=PROPN Lemma=constitucional NamedEntityTag=O]
+[Text=PRESENTADA CharacterOffsetBegin=379 CharacterOffsetEnd=389 PartOfSpeech=PROPN Lemma=presentada NamedEntityTag=O]
+[Text=POR CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=_ CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=SYM Lemma=_ NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=RECTOR CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=PROPN Lemma=rector NamedEntityTag=O]
+[Text=GUILLERMO CharacterOffsetBegin=405 CharacterOffsetEnd=414 PartOfSpeech=PROPN Lemma=guillermo NamedEntityTag=PERSON]
+[Text=SOBERON CharacterOffsetBegin=415 CharacterOffsetEnd=422 PartOfSpeech=PROPN Lemma=soberon NamedEntityTag=PERSON]
+[Text=ACEEDO CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=PROPN Lemma=aceedo NamedEntityTag=PERSON]
+[Text=AL CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=ADP Lemma=al NamedEntityTag=PERSON]
+[Text=C. CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=PROPN Lemma=c. NamedEntityTag=PERSON]
+[Text=PRESI CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=PROPN Lemma=presi NamedEntityTag=PERSON]
+[Text=DENTE CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=PROPN Lemma=dente NamedEntityTag=PERSON]
+[Text=DE CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=REPUBLICA CharacterOffsetBegin=453 CharacterOffsetEnd=462 PartOfSpeech=PROPN Lemma=republica NamedEntityTag=O]
+[Text=L.E.A. CharacterOffsetBegin=463 CharacterOffsetEnd=469 PartOfSpeech=PROPN Lemma=l.e.a. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=PUES CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=PROPN Lemma=pues NamedEntityTag=O]
+[Text=CONSIDERAMOS CharacterOffsetBegin=476 CharacterOffsetEnd=488 PartOfSpeech=PROPN Lemma=consideramos NamedEntityTag=O]
+[Text=QUE CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=AL CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=HABLAR CharacterOffsetBegin=497 CharacterOffsetEnd=503 PartOfSpeech=NOUN Lemma=hablar NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=504 CharacterOffsetEnd=506 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=NOMBRE CharacterOffsetBegin=507 CharacterOffsetEnd=513 PartOfSpeech=PROPN Lemma=nombre NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=514 CharacterOffsetEnd=516 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LAS CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=UNIVERSIDADES CharacterOffsetBegin=521 CharacterOffsetEnd=534 PartOfSpeech=NOUN Lemma=universidades NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=535 CharacterOffsetEnd=536 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=E CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=CCONJ Lemma=e NamedEntityTag=O]
+[Text=INSTITUCIONES CharacterOffsetBegin=539 CharacterOffsetEnd=552 PartOfSpeech=PROPN Lemma=instituciones NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=553 CharacterOffsetEnd=555 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=EDUCACION CharacterOffsetBegin=556 CharacterOffsetEnd=565 PartOfSpeech=PROPN Lemma=educacion NamedEntityTag=O]
+[Text=SUPERIOR CharacterOffsetBegin=566 CharacterOffsetEnd=574 PartOfSpeech=PROPN Lemma=superior NamedEntityTag=O]
+[Text=SE CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=ABRO CharacterOffsetBegin=578 CharacterOffsetEnd=582 PartOfSpeech=VERB Lemma=abro NamedEntityTag=O]
+[Text=_ CharacterOffsetBegin=582 CharacterOffsetEnd=583 PartOfSpeech=SYM Lemma=_ NamedEntityTag=O]
+[Text=GA CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=NOUN Lemma=ga NamedEntityTag=O]
+[Text=FACULTADES CharacterOffsetBegin=587 CharacterOffsetEnd=597 PartOfSpeech=NOUN Lemma=facultades NamedEntityTag=O]
+[Text=QUE CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=POR CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=NINGUN CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=PROPN Lemma=ningun NamedEntityTag=O]
+[Text=MOTIVO CharacterOffsetBegin=613 CharacterOffsetEnd=619 PartOfSpeech=PROPN Lemma=motivo NamedEntityTag=O]
+[Text=LE CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=PROPN Lemma=le NamedEntityTag=O]
+[Text=COMPETEN CharacterOffsetBegin=623 CharacterOffsetEnd=631 PartOfSpeech=PROPN Lemma=competen NamedEntityTag=O]
+[Text=AL CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=RECTOR CharacterOffsetBegin=635 CharacterOffsetEnd=641 PartOfSpeech=PROPN Lemma=rector NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=645 CharacterOffsetEnd=647 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=UNAM CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=PROPN Lemma=unam NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=YA CharacterOffsetBegin=654 CharacterOffsetEnd=656 PartOfSpeech=ADV Lemma=ya NamedEntityTag=O]
+[Text=QUE CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=NO CharacterOffsetBegin=661 CharacterOffsetEnd=663 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=TOMO CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=VERB Lemma=tomo NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=669 CharacterOffsetEnd=671 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=CUENTA CharacterOffsetBegin=672 CharacterOffsetEnd=678 PartOfSpeech=PROPN Lemma=cuenta NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, RECHAZA-3)
+punct(RECHAZA-3, --1)
+det(RECHAZA-3, Se-2)
+det(INICIATIVA-5, LA-4)
+flat(RECHAZA-3, INICIATIVA-5)
+case(REFORMAS-7, DE-6)
+flat(RECHAZA-3, REFORMAS-7)
+appos(RECHAZA-3, _-8)
+case(ARTICULO-10, AL-9)
+nmod(_-8, ARTICULO-10)
+nummod(ARTICULO-10, 123-11)
+flat(ARTICULO-10, CONSTITUCIONAL-12)
+flat(ARTICULO-10, PRESENTADA-13)
+case(_-15, POR-14)
+nmod(RECHAZA-3, _-15)
+det(RECTOR-17, EL-16)
+flat(RECHAZA-3, RECTOR-17)
+flat(RECHAZA-3, GUILLERMO-18)
+flat(RECHAZA-3, SOBERON-19)
+flat(RECHAZA-3, ACEEDO-20)
+case(C.-22, AL-21)
+flat(RECHAZA-3, C.-22)
+flat(RECHAZA-3, PRESI-23)
+flat(RECHAZA-3, DENTE-24)
+case(REPUBLICA-27, DE-25)
+det(REPUBLICA-27, LA-26)
+flat(RECHAZA-3, REPUBLICA-27)
+flat(RECHAZA-3, L.E.A.-28)
+punct(RECHAZA-3, ,-29)
+flat(RECHAZA-3, PUES-30)
+flat(PUES-30, CONSIDERAMOS-31)
+flat(PUES-30, QUE-32)
+punct(RECHAZA-3, ,-33)
+case(HABLAR-35, AL-34)
+nmod(RECHAZA-3, HABLAR-35)
+case(NOMBRE-37, EN-36)
+nmod(HABLAR-35, NOMBRE-37)
+case(UNIVERSIDADES-40, DE-38)
+det(UNIVERSIDADES-40, LAS-39)
+nmod(HABLAR-35, UNIVERSIDADES-40)
+punct(RECHAZA-3, --41)
+cc(INSTITUCIONES-43, E-42)
+conj:e(RECHAZA-3, INSTITUCIONES-43)
+case(EDUCACION-45, DE-44)
+flat(INSTITUCIONES-43, EDUCACION-45)
+flat(EDUCACION-45, SUPERIOR-46)
+obj(ABRO-48, SE-47)
+acl(RECHAZA-3, ABRO-48)
+obj(ABRO-48, _-49)
+appos(_-49, GA-50)
+nmod(GA-50, FACULTADES-51)
+nsubj(TOMO-67, QUE-52)
+case(NINGUN-54, POR-53)
+obl(TOMO-67, NINGUN-54)
+flat(NINGUN-54, MOTIVO-55)
+flat(NINGUN-54, LE-56)
+flat(NINGUN-54, COMPETEN-57)
+case(RECTOR-59, AL-58)
+flat(NINGUN-54, RECTOR-59)
+case(UNAM-62, DE-60)
+det(UNAM-62, LA-61)
+flat(NINGUN-54, UNAM-62)
+punct(YA-64, ,-63)
+advmod(TOMO-67, YA-64)
+nsubj(TOMO-67, QUE-65)
+advmod(TOMO-67, NO-66)
+acl(RECHAZA-3, TOMO-67)
+case(CUENTA-69, EN-68)
+obl(TOMO-67, CUENTA-69)
+punct(RECHAZA-3, --70)
+
+Extracted the following NER entity mentions:
+123	NUMBER	NUMBER:-1.0
+GUILLERMO SOBERON ACEEDO AL C.PRESI
+DENTE	PERSON	PERSON:0.6810022569384737
+UNAM	ORGANIZATION	ORGANIZATION:0.761876987735447

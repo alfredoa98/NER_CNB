@@ -1,0 +1,246 @@
+Document: ID=file_76.txt (6 sentences, 85 tokens)
+
+Sentence #1 (13 tokens):
+BATALLON DE INFANTERIA 48/o. Exp.100-10-16-4-72
+H-223 L-5
+25-Ago-72.
+
+Tokens:
+[Text=BATALLON CharacterOffsetBegin=0 CharacterOffsetEnd=8 PartOfSpeech=PROPN Lemma=batallon NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=INFANTERIA CharacterOffsetBegin=12 CharacterOffsetEnd=22 PartOfSpeech=PROPN Lemma=infanteria NamedEntityTag=O]
+[Text=48 CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=NUM Lemma=48 NamedEntityTag=NUMBER NormalizedNamedEntityTag=48.0]
+[Text=/ CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=O]
+[Text=o. CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=PROPN Lemma=o. NamedEntityTag=O]
+[Text=Exp.100-10-16-4-72 CharacterOffsetBegin=29 CharacterOffsetEnd=47 PartOfSpeech=PROPN Lemma=exp.100-10-16-4-72 NamedEntityTag=O]
+[Text=H-223 CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=PROPN Lemma=h-223 NamedEntityTag=O]
+[Text=L-5 CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=PROPN Lemma=l-5 NamedEntityTag=O]
+[Text=25 CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=NUM Lemma=25 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Ago-72 CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=NUM Lemma=ago-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, BATALLON-1)
+case(INFANTERIA-3, DE-2)
+flat(BATALLON-1, INFANTERIA-3)
+nummod(BATALLON-1, 48-4)
+punct(BATALLON-1, /-5)
+flat(BATALLON-1, o.-6)
+flat(BATALLON-1, Exp.100-10-16-4-72-7)
+flat(BATALLON-1, H-223-8)
+flat(BATALLON-1, L-5-9)
+nummod(BATALLON-1, 25-10)
+punct(Ago-72-12, --11)
+appos(BATALLON-1, Ago-72-12)
+punct(BATALLON-1, .-13)
+
+Extracted the following NER entity mentions:
+48	NUMBER	NUMBER:-1.0
+
+Sentence #2 (9 tokens):
+-
+MATRIZ EN: Cruz Grande, Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=MATRIZ CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=NOUN Lemma=matriz NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=Cruz CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=PROPN Lemma=cruz NamedEntityTag=MISC]
+[Text=Grande CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=ADJ Lemma=grande NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, MATRIZ-2)
+punct(MATRIZ-2, --1)
+case(Cruz-5, EN-3)
+punct(Cruz-5, :-4)
+nmod(MATRIZ-2, Cruz-5)
+flat(Cruz-5, Grande-6)
+punct(Gro-8, ,-7)
+flat(Cruz-5, Gro-8)
+punct(MATRIZ-2, .-9)
+
+Extracted the following NER entity mentions:
+Cruz Grande	MISC	MISC:0.43202138695850856
+
+Sentence #3 (37 tokens):
+-
+COMANDANTE:
+El 23-ago-72, gente de LUCIO CABAÑAS BARRIENTOS, emboscó un convoy que transportaba personal de -
+esta Unidad; relación de muertos, heridos e ile-
+sos en Exp.
+
+Tokens:
+[Text=- CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=COMANDANTE CharacterOffsetBegin=100 CharacterOffsetEnd=110 PartOfSpeech=NOUN Lemma=comandante NamedEntityTag=TITLE]
+[Text=: CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=23 CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=NUM Lemma=23 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ago-72 CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=NUM Lemma=ago-72 NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=gente CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NOUN Lemma=gente NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LUCIO CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=PROPN Lemma=lucio NamedEntityTag=PERSON]
+[Text=CABAÑAS CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=PROPN Lemma=cabañas NamedEntityTag=PERSON]
+[Text=BARRIENTOS CharacterOffsetBegin=149 CharacterOffsetEnd=159 PartOfSpeech=PROPN Lemma=barrientos NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=emboscó CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=VERB Lemma=emboscó NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=convoy CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=NOUN Lemma=convoy NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=transportaba CharacterOffsetBegin=183 CharacterOffsetEnd=195 PartOfSpeech=VERB Lemma=transportaba NamedEntityTag=O]
+[Text=personal CharacterOffsetBegin=196 CharacterOffsetEnd=204 PartOfSpeech=NOUN Lemma=personal NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=Unidad CharacterOffsetBegin=215 CharacterOffsetEnd=221 PartOfSpeech=PROPN Lemma=unidad NamedEntityTag=MISC]
+[Text=; CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=relación CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=NOUN Lemma=relación NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=muertos CharacterOffsetBegin=235 CharacterOffsetEnd=242 PartOfSpeech=NOUN Lemma=muertos NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=heridos CharacterOffsetBegin=244 CharacterOffsetEnd=251 PartOfSpeech=NOUN Lemma=heridos NamedEntityTag=O]
+[Text=e CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=CCONJ Lemma=e NamedEntityTag=O]
+[Text=ile CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=NOUN Lemma=ile NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=sos CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=NOUN Lemma=sos NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Exp CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, emboscó-15)
+punct(COMANDANTE-2, --1)
+nsubj(emboscó-15, COMANDANTE-2)
+punct(23-5, :-3)
+det(23-5, El-4)
+appos(COMANDANTE-2, 23-5)
+punct(23-5, --6)
+appos(23-5, ago-72-7)
+punct(gente-9, ,-8)
+appos(COMANDANTE-2, gente-9)
+case(LUCIO-11, de-10)
+nmod(gente-9, LUCIO-11)
+flat(LUCIO-11, CABAÑAS-12)
+flat(LUCIO-11, BARRIENTOS-13)
+punct(gente-9, ,-14)
+det(convoy-17, un-16)
+obj(emboscó-15, convoy-17)
+nsubj(transportaba-19, que-18)
+acl(convoy-17, transportaba-19)
+obj(transportaba-19, personal-20)
+case(Unidad-24, de-21)
+punct(Unidad-24, --22)
+det(Unidad-24, esta-23)
+nmod(personal-20, Unidad-24)
+punct(relación-26, ;-25)
+conj(Unidad-24, relación-26)
+case(muertos-28, de-27)
+nmod(relación-26, muertos-28)
+punct(heridos-30, ,-29)
+conj(muertos-28, heridos-30)
+cc(ile-32, e-31)
+nmod(relación-26, ile-32)
+conj:e(muertos-28, ile-32)
+punct(Unidad-24, --33)
+nmod(Unidad-24, sos-34)
+case(Exp-36, en-35)
+nmod(sos-34, Exp-36)
+punct(emboscó-15, .-37)
+
+Extracted the following NER entity mentions:
+COMANDANTE	TITLE	-
+LUCIO CABAÑAS BARRIENTOS	PERSON	PERSON:0.7669643615977467
+Unidad	MISC	MISC:0.80425449219248
+Exp	MISC	MISC:0.5907878971820839
+
+Sentence #4 (4 tokens):
+100-10-16-4-72 H-223 L-5.
+
+Tokens:
+[Text=100-10-16-4-72 CharacterOffsetBegin=271 CharacterOffsetEnd=285 PartOfSpeech=NUM Lemma=100-10-16-4-72 NamedEntityTag=O]
+[Text=H-223 CharacterOffsetBegin=286 CharacterOffsetEnd=291 PartOfSpeech=NUM Lemma=h-223 NamedEntityTag=O]
+[Text=L-5 CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=NUM Lemma=l-5 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 100-10-16-4-72-1)
+compound(100-10-16-4-72-1, H-223-2)
+compound(100-10-16-4-72-1, L-5-3)
+punct(100-10-16-4-72-1, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #5 (8 tokens):
+-
+COMANDANTE: Coronel ROBERTO HEILE RANGEL.
+
+Tokens:
+[Text=- CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=COMANDANTE CharacterOffsetBegin=298 CharacterOffsetEnd=308 PartOfSpeech=NOUN Lemma=comandante NamedEntityTag=TITLE]
+[Text=: CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=Coronel CharacterOffsetBegin=310 CharacterOffsetEnd=317 PartOfSpeech=PROPN Lemma=coronel NamedEntityTag=PERSON]
+[Text=ROBERTO CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=PROPN Lemma=roberto NamedEntityTag=PERSON]
+[Text=HEILE CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=PROPN Lemma=heile NamedEntityTag=PERSON]
+[Text=RANGEL CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=PROPN Lemma=rangel NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, COMANDANTE-2)
+punct(COMANDANTE-2, --1)
+punct(Coronel-4, :-3)
+appos(COMANDANTE-2, Coronel-4)
+flat(Coronel-4, ROBERTO-5)
+flat(Coronel-4, HEILE-6)
+flat(Coronel-4, RANGEL-7)
+punct(COMANDANTE-2, .-8)
+
+Extracted the following NER entity mentions:
+COMANDANTE	TITLE	-
+Coronel ROBERTO HEILE RANGEL	PERSON	PERSON:0.9060920244667516
+
+Extracted the following KBP triples:
+1.0	Coronel ROBERTO HEILE RANGEL	per:title	COMANDANTE
+
+Sentence #6 (14 tokens):
+RELACION DE CONSIGNADOS POR LA EMBOSCADA A ESTE
+BATALLON: Exp.100-10-16-4-72 H-33 L-7.
+
+Tokens:
+[Text=RELACION CharacterOffsetBegin=340 CharacterOffsetEnd=348 PartOfSpeech=PROPN Lemma=relacion NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=CONSIGNADOS CharacterOffsetBegin=352 CharacterOffsetEnd=363 PartOfSpeech=PROPN Lemma=consignados NamedEntityTag=O]
+[Text=POR CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=EMBOSCADA CharacterOffsetBegin=371 CharacterOffsetEnd=380 PartOfSpeech=NOUN Lemma=emboscada NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=ESTE CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=BATALLON CharacterOffsetBegin=388 CharacterOffsetEnd=396 PartOfSpeech=NOUN Lemma=batallon NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=Exp.100-10-16-4-72 CharacterOffsetBegin=398 CharacterOffsetEnd=416 PartOfSpeech=PROPN Lemma=exp.100-10-16-4-72 NamedEntityTag=O]
+[Text=H-33 CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=PROPN Lemma=h-33 NamedEntityTag=O]
+[Text=L-7 CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=PROPN Lemma=l-7 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, RELACION-1)
+case(CONSIGNADOS-3, DE-2)
+flat(RELACION-1, CONSIGNADOS-3)
+case(EMBOSCADA-6, POR-4)
+det(EMBOSCADA-6, LA-5)
+nmod(RELACION-1, EMBOSCADA-6)
+case(BATALLON-9, A-7)
+det(BATALLON-9, ESTE-8)
+nmod(EMBOSCADA-6, BATALLON-9)
+punct(Exp.100-10-16-4-72-11, :-10)
+flat(RELACION-1, Exp.100-10-16-4-72-11)
+flat(Exp.100-10-16-4-72-11, H-33-12)
+flat(Exp.100-10-16-4-72-11, L-7-13)
+punct(RELACION-1, .-14)
+
+Extracted the following NER entity mentions:

@@ -1,0 +1,652 @@
+Document: ID=file_354.txt (9 sentences, 260 tokens)
+
+Sentence #1 (8 tokens):
+Sistema de vida de los habit tes.
+
+Tokens:
+[Text=Sistema CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=PROPN Lemma=sistema NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=vida CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=NOUN Lemma=vida NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=habit CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NOUN Lemma=habit NamedEntityTag=O]
+[Text=tes CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=NOUN Lemma=tes NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Sistema-1)
+case(vida-3, de-2)
+nmod(Sistema-1, vida-3)
+case(habit-6, de-4)
+det(habit-6, los-5)
+nmod(Sistema-1, habit-6)
+compound(habit-6, tes-7)
+punct(Sistema-1, .-8)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (16 tokens):
+Desarrollo Agrícola de la Costa Grande de Gue
+Trabajo de observaci rrero
+Lugar de observación.
+
+Tokens:
+[Text=Desarrollo CharacterOffsetBegin=34 CharacterOffsetEnd=44 PartOfSpeech=PROPN Lemma=desarrollo NamedEntityTag=O]
+[Text=Agrícola CharacterOffsetBegin=45 CharacterOffsetEnd=53 PartOfSpeech=PROPN Lemma=agrícola NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Costa CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=PROPN Lemma=costa NamedEntityTag=ORGANIZATION]
+[Text=Grande CharacterOffsetBegin=66 CharacterOffsetEnd=72 PartOfSpeech=ADJ Lemma=grande NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Gue CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=PROPN Lemma=gue NamedEntityTag=ORGANIZATION]
+[Text=Trabajo CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=PROPN Lemma=trabajo NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=observaci CharacterOffsetBegin=91 CharacterOffsetEnd=100 PartOfSpeech=PROPN Lemma=observaci NamedEntityTag=O]
+[Text=rrero CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=PROPN Lemma=rrero NamedEntityTag=O]
+[Text=Lugar CharacterOffsetBegin=107 CharacterOffsetEnd=112 PartOfSpeech=PROPN Lemma=lugar NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=observación CharacterOffsetBegin=116 CharacterOffsetEnd=127 PartOfSpeech=NOUN Lemma=observación NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Desarrollo-1)
+flat(Desarrollo-1, Agrícola-2)
+case(Costa-5, de-3)
+det(Costa-5, la-4)
+flat(Desarrollo-1, Costa-5)
+flat(Desarrollo-1, Grande-6)
+case(Gue-8, de-7)
+flat(Desarrollo-1, Gue-8)
+flat(Gue-8, Trabajo-9)
+case(observaci-11, de-10)
+flat(Desarrollo-1, observaci-11)
+flat(observaci-11, rrero-12)
+flat(observaci-11, Lugar-13)
+case(observación-15, de-14)
+nmod(Desarrollo-1, observación-15)
+punct(Desarrollo-1, .-16)
+
+Extracted the following NER entity mentions:
+Costa Grande de Gue
+Trabajo	ORGANIZATION	ORGANIZATION:0.7517357252232986
+
+Sentence #3 (5 tokens):
+-Tenexpa, Guerrero.
+
+Tokens:
+[Text=- CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Tenexpa CharacterOffsetBegin=129 CharacterOffsetEnd=136 PartOfSpeech=PROPN Lemma=tenexpa NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Guerrero CharacterOffsetBegin=138 CharacterOffsetEnd=146 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Tenexpa-2)
+punct(Tenexpa-2, --1)
+punct(Tenexpa-2, ,-3)
+flat(Tenexpa-2, Guerrero-4)
+punct(Tenexpa-2, .-5)
+
+Extracted the following NER entity mentions:
+Guerrero	PERSON	PERSON:0.9200118341054067
+
+Sentence #4 (5 tokens):
+Observó: O’.
+
+Tokens:
+[Text=Observó CharacterOffsetBegin=148 CharacterOffsetEnd=155 PartOfSpeech=VERB Lemma=observó NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=O CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=CCONJ Lemma=o NamedEntityTag=O]
+[Text=' CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=SYM Lemma=' NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Observó-1)
+obj(Observó-1, :-2)
+cc('-4, O-3)
+obj(Observó-1, '-4)
+conj:o(:-2, '-4)
+punct(Observó-1, .-5)
+
+Extracted the following NER entity mentions:
+
+Sentence #5 (56 tokens):
+Acosta, Carlos Marcial de la
+El precio de la copra debe de ser de $350.00 a $376.00 la carga que es de 138 ki
+logramos y ellos pagan y los industriales pagan la carga de copra hasta el precio
+de $240.00 y $250.00 y algunas veces hasta mas barata.
+
+Tokens:
+[Text=Acosta CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=PROPN Lemma=acosta NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Car CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=PROPN Lemma=car NamedEntityTag=MISC]
+[Text=los CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=DET Lemma=los NamedEntityTag=MISC]
+[Text=Marcial CharacterOffsetBegin=176 CharacterOffsetEnd=183 PartOfSpeech=PROPN Lemma=marcial NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=la CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=DET Lemma=la NamedEntityTag=MISC]
+[Text=El CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=DET Lemma=el NamedEntityTag=MISC]
+[Text=precio CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=NOUN Lemma=precio NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=copra CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NOUN Lemma=copra NamedEntityTag=O]
+[Text=debe CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=AUX Lemma=debe NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=ser CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=AUX Lemma=ser NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$350.0]
+[Text=350.00 CharacterOffsetBegin=228 CharacterOffsetEnd=234 PartOfSpeech=NUM Lemma=350.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$350.0]
+[Text=a CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$376.0]
+[Text=376.00 CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=NUM Lemma=376.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$376.0]
+[Text=la CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=carga CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=NOUN Lemma=carga NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=es CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=AUX Lemma=es NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=138 CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=NUM Lemma=138 NamedEntityTag=NUMBER NormalizedNamedEntityTag=138.0]
+[Text=ki CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=NOUN Lemma=ki NamedEntityTag=O]
+[Text=logramos CharacterOffsetBegin=271 CharacterOffsetEnd=279 PartOfSpeech=VERB Lemma=logramo NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=ellos CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=PRON Lemma=ellos NamedEntityTag=O]
+[Text=pagan CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=VERB Lemma=pagan NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=industriales CharacterOffsetBegin=300 CharacterOffsetEnd=312 PartOfSpeech=NOUN Lemma=industriales NamedEntityTag=O]
+[Text=pagan CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=VERB Lemma=pagan NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=carga CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=NOUN Lemma=carga NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=copra CharacterOffsetBegin=331 CharacterOffsetEnd=336 PartOfSpeech=NOUN Lemma=copra NamedEntityTag=O]
+[Text=hasta CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=ADP Lemma=hasta NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=precio CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=NOUN Lemma=precio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$240.0]
+[Text=240.00 CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=NUM Lemma=240.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$240.0]
+[Text=y CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$250.0]
+[Text=250.00 CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NUM Lemma=250.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$250.0]
+[Text=y CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=algunas CharacterOffsetBegin=376 CharacterOffsetEnd=383 PartOfSpeech=DET Lemma=algunas NamedEntityTag=O]
+[Text=veces CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=NOUN Lemma=veces NamedEntityTag=O]
+[Text=hasta CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=ADV Lemma=hasta NamedEntityTag=O]
+[Text=mas CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=ADV Lemma=mas NamedEntityTag=O]
+[Text=barata CharacterOffsetBegin=400 CharacterOffsetEnd=406 PartOfSpeech=ADJ Lemma=barata NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Acosta-1)
+flat(Acosta-1, Car-3)
+det(Marcial-5, los-4)
+punct(Car-3, ,-2)
+flat(Car-3, Marcial-5)
+case(precio-9, de-6)
+det(precio-9, la-7)
+det(la-7, El-8)
+nmod(Car-3, precio-9)
+case(copra-12, de-10)
+det(copra-12, la-11)
+nmod(precio-9, copra-12)
+aux($-17, debe-13)
+mark($-17, de-14)
+cop($-17, ser-15)
+case($-17, de-16)
+flat(Car-3, $-17)
+nummod(Car-3, 350.00-18)
+case($-20, a-19)
+flat(Car-3, $-20)
+nummod(Car-3, 376.00-21)
+det(carga-23, la-22)
+flat(Car-3, carga-23)
+nsubj(ki-28, que-24)
+cop(ki-28, es-25)
+case(ki-28, de-26)
+nummod(ki-28, 138-27)
+acl(Car-3, ki-28)
+advcl(ki-28, logramos-29)
+cc(pagan-32, y-30)
+nsubj(pagan-32, ellos-31)
+advcl(ki-28, pagan-32)
+conj:y(logramos-29, pagan-32)
+cc(pagan-36, y-33)
+det(industriales-35, los-34)
+nsubj(pagan-36, industriales-35)
+advcl(ki-28, pagan-36)
+conj:y(logramos-29, pagan-36)
+det(carga-38, la-37)
+obj(pagan-36, carga-38)
+case(copra-40, de-39)
+nmod(carga-38, copra-40)
+case(precio-43, hasta-41)
+det(precio-43, el-42)
+obl(logramos-29, precio-43)
+case($-45, de-44)
+nmod(precio-43, $-45)
+nummod($-45, 240.00-46)
+cc($-48, y-47)
+nmod(precio-43, $-48)
+conj:y($-45, $-48)
+nummod($-48, 250.00-49)
+cc(veces-52, y-50)
+det(veces-52, algunas-51)
+obl(logramos-29, veces-52)
+conj:y(precio-43, veces-52)
+advmod(barata-55, hasta-53)
+advmod(barata-55, mas-54)
+amod(veces-52, barata-55)
+punct(Acosta-1, .-56)
+
+Extracted the following NER entity mentions:
+Acosta	PERSON	PERSON:0.8721658307907088
+Carlos Marcial de la
+El precio	MISC	MISC:0.6165494582594713
+$350.00	MONEY	MONEY:-1.0
+$376.00	MONEY	MONEY:-1.0
+138	NUMBER	NUMBER:-1.0
+$240.00	MONEY	MONEY:-1.0
+$250.00	MONEY	MONEY:-1.0
+
+Sentence #6 (50 tokens):
+Aumentando, los trece centa
+vos por kilogramo aparte de los impuestos no se toman en cuenta los gastos de a—
+rrastre, intereses y descuentos por carga que se pagan a los industralen aparte
+de otros gastos que los campesinos realisan en la elaboración de sus cosechas.
+
+Tokens:
+[Text=Aumentando CharacterOffsetBegin=408 CharacterOffsetEnd=418 PartOfSpeech=VERB Lemma=aumentando NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=420 CharacterOffsetEnd=423 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=trece CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=NUM Lemma=trece NamedEntityTag=NUMBER]
+[Text=centa CharacterOffsetBegin=430 CharacterOffsetEnd=435 PartOfSpeech=NOUN Lemma=centa NamedEntityTag=O]
+[Text=vos CharacterOffsetBegin=436 CharacterOffsetEnd=439 PartOfSpeech=ADJ Lemma=vos NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=kilogramo CharacterOffsetBegin=444 CharacterOffsetEnd=453 PartOfSpeech=NOUN Lemma=kilogramo NamedEntityTag=O]
+[Text=aparte CharacterOffsetBegin=454 CharacterOffsetEnd=460 PartOfSpeech=ADV Lemma=aparte NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=impuestos CharacterOffsetBegin=468 CharacterOffsetEnd=477 PartOfSpeech=NOUN Lemma=impuestos NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=478 CharacterOffsetEnd=480 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=481 CharacterOffsetEnd=483 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=toman CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=VERB Lemma=toman NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=cuenta CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=NOUN Lemma=cuenta NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=gastos CharacterOffsetBegin=504 CharacterOffsetEnd=510 PartOfSpeech=NOUN Lemma=gastos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=514 CharacterOffsetEnd=515 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=— CharacterOffsetBegin=515 CharacterOffsetEnd=516 PartOfSpeech=PROPN Lemma=— NamedEntityTag=O]
+[Text=rrastre CharacterOffsetBegin=517 CharacterOffsetEnd=524 PartOfSpeech=PROPN Lemma=rrastre NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=intereses CharacterOffsetBegin=526 CharacterOffsetEnd=535 PartOfSpeech=NOUN Lemma=intereses NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=536 CharacterOffsetEnd=537 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=descuentos CharacterOffsetBegin=538 CharacterOffsetEnd=548 PartOfSpeech=NOUN Lemma=descuentos NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=carga CharacterOffsetBegin=553 CharacterOffsetEnd=558 PartOfSpeech=NOUN Lemma=carga NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=pagan CharacterOffsetBegin=566 CharacterOffsetEnd=571 PartOfSpeech=VERB Lemma=pagan NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=industralen CharacterOffsetBegin=578 CharacterOffsetEnd=589 PartOfSpeech=NOUN Lemma=industralen NamedEntityTag=O]
+[Text=aparte CharacterOffsetBegin=590 CharacterOffsetEnd=596 PartOfSpeech=ADV Lemma=aparte NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=597 CharacterOffsetEnd=599 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=otros CharacterOffsetBegin=600 CharacterOffsetEnd=605 PartOfSpeech=DET Lemma=otros NamedEntityTag=O]
+[Text=gastos CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=NOUN Lemma=gastos NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=campesinos CharacterOffsetBegin=621 CharacterOffsetEnd=631 PartOfSpeech=NOUN Lemma=campesinos NamedEntityTag=O]
+[Text=realisan CharacterOffsetBegin=632 CharacterOffsetEnd=640 PartOfSpeech=VERB Lemma=realisan NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=644 CharacterOffsetEnd=646 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=elaboración CharacterOffsetBegin=647 CharacterOffsetEnd=658 PartOfSpeech=NOUN Lemma=elaboración NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=659 CharacterOffsetEnd=661 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=sus CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=DET Lemma=sus NamedEntityTag=O]
+[Text=cosechas CharacterOffsetBegin=666 CharacterOffsetEnd=674 PartOfSpeech=NOUN Lemma=cosechas NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, toman-15)
+parataxis(toman-15, Aumentando-1)
+punct(Aumentando-1, ,-2)
+det(centa-5, los-3)
+nummod(los-3, trece-4)
+nsubj(toman-15, centa-5)
+amod(centa-5, vos-6)
+case(kilogramo-8, por-7)
+nmod(centa-5, kilogramo-8)
+case(impuestos-12, aparte-9)
+fixed(aparte-9, de-10)
+det(impuestos-12, los-11)
+nmod(centa-5, impuestos-12)
+advmod(toman-15, no-13)
+obj(toman-15, se-14)
+case(cuenta-17, en-16)
+compound(toman-15, cuenta-17)
+det(gastos-19, los-18)
+obj(toman-15, gastos-19)
+case(—-22, de-20)
+case(—-22, a-21)
+nmod(gastos-19, —-22)
+flat(—-22, rrastre-23)
+punct(intereses-25, ,-24)
+appos(—-22, intereses-25)
+cc(descuentos-27, y-26)
+appos(—-22, descuentos-27)
+conj:y(intereses-25, descuentos-27)
+case(carga-29, por-28)
+nmod(descuentos-27, carga-29)
+nsubj(pagan-32, que-30)
+obj(pagan-32, se-31)
+acl(intereses-25, pagan-32)
+case(industralen-35, a-33)
+det(industralen-35, los-34)
+obj(pagan-32, industralen-35)
+case(gastos-39, aparte-36)
+fixed(aparte-36, de-37)
+det(gastos-39, otros-38)
+obl(pagan-32, gastos-39)
+obj(realisan-43, que-40)
+det(campesinos-42, los-41)
+nsubj(realisan-43, campesinos-42)
+acl(gastos-39, realisan-43)
+case(elaboración-46, en-44)
+det(elaboración-46, la-45)
+obl(realisan-43, elaboración-46)
+case(cosechas-49, de-47)
+det(cosechas-49, sus-48)
+nmod(elaboración-46, cosechas-49)
+punct(toman-15, .-50)
+
+Extracted the following NER entity mentions:
+trece	NUMBER	-
+
+Sentence #7 (49 tokens):
+Los
+campesinos deben tener un representante que los defienda y los campesinos dese
+an que desaparesca el impuesto de los trece centavos por cada kilogramo de copra
+La Unión Regional de Productores de Copra de Guerrero pasó a manos de políticos
+del P.R.I. y de los monopolios industriales.
+
+Tokens:
+[Text=Los CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=campesinos CharacterOffsetBegin=680 CharacterOffsetEnd=690 PartOfSpeech=NOUN Lemma=campesinos NamedEntityTag=O]
+[Text=deben CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=AUX Lemma=deben NamedEntityTag=O]
+[Text=tener CharacterOffsetBegin=697 CharacterOffsetEnd=702 PartOfSpeech=VERB Lemma=tener NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=703 CharacterOffsetEnd=705 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=representante CharacterOffsetBegin=706 CharacterOffsetEnd=719 PartOfSpeech=NOUN Lemma=representante NamedEntityTag=TITLE]
+[Text=que CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=724 CharacterOffsetEnd=727 PartOfSpeech=PRON Lemma=los NamedEntityTag=O]
+[Text=defienda CharacterOffsetBegin=728 CharacterOffsetEnd=736 PartOfSpeech=VERB Lemma=defienda NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=737 CharacterOffsetEnd=738 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=739 CharacterOffsetEnd=742 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=campesinos CharacterOffsetBegin=743 CharacterOffsetEnd=753 PartOfSpeech=NOUN Lemma=campesinos NamedEntityTag=O]
+[Text=dese CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=VERB Lemma=dese NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=759 CharacterOffsetEnd=761 PartOfSpeech=AUX Lemma=a NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=desaparesca CharacterOffsetBegin=766 CharacterOffsetEnd=777 PartOfSpeech=VERB Lemma=desaparesca NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=778 CharacterOffsetEnd=780 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=impuesto CharacterOffsetBegin=781 CharacterOffsetEnd=789 PartOfSpeech=NOUN Lemma=impuesto NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=793 CharacterOffsetEnd=796 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=trece CharacterOffsetBegin=797 CharacterOffsetEnd=802 PartOfSpeech=NUM Lemma=trece NamedEntityTag=NUMBER]
+[Text=centavos CharacterOffsetBegin=803 CharacterOffsetEnd=811 PartOfSpeech=NOUN Lemma=centavos NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=812 CharacterOffsetEnd=815 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=cada CharacterOffsetBegin=816 CharacterOffsetEnd=820 PartOfSpeech=DET Lemma=cada NamedEntityTag=O]
+[Text=kilogramo CharacterOffsetBegin=821 CharacterOffsetEnd=830 PartOfSpeech=NOUN Lemma=kilogramo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=831 CharacterOffsetEnd=833 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=copra CharacterOffsetBegin=834 CharacterOffsetEnd=839 PartOfSpeech=NOUN Lemma=copra NamedEntityTag=O]
+[Text=La CharacterOffsetBegin=840 CharacterOffsetEnd=842 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Unión CharacterOffsetBegin=843 CharacterOffsetEnd=848 PartOfSpeech=PROPN Lemma=unión NamedEntityTag=ORGANIZATION]
+[Text=Regional CharacterOffsetBegin=849 CharacterOffsetEnd=857 PartOfSpeech=PROPN Lemma=regional NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=858 CharacterOffsetEnd=860 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Productores CharacterOffsetBegin=861 CharacterOffsetEnd=872 PartOfSpeech=PROPN Lemma=productores NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=873 CharacterOffsetEnd=875 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Copra CharacterOffsetBegin=876 CharacterOffsetEnd=881 PartOfSpeech=PROPN Lemma=copra NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=882 CharacterOffsetEnd=884 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Guerrero CharacterOffsetBegin=885 CharacterOffsetEnd=893 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=ORGANIZATION]
+[Text=pasó CharacterOffsetBegin=894 CharacterOffsetEnd=898 PartOfSpeech=VERB Lemma=pasó NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=899 CharacterOffsetEnd=900 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=manos CharacterOffsetBegin=901 CharacterOffsetEnd=906 PartOfSpeech=NOUN Lemma=manos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=907 CharacterOffsetEnd=909 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=políticos CharacterOffsetBegin=910 CharacterOffsetEnd=919 PartOfSpeech=NOUN Lemma=políticos NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=920 CharacterOffsetEnd=923 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=P.R.I. CharacterOffsetBegin=924 CharacterOffsetEnd=930 PartOfSpeech=PROPN Lemma=p.r.i. NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=931 CharacterOffsetEnd=932 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=933 CharacterOffsetEnd=935 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=936 CharacterOffsetEnd=939 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=monopolios CharacterOffsetBegin=940 CharacterOffsetEnd=950 PartOfSpeech=NOUN Lemma=monopolios NamedEntityTag=O]
+[Text=industriales CharacterOffsetBegin=951 CharacterOffsetEnd=963 PartOfSpeech=ADJ Lemma=industriales NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=963 CharacterOffsetEnd=964 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, tener-4)
+det(campesinos-2, Los-1)
+nsubj(tener-4, campesinos-2)
+aux(tener-4, deben-3)
+det(representante-6, un-5)
+obj(tener-4, representante-6)
+nsubj(defienda-9, que-7)
+obj(defienda-9, los-8)
+acl(representante-6, defienda-9)
+cc(dese-13, y-10)
+det(campesinos-12, los-11)
+nsubj(dese-13, campesinos-12)
+acl(representante-6, dese-13)
+conj:y(defienda-9, dese-13)
+aux(desaparesca-16, an-14)
+mark(desaparesca-16, que-15)
+ccomp(dese-13, desaparesca-16)
+det(impuesto-18, el-17)
+nsubj(pasó-37, impuesto-18)
+case(centavos-22, de-19)
+det(trece-21, los-20)
+nummod(centavos-22, trece-21)
+nmod(impuesto-18, centavos-22)
+case(kilogramo-25, por-23)
+det(kilogramo-25, cada-24)
+obl(pasó-37, kilogramo-25)
+case(copra-27, de-26)
+nmod(kilogramo-25, copra-27)
+det(Unión-29, La-28)
+nsubj(pasó-37, Unión-29)
+flat(Unión-29, Regional-30)
+case(Productores-32, de-31)
+flat(Unión-29, Productores-32)
+case(Copra-34, de-33)
+flat(Unión-29, Copra-34)
+case(Guerrero-36, de-35)
+flat(Unión-29, Guerrero-36)
+ccomp(desaparesca-16, pasó-37)
+case(políticos-41, a-38)
+fixed(a-38, manos-39)
+fixed(a-38, de-40)
+obj(pasó-37, políticos-41)
+obj(pasó-37, políticos-41''')
+conj:y(políticos-41, políticos-41''')
+case(P.R.I.-43, del-42)
+nmod(políticos-41, P.R.I.-43)
+cc(políticos-41''', y-44)
+case(monopolios-47, de-45)
+det(monopolios-47, los-46)
+nmod(políticos-41''', monopolios-47)
+amod(monopolios-47, industriales-48)
+punct(tener-4, .-49)
+
+Extracted the following NER entity mentions:
+representante	TITLE	-
+trece	NUMBER	-
+Unión Regional de Productores de Copra de Guerrero	ORGANIZATION	ORGANIZATION:0.6780232520470354
+
+Sentence #8 (37 tokens):
+Cuando se exportó la copra la pagaron
+a $400.00 la carga y la llegaron a pagar hasta $425.00 y $450.00en una ocasión que
+se exportó en Acapulco para los Estados Unidos de Norteamérica.
+
+Tokens:
+[Text=Cuando CharacterOffsetBegin=965 CharacterOffsetEnd=971 PartOfSpeech=SCONJ Lemma=cuando NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=972 CharacterOffsetEnd=974 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=exportó CharacterOffsetBegin=975 CharacterOffsetEnd=982 PartOfSpeech=VERB Lemma=exportó NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=983 CharacterOffsetEnd=985 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=copra CharacterOffsetBegin=986 CharacterOffsetEnd=991 PartOfSpeech=NOUN Lemma=copra NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=992 CharacterOffsetEnd=994 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=pagaron CharacterOffsetBegin=995 CharacterOffsetEnd=1002 PartOfSpeech=VERB Lemma=pagaron NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1003 CharacterOffsetEnd=1004 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=1005 CharacterOffsetEnd=1006 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$400.0]
+[Text=400.00 CharacterOffsetBegin=1006 CharacterOffsetEnd=1012 PartOfSpeech=NUM Lemma=400.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$400.0]
+[Text=la CharacterOffsetBegin=1013 CharacterOffsetEnd=1015 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=carga CharacterOffsetBegin=1016 CharacterOffsetEnd=1021 PartOfSpeech=NOUN Lemma=carga NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=1022 CharacterOffsetEnd=1023 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=1024 CharacterOffsetEnd=1026 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=llegaron CharacterOffsetBegin=1027 CharacterOffsetEnd=1035 PartOfSpeech=AUX Lemma=llegaron NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1036 CharacterOffsetEnd=1037 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=pagar CharacterOffsetBegin=1038 CharacterOffsetEnd=1043 PartOfSpeech=VERB Lemma=pagar NamedEntityTag=O]
+[Text=hasta CharacterOffsetBegin=1044 CharacterOffsetEnd=1049 PartOfSpeech=ADP Lemma=hasta NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=1050 CharacterOffsetEnd=1051 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$425.0]
+[Text=425.00 CharacterOffsetBegin=1051 CharacterOffsetEnd=1057 PartOfSpeech=NUM Lemma=425.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$425.0]
+[Text=y CharacterOffsetBegin=1058 CharacterOffsetEnd=1059 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=1060 CharacterOffsetEnd=1061 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=O]
+[Text=450.00en CharacterOffsetBegin=1061 CharacterOffsetEnd=1069 PartOfSpeech=VERB Lemma=450.00en NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=1070 CharacterOffsetEnd=1073 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=ocasión CharacterOffsetBegin=1074 CharacterOffsetEnd=1081 PartOfSpeech=NOUN Lemma=ocasión NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=1082 CharacterOffsetEnd=1085 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=1086 CharacterOffsetEnd=1088 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=exportó CharacterOffsetBegin=1089 CharacterOffsetEnd=1096 PartOfSpeech=VERB Lemma=exportó NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=1097 CharacterOffsetEnd=1099 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=1100 CharacterOffsetEnd=1108 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=para CharacterOffsetBegin=1109 CharacterOffsetEnd=1113 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=1114 CharacterOffsetEnd=1117 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=Estados CharacterOffsetBegin=1118 CharacterOffsetEnd=1125 PartOfSpeech=PROPN Lemma=estados NamedEntityTag=COUNTRY]
+[Text=Unidos CharacterOffsetBegin=1126 CharacterOffsetEnd=1132 PartOfSpeech=PROPN Lemma=unidos NamedEntityTag=COUNTRY]
+[Text=de CharacterOffsetBegin=1133 CharacterOffsetEnd=1135 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Norteamérica CharacterOffsetBegin=1136 CharacterOffsetEnd=1148 PartOfSpeech=PROPN Lemma=norteamérica NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=1148 CharacterOffsetEnd=1149 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, exportó-3)
+mark(exportó-3, Cuando-1)
+obj(exportó-3, se-2)
+det(copra-5, la-4)
+nsubj(exportó-3, copra-5)
+det(pagaron-7, la-6)
+advcl(exportó-3, pagaron-7)
+case($-9, a-8)
+obj(pagaron-7, $-9)
+nummod($-9, 400.00-10)
+det(carga-12, la-11)
+obj(pagaron-7, carga-12)
+cc(pagar-17, y-13)
+obj(pagar-17, la-14)
+aux(pagar-17, llegaron-15)
+mark(pagar-17, a-16)
+obj(pagaron-7, pagar-17)
+conj:y(carga-12, pagar-17)
+case($-19, hasta-18)
+obl(pagaron-7, $-19)
+nummod($-19, 425.00-20)
+cc($-22, y-21)
+obl(pagaron-7, $-22)
+conj:y($-19, $-22)
+advcl(pagaron-7, 450.00en-23)
+det(ocasión-25, una-24)
+obj(450.00en-23, ocasión-25)
+nsubj(exportó-28, que-26)
+obj(exportó-28, se-27)
+acl(ocasión-25, exportó-28)
+case(Acapulco-30, en-29)
+obl(exportó-28, Acapulco-30)
+case(Estados-33, para-31)
+det(Estados-33, los-32)
+obl(exportó-28, Estados-33)
+flat(Estados-33, Unidos-34)
+case(Norteamérica-36, de-35)
+flat(Estados-33, Norteamérica-36)
+punct(exportó-3, .-37)
+
+Extracted the following NER entity mentions:
+$400.00	MONEY	MONEY:-1.0
+$425.00	MONEY	MONEY:-1.0
+Acapulco	CITY	LOCATION:0.9975070112538464
+Estados Unidos	COUNTRY	LOCATION:0.9654014092524072
+Norteamérica	LOCATION	LOCATION:0.9797189566585599
+
+Sentence #9 (34 tokens):
+Los campesinos de
+Guerrero piden que se prohiba la importación de grasas del extranjero y de que en
+país se haga de una manera rigurosa por que los industriales buscan cualquier
+pretexto ……
+
+Tokens:
+[Text=Los CharacterOffsetBegin=1150 CharacterOffsetEnd=1153 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=campesinos CharacterOffsetBegin=1154 CharacterOffsetEnd=1164 PartOfSpeech=NOUN Lemma=campesinos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=1165 CharacterOffsetEnd=1167 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Guerrero CharacterOffsetBegin=1168 CharacterOffsetEnd=1176 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=PERSON]
+[Text=piden CharacterOffsetBegin=1177 CharacterOffsetEnd=1182 PartOfSpeech=VERB Lemma=piden NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=1183 CharacterOffsetEnd=1186 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=1187 CharacterOffsetEnd=1189 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=prohiba CharacterOffsetBegin=1190 CharacterOffsetEnd=1197 PartOfSpeech=VERB Lemma=prohiba NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=1198 CharacterOffsetEnd=1200 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=importación CharacterOffsetBegin=1201 CharacterOffsetEnd=1212 PartOfSpeech=NOUN Lemma=importación NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=1213 CharacterOffsetEnd=1215 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=grasas CharacterOffsetBegin=1216 CharacterOffsetEnd=1222 PartOfSpeech=NOUN Lemma=grasas NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=1223 CharacterOffsetEnd=1226 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=extranjero CharacterOffsetBegin=1227 CharacterOffsetEnd=1237 PartOfSpeech=NOUN Lemma=extranjero NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=1238 CharacterOffsetEnd=1239 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=1240 CharacterOffsetEnd=1242 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=1243 CharacterOffsetEnd=1246 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=1247 CharacterOffsetEnd=1249 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=país CharacterOffsetBegin=1250 CharacterOffsetEnd=1254 PartOfSpeech=NOUN Lemma=país NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=1255 CharacterOffsetEnd=1257 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=haga CharacterOffsetBegin=1258 CharacterOffsetEnd=1262 PartOfSpeech=VERB Lemma=haga NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=1263 CharacterOffsetEnd=1265 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=1266 CharacterOffsetEnd=1269 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=manera CharacterOffsetBegin=1270 CharacterOffsetEnd=1276 PartOfSpeech=NOUN Lemma=manera NamedEntityTag=O]
+[Text=rigurosa CharacterOffsetBegin=1277 CharacterOffsetEnd=1285 PartOfSpeech=ADJ Lemma=rigurosa NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=1286 CharacterOffsetEnd=1289 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=1290 CharacterOffsetEnd=1293 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=1294 CharacterOffsetEnd=1297 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=industriales CharacterOffsetBegin=1298 CharacterOffsetEnd=1310 PartOfSpeech=NOUN Lemma=industriales NamedEntityTag=O]
+[Text=buscan CharacterOffsetBegin=1311 CharacterOffsetEnd=1317 PartOfSpeech=VERB Lemma=buscan NamedEntityTag=O]
+[Text=cualquier CharacterOffsetBegin=1318 CharacterOffsetEnd=1327 PartOfSpeech=DET Lemma=cualquier NamedEntityTag=O]
+[Text=pretexto CharacterOffsetBegin=1328 CharacterOffsetEnd=1336 PartOfSpeech=NOUN Lemma=pretexto NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=1337 CharacterOffsetEnd=1338 PartOfSpeech=PUNCT Lemma=... NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=1338 CharacterOffsetEnd=1339 PartOfSpeech=PUNCT Lemma=... NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, piden-5)
+det(campesinos-2, Los-1)
+nsubj(piden-5, campesinos-2)
+case(Guerrero-4, de-3)
+nmod(campesinos-2, Guerrero-4)
+mark(prohiba-8, que-6)
+obj(prohiba-8, se-7)
+ccomp(piden-5, prohiba-8)
+det(importación-10, la-9)
+nsubj(prohiba-8, importación-10)
+case(grasas-12, de-11)
+nmod(importación-10, grasas-12)
+case(extranjero-14, del-13)
+nmod(importación-10, extranjero-14)
+cc(haga-21, y-15)
+mark(haga-21, de-16)
+mark(haga-21, que-17)
+case(país-19, en-18)
+obl(haga-21, país-19)
+obj(haga-21, se-20)
+ccomp(piden-5, haga-21)
+conj:y(prohiba-8, haga-21)
+case(manera-24, de-22)
+det(manera-24, una-23)
+obl(haga-21, manera-24)
+amod(manera-24, rigurosa-25)
+mark(buscan-30, por-26)
+mark(buscan-30, que-27)
+det(industriales-29, los-28)
+nsubj(buscan-30, industriales-29)
+advcl(haga-21, buscan-30)
+det(pretexto-32, cualquier-31)
+obj(buscan-30, pretexto-32)
+punct(piden-5, ...-33)
+punct(piden-5, ...-34)
+
+Extracted the following NER entity mentions:
+Guerrero	PERSON	PERSON:0.7940692336217879

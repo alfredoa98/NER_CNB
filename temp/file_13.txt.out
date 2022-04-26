@@ -1,0 +1,328 @@
+Document: ID=file_13.txt (7 sentences, 117 tokens)
+
+Sentence #1 (5 tokens):
+LOPEZ FIGUEROA, Victorico.
+
+Tokens:
+[Text=LOPEZ CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=PROPN Lemma=lopez NamedEntityTag=PERSON]
+[Text=FIGUEROA CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=PROPN Lemma=figueroa NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Victorico CharacterOffsetBegin=16 CharacterOffsetEnd=25 PartOfSpeech=PROPN Lemma=victorico NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, LOPEZ-1)
+flat(LOPEZ-1, FIGUEROA-2)
+punct(Victorico-4, ,-3)
+flat(LOPEZ-1, Victorico-4)
+punct(LOPEZ-1, .-5)
+
+Extracted the following NER entity mentions:
+LOPEZ FIGUEROA	PERSON	PERSON:0.9798695830918249
+Victorico	PERSON	PERSON:0.5537295964915929
+
+Sentence #2 (3 tokens):
+- Exp.
+
+Tokens:
+[Text=- CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Exp CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=INTJ Lemma=exp NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-2)
+punct(Exp-2, --1)
+punct(Exp-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (9 tokens):
+100-10-1-79
+-26- H-155 L-79
+16-Enero-79.
+
+Tokens:
+[Text=100-10-1-79 CharacterOffsetBegin=33 CharacterOffsetEnd=44 PartOfSpeech=NUM Lemma=100-10-1-79 NamedEntityTag=O]
+[Text=-26 CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=NUM Lemma=-26 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=H-155 CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=NUM Lemma=h-155 NamedEntityTag=O]
+[Text=L-79 CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=NUM Lemma=l-79 NamedEntityTag=O]
+[Text=16 CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=NUM Lemma=16 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Enero-79 CharacterOffsetBegin=64 CharacterOffsetEnd=72 PartOfSpeech=NUM Lemma=enero-79 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -26-2)
+nummod(-26-2, 100-10-1-79-1)
+punct(H-155-4, --3)
+appos(-26-2, H-155-4)
+appos(H-155-4, L-79-5)
+compound(L-79-5, 16-6)
+punct(H-155-4, --7)
+appos(-26-2, Enero-79-8)
+punct(-26-2, .-9)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (11 tokens):
+-El 15 alctual en Chilpan´
+cingo, Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=15 CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=NUM Lemma=15 NamedEntityTag=NUMBER NormalizedNamedEntityTag=15.0]
+[Text=alctual CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NOUN Lemma=alctual NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Chilpan CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=PROPN Lemma=chilpan NamedEntityTag=LOCATION]
+[Text=´ CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=PROPN Lemma=´ NamedEntityTag=O]
+[Text=cingo CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=PROPN Lemma=cingo NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, alctual-4)
+punct(alctual-4, --1)
+det(15-3, El-2)
+nummod(alctual-4, 15-3)
+case(Chilpan-6, en-5)
+nmod(alctual-4, Chilpan-6)
+flat(Chilpan-6, ´-7)
+flat(Chilpan-6, cingo-8)
+punct(alctual-4, ,-9)
+appos(alctual-4, Gro-10)
+punct(alctual-4, .-11)
+
+Extracted the following NER entity mentions:
+15	NUMBER	NUMBER:-1.0
+Chilpan	LOCATION	LOCATION:0.9389763637042218
+
+Sentence #5 (76 tokens):
+, las tarifas de pasaje en los Autobu
+ses Lpineas Unidas del Sur "Flecha Roja" regis--
+traron hoy un aumento del 10% y al respecto el p
+Prof. VICTORICO LOPEZ FIGUEROA, Asesor en Mate-
+ria de Transporte del Gobierno de la Entidad y -
+pre-candidato a Diputado Federal por el Estado,-
+manifestó que él había sido quien presionó al -
+C. Gobernador de este lugar, Ing.
+
+Tokens:
+[Text=, CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=tarifas CharacterOffsetBegin=117 CharacterOffsetEnd=124 PartOfSpeech=NOUN Lemma=tarifas NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=pasaje CharacterOffsetBegin=128 CharacterOffsetEnd=134 PartOfSpeech=NOUN Lemma=pasaje NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=Autobu CharacterOffsetBegin=142 CharacterOffsetEnd=148 PartOfSpeech=PROPN Lemma=autobu NamedEntityTag=ORGANIZATION]
+[Text=ses CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=PROPN Lemma=ses NamedEntityTag=ORGANIZATION]
+[Text=Lpineas CharacterOffsetBegin=153 CharacterOffsetEnd=160 PartOfSpeech=PROPN Lemma=lpineas NamedEntityTag=ORGANIZATION]
+[Text=Unidas CharacterOffsetBegin=161 CharacterOffsetEnd=167 PartOfSpeech=PROPN Lemma=unidas NamedEntityTag=ORGANIZATION]
+[Text=del CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=ADP Lemma=del NamedEntityTag=ORGANIZATION]
+[Text=Sur CharacterOffsetBegin=172 CharacterOffsetEnd=175 PartOfSpeech=PROPN Lemma=sur NamedEntityTag=ORGANIZATION]
+[Text=" CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Flecha CharacterOffsetBegin=177 CharacterOffsetEnd=183 PartOfSpeech=PROPN Lemma=flecha NamedEntityTag=ORGANIZATION]
+[Text=Roja CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=PROPN Lemma=roja NamedEntityTag=ORGANIZATION]
+[Text=" CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=regis CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=PROPN Lemma=regis NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=traron CharacterOffsetBegin=198 CharacterOffsetEnd=204 PartOfSpeech=VERB Lemma=traron NamedEntityTag=O]
+[Text=hoy CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=ADV Lemma=hoy NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">hoy</TIMEX3>]
+[Text=un CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=aumento CharacterOffsetBegin=212 CharacterOffsetEnd=219 PartOfSpeech=NOUN Lemma=aumento NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=10 CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=NUM Lemma=10 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%10.0]
+[Text=% CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=SYM Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%10.0]
+[Text=y CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=respecto CharacterOffsetBegin=233 CharacterOffsetEnd=241 PartOfSpeech=NOUN Lemma=respecto NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=p CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=NOUN Lemma=p NamedEntityTag=O]
+[Text=Prof. CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=PROPN Lemma=prof. NamedEntityTag=O]
+[Text=VICTORICO CharacterOffsetBegin=253 CharacterOffsetEnd=262 PartOfSpeech=PROPN Lemma=victorico NamedEntityTag=PERSON]
+[Text=LOPEZ CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=PROPN Lemma=lopez NamedEntityTag=PERSON]
+[Text=FIGUEROA CharacterOffsetBegin=269 CharacterOffsetEnd=277 PartOfSpeech=PROPN Lemma=figueroa NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Asesor CharacterOffsetBegin=279 CharacterOffsetEnd=285 PartOfSpeech=PROPN Lemma=asesor NamedEntityTag=TITLE]
+[Text=en CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Mate CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=PROPN Lemma=mate NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ria CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=NOUN Lemma=ria NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Transporte CharacterOffsetBegin=302 CharacterOffsetEnd=312 PartOfSpeech=PROPN Lemma=transporte NamedEntityTag=ORGANIZATION]
+[Text=del CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Gobierno CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=PROPN Lemma=gobierno NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=la CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=DET Lemma=la NamedEntityTag=ORGANIZATION]
+[Text=Entidad CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=PROPN Lemma=entidad NamedEntityTag=ORGANIZATION]
+[Text=y CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=pre-candidato CharacterOffsetBegin=344 CharacterOffsetEnd=357 PartOfSpeech=NOUN Lemma=pre-candidato NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=Diputado CharacterOffsetBegin=360 CharacterOffsetEnd=368 PartOfSpeech=PROPN Lemma=diputado NamedEntityTag=ORGANIZATION]
+[Text=Federal CharacterOffsetBegin=369 CharacterOffsetEnd=376 PartOfSpeech=PROPN Lemma=federal NamedEntityTag=ORGANIZATION]
+[Text=por CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Estado CharacterOffsetBegin=384 CharacterOffsetEnd=390 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=manifestó CharacterOffsetBegin=393 CharacterOffsetEnd=402 PartOfSpeech=VERB Lemma=manifestó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=él CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=PRON Lemma=él NamedEntityTag=O]
+[Text=había CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=AUX Lemma=había NamedEntityTag=O]
+[Text=sido CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=AUX Lemma=sido NamedEntityTag=O]
+[Text=quien CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=PRON Lemma=quien NamedEntityTag=O]
+[Text=presionó CharacterOffsetBegin=427 CharacterOffsetEnd=435 PartOfSpeech=VERB Lemma=presionó NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=439 CharacterOffsetEnd=440 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=C. CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=PROPN Lemma=c. NamedEntityTag=O]
+[Text=Gobernador CharacterOffsetBegin=444 CharacterOffsetEnd=454 PartOfSpeech=PROPN Lemma=gobernador NamedEntityTag=TITLE]
+[Text=de CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=lugar CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=NOUN Lemma=lugar NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Ing CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=PROPN Lemma=ing NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, tarifas-3)
+punct(tarifas-3, ,-1)
+det(tarifas-3, las-2)
+case(pasaje-5, de-4)
+nmod(tarifas-3, pasaje-5)
+case(Autobu-8, en-6)
+det(Autobu-8, los-7)
+nmod(tarifas-3, Autobu-8)
+flat(Autobu-8, ses-9)
+flat(Autobu-8, Lpineas-10)
+flat(Autobu-8, Unidas-11)
+case(Sur-13, del-12)
+flat(Autobu-8, Sur-13)
+punct(Flecha-15, "-14)
+appos(tarifas-3, Flecha-15)
+flat(Flecha-15, Roja-16)
+punct(Flecha-15, "-17)
+flat(Flecha-15, regis-18)
+flat(Flecha-15, ---19)
+flat(Flecha-15, traron-20)
+advmod(Flecha-15, hoy-21)
+det(aumento-23, un-22)
+flat(Flecha-15, aumento-23)
+case(10-25, del-24)
+nummod(aumento-23, 10-25)
+nmod(10-25, %-26)
+cc(p-31, y-27)
+case(p-31, al-28)
+fixed(al-28, respecto-29)
+det(p-31, el-30)
+flat(Flecha-15, p-31)
+conj:y(aumento-23, p-31)
+appos(p-31, Prof.-32)
+flat(Prof.-32, VICTORICO-33)
+flat(Prof.-32, LOPEZ-34)
+flat(Prof.-32, FIGUEROA-35)
+punct(Asesor-37, ,-36)
+flat(Flecha-15, Asesor-37)
+case(Mate-39, en-38)
+flat(Asesor-37, Mate-39)
+punct(Flecha-15, --40)
+appos(tarifas-3, ria-41)
+case(Transporte-43, de-42)
+nmod(ria-41, Transporte-43)
+case(Gobierno-45, del-44)
+flat(Transporte-43, Gobierno-45)
+case(Entidad-48, de-46)
+det(Entidad-48, la-47)
+flat(Transporte-43, Entidad-48)
+cc(pre-candidato-51, y-49)
+punct(pre-candidato-51, --50)
+appos(tarifas-3, pre-candidato-51)
+conj:y(ria-41, pre-candidato-51)
+case(Diputado-53, a-52)
+nmod(pre-candidato-51, Diputado-53)
+flat(Diputado-53, Federal-54)
+case(Estado-57, por-55)
+det(Estado-57, el-56)
+nmod(pre-candidato-51, Estado-57)
+punct(tarifas-3, ,-58)
+punct(manifestó-60, --59)
+parataxis(tarifas-3, manifestó-60)
+mark(presionó-66, que-61)
+nsubj(presionó-66, él-62)
+aux(presionó-66, había-63)
+cop(presionó-66, sido-64)
+nsubj(presionó-66, quien-65)
+ccomp(manifestó-60, presionó-66)
+case(C.-69, al-67)
+punct(C.-69, --68)
+obj(presionó-66, C.-69)
+flat(C.-69, Gobernador-70)
+case(lugar-73, de-71)
+det(lugar-73, este-72)
+nmod(C.-69, lugar-73)
+punct(Ing-75, ,-74)
+flat(C.-69, Ing-75)
+punct(tarifas-3, .-76)
+
+Extracted the following NER entity mentions:
+Autobu
+ses Lpineas Unidas del Sur	ORGANIZATION	ORGANIZATION:0.37477875315695214
+Flecha Roja	ORGANIZATION	ORGANIZATION:0.7287039475562365
+hoy	DATE	DATE:-1.0
+10%	PERCENT	PERCENT:-1.0
+VICTORICO LOPEZ FIGUEROA	PERSON	PERSON:0.3962140689626822
+Asesor	TITLE	-
+Transporte	ORGANIZATION	ORGANIZATION:0.8774550520770731
+Gobierno de la Entidad	ORGANIZATION	ORGANIZATION:0.7365546024397194
+Diputado Federal	ORGANIZATION	ORGANIZATION:0.9084485368429114
+Estado	ORGANIZATION	ORGANIZATION:0.8967948826816727
+Gobernador	TITLE	-
+
+Sentence #6 (9 tokens):
+RUBEN FIGUEROA
+para la autorización de esa alza.
+
+Tokens:
+[Text=RUBEN CharacterOffsetBegin=475 CharacterOffsetEnd=480 PartOfSpeech=PROPN Lemma=ruben NamedEntityTag=PERSON]
+[Text=FIGUEROA CharacterOffsetBegin=481 CharacterOffsetEnd=489 PartOfSpeech=PROPN Lemma=figueroa NamedEntityTag=PERSON]
+[Text=para CharacterOffsetBegin=490 CharacterOffsetEnd=494 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=495 CharacterOffsetEnd=497 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=autorización CharacterOffsetBegin=498 CharacterOffsetEnd=510 PartOfSpeech=NOUN Lemma=autorización NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=511 CharacterOffsetEnd=513 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esa CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=DET Lemma=esa NamedEntityTag=O]
+[Text=alza CharacterOffsetBegin=518 CharacterOffsetEnd=522 PartOfSpeech=NOUN Lemma=alza NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, RUBEN-1)
+flat(RUBEN-1, FIGUEROA-2)
+case(autorización-5, para-3)
+det(autorización-5, la-4)
+nmod(RUBEN-1, autorización-5)
+case(alza-8, de-6)
+det(alza-8, esa-7)
+nmod(autorización-5, alza-8)
+punct(RUBEN-1, .-9)
+
+Extracted the following NER entity mentions:
+RUBEN FIGUEROA	PERSON	PERSON:0.9824575264741614
+
+Sentence #7 (4 tokens):
+---El prof. ---
+
+Tokens:
+[Text=--- CharacterOffsetBegin=523 CharacterOffsetEnd=526 PartOfSpeech=SYM Lemma=--- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=526 CharacterOffsetEnd=528 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=prof. CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=PROPN Lemma=prof. NamedEntityTag=O]
+[Text=--- CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=PROPN Lemma=--- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ----1)
+det(prof.-3, El-2)
+appos(----1, prof.-3)
+flat(prof.-3, ----4)
+
+Extracted the following NER entity mentions:

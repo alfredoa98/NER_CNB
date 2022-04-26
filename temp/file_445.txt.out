@@ -1,0 +1,72 @@
+Document: ID=file_445.txt (2 sentences, 24 tokens)
+
+Sentence #1 (12 tokens):
+la instruccion preparatoria en la 7 de - -
+Acapulco Gro.
+
+Tokens:
+[Text=la CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=instruccion CharacterOffsetBegin=3 CharacterOffsetEnd=14 PartOfSpeech=NOUN Lemma=instruccion NamedEntityTag=O]
+[Text=preparatoria CharacterOffsetBegin=15 CharacterOffsetEnd=27 PartOfSpeech=ADJ Lemma=preparatoria NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=7 CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=NUM Lemma=7 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0]
+[Text=de CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=43 CharacterOffsetEnd=51 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=Gro CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, instruccion-2)
+det(instruccion-2, la-1)
+amod(instruccion-2, preparatoria-3)
+case(7-6, en-4)
+det(7-6, la-5)
+nummod(instruccion-2, 7-6)
+case(Acapulco-10, de-7)
+punct(Acapulco-10, --8)
+punct(Acapulco-10, --9)
+nmod(7-6, Acapulco-10)
+flat(Acapulco-10, Gro-11)
+punct(instruccion-2, .-12)
+
+Extracted the following NER entity mentions:
+7	NUMBER	NUMBER:-1.0
+Acapulco	CITY	LOCATION:0.5021118338090979
+Gro	LOCATION	LOCATION:0.35963216033088374
+
+Sentence #2 (12 tokens):
+,así como que es miembro de las - -
+F.A.R. .
+
+Tokens:
+[Text=, CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=así CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=ADV Lemma=así NamedEntityTag=O]
+[Text=como CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=SCONJ Lemma=como NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=es CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=AUX Lemma=es NamedEntityTag=O]
+[Text=miembro CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=NOUN Lemma=miembro NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=F.A.R. CharacterOffsetBegin=92 CharacterOffsetEnd=98 PartOfSpeech=NOUN Lemma=f.a.r. NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, miembro-6)
+punct(miembro-6, ,-1)
+mark(miembro-6, así-2)
+fixed(así-2, como-3)
+nsubj(miembro-6, que-4)
+cop(miembro-6, es-5)
+case(F.A.R.-11, de-7)
+det(F.A.R.-11, las-8)
+punct(F.A.R.-11, --9)
+punct(F.A.R.-11, --10)
+nmod(miembro-6, F.A.R.-11)
+punct(miembro-6, .-12)
+
+Extracted the following NER entity mentions:

@@ -1,0 +1,385 @@
+Document: ID=file_141.txt (7 sentences, 148 tokens)
+
+Sentence #1 (5 tokens):
+UNIVERSIDAD AUTONOMA DE GUERRERO.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=O]
+[Text=AUTONOMA CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=autonoma NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=24 CharacterOffsetEnd=32 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUTONOMA-2)
+case(GUERRERO-4, DE-3)
+flat(UNIVERSIDAD-1, GUERRERO-4)
+punct(UNIVERSIDAD-1, .-5)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	-
+
+Sentence #2 (3 tokens):
+- Exp.11-4-72.
+
+Tokens:
+[Text=- CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Exp.11-4-72 CharacterOffsetBegin=35 CharacterOffsetEnd=46 PartOfSpeech=NUM Lemma=exp.11-4-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp.11-4-72-2)
+punct(Exp.11-4-72-2, --1)
+punct(Exp.11-4-72-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (5 tokens):
+-45-  H-214 L-177.
+
+Tokens:
+[Text=-45 CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=NUM Lemma=-45 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=H-214 CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=NUM Lemma=h-214 NamedEntityTag=O]
+[Text=L-177 CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NUM Lemma=l-177 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -45-1)
+punct(-45-1, --2)
+appos(-45-1, H-214-3)
+compound(H-214-3, L-177-4)
+punct(-45-1, .-5)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (48 tokens):
+todas partes surgían grupos en contra del gobierno y
+que a él en los particular, dadas las represiones que
+ha tomado siempre el gobierno le causó extrañeza que
+no se haya hechos uso de la fuerza contra la manifes-
+tación contra la guerra de vietnam.
+
+Tokens:
+[Text=todas CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=DET Lemma=todas NamedEntityTag=O]
+[Text=partes CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=NOUN Lemma=partes NamedEntityTag=O]
+[Text=surgían CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=VERB Lemma=surgían NamedEntityTag=O]
+[Text=grupos CharacterOffsetBegin=88 CharacterOffsetEnd=94 PartOfSpeech=NOUN Lemma=grupos NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=contra CharacterOffsetBegin=98 CharacterOffsetEnd=104 PartOfSpeech=NOUN Lemma=contra NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=gobierno CharacterOffsetBegin=109 CharacterOffsetEnd=117 PartOfSpeech=NOUN Lemma=gobierno NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=él CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=PRON Lemma=él NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=particular CharacterOffsetBegin=136 CharacterOffsetEnd=146 PartOfSpeech=NOUN Lemma=particular NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=dadas CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=VERB Lemma=dada NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=represiones CharacterOffsetBegin=158 CharacterOffsetEnd=169 PartOfSpeech=NOUN Lemma=represiones NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=ha CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=AUX Lemma=ha NamedEntityTag=O]
+[Text=tomado CharacterOffsetBegin=177 CharacterOffsetEnd=183 PartOfSpeech=VERB Lemma=tomado NamedEntityTag=O]
+[Text=siempre CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=ADV Lemma=siempre NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=gobierno CharacterOffsetBegin=195 CharacterOffsetEnd=203 PartOfSpeech=NOUN Lemma=gobierno NamedEntityTag=O]
+[Text=le CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=PRON Lemma=le NamedEntityTag=O]
+[Text=causó CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=VERB Lemma=causó NamedEntityTag=O]
+[Text=extrañeza CharacterOffsetBegin=213 CharacterOffsetEnd=222 PartOfSpeech=NOUN Lemma=extrañeza NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=haya CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=AUX Lemma=haya NamedEntityTag=O]
+[Text=hechos CharacterOffsetBegin=238 CharacterOffsetEnd=244 PartOfSpeech=VERB Lemma=hecho NamedEntityTag=O]
+[Text=uso CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=NOUN Lemma=uso NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=fuerza CharacterOffsetBegin=255 CharacterOffsetEnd=261 PartOfSpeech=NOUN Lemma=fuerza NamedEntityTag=O]
+[Text=contra CharacterOffsetBegin=262 CharacterOffsetEnd=268 PartOfSpeech=ADP Lemma=contra NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=manifes CharacterOffsetBegin=272 CharacterOffsetEnd=279 PartOfSpeech=NOUN Lemma=manifes NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=tación CharacterOffsetBegin=281 CharacterOffsetEnd=287 PartOfSpeech=NOUN Lemma=tación NamedEntityTag=O]
+[Text=contra CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=ADP Lemma=contra NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=guerra CharacterOffsetBegin=298 CharacterOffsetEnd=304 PartOfSpeech=NOUN Lemma=guerra NamedEntityTag=CAUSE_OF_DEATH]
+[Text=de CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=vietnam CharacterOffsetBegin=308 CharacterOffsetEnd=315 PartOfSpeech=NOUN Lemma=vietnam NamedEntityTag=COUNTRY]
+[Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, surgían-3)
+det(partes-2, todas-1)
+nsubj(surgían-3, partes-2)
+obj(surgían-3, grupos-4)
+case(gobierno-8, en-5)
+fixed(en-5, contra-6)
+fixed(en-5, del-7)
+obl(surgían-3, gobierno-8)
+obl(surgían-3, gobierno-8)
+cc(causó-27, y-9)
+mark(causó-27, que-10)
+case(él-12, a-11)
+obj(causó-27, él-12)
+case(particular-15, en-13)
+det(particular-15, los-14)
+obl(causó-27, particular-15)
+punct(dadas-17, ,-16)
+advcl(causó-27, dadas-17)
+det(represiones-19, las-18)
+nsubj(dadas-17, represiones-19)
+obj(tomado-22, que-20)
+aux(tomado-22, ha-21)
+acl(represiones-19, tomado-22)
+advmod(tomado-22, siempre-23)
+det(gobierno-25, el-24)
+nsubj(tomado-22, gobierno-25)
+obj(causó-27, le-26)
+conj:y(surgían-3, causó-27)
+obj(causó-27, extrañeza-28)
+nsubj(hechos-33, que-29)
+advmod(hechos-33, no-30)
+obj(hechos-33, se-31)
+aux(hechos-33, haya-32)
+acl(extrañeza-28, hechos-33)
+obj(hechos-33, uso-34)
+case(fuerza-37, de-35)
+det(fuerza-37, la-36)
+nmod(uso-34, fuerza-37)
+case(manifes-40, contra-38)
+det(manifes-40, la-39)
+obl(hechos-33, manifes-40)
+punct(tación-42, --41)
+appos(manifes-40, tación-42)
+case(guerra-45, contra-43)
+det(guerra-45, la-44)
+nmod(tación-42, guerra-45)
+case(vietnam-47, de-46)
+nmod(guerra-45, vietnam-47)
+punct(surgían-3, .-48)
+
+Extracted the following NER entity mentions:
+guerra	CAUSE_OF_DEATH	-
+vietnam	COUNTRY	LOCATION:0.753136567017218
+
+Sentence #5 (34 tokens):
+- MARTIRLEZ VERDUGO
+contestó que precisamente el Partido estaba avocado
+a la ofensiva en el terreno políticos y de orientación
+"pro que al derrotar a la oligarquía deberían estar
+preparados para gobernar.
+
+Tokens:
+[Text=- CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=MARTIRLEZ CharacterOffsetBegin=318 CharacterOffsetEnd=327 PartOfSpeech=ADJ Lemma=martirlez NamedEntityTag=O]
+[Text=VERDUGO CharacterOffsetBegin=328 CharacterOffsetEnd=335 PartOfSpeech=NOUN Lemma=verdugo NamedEntityTag=TITLE]
+[Text=contestó CharacterOffsetBegin=336 CharacterOffsetEnd=344 PartOfSpeech=VERB Lemma=contestó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=precisamente CharacterOffsetBegin=349 CharacterOffsetEnd=361 PartOfSpeech=ADV Lemma=precisamente NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Partido CharacterOffsetBegin=365 CharacterOffsetEnd=372 PartOfSpeech=PROPN Lemma=partido NamedEntityTag=ORGANIZATION]
+[Text=estaba CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=AUX Lemma=estaba NamedEntityTag=O]
+[Text=avocado CharacterOffsetBegin=380 CharacterOffsetEnd=387 PartOfSpeech=ADJ Lemma=avocado NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=ofensiva CharacterOffsetBegin=393 CharacterOffsetEnd=401 PartOfSpeech=NOUN Lemma=ofensiva NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=402 CharacterOffsetEnd=404 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=terreno CharacterOffsetBegin=408 CharacterOffsetEnd=415 PartOfSpeech=NOUN Lemma=terreno NamedEntityTag=O]
+[Text=políticos CharacterOffsetBegin=416 CharacterOffsetEnd=425 PartOfSpeech=ADJ Lemma=políticos NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=orientación CharacterOffsetBegin=431 CharacterOffsetEnd=442 PartOfSpeech=NOUN Lemma=orientación NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=pro CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=ADP Lemma=pro NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=derrotar CharacterOffsetBegin=455 CharacterOffsetEnd=463 PartOfSpeech=VERB Lemma=derrotar NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=oligarquía CharacterOffsetBegin=469 CharacterOffsetEnd=479 PartOfSpeech=NOUN Lemma=oligarquía NamedEntityTag=O]
+[Text=deberían CharacterOffsetBegin=480 CharacterOffsetEnd=488 PartOfSpeech=AUX Lemma=deberían NamedEntityTag=O]
+[Text=estar CharacterOffsetBegin=489 CharacterOffsetEnd=494 PartOfSpeech=AUX Lemma=estar NamedEntityTag=O]
+[Text=preparados CharacterOffsetBegin=495 CharacterOffsetEnd=505 PartOfSpeech=ADJ Lemma=preparados NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=gobernar CharacterOffsetBegin=511 CharacterOffsetEnd=519 PartOfSpeech=VERB Lemma=gobernar NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, contestó-4)
+punct(contestó-4, --1)
+amod(VERDUGO-3, MARTIRLEZ-2)
+nsubj(contestó-4, VERDUGO-3)
+mark(avocado-10, que-5)
+advmod(avocado-10, precisamente-6)
+det(Partido-8, el-7)
+nsubj(avocado-10, Partido-8)
+cop(avocado-10, estaba-9)
+ccomp(contestó-4, avocado-10)
+case(ofensiva-13, a-11)
+det(ofensiva-13, la-12)
+nmod(avocado-10, ofensiva-13)
+nmod(avocado-10, ofensiva-13''')
+conj:y(ofensiva-13, ofensiva-13''')
+case(terreno-16, en-14)
+det(terreno-16, el-15)
+nmod(ofensiva-13, terreno-16)
+amod(terreno-16, políticos-17)
+cc(ofensiva-13''', y-18)
+case(orientación-20, de-19)
+nmod(ofensiva-13''', orientación-20)
+punct(ofensiva-13, "-21)
+mark(preparados-31, pro-22)
+mark(preparados-31, que-23)
+mark(derrotar-25, al-24)
+advcl(preparados-31, derrotar-25)
+case(oligarquía-28, a-26)
+det(oligarquía-28, la-27)
+obj(derrotar-25, oligarquía-28)
+aux(preparados-31, deberían-29)
+cop(preparados-31, estar-30)
+acl(avocado-10, preparados-31)
+mark(gobernar-33, para-32)
+advcl(preparados-31, gobernar-33)
+punct(contestó-4, .-34)
+
+Extracted the following NER entity mentions:
+VERDUGO	TITLE	-
+Partido	ORGANIZATION	ORGANIZATION:0.8816699373262653
+
+Sentence #6 (21 tokens):
+Que efectivamente existene
+movimiento armados y no por serlo se les iba aplaudir
+puesto que sus actos son reaccionarios.
+
+Tokens:
+[Text=Que CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=efectivamente CharacterOffsetBegin=525 CharacterOffsetEnd=538 PartOfSpeech=ADV Lemma=efectivamente NamedEntityTag=O]
+[Text=existene CharacterOffsetBegin=539 CharacterOffsetEnd=547 PartOfSpeech=VERB Lemma=existene NamedEntityTag=O]
+[Text=movimiento CharacterOffsetBegin=548 CharacterOffsetEnd=558 PartOfSpeech=NOUN Lemma=movimiento NamedEntityTag=O]
+[Text=armados CharacterOffsetBegin=559 CharacterOffsetEnd=566 PartOfSpeech=ADJ Lemma=armados NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=567 CharacterOffsetEnd=568 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=ser CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=AUX Lemma=ser NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=576 CharacterOffsetEnd=581 PartOfSpeech=PRON Lemma=lo NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=582 CharacterOffsetEnd=584 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=les CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=PRON Lemma=les NamedEntityTag=O]
+[Text=iba CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=AUX Lemma=iba NamedEntityTag=O]
+[Text=aplaudir CharacterOffsetBegin=593 CharacterOffsetEnd=601 PartOfSpeech=VERB Lemma=aplaudir NamedEntityTag=O]
+[Text=puesto CharacterOffsetBegin=602 CharacterOffsetEnd=608 PartOfSpeech=NOUN Lemma=puesto NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=sus CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=DET Lemma=sus NamedEntityTag=O]
+[Text=actos CharacterOffsetBegin=617 CharacterOffsetEnd=622 PartOfSpeech=NOUN Lemma=actos NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=AUX Lemma=son NamedEntityTag=O]
+[Text=reaccionarios CharacterOffsetBegin=627 CharacterOffsetEnd=640 PartOfSpeech=ADJ Lemma=reaccionarios NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, existene-3)
+aux(aplaudir-14, ser-9)
+nsubj(aplaudir-14, lo-10)
+mark(existene-3, Que-1)
+advmod(existene-3, efectivamente-2)
+obj(existene-3, movimiento-4)
+amod(movimiento-4, armados-5)
+cc(no-7, y-6)
+conj:y(existene-3, no-7)
+case(no-7, por-8)
+obj(aplaudir-14, se-11)
+obj(aplaudir-14, les-12)
+aux(aplaudir-14, iba-13)
+advcl(no-7, aplaudir-14)
+mark(reaccionarios-20, puesto-15)
+fixed(puesto-15, que-16)
+det(actos-18, sus-17)
+nsubj(reaccionarios-20, actos-18)
+cop(reaccionarios-20, son-19)
+ccomp(aplaudir-14, reaccionarios-20)
+punct(existene-3, .-21)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (32 tokens):
+En México lle-
+gará el momento de las formas armadas pero muy agudas
+Posteriormente calificó a la Revolución Mexicana de
+haber nacido muerta, ya que los políticos que la organ
+
+Tokens:
+[Text=En CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=México CharacterOffsetBegin=645 CharacterOffsetEnd=651 PartOfSpeech=PROPN Lemma=méxico NamedEntityTag=COUNTRY]
+[Text=lle CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=PROPN Lemma=lle NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=gará CharacterOffsetBegin=657 CharacterOffsetEnd=661 PartOfSpeech=VERB Lemma=gará NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=momento CharacterOffsetBegin=665 CharacterOffsetEnd=672 PartOfSpeech=NOUN Lemma=momento NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=676 CharacterOffsetEnd=679 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=formas CharacterOffsetBegin=680 CharacterOffsetEnd=686 PartOfSpeech=NOUN Lemma=formas NamedEntityTag=O]
+[Text=armadas CharacterOffsetBegin=687 CharacterOffsetEnd=694 PartOfSpeech=ADJ Lemma=armadas NamedEntityTag=O]
+[Text=pero CharacterOffsetBegin=695 CharacterOffsetEnd=699 PartOfSpeech=CCONJ Lemma=pero NamedEntityTag=O]
+[Text=muy CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=ADV Lemma=muy NamedEntityTag=O]
+[Text=agudas CharacterOffsetBegin=704 CharacterOffsetEnd=710 PartOfSpeech=ADJ Lemma=agudas NamedEntityTag=O]
+[Text=Posteriormente CharacterOffsetBegin=711 CharacterOffsetEnd=725 PartOfSpeech=ADV Lemma=posteriormente NamedEntityTag=O]
+[Text=calificó CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=VERB Lemma=calificó NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=735 CharacterOffsetEnd=736 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=737 CharacterOffsetEnd=739 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Revolución CharacterOffsetBegin=740 CharacterOffsetEnd=750 PartOfSpeech=PROPN Lemma=revolución NamedEntityTag=MISC]
+[Text=Mexicana CharacterOffsetBegin=751 CharacterOffsetEnd=759 PartOfSpeech=PROPN Lemma=mexicana NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=760 CharacterOffsetEnd=762 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=haber CharacterOffsetBegin=763 CharacterOffsetEnd=768 PartOfSpeech=AUX Lemma=haber NamedEntityTag=O]
+[Text=nacido CharacterOffsetBegin=769 CharacterOffsetEnd=775 PartOfSpeech=VERB Lemma=nacido NamedEntityTag=O]
+[Text=muerta CharacterOffsetBegin=776 CharacterOffsetEnd=782 PartOfSpeech=ADJ Lemma=muerta NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=782 CharacterOffsetEnd=783 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ya CharacterOffsetBegin=784 CharacterOffsetEnd=786 PartOfSpeech=ADV Lemma=ya NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=787 CharacterOffsetEnd=790 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=791 CharacterOffsetEnd=794 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=políticos CharacterOffsetBegin=795 CharacterOffsetEnd=804 PartOfSpeech=NOUN Lemma=políticos NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=805 CharacterOffsetEnd=808 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=809 CharacterOffsetEnd=811 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=organ CharacterOffsetBegin=812 CharacterOffsetEnd=817 PartOfSpeech=NOUN Lemma=organ NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, México-2)
+case(México-2, En-1)
+flat(México-2, lle-3)
+punct(gará-5, --4)
+acl(México-2, gará-5)
+det(momento-7, el-6)
+obj(gará-5, momento-7)
+case(formas-10, de-8)
+det(formas-10, las-9)
+nmod(momento-7, formas-10)
+amod(formas-10, armadas-11)
+cc(agudas-14, pero-12)
+advmod(agudas-14, muy-13)
+acl(México-2, agudas-14)
+conj:pero(gará-5, agudas-14)
+advmod(agudas-14, Posteriormente-15)
+cop(agudas-14, calificó-16)
+case(Revolución-19, a-17)
+det(Revolución-19, la-18)
+obj(agudas-14, Revolución-19)
+flat(Revolución-19, Mexicana-20)
+mark(nacido-23, de-21)
+aux(nacido-23, haber-22)
+acl(Revolución-19, nacido-23)
+obj(nacido-23, muerta-24)
+punct(políticos-29, ,-25)
+mark(políticos-29, ya-26)
+fixed(ya-26, que-27)
+det(políticos-29, los-28)
+acl(México-2, políticos-29)
+conj:pero(gará-5, políticos-29)
+mark(organ-32, que-30)
+det(organ-32, la-31)
+nmod(políticos-29, organ-32)
+
+Extracted the following NER entity mentions:
+México	COUNTRY	LOCATION:0.983333564119247
+Revolución Mexicana	MISC	MISC:0.8989202033093903

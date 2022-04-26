@@ -1,0 +1,87 @@
+Document: ID=file_459.txt (2 sentences, 29 tokens)
+
+Sentence #1 (28 tokens):
+plieron una sentencia de 8 meses por los delitos
+de secuestro en agravio de VICENTE PIÑA ESPINOSA
+y asalto al Banco de Comercio en Altotonga, Ver.
+
+Tokens:
+[Text=plieron CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=VERB Lemma=plieron NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=sentencia CharacterOffsetBegin=12 CharacterOffsetEnd=21 PartOfSpeech=NOUN Lemma=sentencia NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=8 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=NUM Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0]
+[Text=meses CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=NOUN Lemma=meses NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=delitos CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=NOUN Lemma=delitos NamedEntityTag=CRIMINAL_CHARGE]
+[Text=de CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=secuestro CharacterOffsetBegin=52 CharacterOffsetEnd=61 PartOfSpeech=NOUN Lemma=secuestro NamedEntityTag=CRIMINAL_CHARGE]
+[Text=en CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=agravio CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=NOUN Lemma=agravio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=VICENTE CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=PROPN Lemma=vicente NamedEntityTag=O]
+[Text=PIÑA CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=PROPN Lemma=piña NamedEntityTag=O]
+[Text=ESPINOSA CharacterOffsetBegin=89 CharacterOffsetEnd=97 PartOfSpeech=PROPN Lemma=espinosa NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=asalto CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=NOUN Lemma=asalto NamedEntityTag=CRIMINAL_CHARGE]
+[Text=al CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=Banco CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=PROPN Lemma=banco NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Comercio CharacterOffsetBegin=119 CharacterOffsetEnd=127 PartOfSpeech=PROPN Lemma=comercio NamedEntityTag=ORGANIZATION]
+[Text=en CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Altotonga CharacterOffsetBegin=131 CharacterOffsetEnd=140 PartOfSpeech=PROPN Lemma=altotonga NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Ver CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=VERB Lemma=ver NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, plieron-1)
+det(sentencia-3, una-2)
+obj(plieron-1, sentencia-3)
+case(meses-6, de-4)
+nummod(meses-6, 8-5)
+nmod(sentencia-3, meses-6)
+case(delitos-9, por-7)
+det(delitos-9, los-8)
+nmod(sentencia-3, delitos-9)
+case(secuestro-11, de-10)
+nmod(delitos-9, secuestro-11)
+case(VICENTE-15, en-12)
+fixed(en-12, agravio-13)
+fixed(en-12, de-14)
+obl(plieron-1, VICENTE-15)
+obl(plieron-1, VICENTE-15)
+flat(VICENTE-15, PIÑA-16)
+flat(VICENTE-15, ESPINOSA-17)
+cc(asalto-19, y-18)
+obl(plieron-1, asalto-19)
+conj:y(VICENTE-15, asalto-19)
+case(Banco-21, al-20)
+obl(plieron-1, Banco-21)
+case(Comercio-23, de-22)
+flat(Banco-21, Comercio-23)
+case(Altotonga-25, en-24)
+flat(Banco-21, Altotonga-25)
+punct(Ver-27, ,-26)
+acl(Banco-21, Ver-27)
+punct(plieron-1, .-28)
+
+Extracted the following NER entity mentions:
+8	NUMBER	NUMBER:-1.0
+delitos	CRIMINAL_CHARGE	-
+secuestro	CRIMINAL_CHARGE	-
+asalto	CRIMINAL_CHARGE	-
+Banco de Comercio	ORGANIZATION	ORGANIZATION:0.9989764970077073
+Altotonga	CITY	LOCATION:0.9821773957839354
+
+Sentence #2 (1 tokens):
+-
+
+Tokens:
+[Text=- CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, --1)
+
+Extracted the following NER entity mentions:

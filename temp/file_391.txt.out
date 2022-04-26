@@ -1,0 +1,255 @@
+Document: ID=file_391.txt (8 sentences, 78 tokens)
+
+Sentence #1 (5 tokens):
+SANCHEZ, Martín Exp.
+
+Tokens:
+[Text=SANCHEZ CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=PROPN Lemma=sanchez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Martín CharacterOffsetBegin=9 CharacterOffsetEnd=15 PartOfSpeech=PROPN Lemma=martín NamedEntityTag=PERSON]
+[Text=Exp CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, SANCHEZ-1)
+punct(Martín-3, ,-2)
+conj(SANCHEZ-1, Martín-3)
+flat(Martín-3, Exp-4)
+punct(SANCHEZ-1, .-5)
+
+Extracted the following NER entity mentions:
+SANCHEZ	PERSON	PERSON:0.773414164390897
+Martín Exp	PERSON	PERSON:0.9827848577529271
+
+Sentence #2 (8 tokens):
+-100-10-1-76
+(A) "David".
+
+Tokens:
+[Text=-100-10-1-76 CharacterOffsetBegin=20 CharacterOffsetEnd=32 PartOfSpeech=NUM Lemma=-100-10-1-76 NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=NOUN Lemma=a NamedEntityTag=MISC]
+[Text=) CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=David CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=PROPN Lemma=david NamedEntityTag=PERSON]
+[Text=" CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -100-10-1-76-1)
+punct(A-3, (-2)
+appos(-100-10-1-76-1, A-3)
+punct(A-3, )-4)
+punct(David-6, "-5)
+appos(-100-10-1-76-1, David-6)
+punct(David-6, "-7)
+punct(-100-10-1-76-1, .-8)
+
+Extracted the following NER entity mentions:
+A	MISC	MISC:0.49056359033614655
+David	PERSON	PERSON:0.9469806837996269
+
+Sentence #3 (5 tokens):
+PROFUGO H-242 L-57
+31.
+
+Tokens:
+[Text=PROFUGO CharacterOffsetBegin=46 CharacterOffsetEnd=53 PartOfSpeech=PROPN Lemma=profugo NamedEntityTag=O]
+[Text=H-242 CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=PROPN Lemma=h-242 NamedEntityTag=O]
+[Text=L-57 CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=PROPN Lemma=l-57 NamedEntityTag=O]
+[Text=31 CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=NUM Lemma=31 NamedEntityTag=NUMBER NormalizedNamedEntityTag=31.0]
+[Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, PROFUGO-1)
+flat(PROFUGO-1, H-242-2)
+flat(PROFUGO-1, L-57-3)
+nummod(PROFUGO-1, 31-4)
+punct(PROFUGO-1, .-5)
+
+Extracted the following NER entity mentions:
+31	NUMBER	NUMBER:-1.0
+
+Sentence #4 (3 tokens):
+Ene. 76.
+
+Tokens:
+[Text=Ene. CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=AUX Lemma=ene. NamedEntityTag=O]
+[Text=76 CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=NUM Lemma=76 NamedEntityTag=NUMBER NormalizedNamedEntityTag=76.0]
+[Text=. CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 76-2)
+cop(76-2, Ene.-1)
+punct(76-2, .-3)
+
+Extracted the following NER entity mentions:
+76	NUMBER	NUMBER:-1.0
+
+Sentence #5 (12 tokens):
+- ESTUDIANTE DE LA PREPARATORIA # 1 en-
+ACAPULCO GRO.
+
+Tokens:
+[Text=- CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ESTUDIANTE CharacterOffsetBegin=79 CharacterOffsetEnd=89 PartOfSpeech=NOUN Lemma=estudiante NamedEntityTag=TITLE]
+[Text=DE CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=PREPARATORIA CharacterOffsetBegin=96 CharacterOffsetEnd=108 PartOfSpeech=PROPN Lemma=preparatoria NamedEntityTag=O]
+[Text=# CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=SYM Lemma=# NamedEntityTag=MONEY NormalizedNamedEntityTag=£1.0]
+[Text=1 CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=NUM Lemma=1 NamedEntityTag=MONEY NormalizedNamedEntityTag=£1.0]
+[Text=en CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ACAPULCO CharacterOffsetBegin=117 CharacterOffsetEnd=125 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=ORGANIZATION]
+[Text=GRO CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ESTUDIANTE-2)
+punct(ESTUDIANTE-2, --1)
+case(PREPARATORIA-5, DE-3)
+det(PREPARATORIA-5, LA-4)
+nmod(ESTUDIANTE-2, PREPARATORIA-5)
+nmod(1-7, #-6)
+appos(ESTUDIANTE-2, 1-7)
+case(ESTUDIANTE-2, en-8)
+punct(ESTUDIANTE-2, --9)
+nmod(ESTUDIANTE-2, ACAPULCO-10)
+flat(ACAPULCO-10, GRO-11)
+punct(ESTUDIANTE-2, .-12)
+
+Extracted the following NER entity mentions:
+ESTUDIANTE	TITLE	-
+# 1	MONEY	MONEY:-1.0
+ACAPULCO GRO	ORGANIZATION	ORGANIZATION:0.476759562995325
+
+Sentence #6 (1 tokens):
+.
+
+Tokens:
+[Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, .-1)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (7 tokens):
+El 29 actual en Acapulco Gro.
+
+Tokens:
+[Text=El CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=29 CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=NUM Lemma=29 NamedEntityTag=NUMBER NormalizedNamedEntityTag=29.0]
+[Text=actual CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=Gro CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 29-2)
+det(29-2, El-1)
+amod(29-2, actual-3)
+case(Acapulco-5, en-4)
+nmod(29-2, Acapulco-5)
+flat(Acapulco-5, Gro-6)
+punct(29-2, .-7)
+
+Extracted the following NER entity mentions:
+29	NUMBER	NUMBER:-1.0
+Acapulco	CITY	LOCATION:0.9971231479661886
+Gro	LOCATION	LOCATION:0.9361960043090085
+
+Sentence #8 (37 tokens):
+, GUI
+LLERMO MENA RIVERA Y ALEJANADRO RIVERA PATIÑO, al
+ser detenidos coincidneron en afirmar que DAVID
+SANCHEZ, junto con ellos participó en el secues
+tro de THELMA GUDALUPE SOTO MARTINEZ en dicho
+puerto.
+
+Tokens:
+[Text=, CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=GUI CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=PROPN Lemma=gui NamedEntityTag=PERSON]
+[Text=LLERMO CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=PROPN Lemma=llermo NamedEntityTag=PERSON]
+[Text=MENA CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=PROPN Lemma=mena NamedEntityTag=PERSON]
+[Text=RIVERA CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=PROPN Lemma=rivera NamedEntityTag=PERSON]
+[Text=Y CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=ALEJANADRO CharacterOffsetBegin=188 CharacterOffsetEnd=198 PartOfSpeech=PROPN Lemma=alejanadro NamedEntityTag=PERSON]
+[Text=RIVERA CharacterOffsetBegin=199 CharacterOffsetEnd=205 PartOfSpeech=PROPN Lemma=rivera NamedEntityTag=PERSON]
+[Text=PATIÑO CharacterOffsetBegin=206 CharacterOffsetEnd=212 PartOfSpeech=PROPN Lemma=patiño NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=ser CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=AUX Lemma=ser NamedEntityTag=O]
+[Text=detenidos CharacterOffsetBegin=221 CharacterOffsetEnd=230 PartOfSpeech=VERB Lemma=detenido NamedEntityTag=O]
+[Text=coincidneron CharacterOffsetBegin=231 CharacterOffsetEnd=243 PartOfSpeech=VERB Lemma=coincidneron NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=afirmar CharacterOffsetBegin=247 CharacterOffsetEnd=254 PartOfSpeech=AUX Lemma=afirmar NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=DAVID CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=PROPN Lemma=david NamedEntityTag=PERSON]
+[Text=SANCHEZ CharacterOffsetBegin=265 CharacterOffsetEnd=272 PartOfSpeech=PROPN Lemma=sanchez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=junto CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=ADJ Lemma=junto NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=ellos CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=PRON Lemma=ellos NamedEntityTag=O]
+[Text=participó CharacterOffsetBegin=290 CharacterOffsetEnd=299 PartOfSpeech=VERB Lemma=participó NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=secues CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=NOUN Lemma=secues NamedEntityTag=O]
+[Text=tro CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=NOUN Lemma=tro NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=THELMA CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=PROPN Lemma=thelma NamedEntityTag=PERSON]
+[Text=GUDALUPE CharacterOffsetBegin=327 CharacterOffsetEnd=335 PartOfSpeech=PROPN Lemma=gudalupe NamedEntityTag=PERSON]
+[Text=SOTO CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=PROPN Lemma=soto NamedEntityTag=PERSON]
+[Text=MARTINEZ CharacterOffsetBegin=341 CharacterOffsetEnd=349 PartOfSpeech=PROPN Lemma=martinez NamedEntityTag=PERSON]
+[Text=en CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=dicho CharacterOffsetBegin=353 CharacterOffsetEnd=358 PartOfSpeech=ADJ Lemma=dicho NamedEntityTag=O]
+[Text=puerto CharacterOffsetBegin=359 CharacterOffsetEnd=365 PartOfSpeech=NOUN Lemma=puerto NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, GUI-2)
+punct(GUI-2, ,-1)
+flat(GUI-2, LLERMO-3)
+flat(GUI-2, MENA-4)
+flat(GUI-2, RIVERA-5)
+cc(ALEJANADRO-7, Y-6)
+conj:y(GUI-2, ALEJANADRO-7)
+flat(ALEJANADRO-7, RIVERA-8)
+flat(ALEJANADRO-7, PATIÑO-9)
+punct(GUI-2, ,-10)
+mark(detenidos-13, al-11)
+aux(detenidos-13, ser-12)
+advcl(GUI-2, detenidos-13)
+advcl(detenidos-13, coincidneron-14)
+mark(afirmar-16, en-15)
+xcomp(coincidneron-14, afirmar-16)
+mark(DAVID-18, que-17)
+ccomp(afirmar-16, DAVID-18)
+flat(DAVID-18, SANCHEZ-19)
+punct(participó-24, ,-20)
+case(ellos-23, junto-21)
+fixed(junto-21, con-22)
+obj(participó-24, ellos-23)
+acl(DAVID-18, participó-24)
+case(secues-27, en-25)
+det(secues-27, el-26)
+obj(participó-24, secues-27)
+nmod(secues-27, tro-28)
+case(THELMA-30, de-29)
+nmod(secues-27, THELMA-30)
+flat(THELMA-30, GUDALUPE-31)
+flat(THELMA-30, SOTO-32)
+flat(THELMA-30, MARTINEZ-33)
+case(puerto-36, en-34)
+amod(puerto-36, dicho-35)
+nmod(secues-27, puerto-36)
+punct(GUI-2, .-37)
+
+Extracted the following NER entity mentions:
+GUI
+LLERMO MENA RIVERA	PERSON	PERSON:0.5973800437252301
+ALEJANADRO RIVERA PATIÑO	PERSON	PERSON:0.7615424859489407
+DAVID
+SANCHEZ	PERSON	PERSON:0.994159055520427
+THELMA GUDALUPE SOTO MARTINEZ	PERSON	PERSON:0.9444842545160638

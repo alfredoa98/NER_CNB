@@ -1,0 +1,294 @@
+Document: ID=file_166.txt (9 sentences, 95 tokens)
+
+Sentence #1 (3 tokens):
+UNIVERSIDAD AUT.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=O]
+[Text=AUT CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=PROPN Lemma=aut NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUT-2)
+punct(UNIVERSIDAD-1, .-3)
+
+Extracted the following NER entity mentions:
+AUT	ORGANIZATION	ORGANIZATION:0.8205557154817383
+
+Sentence #2 (7 tokens):
+DE GUERRERO Exp.100-10-1-75 H-274 L-50 -71.
+
+Tokens:
+[Text=DE CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=20 CharacterOffsetEnd=28 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=Exp.100-10-1-75 CharacterOffsetBegin=29 CharacterOffsetEnd=44 PartOfSpeech=ADP Lemma=exp.100-10-1-75 NamedEntityTag=O]
+[Text=H-274 CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=PROPN Lemma=h-274 NamedEntityTag=O]
+[Text=L-50 CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=PROPN Lemma=l-50 NamedEntityTag=O]
+[Text=-71 CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=NUM Lemma=-71 NamedEntityTag=NUMBER NormalizedNamedEntityTag=-71.0]
+[Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, GUERRERO-2)
+case(GUERRERO-2, DE-1)
+case(H-274-4, Exp.100-10-1-75-3)
+nmod(GUERRERO-2, H-274-4)
+flat(H-274-4, L-50-5)
+nummod(H-274-4, -71-6)
+punct(GUERRERO-2, .-7)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	-
+-71	NUMBER	NUMBER:-1.0
+
+Sentence #3 (35 tokens):
+Angel ROBLES, Damian TERRAZAS, Ja - - vier BUSTOS GALEANA, Ignacio IZAZAGA Abiud VALENTE, JOSE LUIS GONZALEZ, JOSE MASTACHE SANCHEZ, MIGUEL ANGEL ROBLES GALEANA y HERMILO ARISTA CISNEROS.
+
+Tokens:
+[Text=Angel CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=PROPN Lemma=angel NamedEntityTag=PERSON]
+[Text=ROBLES CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=PROPN Lemma=robles NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Damian CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=PROPN Lemma=damian NamedEntityTag=PERSON]
+[Text=TERRAZAS CharacterOffsetBegin=82 CharacterOffsetEnd=90 PartOfSpeech=PROPN Lemma=terrazas NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Ja CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=INTJ Lemma=ja NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=vier CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=VERB Lemma=vier NamedEntityTag=O]
+[Text=BUSTOS CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=PROPN Lemma=bustos NamedEntityTag=PERSON]
+[Text=GALEANA CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=PROPN Lemma=galeana NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Ignacio CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=PROPN Lemma=ignacio NamedEntityTag=PERSON]
+[Text=IZAZAGA CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=PROPN Lemma=izazaga NamedEntityTag=PERSON]
+[Text=Abiud CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=PROPN Lemma=abiud NamedEntityTag=PERSON]
+[Text=VALENTE CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=PROPN Lemma=valente NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=JOSE CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=O]
+[Text=LUIS CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=PROPN Lemma=luis NamedEntityTag=PERSON]
+[Text=GONZALEZ CharacterOffsetBegin=161 CharacterOffsetEnd=169 PartOfSpeech=PROPN Lemma=gonzalez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=JOSE CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=PERSON]
+[Text=MASTACHE CharacterOffsetBegin=176 CharacterOffsetEnd=184 PartOfSpeech=PROPN Lemma=mastache NamedEntityTag=PERSON]
+[Text=SANCHEZ CharacterOffsetBegin=185 CharacterOffsetEnd=192 PartOfSpeech=PROPN Lemma=sanchez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=MIGUEL CharacterOffsetBegin=194 CharacterOffsetEnd=200 PartOfSpeech=PROPN Lemma=miguel NamedEntityTag=PERSON]
+[Text=ANGEL CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=PROPN Lemma=angel NamedEntityTag=PERSON]
+[Text=ROBLES CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=PROPN Lemma=robles NamedEntityTag=PERSON]
+[Text=GALEANA CharacterOffsetBegin=214 CharacterOffsetEnd=221 PartOfSpeech=PROPN Lemma=galeana NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=HERMILO CharacterOffsetBegin=224 CharacterOffsetEnd=231 PartOfSpeech=PROPN Lemma=hermilo NamedEntityTag=PERSON]
+[Text=ARISTA CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=PROPN Lemma=arista NamedEntityTag=PERSON]
+[Text=CISNEROS CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=PROPN Lemma=cisneros NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Angel-1)
+flat(Angel-1, ROBLES-2)
+punct(Damian-4, ,-3)
+flat(Angel-1, Damian-4)
+flat(Damian-4, TERRAZAS-5)
+punct(Damian-4, ,-6)
+flat(Angel-1, Ja-7)
+punct(vier-10, --8)
+punct(vier-10, --9)
+acl(Angel-1, vier-10)
+nsubj(vier-10, BUSTOS-11)
+flat(BUSTOS-11, GALEANA-12)
+punct(vier-10, ,-13)
+flat(Angel-1, Ignacio-14)
+flat(Angel-1, IZAZAGA-15)
+flat(Angel-1, Abiud-16)
+flat(Angel-1, VALENTE-17)
+punct(JOSE-19, ,-18)
+conj(Angel-1, JOSE-19)
+flat(JOSE-19, LUIS-20)
+flat(JOSE-19, GONZALEZ-21)
+punct(JOSE-23, ,-22)
+conj(Angel-1, JOSE-23)
+flat(JOSE-23, MASTACHE-24)
+flat(JOSE-23, SANCHEZ-25)
+punct(MIGUEL-27, ,-26)
+conj(Angel-1, MIGUEL-27)
+flat(MIGUEL-27, ANGEL-28)
+flat(MIGUEL-27, ROBLES-29)
+flat(MIGUEL-27, GALEANA-30)
+cc(HERMILO-32, y-31)
+conj:y(Angel-1, HERMILO-32)
+flat(HERMILO-32, ARISTA-33)
+flat(HERMILO-32, CISNEROS-34)
+punct(Angel-1, .-35)
+
+Extracted the following NER entity mentions:
+Angel ROBLES	PERSON	PERSON:0.9507166862151764
+Damian TERRAZAS	PERSON	PERSON:0.9824049006513007
+BUSTOS GALEANA	PERSON	PERSON:0.9781257495146877
+Ignacio IZAZAGA Abiud VALENTE	PERSON	PERSON:0.9800314400741459
+LUIS GONZALEZ	PERSON	PERSON:0.9628200853527739
+JOSE MASTACHE SANCHEZ	PERSON	PERSON:0.5175338327892487
+MIGUEL ANGEL ROBLES GALEANA	PERSON	PERSON:0.9778059553338483
+HERMILO ARISTA CISNEROS	PERSON	PERSON:0.7753735158591369
+
+Sentence #4 (11 tokens):
+“Responsable de la publicación ALFREDO SALAS - OCAMPO. “
+
+Tokens:
+[Text=" CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Responsable CharacterOffsetBegin=250 CharacterOffsetEnd=261 PartOfSpeech=NOUN Lemma=responsable NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=publicación CharacterOffsetBegin=268 CharacterOffsetEnd=279 PartOfSpeech=NOUN Lemma=publicación NamedEntityTag=O]
+[Text=ALFREDO CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=PROPN Lemma=alfredo NamedEntityTag=PERSON]
+[Text=SALAS CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=PROPN Lemma=salas NamedEntityTag=PERSON]
+[Text=- CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=OCAMPO CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=PROPN Lemma=ocampo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Responsable-2)
+punct(Responsable-2, "-1)
+case(publicación-5, de-3)
+det(publicación-5, la-4)
+nmod(Responsable-2, publicación-5)
+appos(publicación-5, ALFREDO-6)
+flat(ALFREDO-6, SALAS-7)
+punct(Responsable-2, --8)
+appos(Responsable-2, OCAMPO-9)
+punct(Responsable-2, .-10)
+punct(Responsable-2, "-11)
+
+Extracted the following NER entity mentions:
+ALFREDO SALAS	PERSON	PERSON:0.5787843158386811
+
+Sentence #5 (11 tokens):
+Estado de Guerrero a 16 de marzo de - 1975.
+
+Tokens:
+[Text=Estado CharacterOffsetBegin=305 CharacterOffsetEnd=311 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Guerrero CharacterOffsetBegin=315 CharacterOffsetEnd=323 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=PERSON]
+[Text=a CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=16 CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=NUM Lemma=16 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03-16 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-03-16">16 de marzo</TIMEX3>]
+[Text=de CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=ADP Lemma=de NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03-16 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-03-16">16 de marzo</TIMEX3>]
+[Text=marzo CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=NOUN Lemma=marzo NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03-16 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-03-16">16 de marzo</TIMEX3>]
+[Text=de CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=1975 CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=NOUN Lemma=1975 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1975.0]
+[Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Estado-1)
+case(Guerrero-3, de-2)
+flat(Estado-1, Guerrero-3)
+case(16-5, a-4)
+nmod(Estado-1, 16-5)
+case(marzo-7, de-6)
+compound(16-5, marzo-7)
+case(1975-10, de-8)
+punct(1975-10, --9)
+nmod(Estado-1, 1975-10)
+punct(Estado-1, .-11)
+
+Extracted the following NER entity mentions:
+Guerrero	PERSON	PERSON:0.5362455076329794
+16 de marzo	DATE	DATE:-1.0
+1975	NUMBER	NUMBER:-1.0
+
+Sentence #6 (4 tokens):
+Exp.100-10-1-75 H-291 L-50.
+
+Tokens:
+[Text=Exp.100-10-1-75 CharacterOffsetBegin=349 CharacterOffsetEnd=364 PartOfSpeech=ADP Lemma=exp.100-10-1-75 NamedEntityTag=O]
+[Text=H-291 CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=PROPN Lemma=h-291 NamedEntityTag=O]
+[Text=L-50 CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=PROPN Lemma=l-50 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-291-2)
+case(H-291-2, Exp.100-10-1-75-1)
+flat(H-291-2, L-50-3)
+punct(H-291-2, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (4 tokens):
+19-Mar-75.
+
+Tokens:
+[Text=19 CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=NUM Lemma=19 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Mar-75 CharacterOffsetBegin=380 CharacterOffsetEnd=386 PartOfSpeech=PROPN Lemma=mar-75 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Mar-75-3)
+nummod(Mar-75-3, 19-1)
+punct(19-1, --2)
+punct(Mar-75-3, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #8 (5 tokens):
+- Acapulco, Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=389 CharacterOffsetEnd=397 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=402 CharacterOffsetEnd=403 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Acapulco-2)
+punct(Acapulco-2, --1)
+punct(Acapulco-2, ,-3)
+flat(Acapulco-2, Gro-4)
+punct(Acapulco-2, .-5)
+
+Extracted the following NER entity mentions:
+Acapulco	CITY	LOCATION:0.6118862243420438
+Gro	PERSON	PERSON:0.5776510874696031
+
+Sentence #9 (15 tokens):
+Frente a la Escuela - - Secuandaria y Preparatoria “HOMMART” (hombres -
+
+Tokens:
+[Text=Frente CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=NOUN Lemma=frente NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Escuela CharacterOffsetBegin=416 CharacterOffsetEnd=423 PartOfSpeech=PROPN Lemma=escuela NamedEntityTag=ORGANIZATION]
+[Text=- CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Secuandaria CharacterOffsetBegin=428 CharacterOffsetEnd=439 PartOfSpeech=ADJ Lemma=secuandaria NamedEntityTag=ORGANIZATION]
+[Text=y CharacterOffsetBegin=440 CharacterOffsetEnd=441 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=Preparatoria CharacterOffsetBegin=442 CharacterOffsetEnd=454 PartOfSpeech=ADJ Lemma=preparatoria NamedEntityTag=ORGANIZATION]
+[Text=" CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=HOMMART CharacterOffsetBegin=456 CharacterOffsetEnd=463 PartOfSpeech=PROPN Lemma=hommart NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=hombres CharacterOffsetBegin=466 CharacterOffsetEnd=473 PartOfSpeech=NOUN Lemma=hombres NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Escuela-4)
+case(Escuela-4, Frente-1)
+fixed(Frente-1, a-2)
+det(Escuela-4, la-3)
+punct(Secuandaria-7, --5)
+punct(Secuandaria-7, --6)
+amod(HOMMART-11, Secuandaria-7)
+cc(Preparatoria-9, y-8)
+conj:y(Secuandaria-7, Preparatoria-9)
+amod(HOMMART-11, Preparatoria-9)
+punct(Secuandaria-7, "-10)
+flat(Escuela-4, HOMMART-11)
+punct(Escuela-4, "-12)
+punct(hombres-14, (-13)
+appos(Escuela-4, hombres-14)
+punct(hombres-14, --15)
+
+Extracted the following NER entity mentions:
+Escuela	ORGANIZATION	ORGANIZATION:0.848642372639408
+Secuandaria	ORGANIZATION	ORGANIZATION:0.5486193012991128
+Preparatoria	ORGANIZATION	ORGANIZATION:0.574834732656615
+HOMMART	MISC	MISC:0.8170200563902008

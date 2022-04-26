@@ -1,0 +1,276 @@
+Document: ID=file_344.txt (3 sentences, 108 tokens)
+
+Sentence #1 (7 tokens):
+012-028-002
+23 Feb.82
+Chilpancingo,Gro.
+
+Tokens:
+[Text=012-028-002 CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NUM Lemma=012-028-002 NamedEntityTag=O]
+[Text=23 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NUM Lemma=23 NamedEntityTag=NUMBER NormalizedNamedEntityTag=23.0]
+[Text=Feb.82 CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=PROPN Lemma=feb.82 NamedEntityTag=O]
+[Text=Chilpancingo CharacterOffsetBegin=22 CharacterOffsetEnd=34 PartOfSpeech=PROPN Lemma=chilpancingo NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Feb.82-3)
+nummod(Feb.82-3, 012-028-002-1)
+nummod(012-028-002-1, 23-2)
+flat(Feb.82-3, Chilpancingo-4)
+punct(Gro-6, ,-5)
+flat(Feb.82-3, Gro-6)
+punct(Feb.82-3, .-7)
+
+Extracted the following NER entity mentions:
+23	NUMBER	NUMBER:-1.0
+Chilpancingo	CITY	LOCATION:0.9707482714998706
+Gro	PERSON	PERSON:0.43522454933389604
+
+Sentence #2 (9 tokens):
+-En la explanada del edificio
+docente UAG.
+
+Tokens:
+[Text=- CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=En CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=explanada CharacterOffsetBegin=46 CharacterOffsetEnd=55 PartOfSpeech=NOUN Lemma=explanada NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=edificio CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=NOUN Lemma=edificio NamedEntityTag=O]
+[Text=docente CharacterOffsetBegin=69 CharacterOffsetEnd=76 PartOfSpeech=ADJ Lemma=docente NamedEntityTag=O]
+[Text=UAG CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=PROPN Lemma=uag NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, explanada-4)
+punct(explanada-4, --1)
+case(explanada-4, En-2)
+det(explanada-4, la-3)
+case(edificio-6, del-5)
+nmod(explanada-4, edificio-6)
+amod(edificio-6, docente-7)
+appos(edificio-6, UAG-8)
+punct(explanada-4, .-9)
+
+Extracted the following NER entity mentions:
+UAG	ORGANIZATION	ORGANIZATION:0.8954182002255038
+
+Sentence #3 (92 tokens):
+se llevó a cabo una asamblea gral.
+de miembros de los dos Sindicatos, presidida por
+EFRAIN BERMUDEZ RIVERA ,USCUAG y CELESTINO FIERRO
+HIPOLITO, STAISUAG, ante 80 vatedraticos y adminis0
+trativos ; informando que las clausulas que estan
+pendientes de firmar, son sobre la creación de 3
+tiendas sindicales, la construcción del auditorio
+sindical en C.U. ;financiamiento de casas habitac
+ción para trabajadores y la reinstalación de despe
+didos; el prof. ALVARO VENEGAS SANCHEZ, del CCLMG,
+señaló que el consejo se solidariza plenamente
+
+Tokens:
+[Text=se CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=llevó CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=VERB Lemma=llevó NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=cabo CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NOUN Lemma=cabo NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=asamblea CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=NOUN Lemma=asamblea NamedEntityTag=O]
+[Text=gral. CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=PROPN Lemma=gral. NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=miembros CharacterOffsetBegin=120 CharacterOffsetEnd=128 PartOfSpeech=NOUN Lemma=miembros NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=dos CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=NUM Lemma=dos NamedEntityTag=NUMBER]
+[Text=Sindicatos CharacterOffsetBegin=140 CharacterOffsetEnd=150 PartOfSpeech=PROPN Lemma=sindicatos NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=presidida CharacterOffsetBegin=152 CharacterOffsetEnd=161 PartOfSpeech=ADJ Lemma=presidida NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=EFRAIN CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=PROPN Lemma=efrain NamedEntityTag=PERSON]
+[Text=BERMUDEZ CharacterOffsetBegin=173 CharacterOffsetEnd=181 PartOfSpeech=PROPN Lemma=bermudez NamedEntityTag=PERSON]
+[Text=RIVERA CharacterOffsetBegin=182 CharacterOffsetEnd=188 PartOfSpeech=PROPN Lemma=rivera NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=USCUAG CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=PROPN Lemma=uscuag NamedEntityTag=ORGANIZATION]
+[Text=y CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=CELESTINO CharacterOffsetBegin=199 CharacterOffsetEnd=208 PartOfSpeech=PROPN Lemma=celestino NamedEntityTag=PERSON]
+[Text=FIERRO CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=PROPN Lemma=fierro NamedEntityTag=PERSON]
+[Text=HIPOLITO CharacterOffsetBegin=216 CharacterOffsetEnd=224 PartOfSpeech=PROPN Lemma=hipolito NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=STAISUAG CharacterOffsetBegin=226 CharacterOffsetEnd=234 PartOfSpeech=PROPN Lemma=staisuag NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ante CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=ADP Lemma=ante NamedEntityTag=O]
+[Text=80 CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=NUM Lemma=80 NamedEntityTag=NUMBER NormalizedNamedEntityTag=80.0]
+[Text=vatedraticos CharacterOffsetBegin=244 CharacterOffsetEnd=256 PartOfSpeech=ADJ Lemma=vatedraticos NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=adminis0 CharacterOffsetBegin=259 CharacterOffsetEnd=267 PartOfSpeech=NUM Lemma=adminis0 NamedEntityTag=O]
+[Text=trativos CharacterOffsetBegin=268 CharacterOffsetEnd=276 PartOfSpeech=NOUN Lemma=trativos NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=informando CharacterOffsetBegin=279 CharacterOffsetEnd=289 PartOfSpeech=VERB Lemma=informando NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=clausulas CharacterOffsetBegin=298 CharacterOffsetEnd=307 PartOfSpeech=NOUN Lemma=clausulas NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=estan CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=VERB Lemma=estan NamedEntityTag=O]
+[Text=pendientes CharacterOffsetBegin=318 CharacterOffsetEnd=328 PartOfSpeech=ADJ Lemma=pendientes NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=firmar CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=VERB Lemma=firmar NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=AUX Lemma=son NamedEntityTag=O]
+[Text=sobre CharacterOffsetBegin=344 CharacterOffsetEnd=349 PartOfSpeech=ADP Lemma=sobre NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=creación CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=NOUN Lemma=creación NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=3 CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=NUM Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=tiendas CharacterOffsetBegin=367 CharacterOffsetEnd=374 PartOfSpeech=NOUN Lemma=tiendas NamedEntityTag=O]
+[Text=sindicales CharacterOffsetBegin=375 CharacterOffsetEnd=385 PartOfSpeech=ADJ Lemma=sindicales NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=construcción CharacterOffsetBegin=390 CharacterOffsetEnd=402 PartOfSpeech=NOUN Lemma=construcción NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=auditorio CharacterOffsetBegin=407 CharacterOffsetEnd=416 PartOfSpeech=NOUN Lemma=auditorio NamedEntityTag=O]
+[Text=sindical CharacterOffsetBegin=417 CharacterOffsetEnd=425 PartOfSpeech=ADJ Lemma=sindical NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=C.U. CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=PROPN Lemma=c.u. NamedEntityTag=MISC]
+[Text=; CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=financiamiento CharacterOffsetBegin=435 CharacterOffsetEnd=449 PartOfSpeech=NOUN Lemma=financiamiento NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=casas CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NOUN Lemma=casas NamedEntityTag=O]
+[Text=habitac CharacterOffsetBegin=459 CharacterOffsetEnd=466 PartOfSpeech=VERB Lemma=habitac NamedEntityTag=O]
+[Text=ción CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=NOUN Lemma=ción NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=trabajadores CharacterOffsetBegin=477 CharacterOffsetEnd=489 PartOfSpeech=NOUN Lemma=trabajadores NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=492 CharacterOffsetEnd=494 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=reinstalación CharacterOffsetBegin=495 CharacterOffsetEnd=508 PartOfSpeech=NOUN Lemma=reinstalación NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=despe CharacterOffsetBegin=512 CharacterOffsetEnd=517 PartOfSpeech=NOUN Lemma=despe NamedEntityTag=O]
+[Text=didos CharacterOffsetBegin=518 CharacterOffsetEnd=523 PartOfSpeech=ADJ Lemma=didos NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=prof. CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=PROPN Lemma=prof. NamedEntityTag=O]
+[Text=ALVARO CharacterOffsetBegin=534 CharacterOffsetEnd=540 PartOfSpeech=PROPN Lemma=alvaro NamedEntityTag=PERSON]
+[Text=VENEGAS CharacterOffsetBegin=541 CharacterOffsetEnd=548 PartOfSpeech=PROPN Lemma=venegas NamedEntityTag=PERSON]
+[Text=SANCHEZ CharacterOffsetBegin=549 CharacterOffsetEnd=556 PartOfSpeech=PROPN Lemma=sanchez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=CCLMG CharacterOffsetBegin=562 CharacterOffsetEnd=567 PartOfSpeech=PROPN Lemma=cclmg NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=567 CharacterOffsetEnd=568 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=señaló CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=VERB Lemma=señaló NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=576 CharacterOffsetEnd=579 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=consejo CharacterOffsetBegin=583 CharacterOffsetEnd=590 PartOfSpeech=NOUN Lemma=consejo NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=591 CharacterOffsetEnd=593 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=solidariza CharacterOffsetBegin=594 CharacterOffsetEnd=604 PartOfSpeech=VERB Lemma=solidariza NamedEntityTag=O]
+[Text=plenamente CharacterOffsetBegin=605 CharacterOffsetEnd=615 PartOfSpeech=ADV Lemma=plenamente NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, llevó-2)
+obj(llevó-2, se-1)
+case(cabo-4, a-3)
+compound(llevó-2, cabo-4)
+det(asamblea-6, una-5)
+nsubj(llevó-2, asamblea-6)
+appos(asamblea-6, gral.-7)
+case(miembros-9, de-8)
+nmod(gral.-7, miembros-9)
+case(Sindicatos-13, de-10)
+det(Sindicatos-13, los-11)
+nummod(los-11, dos-12)
+nmod(miembros-9, Sindicatos-13)
+punct(presidida-15, ,-14)
+amod(asamblea-6, presidida-15)
+case(EFRAIN-17, por-16)
+obj(presidida-15, EFRAIN-17)
+flat(EFRAIN-17, BERMUDEZ-18)
+flat(EFRAIN-17, RIVERA-19)
+punct(USCUAG-21, ,-20)
+conj(EFRAIN-17, USCUAG-21)
+cc(CELESTINO-23, y-22)
+obj(presidida-15, CELESTINO-23)
+conj:y(EFRAIN-17, CELESTINO-23)
+flat(CELESTINO-23, FIERRO-24)
+flat(CELESTINO-23, HIPOLITO-25)
+punct(STAISUAG-27, ,-26)
+obj(presidida-15, STAISUAG-27)
+conj:y(EFRAIN-17, STAISUAG-27)
+punct(presidida-15, ,-28)
+case(80-30, ante-29)
+nummod(trativos-34, 80-30)
+amod(80-30, vatedraticos-31)
+cc(adminis0-33, y-32)
+conj:y(80-30, adminis0-33)
+nummod(trativos-34, adminis0-33)
+appos(asamblea-6, trativos-34)
+punct(llevó-2, ;-35)
+advcl(llevó-2, informando-36)
+mark(creación-49, que-37)
+det(clausulas-39, las-38)
+nsubj(creación-49, clausulas-39)
+nsubj(estan-41, que-40)
+acl(clausulas-39, estan-41)
+obj(estan-41, pendientes-42)
+mark(firmar-44, de-43)
+acl(pendientes-42, firmar-44)
+punct(clausulas-39, ,-45)
+cop(creación-49, son-46)
+case(creación-49, sobre-47)
+det(creación-49, la-48)
+ccomp(informando-36, creación-49)
+case(tiendas-52, de-50)
+nummod(tiendas-52, 3-51)
+nmod(creación-49, tiendas-52)
+amod(tiendas-52, sindicales-53)
+punct(creación-49, ,-54)
+det(construcción-56, la-55)
+appos(creación-49, construcción-56)
+case(auditorio-58, del-57)
+nmod(construcción-56, auditorio-58)
+amod(auditorio-58, sindical-59)
+case(C.U.-61, en-60)
+nmod(auditorio-58, C.U.-61)
+punct(creación-49, ;-62)
+nsubj(habitac-66, financiamiento-63)
+case(casas-65, de-64)
+nmod(financiamiento-63, casas-65)
+advcl(creación-49, habitac-66)
+obj(habitac-66, ción-67)
+case(trabajadores-69, para-68)
+nmod(ción-67, trabajadores-69)
+cc(reinstalación-72, y-70)
+det(reinstalación-72, la-71)
+obj(habitac-66, reinstalación-72)
+conj:y(ción-67, reinstalación-72)
+case(despe-74, de-73)
+nmod(reinstalación-72, despe-74)
+amod(despe-74, didos-75)
+punct(llevó-2, ;-76)
+det(prof.-78, el-77)
+nsubj(señaló-86, prof.-78)
+flat(prof.-78, ALVARO-79)
+flat(prof.-78, VENEGAS-80)
+flat(prof.-78, SANCHEZ-81)
+punct(CCLMG-84, ,-82)
+case(CCLMG-84, del-83)
+nmod(prof.-78, CCLMG-84)
+punct(CCLMG-84, ,-85)
+advcl(llevó-2, señaló-86)
+mark(solidariza-91, que-87)
+det(consejo-89, el-88)
+nsubj(solidariza-91, consejo-89)
+obj(solidariza-91, se-90)
+ccomp(señaló-86, solidariza-91)
+advmod(solidariza-91, plenamente-92)
+
+Extracted the following NER entity mentions:
+dos	NUMBER	-
+EFRAIN BERMUDEZ RIVERA	PERSON	PERSON:0.9823825416825565
+USCUAG	ORGANIZATION	ORGANIZATION:0.8862507239732421
+CELESTINO FIERRO
+HIPOLITO	PERSON	PERSON:0.9065932647696913
+STAISUAG	ORGANIZATION	ORGANIZATION:0.7297262332736876
+80	NUMBER	NUMBER:-1.0
+3	NUMBER	NUMBER:-1.0
+C.U.	MISC	MISC:0.637106201563599
+ALVARO VENEGAS SANCHEZ	PERSON	PERSON:0.9322601122884149
+CCLMG	ORGANIZATION	ORGANIZATION:0.9277566107404651

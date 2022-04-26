@@ -1,0 +1,367 @@
+Document: ID=file_5.txt (2 sentences, 156 tokens)
+
+Sentence #1 (24 tokens):
+DO ROGEL ORTIZ y un hermano de éste, armados -
+con dos pistolas escuadras calibre .45 y una -
+metralleta Usi cal.
+
+Tokens:
+[Text=DO CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NOUN Lemma=do NamedEntityTag=O]
+[Text=ROGEL CharacterOffsetBegin=3 CharacterOffsetEnd=8 PartOfSpeech=ADJ Lemma=rogel NamedEntityTag=PERSON]
+[Text=ORTIZ CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=ADJ Lemma=ortiz NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=hermano CharacterOffsetBegin=20 CharacterOffsetEnd=27 PartOfSpeech=NOUN Lemma=hermano NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=éste CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=PRON Lemma=éste NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=armados CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=ADJ Lemma=armados NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=dos CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=NUM Lemma=dos NamedEntityTag=NUMBER]
+[Text=pistolas CharacterOffsetBegin=55 CharacterOffsetEnd=63 PartOfSpeech=NOUN Lemma=pistolas NamedEntityTag=O]
+[Text=escuadras CharacterOffsetBegin=64 CharacterOffsetEnd=73 PartOfSpeech=ADJ Lemma=escuadras NamedEntityTag=O]
+[Text=calibre CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NOUN Lemma=calibre NamedEntityTag=O]
+[Text=.45 CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=NUM Lemma=.45 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.45]
+[Text=y CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=metralleta CharacterOffsetBegin=94 CharacterOffsetEnd=104 PartOfSpeech=NOUN Lemma=metralleta NamedEntityTag=O]
+[Text=Usi CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=PROPN Lemma=usi NamedEntityTag=O]
+[Text=cal CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=NOUN Lemma=cal NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, DO-1)
+amod(DO-1, ROGEL-2)
+amod(DO-1, ORTIZ-3)
+cc(hermano-6, y-4)
+det(hermano-6, un-5)
+conj:y(DO-1, hermano-6)
+case(éste-8, de-7)
+nmod(hermano-6, éste-8)
+punct(armados-10, ,-9)
+amod(éste-8, armados-10)
+punct(armados-10, --11)
+case(pistolas-14, con-12)
+nummod(pistolas-14, dos-13)
+nmod(DO-1, pistolas-14)
+amod(pistolas-14, escuadras-15)
+appos(pistolas-14, calibre-16)
+appos(calibre-16, .45-17)
+cc(metralleta-21, y-18)
+det(metralleta-21, una-19)
+punct(metralleta-21, --20)
+appos(pistolas-14, metralleta-21)
+conj:y(calibre-16, metralleta-21)
+appos(metralleta-21, Usi-22)
+flat(Usi-22, cal-23)
+punct(DO-1, .-24)
+
+Extracted the following NER entity mentions:
+ROGEL ORTIZ	PERSON	PERSON:0.9165928472770793
+dos	NUMBER	-
+.45	NUMBER	NUMBER:-1.0
+
+Sentence #2 (132 tokens):
+9 mm., penetraron y luego-
+de preguntar por el secuestrado, lo sacaron --
+de su domicilio amenazando al resto de las per
+sonas que se encontraban en el lugar y a bordo
+de un automóvil Volkswagen de clor verde lo --
+trasladaron a una casa que previamente habían-
+rentado en Iguala, exprofeso para mantener en-
+ese sitio al secuestrado durante el tiempo que
+requirieran las negociaciones para obtener los
+$5'000,000.00 que exigían por su libertad, ca-
+sa en la que se encontraba LEOS Y ROMO y JOSE-
+JIMENEZ, quien también se encontraba dado de -
+alta en la Policía Judicial del Estado Gue-
+rrero, permaneciendo este último junto con los
+hermanos ROGEL ORTIZ custodiando al secuestra-
+
+Tokens:
+[Text=9 CharacterOffsetBegin=114 CharacterOffsetEnd=115 PartOfSpeech=NUM Lemma=9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0]
+[Text=mm. CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=NUM Lemma=mm. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=penetraron CharacterOffsetBegin=121 CharacterOffsetEnd=131 PartOfSpeech=VERB Lemma=penetraron NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=luego CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=ADV Lemma=luego NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=preguntar CharacterOffsetBegin=144 CharacterOffsetEnd=153 PartOfSpeech=VERB Lemma=preguntar NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=secuestrado CharacterOffsetBegin=161 CharacterOffsetEnd=172 PartOfSpeech=ADJ Lemma=secuestrado NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=DET Lemma=lo NamedEntityTag=O]
+[Text=sacaron CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=VERB Lemma=sacaron NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=domicilio CharacterOffsetBegin=194 CharacterOffsetEnd=203 PartOfSpeech=NOUN Lemma=domicilio NamedEntityTag=O]
+[Text=amenazando CharacterOffsetBegin=204 CharacterOffsetEnd=214 PartOfSpeech=VERB Lemma=amenazando NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=resto CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NOUN Lemma=resto NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=per CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=ADP Lemma=per NamedEntityTag=O]
+[Text=sonas CharacterOffsetBegin=235 CharacterOffsetEnd=240 PartOfSpeech=NOUN Lemma=sonas NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encontraban CharacterOffsetBegin=248 CharacterOffsetEnd=259 PartOfSpeech=VERB Lemma=encontraban NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=lugar CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=NOUN Lemma=lugar NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=bordo CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=NOUN Lemma=bordo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=automóvil CharacterOffsetBegin=288 CharacterOffsetEnd=297 PartOfSpeech=NOUN Lemma=automóvil NamedEntityTag=TITLE]
+[Text=Volkswagen CharacterOffsetBegin=298 CharacterOffsetEnd=308 PartOfSpeech=PROPN Lemma=volkswagen NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=clor CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=NOUN Lemma=clor NamedEntityTag=O]
+[Text=verde CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=ADJ Lemma=verde NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=PRON Lemma=lo NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=VERB Lemma=--_VERB NamedEntityTag=O]
+[Text=trasladaron CharacterOffsetBegin=329 CharacterOffsetEnd=340 PartOfSpeech=VERB Lemma=trasladaron NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=casa CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=NOUN Lemma=casa NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=previamente CharacterOffsetBegin=356 CharacterOffsetEnd=367 PartOfSpeech=ADV Lemma=previamente NamedEntityTag=O]
+[Text=habían CharacterOffsetBegin=368 CharacterOffsetEnd=374 PartOfSpeech=AUX Lemma=habían NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=rentado CharacterOffsetBegin=376 CharacterOffsetEnd=383 PartOfSpeech=ADJ Lemma=rentado NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Iguala CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=PROPN Lemma=iguala NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=exprofeso CharacterOffsetBegin=395 CharacterOffsetEnd=404 PartOfSpeech=ADV Lemma=exprofeso NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=mantener CharacterOffsetBegin=410 CharacterOffsetEnd=418 PartOfSpeech=VERB Lemma=mantener NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ese CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=DET Lemma=ese NamedEntityTag=O]
+[Text=sitio CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=NOUN Lemma=sitio NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=secuestrado CharacterOffsetBegin=436 CharacterOffsetEnd=447 PartOfSpeech=ADJ Lemma=secuestrado NamedEntityTag=O]
+[Text=durante CharacterOffsetBegin=448 CharacterOffsetEnd=455 PartOfSpeech=ADP Lemma=durante NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=tiempo CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=NOUN Lemma=tiempo NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=requirieran CharacterOffsetBegin=470 CharacterOffsetEnd=481 PartOfSpeech=VERB Lemma=requirieran NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=negociaciones CharacterOffsetBegin=486 CharacterOffsetEnd=499 PartOfSpeech=NOUN Lemma=negociaciones NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=obtener CharacterOffsetBegin=505 CharacterOffsetEnd=512 PartOfSpeech=VERB Lemma=obtener NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.0]
+[Text=5 CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=NUM Lemma=5 NamedEntityTag=MONEY NormalizedNamedEntityTag=$5.0]
+[Text=' CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=SYM Lemma=' NamedEntityTag=O]
+[Text=000,000.00 CharacterOffsetBegin=520 CharacterOffsetEnd=530 PartOfSpeech=NOUN Lemma=000,000.00 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.0]
+[Text=que CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=exigían CharacterOffsetBegin=535 CharacterOffsetEnd=542 PartOfSpeech=VERB Lemma=exigían NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=547 CharacterOffsetEnd=549 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=libertad CharacterOffsetBegin=550 CharacterOffsetEnd=558 PartOfSpeech=NOUN Lemma=libertad NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ca CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=NOUN Lemma=ca NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=sa CharacterOffsetBegin=564 CharacterOffsetEnd=566 PartOfSpeech=NOUN Lemma=sa NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encontraba CharacterOffsetBegin=580 CharacterOffsetEnd=590 PartOfSpeech=VERB Lemma=encontraba NamedEntityTag=O]
+[Text=LEOS CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=PROPN Lemma=leos NamedEntityTag=O]
+[Text=Y CharacterOffsetBegin=596 CharacterOffsetEnd=597 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=ROMO CharacterOffsetBegin=598 CharacterOffsetEnd=602 PartOfSpeech=PROPN Lemma=romo NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=JOSE CharacterOffsetBegin=605 CharacterOffsetEnd=609 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=PERSON]
+[Text=- CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=PERSON]
+[Text=JIMENEZ CharacterOffsetBegin=611 CharacterOffsetEnd=618 PartOfSpeech=PROPN Lemma=jimenez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=quien CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=PRON Lemma=quien NamedEntityTag=O]
+[Text=también CharacterOffsetBegin=626 CharacterOffsetEnd=633 PartOfSpeech=ADV Lemma=también NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encontraba CharacterOffsetBegin=637 CharacterOffsetEnd=647 PartOfSpeech=VERB Lemma=encontraba NamedEntityTag=O]
+[Text=dado CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=NOUN Lemma=dado NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=653 CharacterOffsetEnd=655 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=alta CharacterOffsetBegin=658 CharacterOffsetEnd=662 PartOfSpeech=ADJ Lemma=alta NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=663 CharacterOffsetEnd=665 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=666 CharacterOffsetEnd=668 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Policía CharacterOffsetBegin=669 CharacterOffsetEnd=676 PartOfSpeech=PROPN Lemma=policía NamedEntityTag=ORGANIZATION]
+[Text=Judicial CharacterOffsetBegin=677 CharacterOffsetEnd=685 PartOfSpeech=PROPN Lemma=judicial NamedEntityTag=ORGANIZATION]
+[Text=del CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=ADP Lemma=del NamedEntityTag=ORGANIZATION]
+[Text=Estado CharacterOffsetBegin=690 CharacterOffsetEnd=696 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=ORGANIZATION]
+[Text=Gue CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=PROPN Lemma=gue NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=rrero CharacterOffsetBegin=702 CharacterOffsetEnd=707 PartOfSpeech=ADJ Lemma=rrero NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=707 CharacterOffsetEnd=708 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=permaneciendo CharacterOffsetBegin=709 CharacterOffsetEnd=722 PartOfSpeech=VERB Lemma=permaneciendo NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=723 CharacterOffsetEnd=727 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=último CharacterOffsetBegin=728 CharacterOffsetEnd=734 PartOfSpeech=ADJ Lemma=último NamedEntityTag=TITLE]
+[Text=junto CharacterOffsetBegin=735 CharacterOffsetEnd=740 PartOfSpeech=ADJ Lemma=junto NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=hermanos CharacterOffsetBegin=749 CharacterOffsetEnd=757 PartOfSpeech=NOUN Lemma=hermanos NamedEntityTag=O]
+[Text=ROGEL CharacterOffsetBegin=758 CharacterOffsetEnd=763 PartOfSpeech=PROPN Lemma=rogel NamedEntityTag=PERSON]
+[Text=ORTIZ CharacterOffsetBegin=764 CharacterOffsetEnd=769 PartOfSpeech=PROPN Lemma=ortiz NamedEntityTag=PERSON]
+[Text=custodiando CharacterOffsetBegin=770 CharacterOffsetEnd=781 PartOfSpeech=VERB Lemma=custodiando NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=782 CharacterOffsetEnd=784 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=secuestra CharacterOffsetBegin=785 CharacterOffsetEnd=794 PartOfSpeech=VERB Lemma=secuestra NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=794 CharacterOffsetEnd=795 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, mm.-2)
+nummod(mm.-2, 9-1)
+punct(penetraron-4, ,-3)
+advcl(mm.-2, penetraron-4)
+cc(sacaron-15, y-5)
+advmod(sacaron-15, luego-6)
+punct(preguntar-9, --7)
+mark(preguntar-9, de-8)
+advcl(sacaron-15, preguntar-9)
+case(secuestrado-12, por-10)
+det(secuestrado-12, el-11)
+obj(preguntar-9, secuestrado-12)
+punct(preguntar-9, ,-13)
+obj(sacaron-15, lo-14)
+advcl(mm.-2, sacaron-15)
+conj:y(penetraron-4, sacaron-15)
+obj(sacaron-15, ---16)
+case(domicilio-19, de-17)
+det(domicilio-19, su-18)
+nmod(---16, domicilio-19)
+advcl(sacaron-15, amenazando-20)
+case(resto-22, al-21)
+obj(amenazando-20, resto-22)
+case(sonas-26, de-23)
+det(sonas-26, las-24)
+case(sonas-26, per-25)
+nmod(resto-22, sonas-26)
+nsubj(encontraban-29, que-27)
+obj(encontraban-29, se-28)
+acl(sonas-26, encontraban-29)
+case(lugar-32, en-30)
+det(lugar-32, el-31)
+obl(encontraban-29, lugar-32)
+cc(automóvil-38, y-33)
+case(automóvil-38, a-34)
+fixed(a-34, bordo-35)
+fixed(a-34, de-36)
+det(automóvil-38, un-37)
+acl(sonas-26, automóvil-38)
+conj:y(encontraban-29, automóvil-38)
+appos(automóvil-38, Volkswagen-39)
+case(clor-41, de-40)
+nmod(automóvil-38, clor-41)
+amod(clor-41, verde-42)
+obj(---44, lo-43)
+advcl(trasladaron-45, ---44)
+acl(automóvil-38, trasladaron-45)
+case(casa-48, a-46)
+det(casa-48, una-47)
+obl(trasladaron-45, casa-48)
+nsubj(rentado-53, que-49)
+advmod(rentado-53, previamente-50)
+aux(rentado-53, habían-51)
+punct(rentado-53, --52)
+nsubj(custodiando-129, rentado-53)
+case(Iguala-55, en-54)
+nmod(rentado-53, Iguala-55)
+punct(exprofeso-57, ,-56)
+advmod(custodiando-129, exprofeso-57)
+mark(mantener-59, para-58)
+advcl(custodiando-129, mantener-59)
+case(sitio-63, en-60)
+punct(sitio-63, --61)
+det(sitio-63, ese-62)
+obl(mantener-59, sitio-63)
+case(secuestrado-65, al-64)
+amod(sitio-63, secuestrado-65)
+case(tiempo-68, durante-66)
+det(tiempo-68, el-67)
+obl(secuestrado-65, tiempo-68)
+mark(requirieran-70, que-69)
+acl(sitio-63, requirieran-70)
+det(negociaciones-72, las-71)
+obj(requirieran-70, negociaciones-72)
+mark(obtener-74, para-73)
+acl(negociaciones-72, obtener-74)
+det($-76, los-75)
+obj(obtener-74, $-76)
+nummod($-76, 5-77)
+nmod(000,000.00-79, '-78)
+appos($-76, 000,000.00-79)
+nsubj(exigían-81, que-80)
+acl(000,000.00-79, exigían-81)
+case(libertad-84, por-82)
+det(libertad-84, su-83)
+obj(exigían-81, libertad-84)
+punct(ca-86, ,-85)
+conj(libertad-84, ca-86)
+punct(sa-88, --87)
+appos(libertad-84, sa-88)
+case(que-91, en-89)
+det(que-91, la-90)
+obl(encontraba-93, que-91)
+obj(encontraba-93, se-92)
+acl(sa-88, encontraba-93)
+nsubj(encontraba-93, LEOS-94)
+cc(ROMO-96, Y-95)
+nsubj(encontraba-93, ROMO-96)
+conj:y(LEOS-94, ROMO-96)
+cc(JOSE-98, y-97)
+nsubj(encontraba-93, JOSE-98)
+conj:y(LEOS-94, JOSE-98)
+punct(sa-88, --99)
+appos(sa-88, JIMENEZ-100)
+punct(encontraba-105, ,-101)
+nsubj(encontraba-105, quien-102)
+advmod(encontraba-105, también-103)
+obj(encontraba-105, se-104)
+acl(libertad-84, encontraba-105)
+obj(encontraba-105, dado-106)
+case(alta-109, de-107)
+punct(alta-109, --108)
+amod(dado-106, alta-109)
+case(Policía-112, en-110)
+det(Policía-112, la-111)
+nmod(alta-109, Policía-112)
+flat(Policía-112, Judicial-113)
+case(Estado-115, del-114)
+flat(Policía-112, Estado-115)
+flat(Policía-112, Gue-116)
+punct(alta-109, --117)
+amod(alta-109, rrero-118)
+punct(encontraba-105, ,-119)
+advcl(requirieran-70, permaneciendo-120)
+det(último-122, este-121)
+obj(permaneciendo-120, último-122)
+case(hermanos-126, junto-123)
+fixed(junto-123, con-124)
+det(hermanos-126, los-125)
+obl(permaneciendo-120, hermanos-126)
+appos(hermanos-126, ROGEL-127)
+flat(ROGEL-127, ORTIZ-128)
+acl(casa-48, custodiando-129)
+mark(secuestra-131, al-130)
+advcl(custodiando-129, secuestra-131)
+punct(mm.-2, --132)
+
+Extracted the following NER entity mentions:
+9	NUMBER	NUMBER:-1.0
+automóvil	TITLE	-
+Volkswagen	ORGANIZATION	ORGANIZATION:0.4626457839119293
+Iguala	CITY	LOCATION:0.9757627729682994
+$5	MONEY	MONEY:-1.0
+000,000.00	NUMBER	NUMBER:-1.0
+ROMO	PERSON	PERSON:0.8411211675030134
+JOSE-
+JIMENEZ	PERSON	PERSON:0.7030882383062252
+Policía Judicial del Estado	ORGANIZATION	ORGANIZATION:0.7808165145757997
+último	TITLE	-
+ROGEL ORTIZ	PERSON	PERSON:0.9260673655448871

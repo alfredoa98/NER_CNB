@@ -1,0 +1,348 @@
+Document: ID=file_448.txt (7 sentences, 127 tokens)
+
+Sentence #1 (18 tokens):
+to de Acapulco,- Confesó haber participado en el asalto
+al Banco de Comercio de Acapulco.
+
+Tokens:
+[Text=to CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=PROPN Lemma=to NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=6 CharacterOffsetEnd=14 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Confesó CharacterOffsetBegin=17 CharacterOffsetEnd=24 PartOfSpeech=VERB Lemma=confesó NamedEntityTag=O]
+[Text=haber CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=AUX Lemma=haber NamedEntityTag=O]
+[Text=participado CharacterOffsetBegin=31 CharacterOffsetEnd=42 PartOfSpeech=VERB Lemma=participado NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=asalto CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NOUN Lemma=asalto NamedEntityTag=CRIMINAL_CHARGE]
+[Text=al CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=Banco CharacterOffsetBegin=59 CharacterOffsetEnd=64 PartOfSpeech=PROPN Lemma=banco NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Comercio CharacterOffsetBegin=68 CharacterOffsetEnd=76 PartOfSpeech=PROPN Lemma=comercio NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Acapulco CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, to-1)
+case(Acapulco-3, de-2)
+flat(to-1, Acapulco-3)
+punct(Confesó-6, ,-4)
+punct(Confesó-6, --5)
+acl(to-1, Confesó-6)
+aux(participado-8, haber-7)
+ccomp(Confesó-6, participado-8)
+case(asalto-11, en-9)
+det(asalto-11, el-10)
+obl(participado-8, asalto-11)
+case(Banco-13, al-12)
+obj(participado-8, Banco-13)
+case(Comercio-15, de-14)
+flat(Banco-13, Comercio-15)
+case(Acapulco-17, de-16)
+flat(Banco-13, Acapulco-17)
+punct(to-1, .-18)
+
+Extracted the following NER entity mentions:
+Acapulco	CITY	LOCATION:0.8836807084215008
+asalto	CRIMINAL_CHARGE	-
+Banco de Comercio de Acapulco	ORGANIZATION	ORGANIZATION:0.9851081639990624
+
+Sentence #2 (40 tokens):
+- Mismo que entregó al secuestrado en la Calle Eje, de Pueblo Nuevo, a la Sali
+da del Puerto, a OCTAVIANO SANTIAGO DIONISIO, el cual -
+fue detenido frente al Cine Bahía del referido puerto.
+
+Tokens:
+[Text=- CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Mismo CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=VERB Lemma=mismo NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=entregó CharacterOffsetBegin=101 CharacterOffsetEnd=108 PartOfSpeech=VERB Lemma=entregó NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=secuestrado CharacterOffsetBegin=112 CharacterOffsetEnd=123 PartOfSpeech=ADJ Lemma=secuestrado NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Calle CharacterOffsetBegin=130 CharacterOffsetEnd=135 PartOfSpeech=PROPN Lemma=calle NamedEntityTag=LOCATION]
+[Text=Eje CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=PROPN Lemma=eje NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Pueblo CharacterOffsetBegin=144 CharacterOffsetEnd=150 PartOfSpeech=PROPN Lemma=pueblo NamedEntityTag=MISC]
+[Text=Nuevo CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=ADJ Lemma=nuevo NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Sali CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=PROPN Lemma=sali NamedEntityTag=PERSON]
+[Text=da CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=VERB Lemma=da NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Puerto CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=PROPN Lemma=puerto NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=OCTAVIANO CharacterOffsetBegin=185 CharacterOffsetEnd=194 PartOfSpeech=PROPN Lemma=octaviano NamedEntityTag=PERSON]
+[Text=SANTIAGO CharacterOffsetBegin=195 CharacterOffsetEnd=203 PartOfSpeech=PROPN Lemma=santiago NamedEntityTag=PERSON]
+[Text=DIONISIO CharacterOffsetBegin=204 CharacterOffsetEnd=212 PartOfSpeech=PROPN Lemma=dionisio NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=cual CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=PRON Lemma=cual NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=fue CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=AUX Lemma=fue NamedEntityTag=O]
+[Text=detenido CharacterOffsetBegin=228 CharacterOffsetEnd=236 PartOfSpeech=VERB Lemma=detenido NamedEntityTag=O]
+[Text=frente CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=NOUN Lemma=frente NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=Cine CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=PROPN Lemma=cine NamedEntityTag=MISC]
+[Text=Bahía CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=PROPN Lemma=bahía NamedEntityTag=MISC]
+[Text=del CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=referido CharacterOffsetBegin=262 CharacterOffsetEnd=270 PartOfSpeech=VERB Lemma=referido NamedEntityTag=O]
+[Text=puerto CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=NOUN Lemma=puerto NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Mismo-2)
+punct(Mismo-2, --1)
+mark(entregó-4, que-3)
+ccomp(Mismo-2, entregó-4)
+case(secuestrado-6, al-5)
+obj(entregó-4, secuestrado-6)
+case(Calle-9, en-7)
+det(Calle-9, la-8)
+obl(entregó-4, Calle-9)
+flat(Calle-9, Eje-10)
+punct(Pueblo-13, ,-11)
+case(Pueblo-13, de-12)
+nmod(Calle-9, Pueblo-13)
+flat(Pueblo-13, Nuevo-14)
+punct(Pueblo-13, ,-15)
+case(Sali-18, a-16)
+det(Sali-18, la-17)
+obj(da-19, Sali-18)
+ccomp(detenido-32, da-19)
+case(Puerto-21, del-20)
+obl(da-19, Puerto-21)
+punct(OCTAVIANO-24, ,-22)
+case(OCTAVIANO-24, a-23)
+nmod(Puerto-21, OCTAVIANO-24)
+flat(OCTAVIANO-24, SANTIAGO-25)
+flat(OCTAVIANO-24, DIONISIO-26)
+punct(OCTAVIANO-24, ,-27)
+det(cual-29, el-28)
+nsubj(da-19, cual-29)
+punct(da-19, --30)
+aux(detenido-32, fue-31)
+advcl(entregó-4, detenido-32)
+case(Cine-35, frente-33)
+fixed(frente-33, al-34)
+obl(detenido-32, Cine-35)
+flat(Cine-35, Bahía-36)
+mark(referido-38, del-37)
+acl(Cine-35, referido-38)
+obj(referido-38, puerto-39)
+punct(Mismo-2, .-40)
+
+Extracted the following NER entity mentions:
+Calle Eje	LOCATION	LOCATION:0.37257042681584635
+Pueblo Nuevo	MISC	MISC:0.5726401648308224
+Sali	PERSON	PERSON:0.8676097357332354
+Puerto	ORGANIZATION	ORGANIZATION:0.49852428104805335
+OCTAVIANO SANTIAGO DIONISIO	PERSON	PERSON:0.9752145341542172
+Cine Bahía	MISC	MISC:0.44029311067939675
+
+Sentence #3 (3 tokens):
+-
+EXP.80-16-72.
+
+Tokens:
+[Text=- CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=EXP.80-16-72 CharacterOffsetBegin=280 CharacterOffsetEnd=292 PartOfSpeech=NUM Lemma=exp.80-16-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, EXP.80-16-72-2)
+punct(EXP.80-16-72-2, --1)
+punct(EXP.80-16-72-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (5 tokens):
+H-130 L-1
+ENERO 22-72.
+
+Tokens:
+[Text=H-130 CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=NUM Lemma=h-130 NamedEntityTag=O]
+[Text=L-1 CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=NUM Lemma=l-1 NamedEntityTag=O]
+[Text=ENERO CharacterOffsetBegin=304 CharacterOffsetEnd=309 PartOfSpeech=PROPN Lemma=enero NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-01 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-01">ENERO</TIMEX3>]
+[Text=22-72 CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NUM Lemma=22-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, L-1-2)
+nummod(L-1-2, H-130-1)
+appos(L-1-2, ENERO-3)
+nummod(ENERO-3, 22-72-4)
+punct(L-1-2, .-5)
+
+Extracted the following NER entity mentions:
+ENERO	DATE	DATE:-1.0
+
+Sentence #5 (24 tokens):
+-El 21 actual el Juez 2/o.del Juzga-
+do penal de l/a.Instancia en Acapulco, Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=21 CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=NUM Lemma=21 NamedEntityTag=NUMBER NormalizedNamedEntityTag=21.0]
+[Text=actual CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Juez CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=PROPN Lemma=juez NamedEntityTag=TITLE]
+[Text=2 CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=NUM Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=/ CharacterOffsetBegin=339 CharacterOffsetEnd=340 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=O]
+[Text=o. CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=PROPN Lemma=o. NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Juzga CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=PROPN Lemma=juzga NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=ADP Lemma=do NamedEntityTag=O]
+[Text=penal CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=PROPN Lemma=penal NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=l CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=PROPN Lemma=l NamedEntityTag=O]
+[Text=/ CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=O]
+[Text=a. CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=PROPN Lemma=a. NamedEntityTag=O]
+[Text=Instancia CharacterOffsetBegin=369 CharacterOffsetEnd=378 PartOfSpeech=PROPN Lemma=instancia NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=382 CharacterOffsetEnd=390 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, o.-9)
+punct(o.-9, --1)
+det(21-3, El-2)
+nummod(o.-9, 21-3)
+amod(21-3, actual-4)
+det(Juez-6, el-5)
+appos(21-3, Juez-6)
+nummod(Juez-6, 2-7)
+punct(21-3, /-8)
+case(Juzga-11, del-10)
+flat(o.-9, Juzga-11)
+punct(o.-9, --12)
+case(penal-14, do-13)
+flat(o.-9, penal-14)
+case(l-16, de-15)
+flat(penal-14, l-16)
+punct(o.-9, /-17)
+flat(o.-9, a.-18)
+flat(a.-18, Instancia-19)
+case(Acapulco-21, en-20)
+flat(o.-9, Acapulco-21)
+punct(o.-9, ,-22)
+flat(o.-9, Gro-23)
+punct(o.-9, .-24)
+
+Extracted the following NER entity mentions:
+21	NUMBER	NUMBER:-1.0
+Juez	TITLE	MISC:0.9194691723674315
+2	NUMBER	NUMBER:-1.0
+Acapulco	CITY	LOCATION:0.9448205084936331
+
+Sentence #6 (36 tokens):
+, decre
+tó la formal prisión de este elemento, por los
+delitos de privación ilegal de la libertad en su
+modalidad de plagio o secuestro, asalto, robo co
+violencia, asociación delictuosa.
+
+Tokens:
+[Text=, CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=decre CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=VERB Lemma=decre NamedEntityTag=O]
+[Text=tó CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=PRON Lemma=tó NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=formal CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=ADJ Lemma=formal NamedEntityTag=O]
+[Text=prisión CharacterOffsetBegin=417 CharacterOffsetEnd=424 PartOfSpeech=NOUN Lemma=prisión NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=elemento CharacterOffsetBegin=433 CharacterOffsetEnd=441 PartOfSpeech=NOUN Lemma=elemento NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=441 CharacterOffsetEnd=442 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=delitos CharacterOffsetBegin=451 CharacterOffsetEnd=458 PartOfSpeech=NOUN Lemma=delitos NamedEntityTag=CRIMINAL_CHARGE]
+[Text=de CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=privación CharacterOffsetBegin=462 CharacterOffsetEnd=471 PartOfSpeech=NOUN Lemma=privación NamedEntityTag=O]
+[Text=ilegal CharacterOffsetBegin=472 CharacterOffsetEnd=478 PartOfSpeech=ADJ Lemma=ilegal NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=libertad CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=NOUN Lemma=libertad NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=494 CharacterOffsetEnd=496 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=modalidad CharacterOffsetBegin=500 CharacterOffsetEnd=509 PartOfSpeech=NOUN Lemma=modalidad NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=510 CharacterOffsetEnd=512 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=plagio CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NOUN Lemma=plagio NamedEntityTag=O]
+[Text=o CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=CCONJ Lemma=o NamedEntityTag=O]
+[Text=secuestro CharacterOffsetBegin=522 CharacterOffsetEnd=531 PartOfSpeech=NOUN Lemma=secuestro NamedEntityTag=CRIMINAL_CHARGE]
+[Text=, CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=asalto CharacterOffsetBegin=533 CharacterOffsetEnd=539 PartOfSpeech=NOUN Lemma=asalto NamedEntityTag=CRIMINAL_CHARGE]
+[Text=, CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=robo CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=NOUN Lemma=robo NamedEntityTag=O]
+[Text=co CharacterOffsetBegin=546 CharacterOffsetEnd=548 PartOfSpeech=ADP Lemma=co NamedEntityTag=O]
+[Text=violencia CharacterOffsetBegin=549 CharacterOffsetEnd=558 PartOfSpeech=NOUN Lemma=violencia NamedEntityTag=CAUSE_OF_DEATH]
+[Text=, CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=asociación CharacterOffsetBegin=560 CharacterOffsetEnd=570 PartOfSpeech=NOUN Lemma=asociación NamedEntityTag=O]
+[Text=delictuosa CharacterOffsetBegin=571 CharacterOffsetEnd=581 PartOfSpeech=ADJ Lemma=delictuosa NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, decre-2)
+punct(decre-2, ,-1)
+obj(decre-2, tó-3)
+det(prisión-6, la-4)
+amod(prisión-6, formal-5)
+nsubj(decre-2, prisión-6)
+case(elemento-9, de-7)
+det(elemento-9, este-8)
+nmod(prisión-6, elemento-9)
+punct(decre-2, ,-10)
+case(delitos-13, por-11)
+det(delitos-13, los-12)
+obl(decre-2, delitos-13)
+case(privación-15, de-14)
+nmod(delitos-13, privación-15)
+amod(privación-15, ilegal-16)
+case(libertad-19, de-17)
+det(libertad-19, la-18)
+nmod(privación-15, libertad-19)
+case(modalidad-22, en-20)
+det(modalidad-22, su-21)
+nmod(libertad-19, modalidad-22)
+case(plagio-24, de-23)
+nmod(modalidad-22, plagio-24)
+cc(secuestro-26, o-25)
+nmod(modalidad-22, secuestro-26)
+conj:o(plagio-24, secuestro-26)
+punct(asalto-28, ,-27)
+nmod(modalidad-22, asalto-28)
+conj:o(plagio-24, asalto-28)
+punct(robo-30, ,-29)
+appos(delitos-13, robo-30)
+case(violencia-32, co-31)
+nmod(robo-30, violencia-32)
+punct(robo-30, ,-33)
+appos(delitos-13, asociación-34)
+amod(asociación-34, delictuosa-35)
+punct(decre-2, .-36)
+
+Extracted the following NER entity mentions:
+delitos	CRIMINAL_CHARGE	-
+secuestro	CRIMINAL_CHARGE	-
+asalto	CRIMINAL_CHARGE	-
+violencia	CAUSE_OF_DEATH	-
+
+Sentence #7 (1 tokens):
+-
+
+Tokens:
+[Text=- CharacterOffsetBegin=582 CharacterOffsetEnd=583 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, --1)
+
+Extracted the following NER entity mentions:

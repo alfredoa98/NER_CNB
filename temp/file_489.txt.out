@@ -1,0 +1,296 @@
+Document: ID=file_489.txt (6 sentences, 105 tokens)
+
+Sentence #1 (11 tokens):
+ZONA MILITAR 35/a. EN ACAPULCO, 012-046-007
+GUERRERO.
+
+Tokens:
+[Text=ZONA CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NOUN Lemma=zona NamedEntityTag=O]
+[Text=MILITAR CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=ADJ Lemma=militar NamedEntityTag=O]
+[Text=35 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=NUM Lemma=35 NamedEntityTag=NUMBER NormalizedNamedEntityTag=35.0]
+[Text=/ CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=O]
+[Text=a. CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=INTJ Lemma=a. NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=ACAPULCO CharacterOffsetBegin=22 CharacterOffsetEnd=30 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=012-046-007 CharacterOffsetBegin=32 CharacterOffsetEnd=43 PartOfSpeech=NUM Lemma=012-046-007 NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=44 CharacterOffsetEnd=52 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 35-3)
+nmod(35-3, ZONA-1)
+amod(35-3, MILITAR-2)
+punct(35-3, /-4)
+appos(35-3, a.-5)
+case(ACAPULCO-7, EN-6)
+flat(a.-5, ACAPULCO-7)
+punct(35-3, ,-8)
+nummod(GUERRERO-10, 012-046-007-9)
+appos(35-3, GUERRERO-10)
+punct(35-3, .-11)
+
+Extracted the following NER entity mentions:
+35	NUMBER	NUMBER:-1.0
+ACAPULCO	CITY	LOCATION:0.8727682971311149
+GUERRERO	TITLE	-
+
+Sentence #2 (10 tokens):
+=2= 14 Oct. 82
+Acapulco, gro.
+
+Tokens:
+[Text== CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=SYM Lemma== NamedEntityTag=O]
+[Text=2 CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=NUM Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text== CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=NUM Lemma== NamedEntityTag=O]
+[Text=14 CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=NUM Lemma=14 NamedEntityTag=NUMBER NormalizedNamedEntityTag=14.0]
+[Text=Oct. CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=PROPN Lemma=oct. NamedEntityTag=O]
+[Text=82 CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=NUM Lemma=82 NamedEntityTag=NUMBER NormalizedNamedEntityTag=82.0]
+[Text=Acapulco CharacterOffsetBegin=69 CharacterOffsetEnd=77 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=gro CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=NOUN Lemma=gro NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Oct.-5)
+nmod(2-2, =-1)
+nummod(Oct.-5, 2-2)
+compound(2-2, =-3)
+compound(2-2, 14-4)
+nummod(Oct.-5, 82-6)
+flat(Oct.-5, Acapulco-7)
+punct(gro-9, ,-8)
+appos(Oct.-5, gro-9)
+punct(Oct.-5, .-10)
+
+Extracted the following NER entity mentions:
+2	NUMBER	NUMBER:-1.0
+14	NUMBER	NUMBER:-1.0
+82	NUMBER	NUMBER:-1.0
+Acapulco	CITY	LOCATION:0.8055035564414954
+
+Sentence #3 (6 tokens):
+- A partir del 1o.
+
+Tokens:
+[Text=- CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=partir CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=NOUN Lemma=partir NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=1o CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=NUM Lemma=1o NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 1o-5)
+punct(1o-5, --1)
+case(1o-5, A-2)
+fixed(A-2, partir-3)
+fixed(A-2, del-4)
+punct(1o-5, .-6)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (23 tokens):
+de Nov. próximo , asu
+mirá el cargo de comandante de esta Zona, el Gral.
+de Brig. Paracaidista D.E.M.A. y Lic.
+
+Tokens:
+[Text=de CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Nov. CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NOUN Lemma=nov. NamedEntityTag=O]
+[Text=próximo CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=ADJ Lemma=próximo NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=asu CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=NOUN Lemma=asu NamedEntityTag=O]
+[Text=mirá CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=VERB Lemma=mirá NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=cargo CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NOUN Lemma=cargo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=comandante CharacterOffsetBegin=141 CharacterOffsetEnd=151 PartOfSpeech=NOUN Lemma=comandante NamedEntityTag=TITLE]
+[Text=de CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=Zona CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=PROPN Lemma=zona NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Gral. CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=PROPN Lemma=gral. NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=Brig. CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=PROPN Lemma=brig. NamedEntityTag=MISC]
+[Text=Paracaidista CharacterOffsetBegin=184 CharacterOffsetEnd=196 PartOfSpeech=PROPN Lemma=paracaidista NamedEntityTag=MISC]
+[Text=D.E.M.A. CharacterOffsetBegin=197 CharacterOffsetEnd=205 PartOfSpeech=PROPN Lemma=d.e.m.a. NamedEntityTag=MISC]
+[Text=y CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=Lic CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=PROPN Lemma=lic NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, mirá-6)
+case(Nov.-2, de-1)
+obl(mirá-6, Nov.-2)
+amod(Nov.-2, próximo-3)
+punct(Nov.-2, ,-4)
+nsubj(mirá-6, asu-5)
+det(cargo-8, el-7)
+obj(mirá-6, cargo-8)
+case(comandante-10, de-9)
+nmod(cargo-8, comandante-10)
+case(Zona-13, de-11)
+det(Zona-13, esta-12)
+nmod(cargo-8, Zona-13)
+punct(Gral.-16, ,-14)
+det(Gral.-16, el-15)
+appos(cargo-8, Gral.-16)
+case(Brig.-18, de-17)
+flat(Gral.-16, Brig.-18)
+flat(Brig.-18, Paracaidista-19)
+flat(Brig.-18, D.E.M.A.-20)
+cc(Lic-22, y-21)
+appos(cargo-8, Lic-22)
+conj:y(Gral.-16, Lic-22)
+punct(mirá-6, .-23)
+
+Extracted the following NER entity mentions:
+comandante	TITLE	-
+Gral.
+de Brig. Paracaidista D.E.M.A.	MISC	MISC:0.30131092410654514
+Lic	PERSON	PERSON:0.5518611865709113
+
+Sentence #5 (53 tokens):
+JOSE MARIA
+RIOS DE HOYOS, sustituyendo así al Gral. Brig. JOSE
+ENCARNACION RAMIREZ LINARES, por ordenes superio-
+res; por otra parte, se tiene conocimiento que el
+Gral. RIOS DE HOYOS, proviene de la Escuela Militar
+en donde fungia como Director de la Escuela de
+Educación Física.
+
+Tokens:
+[Text=JOSE CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=O]
+[Text=MARIA CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=PROPN Lemma=maria NamedEntityTag=PERSON]
+[Text=RIOS CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=PROPN Lemma=rios NamedEntityTag=PERSON]
+[Text=DE CharacterOffsetBegin=229 CharacterOffsetEnd=231 PartOfSpeech=ADP Lemma=de NamedEntityTag=PERSON]
+[Text=HOYOS CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=PROPN Lemma=hoyos NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=sustituyendo CharacterOffsetBegin=239 CharacterOffsetEnd=251 PartOfSpeech=VERB Lemma=sustituyendo NamedEntityTag=O]
+[Text=así CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=ADV Lemma=así NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=Gral. CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=PROPN Lemma=gral. NamedEntityTag=O]
+[Text=Brig. CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=PROPN Lemma=brig. NamedEntityTag=PERSON]
+[Text=JOSE CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=PERSON]
+[Text=ENCARNACION CharacterOffsetBegin=276 CharacterOffsetEnd=287 PartOfSpeech=PROPN Lemma=encarnacion NamedEntityTag=PERSON]
+[Text=RAMIREZ CharacterOffsetBegin=288 CharacterOffsetEnd=295 PartOfSpeech=PROPN Lemma=ramirez NamedEntityTag=PERSON]
+[Text=LINARES CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=PROPN Lemma=linares NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=ordenes CharacterOffsetBegin=309 CharacterOffsetEnd=316 PartOfSpeech=NOUN Lemma=ordenes NamedEntityTag=O]
+[Text=superio CharacterOffsetBegin=317 CharacterOffsetEnd=324 PartOfSpeech=ADJ Lemma=superio NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=res CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=NOUN Lemma=res NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=otra CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=DET Lemma=otra NamedEntityTag=O]
+[Text=parte CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=NOUN Lemma=parte NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=tiene CharacterOffsetBegin=350 CharacterOffsetEnd=355 PartOfSpeech=VERB Lemma=tiene NamedEntityTag=O]
+[Text=conocimiento CharacterOffsetBegin=356 CharacterOffsetEnd=368 PartOfSpeech=NOUN Lemma=conocimiento NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=369 CharacterOffsetEnd=372 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=373 CharacterOffsetEnd=375 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Gral. CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=PROPN Lemma=gral. NamedEntityTag=O]
+[Text=RIOS CharacterOffsetBegin=382 CharacterOffsetEnd=386 PartOfSpeech=PROPN Lemma=rios NamedEntityTag=PERSON]
+[Text=DE CharacterOffsetBegin=387 CharacterOffsetEnd=389 PartOfSpeech=ADP Lemma=de NamedEntityTag=PERSON]
+[Text=HOYOS CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=PROPN Lemma=hoyos NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=proviene CharacterOffsetBegin=397 CharacterOffsetEnd=405 PartOfSpeech=VERB Lemma=proviene NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Escuela CharacterOffsetBegin=412 CharacterOffsetEnd=419 PartOfSpeech=PROPN Lemma=escuela NamedEntityTag=ORGANIZATION]
+[Text=Militar CharacterOffsetBegin=420 CharacterOffsetEnd=427 PartOfSpeech=PROPN Lemma=militar NamedEntityTag=ORGANIZATION]
+[Text=en CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=donde CharacterOffsetBegin=431 CharacterOffsetEnd=436 PartOfSpeech=PRON Lemma=donde NamedEntityTag=O]
+[Text=fungia CharacterOffsetBegin=437 CharacterOffsetEnd=443 PartOfSpeech=VERB Lemma=fungia NamedEntityTag=O]
+[Text=como CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=SCONJ Lemma=como NamedEntityTag=O]
+[Text=Director CharacterOffsetBegin=449 CharacterOffsetEnd=457 PartOfSpeech=PROPN Lemma=director NamedEntityTag=TITLE]
+[Text=de CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Escuela CharacterOffsetBegin=464 CharacterOffsetEnd=471 PartOfSpeech=PROPN Lemma=escuela NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Educación CharacterOffsetBegin=475 CharacterOffsetEnd=484 PartOfSpeech=PROPN Lemma=educación NamedEntityTag=ORGANIZATION]
+[Text=Física CharacterOffsetBegin=485 CharacterOffsetEnd=491 PartOfSpeech=PROPN Lemma=física NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, JOSE-1)
+flat(JOSE-1, MARIA-2)
+flat(JOSE-1, RIOS-3)
+case(HOYOS-5, DE-4)
+flat(JOSE-1, HOYOS-5)
+punct(sustituyendo-7, ,-6)
+acl(JOSE-1, sustituyendo-7)
+advmod(sustituyendo-7, así-8)
+case(Gral.-10, al-9)
+obj(sustituyendo-7, Gral.-10)
+flat(Gral.-10, Brig.-11)
+flat(Gral.-10, JOSE-12)
+flat(Gral.-10, ENCARNACION-13)
+flat(Gral.-10, RAMIREZ-14)
+flat(Gral.-10, LINARES-15)
+punct(sustituyendo-7, ,-16)
+case(ordenes-18, por-17)
+obl(sustituyendo-7, ordenes-18)
+amod(ordenes-18, superio-19)
+punct(res-21, --20)
+conj(ordenes-18, res-21)
+punct(sustituyendo-7, ;-22)
+case(parte-25, por-23)
+det(parte-25, otra-24)
+obl(tiene-28, parte-25)
+punct(parte-25, ,-26)
+obj(tiene-28, se-27)
+advcl(sustituyendo-7, tiene-28)
+nsubj(tiene-28, conocimiento-29)
+mark(Gral.-32, que-30)
+det(Gral.-32, el-31)
+nmod(conocimiento-29, Gral.-32)
+flat(Gral.-32, RIOS-33)
+case(HOYOS-35, DE-34)
+flat(Gral.-32, HOYOS-35)
+punct(proviene-37, ,-36)
+acl(Gral.-32, proviene-37)
+case(Escuela-40, de-38)
+det(Escuela-40, la-39)
+obj(proviene-37, Escuela-40)
+flat(Escuela-40, Militar-41)
+case(donde-43, en-42)
+obl(fungia-44, donde-43)
+acl(Escuela-40, fungia-44)
+mark(Director-46, como-45)
+obj(fungia-44, Director-46)
+case(Escuela-49, de-47)
+det(Escuela-49, la-48)
+flat(Director-46, Escuela-49)
+case(Educación-51, de-50)
+flat(Director-46, Educación-51)
+flat(Educación-51, Física-52)
+punct(JOSE-1, .-53)
+
+Extracted the following NER entity mentions:
+MARIA
+RIOS DE HOYOS	PERSON	PERSON:0.9016536178654898
+Brig. JOSE
+ENCARNACION RAMIREZ LINARES	PERSON	PERSON:0.5357819985147985
+RIOS DE HOYOS	PERSON	PERSON:0.5252055671070908
+Escuela Militar	ORGANIZATION	ORGANIZATION:0.9485634511476958
+Director	TITLE	-
+Escuela de
+Educación Física	ORGANIZATION	ORGANIZATION:0.7260704502329575
+
+Sentence #6 (2 tokens):
+-pmmc
+
+Tokens:
+[Text=- CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=pmmc CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=VERB Lemma=pmmc NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, pmmc-2)
+punct(pmmc-2, --1)
+
+Extracted the following NER entity mentions:

@@ -1,0 +1,406 @@
+Document: ID=file_218.txt (3 sentences, 170 tokens)
+
+Sentence #1 (4 tokens):
+UNIVERSIDAD AUTONOMA Exp.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=ORGANIZATION]
+[Text=AUTONOMA CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=autonoma NamedEntityTag=ORGANIZATION]
+[Text=Exp CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUTONOMA-2)
+flat(UNIVERSIDAD-1, Exp-3)
+punct(UNIVERSIDAD-1, .-4)
+
+Extracted the following NER entity mentions:
+UNIVERSIDAD AUTONOMA Exp	ORGANIZATION	ORGANIZATION:0.454763562353262
+
+Sentence #2 (4 tokens):
+-100-10-1-76
+DE GUERRERO.
+
+Tokens:
+[Text=-100-10-1-76 CharacterOffsetBegin=25 CharacterOffsetEnd=37 PartOfSpeech=NUM Lemma=-100-10-1-76 NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=41 CharacterOffsetEnd=49 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -100-10-1-76-1)
+case(GUERRERO-3, DE-2)
+nmod(-100-10-1-76-1, GUERRERO-3)
+punct(-100-10-1-76-1, .-4)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	-
+
+Sentence #3 (162 tokens):
+H-170 L-59
+(9)
+tes grupos estudiantiles guerrerenses y otras -
+que decían “NO VOTES” Y “NO A LA FARZA ELECTORAL”
+También sobre los muros sel lugar se colocaron -
+pancartas, mantas y banderas rojinegras que han-
+exhibido durante su marcha, algunas con el siguie
+te texto: “LA BARRANCA DE LA LAJA DE GUERRERO - -
+APOYA A LA U.A.G.”; “LA UNIVERSIDAD EN PIE DE - -
+LUCHA”; “LA SECCION 51 APOYA LA HUELGA DE NISSAN
+“STEUNAM”; “SPAUNAM ESTA HUELGA VECERA”; “SINDI- CATO INDEPENDIENTE DE TRABAJADORES DE LA VOLKSWA
+GEN”; “ALTO A LA REPRESION”; *CADA MINUTO GASTA-
+MOS UN MILLON DE PESOS EN LA EDUCACION”; *EL CAM
+PAMENTO 2 DE OCTUBRE DE IZTACALCO APOYA A LA UNI
+VERSIDAD DE GUERRERO Y A LA HUELGA DE NISSAN” y
+
+Tokens:
+[Text=H-170 CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=NUM Lemma=h-170 NamedEntityTag=O]
+[Text=L-59 CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=PROPN Lemma=l-59 NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=9 CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=NUM Lemma=9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0]
+[Text=) CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=tes CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DET Lemma=tes NamedEntityTag=O]
+[Text=grupos CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=NOUN Lemma=grupos NamedEntityTag=O]
+[Text=estudiantiles CharacterOffsetBegin=77 CharacterOffsetEnd=90 PartOfSpeech=ADJ Lemma=estudiantiles NamedEntityTag=O]
+[Text=guerrerenses CharacterOffsetBegin=91 CharacterOffsetEnd=103 PartOfSpeech=ADJ Lemma=guerrerenses NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=otras CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=PRON Lemma=otras NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=decían CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=VERB Lemma=decían NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=NO CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=VOTES CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=PROPN Lemma=votes NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Y CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=NO CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=FARZA CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=PROPN Lemma=farza NamedEntityTag=O]
+[Text=ELECTORAL CharacterOffsetBegin=153 CharacterOffsetEnd=162 PartOfSpeech=PROPN Lemma=electoral NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=También CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=ADV Lemma=también NamedEntityTag=O]
+[Text=sobre CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=ADP Lemma=sobre NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=muros CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=NOUN Lemma=muros NamedEntityTag=O]
+[Text=sel CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=ADJ Lemma=sel NamedEntityTag=O]
+[Text=lugar CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=NOUN Lemma=lugar NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=colocaron CharacterOffsetBegin=201 CharacterOffsetEnd=210 PartOfSpeech=VERB Lemma=colocaron NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=pancartas CharacterOffsetBegin=213 CharacterOffsetEnd=222 PartOfSpeech=NOUN Lemma=pancartas NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=mantas CharacterOffsetBegin=224 CharacterOffsetEnd=230 PartOfSpeech=NOUN Lemma=mantas NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=banderas CharacterOffsetBegin=233 CharacterOffsetEnd=241 PartOfSpeech=NOUN Lemma=banderas NamedEntityTag=O]
+[Text=rojinegras CharacterOffsetBegin=242 CharacterOffsetEnd=252 PartOfSpeech=ADJ Lemma=rojinegras NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=han CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=AUX Lemma=han NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=exhibido CharacterOffsetBegin=262 CharacterOffsetEnd=270 PartOfSpeech=ADJ Lemma=exhibido NamedEntityTag=O]
+[Text=durante CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=ADP Lemma=durante NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=marcha CharacterOffsetBegin=282 CharacterOffsetEnd=288 PartOfSpeech=NOUN Lemma=marcha NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=algunas CharacterOffsetBegin=290 CharacterOffsetEnd=297 PartOfSpeech=PRON Lemma=algunas NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=siguie CharacterOffsetBegin=305 CharacterOffsetEnd=311 PartOfSpeech=VERB Lemma=siguie NamedEntityTag=O]
+[Text=te CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=PRON Lemma=te NamedEntityTag=O]
+[Text=texto CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=NOUN Lemma=texto NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=320 CharacterOffsetEnd=321 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=BARRANCA CharacterOffsetBegin=326 CharacterOffsetEnd=334 PartOfSpeech=PROPN Lemma=barranca NamedEntityTag=MISC]
+[Text=DE CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=LA CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=DET Lemma=la NamedEntityTag=MISC]
+[Text=LAJA CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=PROPN Lemma=laja NamedEntityTag=MISC]
+[Text=DE CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=GUERRERO CharacterOffsetBegin=349 CharacterOffsetEnd=357 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=- CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=APOYA CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=VERB Lemma=apoya NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=U.A.G. CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=PROPN Lemma=u.a.g. NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=UNIVERSIDAD CharacterOffsetBegin=386 CharacterOffsetEnd=397 PartOfSpeech=NOUN Lemma=universidad NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=PIE CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=NOUN Lemma=pie NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=LUCHA CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=NOUN Lemma=lucha NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=SECCION CharacterOffsetBegin=424 CharacterOffsetEnd=431 PartOfSpeech=PROPN Lemma=seccion NamedEntityTag=O]
+[Text=51 CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=NUM Lemma=51 NamedEntityTag=NUMBER NormalizedNamedEntityTag=51.0]
+[Text=APOYA CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=PROPN Lemma=apoya NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=HUELGA CharacterOffsetBegin=444 CharacterOffsetEnd=450 PartOfSpeech=PROPN Lemma=huelga NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=451 CharacterOffsetEnd=453 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=NISSAN CharacterOffsetBegin=454 CharacterOffsetEnd=460 PartOfSpeech=PROPN Lemma=nissan NamedEntityTag=ORGANIZATION]
+[Text=" CharacterOffsetBegin=461 CharacterOffsetEnd=462 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=STEUNAM CharacterOffsetBegin=462 CharacterOffsetEnd=469 PartOfSpeech=PROPN Lemma=steunam NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=SPAUNAM CharacterOffsetBegin=473 CharacterOffsetEnd=480 PartOfSpeech=PROPN Lemma=spaunam NamedEntityTag=MISC]
+[Text=ESTA CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=PROPN Lemma=esta NamedEntityTag=MISC]
+[Text=HUELGA CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=PROPN Lemma=huelga NamedEntityTag=MISC]
+[Text=VECERA CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=PROPN Lemma=vecera NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=499 CharacterOffsetEnd=500 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=502 CharacterOffsetEnd=503 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=SINDI CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=PROPN Lemma=sindi NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=CATO CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=PROPN Lemma=cato NamedEntityTag=O]
+[Text=INDEPENDIENTE CharacterOffsetBegin=515 CharacterOffsetEnd=528 PartOfSpeech=PROPN Lemma=independiente NamedEntityTag=RELIGION]
+[Text=DE CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=TRABAJADORES CharacterOffsetBegin=532 CharacterOffsetEnd=544 PartOfSpeech=PROPN Lemma=trabajadores NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=548 CharacterOffsetEnd=550 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=VOLKSWA CharacterOffsetBegin=551 CharacterOffsetEnd=558 PartOfSpeech=PROPN Lemma=volkswa NamedEntityTag=MISC]
+[Text=GEN CharacterOffsetBegin=559 CharacterOffsetEnd=562 PartOfSpeech=PROPN Lemma=gen NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=ALTO CharacterOffsetBegin=566 CharacterOffsetEnd=570 PartOfSpeech=PROPN Lemma=alto NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=571 CharacterOffsetEnd=572 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=REPRESION CharacterOffsetBegin=576 CharacterOffsetEnd=585 PartOfSpeech=NOUN Lemma=represion NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=* CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=SYM Lemma=* NamedEntityTag=O]
+[Text=CADA CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=DET Lemma=cada NamedEntityTag=O]
+[Text=MINUTO CharacterOffsetBegin=594 CharacterOffsetEnd=600 PartOfSpeech=NOUN Lemma=minuto NamedEntityTag=O]
+[Text=GASTA CharacterOffsetBegin=601 CharacterOffsetEnd=606 PartOfSpeech=VERB Lemma=gasta NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=MOS CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=ADJ Lemma=mos NamedEntityTag=O]
+[Text=UN CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=MILLON CharacterOffsetBegin=615 CharacterOffsetEnd=621 PartOfSpeech=PROPN Lemma=millon NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=PESOS CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=NOUN Lemma=pesos NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=EDUCACION CharacterOffsetBegin=637 CharacterOffsetEnd=646 PartOfSpeech=PROPN Lemma=educacion NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=* CharacterOffsetBegin=649 CharacterOffsetEnd=650 PartOfSpeech=SYM Lemma=* NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=CAM CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=PROPN Lemma=cam NamedEntityTag=MISC]
+[Text=PAMENTO CharacterOffsetBegin=657 CharacterOffsetEnd=664 PartOfSpeech=PROPN Lemma=pamento NamedEntityTag=MISC]
+[Text=2 CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=NUM Lemma=2 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-XX-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-XX-02">2 DE OCTUBRE</TIMEX3>]
+[Text=DE CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=ADP Lemma=de NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-XX-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-XX-02">2 DE OCTUBRE</TIMEX3>]
+[Text=OCTUBRE CharacterOffsetBegin=670 CharacterOffsetEnd=677 PartOfSpeech=NOUN Lemma=octubre NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-XX-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-XX-02">2 DE OCTUBRE</TIMEX3>]
+[Text=DE CharacterOffsetBegin=678 CharacterOffsetEnd=680 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=IZTACALCO CharacterOffsetBegin=681 CharacterOffsetEnd=690 PartOfSpeech=PROPN Lemma=iztacalco NamedEntityTag=O]
+[Text=APOYA CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=VERB Lemma=apoya NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=697 CharacterOffsetEnd=698 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=UNI CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=PROPN Lemma=uni NamedEntityTag=O]
+[Text=VERSIDAD CharacterOffsetBegin=706 CharacterOffsetEnd=714 PartOfSpeech=PROPN Lemma=versidad NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=715 CharacterOffsetEnd=717 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=718 CharacterOffsetEnd=726 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=Y CharacterOffsetBegin=727 CharacterOffsetEnd=728 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=ADP Lemma=a NamedEntityTag=MISC]
+[Text=LA CharacterOffsetBegin=731 CharacterOffsetEnd=733 PartOfSpeech=DET Lemma=la NamedEntityTag=MISC]
+[Text=HUELGA CharacterOffsetBegin=734 CharacterOffsetEnd=740 PartOfSpeech=NOUN Lemma=huelga NamedEntityTag=MISC]
+[Text=DE CharacterOffsetBegin=741 CharacterOffsetEnd=743 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=NISSAN CharacterOffsetBegin=744 CharacterOffsetEnd=750 PartOfSpeech=PROPN Lemma=nissan NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, L-59-2)
+nummod(L-59-2, H-170-1)
+punct(9-4, (-3)
+appos(L-59-2, 9-4)
+punct(9-4, )-5)
+det(grupos-7, tes-6)
+appos(L-59-2, grupos-7)
+amod(grupos-7, estudiantiles-8)
+amod(grupos-7, guerrerenses-9)
+cc(otras-11, y-10)
+appos(L-59-2, otras-11)
+conj:y(grupos-7, otras-11)
+punct(decían-14, --12)
+nsubj(decían-14, que-13)
+acl(L-59-2, decían-14)
+punct(decían-14, "-15)
+advmod(VOTES-17, NO-16)
+obj(decían-14, VOTES-17)
+punct(NO-21, "-18)
+cc(NO-21, Y-19)
+punct(NO-21, "-20)
+obj(decían-14, NO-21)
+conj:y(VOTES-17, NO-21)
+case(NO-21, A-22)
+det(FARZA-24, LA-23)
+nmod(NO-21, FARZA-24)
+flat(FARZA-24, ELECTORAL-25)
+punct(NO-21, "-26)
+advmod(NO-21, También-27)
+case(NO-21, sobre-28)
+det(muros-30, los-29)
+nsubj(colocaron-34, muros-30)
+amod(muros-30, sel-31)
+nsubj(colocaron-34, lugar-32)
+obj(colocaron-34, se-33)
+acl(NO-21, colocaron-34)
+punct(pancartas-36, --35)
+obj(colocaron-34, pancartas-36)
+punct(mantas-38, ,-37)
+conj(pancartas-36, mantas-38)
+cc(banderas-40, y-39)
+obj(colocaron-34, banderas-40)
+conj:y(pancartas-36, banderas-40)
+amod(banderas-40, rojinegras-41)
+obj(exhibido-45, que-42)
+aux(exhibido-45, han-43)
+punct(exhibido-45, --44)
+acl(banderas-40, exhibido-45)
+case(marcha-48, durante-46)
+det(marcha-48, su-47)
+obl(exhibido-45, marcha-48)
+punct(algunas-50, ,-49)
+obj(colocaron-34, algunas-50)
+conj:y(pancartas-36, algunas-50)
+mark(siguie-53, con-51)
+det(siguie-53, el-52)
+acl(algunas-50, siguie-53)
+det(texto-55, te-54)
+obj(siguie-53, texto-55)
+punct(BARRANCA-59, :-56)
+punct(BARRANCA-59, "-57)
+det(BARRANCA-59, LA-58)
+acl(L-59-2, BARRANCA-59)
+case(LAJA-62, DE-60)
+det(LAJA-62, LA-61)
+flat(BARRANCA-59, LAJA-62)
+case(GUERRERO-64, DE-63)
+flat(BARRANCA-59, GUERRERO-64)
+punct(APOYA-67, --65)
+punct(APOYA-67, --66)
+acl(BARRANCA-59, APOYA-67)
+case(U.A.G.-70, A-68)
+det(U.A.G.-70, LA-69)
+obj(APOYA-67, U.A.G.-70)
+punct(APOYA-67, "-71)
+punct(APOYA-67, ;-72)
+punct(UNIVERSIDAD-75, "-73)
+det(UNIVERSIDAD-75, LA-74)
+appos(BARRANCA-59, UNIVERSIDAD-75)
+case(PIE-77, EN-76)
+nmod(UNIVERSIDAD-75, PIE-77)
+case(LUCHA-81, DE-78)
+punct(LUCHA-81, --79)
+punct(LUCHA-81, --80)
+nmod(UNIVERSIDAD-75, LUCHA-81)
+punct(LUCHA-81, "-82)
+punct(BARRANCA-59, ;-83)
+punct(BARRANCA-59, "-84)
+det(SECCION-86, LA-85)
+flat(BARRANCA-59, SECCION-86)
+nummod(SECCION-86, 51-87)
+flat(SECCION-86, APOYA-88)
+det(HUELGA-90, LA-89)
+flat(SECCION-86, HUELGA-90)
+case(NISSAN-92, DE-91)
+flat(SECCION-86, NISSAN-92)
+punct(BARRANCA-59, "-93)
+flat(BARRANCA-59, STEUNAM-94)
+punct(BARRANCA-59, "-95)
+punct(BARRANCA-59, ;-96)
+punct(SPAUNAM-98, "-97)
+conj(BARRANCA-59, SPAUNAM-98)
+flat(SPAUNAM-98, ESTA-99)
+flat(SPAUNAM-98, HUELGA-100)
+flat(SPAUNAM-98, VECERA-101)
+punct(SPAUNAM-98, "-102)
+punct(BARRANCA-59, ;-103)
+punct(SINDI-105, "-104)
+conj(BARRANCA-59, SINDI-105)
+punct(SINDI-105, --106)
+flat(SINDI-105, CATO-107)
+flat(SINDI-105, INDEPENDIENTE-108)
+case(TRABAJADORES-110, DE-109)
+flat(SINDI-105, TRABAJADORES-110)
+case(VOLKSWA-113, DE-111)
+det(VOLKSWA-113, LA-112)
+flat(SINDI-105, VOLKSWA-113)
+flat(SINDI-105, GEN-114)
+punct(SINDI-105, "-115)
+punct(BARRANCA-59, ;-116)
+punct(ALTO-118, "-117)
+conj(BARRANCA-59, ALTO-118)
+flat(ALTO-118, A-119)
+det(REPRESION-121, LA-120)
+flat(ALTO-118, REPRESION-121)
+punct(ALTO-118, "-122)
+punct(BARRANCA-59, ;-123)
+obj(GASTA-127, *-124)
+det(MINUTO-126, CADA-125)
+nsubj(GASTA-127, MINUTO-126)
+acl(BARRANCA-59, GASTA-127)
+punct(BARRANCA-59, --128)
+amod(BARRANCA-59, MOS-129)
+det(MILLON-131, UN-130)
+obj(MOS-129, MILLON-131)
+case(PESOS-133, DE-132)
+nmod(MILLON-131, PESOS-133)
+case(EDUCACION-136, EN-134)
+det(EDUCACION-136, LA-135)
+flat(BARRANCA-59, EDUCACION-136)
+punct(BARRANCA-59, "-137)
+punct(BARRANCA-59, ;-138)
+cc(CAM-141, *-139)
+det(CAM-141, EL-140)
+nsubj(APOYA-148, CAM-141)
+flat(CAM-141, PAMENTO-142)
+nummod(CAM-141, 2-143)
+case(OCTUBRE-145, DE-144)
+flat(CAM-141, OCTUBRE-145)
+case(IZTACALCO-147, DE-146)
+flat(CAM-141, IZTACALCO-147)
+acl(BARRANCA-59, APOYA-148)
+acl(BARRANCA-59, APOYA-148''')
+conj:y(APOYA-148, APOYA-148''')
+case(UNI-151, A-149)
+det(UNI-151, LA-150)
+obj(APOYA-148, UNI-151)
+flat(UNI-151, VERSIDAD-152)
+case(GUERRERO-154, DE-153)
+obl(APOYA-148, GUERRERO-154)
+cc(APOYA-148''', Y-155)
+case(HUELGA-158, A-156)
+det(HUELGA-158, LA-157)
+obl(APOYA-148''', HUELGA-158)
+case(NISSAN-160, DE-159)
+nmod(HUELGA-158, NISSAN-160)
+punct(BARRANCA-59, "-161)
+cc(BARRANCA-59, y-162)
+
+Extracted the following NER entity mentions:
+9	NUMBER	NUMBER:-1.0
+BARRANCA DE LA LAJA DE	MISC	MISC:0.5865531836098735
+GUERRERO	TITLE	MISC:0.644627305063669
+51	NUMBER	NUMBER:-1.0
+NISSAN	ORGANIZATION	ORGANIZATION:0.6467313560269653
+STEUNAM	MISC	MISC:0.7261326995341603
+SPAUNAM ESTA HUELGA VECERA	MISC	MISC:0.8958368743444906
+INDEPENDIENTE	RELIGION	-
+VOLKSWA
+GEN	MISC	MISC:0.8389898711826181
+CAM
+PAMENTO	MISC	MISC:0.6024442853770265
+2 DE OCTUBRE	DATE	DATE:-1.0
+GUERRERO	TITLE	-
+A LA HUELGA DE NISSAN	MISC	MISC:0.510196739347236

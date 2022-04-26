@@ -1,0 +1,357 @@
+Document: ID=file_302.txt (8 sentences, 124 tokens)
+
+Sentence #1 (5 tokens):
+UNIVERSIDAD AUTONOMA DE GUERRERO.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=O]
+[Text=AUTONOMA CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=autonoma NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=24 CharacterOffsetEnd=32 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUTONOMA-2)
+case(GUERRERO-4, DE-3)
+flat(UNIVERSIDAD-1, GUERRERO-4)
+punct(UNIVERSIDAD-1, .-5)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	-
+
+Sentence #2 (5 tokens):
+-
+-40- Exp.
+
+Tokens:
+[Text=- CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=-40 CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=NUM Lemma=-40 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Exp CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -40-2)
+punct(-40-2, --1)
+punct(-40-2, --3)
+appos(-40-2, Exp-4)
+punct(-40-2, .-5)
+
+Extracted the following NER entity mentions:
+Exp	MISC	MISC:0.5338087008857149
+
+Sentence #3 (14 tokens):
+100-10-1-78
+H-92 L-77
+la Ley de Amnistía expedida por el Gobierno del
+Estado.
+
+Tokens:
+[Text=100-10-1-78 CharacterOffsetBegin=45 CharacterOffsetEnd=56 PartOfSpeech=NUM Lemma=100-10-1-78 NamedEntityTag=O]
+[Text=H-92 CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=PROPN Lemma=h-92 NamedEntityTag=O]
+[Text=L-77 CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=PROPN Lemma=l-77 NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Ley CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=PROPN Lemma=ley NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=Amnistía CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=PROPN Lemma=amnistía NamedEntityTag=MISC]
+[Text=expedida CharacterOffsetBegin=86 CharacterOffsetEnd=94 PartOfSpeech=ADJ Lemma=expedida NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Gobierno CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=PROPN Lemma=gobierno NamedEntityTag=ORGANIZATION]
+[Text=del CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=ADP Lemma=del NamedEntityTag=ORGANIZATION]
+[Text=Estado CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-92-2)
+nummod(H-92-2, 100-10-1-78-1)
+flat(H-92-2, L-77-3)
+det(Ley-5, la-4)
+flat(H-92-2, Ley-5)
+case(Amnistía-7, de-6)
+flat(H-92-2, Amnistía-7)
+amod(H-92-2, expedida-8)
+case(Gobierno-11, por-9)
+det(Gobierno-11, el-10)
+obj(expedida-8, Gobierno-11)
+case(Estado-13, del-12)
+flat(Gobierno-11, Estado-13)
+punct(H-92-2, .-14)
+
+Extracted the following NER entity mentions:
+Ley de Amnistía	MISC	MISC:0.9212494532605356
+Gobierno del
+Estado	ORGANIZATION	ORGANIZATION:0.6893682316189356
+
+Sentence #4 (13 tokens):
+----Un orador no identificado precisó que
+hoy a las 10.00 hs.
+
+Tokens:
+[Text=---- CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=SYM Lemma=---- NamedEntityTag=O]
+[Text=Un CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=orador CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=NOUN Lemma=orador NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=identificado CharacterOffsetBegin=139 CharacterOffsetEnd=151 PartOfSpeech=ADJ Lemma=identificado NamedEntityTag=O]
+[Text=precisó CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=VERB Lemma=precisó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=hoy CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=ADV Lemma=hoy NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">hoy</TIMEX3>]
+[Text=a CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=10.00 CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=NOUN Lemma=10.00 NamedEntityTag=NUMBER NormalizedNamedEntityTag=10.0]
+[Text=hs CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=NOUN Lemma=hs NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, precisó-6)
+nmod(precisó-6, -----1)
+det(orador-3, Un-2)
+nsubj(precisó-6, orador-3)
+advmod(identificado-5, no-4)
+amod(orador-3, identificado-5)
+mark(hoy-8, que-7)
+ccomp(precisó-6, hoy-8)
+case(10.00-11, a-9)
+det(10.00-11, las-10)
+obl(hoy-8, 10.00-11)
+compound(10.00-11, hs-12)
+punct(hoy-8, .-13)
+
+Extracted the following NER entity mentions:
+hoy	DATE	DATE:-1.0
+10.00	NUMBER	NUMBER:-1.0
+
+Sentence #5 (9 tokens):
+fueron secuestrados en Igua-
+la, Gro.
+
+Tokens:
+[Text=fueron CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=AUX Lemma=fueron NamedEntityTag=O]
+[Text=secuestrados CharacterOffsetBegin=191 CharacterOffsetEnd=203 PartOfSpeech=VERB Lemma=secuestrado NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Igua CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=PROPN Lemma=igua NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=PRON Lemma=la NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, secuestrados-2)
+aux(secuestrados-2, fueron-1)
+case(Igua-4, en-3)
+obl(secuestrados-2, Igua-4)
+punct(la-6, --5)
+conj(Igua-4, la-6)
+punct(Gro-8, ,-7)
+appos(la-6, Gro-8)
+punct(secuestrados-2, .-9)
+
+Extracted the following NER entity mentions:
+Gro	PERSON	PERSON:0.4599908370397006
+
+Sentence #6 (10 tokens):
+, CRISTINA GERVASIO HERNANDEZ y su herma
+no GREGORIO.
+
+Tokens:
+[Text=, CharacterOffsetBegin=221 CharacterOffsetEnd=222 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=CRISTINA CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=PROPN Lemma=cristina NamedEntityTag=PERSON]
+[Text=GERVASIO CharacterOffsetBegin=232 CharacterOffsetEnd=240 PartOfSpeech=PROPN Lemma=gervasio NamedEntityTag=PERSON]
+[Text=HERNANDEZ CharacterOffsetBegin=241 CharacterOffsetEnd=250 PartOfSpeech=PROPN Lemma=hernandez NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=herma CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=NOUN Lemma=herma NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=GREGORIO CharacterOffsetBegin=265 CharacterOffsetEnd=273 PartOfSpeech=PROPN Lemma=gregorio NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, CRISTINA-2)
+punct(CRISTINA-2, ,-1)
+flat(CRISTINA-2, GERVASIO-3)
+flat(CRISTINA-2, HERNANDEZ-4)
+cc(herma-7, y-5)
+det(herma-7, su-6)
+conj:y(CRISTINA-2, herma-7)
+advmod(GREGORIO-9, no-8)
+flat(CRISTINA-2, GREGORIO-9)
+punct(CRISTINA-2, .-10)
+
+Extracted the following NER entity mentions:
+CRISTINA GERVASIO HERNANDEZ	PERSON	PERSON:0.9267631949879988
+
+Sentence #7 (47 tokens):
+----ARESTEGUI GONZALEZ, dió lectura
+a un comunicado de la Sección 14 del Hospital Ge
+neral de México, por el cual se solidarizan con-
+la U.A.G., en su lucha por una Ley de Amnistía -
+General y por el aumento al subsidio.
+
+Tokens:
+[Text=---- CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=ADP Lemma=---- NamedEntityTag=O]
+[Text=ARESTEGUI CharacterOffsetBegin=278 CharacterOffsetEnd=287 PartOfSpeech=PROPN Lemma=arestegui NamedEntityTag=O]
+[Text=GONZALEZ CharacterOffsetBegin=288 CharacterOffsetEnd=296 PartOfSpeech=PROPN Lemma=gonzalez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=dió CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=VERB Lemma=dió NamedEntityTag=O]
+[Text=lectura CharacterOffsetBegin=302 CharacterOffsetEnd=309 PartOfSpeech=NOUN Lemma=lectura NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=comunicado CharacterOffsetBegin=315 CharacterOffsetEnd=325 PartOfSpeech=NOUN Lemma=comunicado NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Sección CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=PROPN Lemma=sección NamedEntityTag=O]
+[Text=14 CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=NUM Lemma=14 NamedEntityTag=NUMBER NormalizedNamedEntityTag=14.0]
+[Text=del CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Hospital CharacterOffsetBegin=347 CharacterOffsetEnd=355 PartOfSpeech=PROPN Lemma=hospital NamedEntityTag=LOCATION]
+[Text=Ge CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=PROPN Lemma=ge NamedEntityTag=LOCATION]
+[Text=neral CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=PROPN Lemma=neral NamedEntityTag=CITY]
+[Text=de CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=ADP Lemma=de NamedEntityTag=LOCATION]
+[Text=México CharacterOffsetBegin=368 CharacterOffsetEnd=374 PartOfSpeech=PROPN Lemma=méxico NamedEntityTag=COUNTRY]
+[Text=, CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=cual CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=PRON Lemma=cual NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=solidarizan CharacterOffsetBegin=391 CharacterOffsetEnd=402 PartOfSpeech=VERB Lemma=solidarizan NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=U.A.G. CharacterOffsetBegin=411 CharacterOffsetEnd=417 PartOfSpeech=PROPN Lemma=u.a.g. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=422 CharacterOffsetEnd=424 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=lucha CharacterOffsetBegin=425 CharacterOffsetEnd=430 PartOfSpeech=NOUN Lemma=lucha NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=431 CharacterOffsetEnd=434 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=Ley CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=PROPN Lemma=ley NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=Amnistía CharacterOffsetBegin=446 CharacterOffsetEnd=454 PartOfSpeech=PROPN Lemma=amnistía NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=General CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=PROPN Lemma=general NamedEntityTag=TITLE]
+[Text=y CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=aumento CharacterOffsetBegin=474 CharacterOffsetEnd=481 PartOfSpeech=NOUN Lemma=aumento NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=subsidio CharacterOffsetBegin=485 CharacterOffsetEnd=493 PartOfSpeech=NOUN Lemma=subsidio NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, dió-5)
+case(ARESTEGUI-2, -----1)
+obl(dió-5, ARESTEGUI-2)
+flat(ARESTEGUI-2, GONZALEZ-3)
+punct(ARESTEGUI-2, ,-4)
+obj(dió-5, lectura-6)
+case(comunicado-9, a-7)
+det(comunicado-9, un-8)
+obl(dió-5, comunicado-9)
+case(Sección-12, de-10)
+det(Sección-12, la-11)
+nmod(comunicado-9, Sección-12)
+nummod(Sección-12, 14-13)
+case(Hospital-15, del-14)
+flat(Sección-12, Hospital-15)
+flat(Hospital-15, Ge-16)
+flat(Hospital-15, neral-17)
+case(México-19, de-18)
+flat(Hospital-15, México-19)
+punct(solidarizan-25, ,-20)
+case(cual-23, por-21)
+det(cual-23, el-22)
+obl(solidarizan-25, cual-23)
+obj(solidarizan-25, se-24)
+acl(comunicado-9, solidarizan-25)
+case(U.A.G.-29, con-26)
+punct(U.A.G.-29, --27)
+det(U.A.G.-29, la-28)
+obj(solidarizan-25, U.A.G.-29)
+punct(lucha-33, ,-30)
+case(lucha-33, en-31)
+det(lucha-33, su-32)
+nmod(U.A.G.-29, lucha-33)
+nmod(U.A.G.-29, lucha-33''')
+conj:y(lucha-33, lucha-33''')
+case(Ley-36, por-34)
+det(Ley-36, una-35)
+nmod(lucha-33, Ley-36)
+case(Amnistía-38, de-37)
+flat(Ley-36, Amnistía-38)
+punct(General-40, --39)
+conj(Ley-36, General-40)
+cc(lucha-33''', y-41)
+case(aumento-44, por-42)
+det(aumento-44, el-43)
+nmod(lucha-33''', aumento-44)
+case(subsidio-46, al-45)
+nmod(aumento-44, subsidio-46)
+punct(dió-5, .-47)
+
+Extracted the following NER entity mentions:
+GONZALEZ	PERSON	PERSON:0.9442286357792808
+14	NUMBER	NUMBER:-1.0
+Hospital Ge	LOCATION	LOCATION:0.8791298739240709
+neral	CITY	LOCATION:0.5855647105795361
+de	LOCATION	LOCATION:0.5700339565993172
+México	COUNTRY	LOCATION:0.9460462139247535
+Ley de Amnistía	MISC	MISC:0.9858403959723521
+General	TITLE	-
+
+Sentence #8 (21 tokens):
+---a conti-
+nuación ANDRES NAJERA HERNANDEZ, a nombre del Co
+mite Pro Defensa de los Presos, Perseguidos
+
+Tokens:
+[Text=--- CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=NOUN Lemma=--- NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=conti CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=NOUN Lemma=conti NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=nuación CharacterOffsetBegin=506 CharacterOffsetEnd=513 PartOfSpeech=NOUN Lemma=nuación NamedEntityTag=O]
+[Text=ANDRES CharacterOffsetBegin=514 CharacterOffsetEnd=520 PartOfSpeech=PROPN Lemma=andres NamedEntityTag=PERSON]
+[Text=NAJERA CharacterOffsetBegin=521 CharacterOffsetEnd=527 PartOfSpeech=PROPN Lemma=najera NamedEntityTag=PERSON]
+[Text=HERNANDEZ CharacterOffsetBegin=528 CharacterOffsetEnd=537 PartOfSpeech=PROPN Lemma=hernandez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=nombre CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=NOUN Lemma=nombre NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Co CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=NOUN Lemma=co NamedEntityTag=ORGANIZATION]
+[Text=mite CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=PROPN Lemma=mite NamedEntityTag=ORGANIZATION]
+[Text=Pro CharacterOffsetBegin=560 CharacterOffsetEnd=563 PartOfSpeech=PROPN Lemma=pro NamedEntityTag=ORGANIZATION]
+[Text=Defensa CharacterOffsetBegin=564 CharacterOffsetEnd=571 PartOfSpeech=PROPN Lemma=defensa NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=los CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=DET Lemma=los NamedEntityTag=ORGANIZATION]
+[Text=Presos CharacterOffsetBegin=579 CharacterOffsetEnd=585 PartOfSpeech=PROPN Lemma=presos NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Perseguidos CharacterOffsetBegin=587 CharacterOffsetEnd=598 PartOfSpeech=PROPN Lemma=perseguidos NamedEntityTag=PERSON]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ----1)
+case(conti-3, a-2)
+nmod(----1, conti-3)
+punct(nuación-5, --4)
+appos(----1, nuación-5)
+appos(nuación-5, ANDRES-6)
+flat(ANDRES-6, NAJERA-7)
+flat(ANDRES-6, HERNANDEZ-8)
+punct(Co-13, ,-9)
+case(Co-13, a-10)
+fixed(a-10, nombre-11)
+fixed(a-10, del-12)
+conj(nuación-5, Co-13)
+appos(Co-13, mite-14)
+flat(mite-14, Pro-15)
+flat(mite-14, Defensa-16)
+case(Presos-19, de-17)
+det(Presos-19, los-18)
+nmod(Co-13, Presos-19)
+punct(nuación-5, ,-20)
+appos(----1, Perseguidos-21)
+
+Extracted the following NER entity mentions:
+ANDRES NAJERA HERNANDEZ	PERSON	PERSON:0.9361477361116721
+Co
+mite Pro Defensa de los Presos	ORGANIZATION	ORGANIZATION:0.3157079921688647
+Perseguidos	PERSON	PERSON:0.42410292246867753

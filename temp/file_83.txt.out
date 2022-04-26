@@ -1,0 +1,380 @@
+Document: ID=file_83.txt (5 sentences, 150 tokens)
+
+Sentence #1 (6 tokens):
+SALAS OBREGON, Ignacio Arturo.
+
+Tokens:
+[Text=SALAS CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NOUN Lemma=salas NamedEntityTag=O]
+[Text=OBREGON CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=ADJ Lemma=obregon NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Ignacio CharacterOffsetBegin=15 CharacterOffsetEnd=22 PartOfSpeech=PROPN Lemma=ignacio NamedEntityTag=PERSON]
+[Text=Arturo CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=PROPN Lemma=arturo NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, SALAS-1)
+amod(SALAS-1, OBREGON-2)
+punct(SALAS-1, ,-3)
+appos(SALAS-1, Ignacio-4)
+flat(Ignacio-4, Arturo-5)
+punct(SALAS-1, .-6)
+
+Extracted the following NER entity mentions:
+Ignacio Arturo	PERSON	PERSON:0.999519757060982
+
+Sentence #2 (2 tokens):
+Exp.11-235-74.
+
+Tokens:
+[Text=Exp.11-235-74 CharacterOffsetBegin=31 CharacterOffsetEnd=44 PartOfSpeech=NUM Lemma=exp.11-235-74 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp.11-235-74-1)
+punct(Exp.11-235-74-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (6 tokens):
+(56) H-302 L-11.
+
+Tokens:
+[Text=( CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=56 CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=NUM Lemma=56 NamedEntityTag=NUMBER NormalizedNamedEntityTag=56.0]
+[Text=) CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=H-302 CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=PROPN Lemma=h-302 NamedEntityTag=O]
+[Text=L-11 CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=PROPN Lemma=l-11 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 56-2)
+punct(56-2, (-1)
+punct(56-2, )-3)
+appos(56-2, H-302-4)
+flat(H-302-4, L-11-5)
+punct(56-2, .-6)
+
+Extracted the following NER entity mentions:
+56	NUMBER	NUMBER:-1.0
+
+Sentence #4 (55 tokens):
+que fue herido cuando el enfrentamiento con los po-
+licías en la Col. Campestre Churubusco, que igual--
+mente se responsabiliza y acepta por cuando al asal
+to que elementos de la BrigadaRoja cometieron en --
+agravio de los policías a cargo de una caseta en la
+Col. Lindavista de esta Cd.
+
+Tokens:
+[Text=que CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=fue CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=AUX Lemma=fue NamedEntityTag=O]
+[Text=herido CharacterOffsetBegin=71 CharacterOffsetEnd=77 PartOfSpeech=VERB Lemma=herido NamedEntityTag=O]
+[Text=cuando CharacterOffsetBegin=78 CharacterOffsetEnd=84 PartOfSpeech=SCONJ Lemma=cuando NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=enfrentamiento CharacterOffsetBegin=88 CharacterOffsetEnd=102 PartOfSpeech=NOUN Lemma=enfrentamiento NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=po CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=NOUN Lemma=po NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=licías CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=NOUN Lemma=licías NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Col. CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=PROPN Lemma=col. NamedEntityTag=LOCATION]
+[Text=Campestre CharacterOffsetBegin=133 CharacterOffsetEnd=142 PartOfSpeech=PROPN Lemma=campestre NamedEntityTag=CITY]
+[Text=Churubusco CharacterOffsetBegin=143 CharacterOffsetEnd=153 PartOfSpeech=PROPN Lemma=churubusco NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=igual CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=ADV Lemma=igual NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=mente CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=NOUN Lemma=mente NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=responsabiliza CharacterOffsetBegin=176 CharacterOffsetEnd=190 PartOfSpeech=VERB Lemma=responsabiliza NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=acepta CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=VERB Lemma=acepta NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=cuando CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=SCONJ Lemma=cuando NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=asal CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=NOUN Lemma=asal NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=PROPN Lemma=to NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=elementos CharacterOffsetBegin=226 CharacterOffsetEnd=235 PartOfSpeech=NOUN Lemma=elementos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=BrigadaRoja CharacterOffsetBegin=242 CharacterOffsetEnd=253 PartOfSpeech=PROPN Lemma=brigadaroja NamedEntityTag=MISC]
+[Text=cometieron CharacterOffsetBegin=254 CharacterOffsetEnd=264 PartOfSpeech=VERB Lemma=cometieron NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=NOUN Lemma=-- NamedEntityTag=O]
+[Text=agravio CharacterOffsetBegin=271 CharacterOffsetEnd=278 PartOfSpeech=NOUN Lemma=agravio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=279 CharacterOffsetEnd=281 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=policías CharacterOffsetBegin=286 CharacterOffsetEnd=294 PartOfSpeech=NOUN Lemma=policías NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=cargo CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=NOUN Lemma=cargo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=caseta CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=NOUN Lemma=caseta NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Col. CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=PROPN Lemma=col. NamedEntityTag=LOCATION]
+[Text=Lindavista CharacterOffsetBegin=328 CharacterOffsetEnd=338 PartOfSpeech=PROPN Lemma=lindavista NamedEntityTag=LOCATION]
+[Text=de CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=Cd CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=PROPN Lemma=cd NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, herido-3)
+nsubj(herido-3, que-1)
+aux(herido-3, fue-2)
+mark(enfrentamiento-6, cuando-4)
+det(enfrentamiento-6, el-5)
+obl(herido-3, enfrentamiento-6)
+case(po-9, con-7)
+det(po-9, los-8)
+nmod(enfrentamiento-6, po-9)
+punct(licías-11, --10)
+appos(po-9, licías-11)
+case(Col.-14, en-12)
+det(Col.-14, la-13)
+nmod(licías-11, Col.-14)
+flat(Col.-14, Campestre-15)
+flat(Col.-14, Churubusco-16)
+punct(responsabiliza-23, ,-17)
+obj(responsabiliza-23, que-18)
+advmod(mente-21, igual-19)
+nummod(mente-21, ---20)
+nsubj(responsabiliza-23, mente-21)
+obj(responsabiliza-23, se-22)
+acl(licías-11, responsabiliza-23)
+cc(acepta-25, y-24)
+acl(licías-11, acepta-25)
+conj:y(responsabiliza-23, acepta-25)
+mark(cometieron-36, por-26)
+mark(cometieron-36, cuando-27)
+case(asal-29, al-28)
+obl(cometieron-36, asal-29)
+appos(asal-29, to-30)
+mark(elementos-32, que-31)
+nsubj(cometieron-36, elementos-32)
+case(BrigadaRoja-35, de-33)
+det(BrigadaRoja-35, la-34)
+nmod(elementos-32, BrigadaRoja-35)
+advcl(acepta-25, cometieron-36)
+case(---38, en-37)
+obl(cometieron-36, ---38)
+nmod(---38, agravio-39)
+case(policías-42, de-40)
+det(policías-42, los-41)
+nmod(---38, policías-42)
+case(caseta-47, a-43)
+fixed(a-43, cargo-44)
+fixed(a-43, de-45)
+det(caseta-47, una-46)
+obj(cometieron-36, caseta-47)
+case(Col.-50, en-48)
+det(Col.-50, la-49)
+nmod(caseta-47, Col.-50)
+flat(Col.-50, Lindavista-51)
+case(Cd-54, de-52)
+det(Cd-54, esta-53)
+flat(Col.-50, Cd-54)
+punct(herido-3, .-55)
+
+Extracted the following NER entity mentions:
+Col.	LOCATION	LOCATION:0.6972272125968034
+Campestre	CITY	LOCATION:0.7179367235819091
+Churubusco	LOCATION	LOCATION:0.7127791031987675
+BrigadaRoja	MISC	MISC:0.5281470247594872
+Col. Lindavista	LOCATION	LOCATION:0.7204201431750112
+Cd	MISC	MISC:0.5197284776532957
+
+Sentence #5 (81 tokens):
+por haber realizado esa
+acción los miembros de la Brigada Roja, que el día-
+2 de abril último en una casa rentada en esta Capi-
+tal por un compañero que usa el (a) de Ricardo y -
+es miembro de la multicitada Brigada Roja, cuya --
+ubicación ignora, celebraron la 3/a reunión nacio--
+nalde la Liga a la que asistieron el propio RICARDO
+RODOLFOGOMEZ GARCIA, dAVID JIMENEZ SARMIENTO, BON
+
+Tokens:
+[Text=por CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=haber CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=AUX Lemma=haber NamedEntityTag=O]
+[Text=realizado CharacterOffsetBegin=361 CharacterOffsetEnd=370 PartOfSpeech=VERB Lemma=realizado NamedEntityTag=O]
+[Text=esa CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=DET Lemma=esa NamedEntityTag=O]
+[Text=acción CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NOUN Lemma=acción NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=miembros CharacterOffsetBegin=386 CharacterOffsetEnd=394 PartOfSpeech=NOUN Lemma=miembros NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Brigada CharacterOffsetBegin=401 CharacterOffsetEnd=408 PartOfSpeech=PROPN Lemma=brigada NamedEntityTag=ORGANIZATION]
+[Text=Roja CharacterOffsetBegin=409 CharacterOffsetEnd=413 PartOfSpeech=PROPN Lemma=roja NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=día CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=NOUN Lemma=día NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=2 CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=NUM Lemma=2 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-04-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-04-02">2 de abril</TIMEX3>]
+[Text=de CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=ADP Lemma=de NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-04-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-04-02">2 de abril</TIMEX3>]
+[Text=abril CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NOUN Lemma=abril NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-04-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-04-02">2 de abril</TIMEX3>]
+[Text=último CharacterOffsetBegin=438 CharacterOffsetEnd=444 PartOfSpeech=ADJ Lemma=último NamedEntityTag=TITLE]
+[Text=en CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=casa CharacterOffsetBegin=452 CharacterOffsetEnd=456 PartOfSpeech=NOUN Lemma=casa NamedEntityTag=O]
+[Text=rentada CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=ADJ Lemma=rentada NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=Capi CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=PROPN Lemma=capi NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=MISC]
+[Text=tal CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=NOUN Lemma=tal NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=compañero CharacterOffsetBegin=490 CharacterOffsetEnd=499 PartOfSpeech=NOUN Lemma=compañero NamedEntityTag=TITLE]
+[Text=que CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=usa CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=VERB Lemma=usa NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=NOUN Lemma=a NamedEntityTag=O]
+[Text=) CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Ricardo CharacterOffsetBegin=518 CharacterOffsetEnd=525 PartOfSpeech=PROPN Lemma=ricardo NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=es CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=AUX Lemma=es NamedEntityTag=O]
+[Text=miembro CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=NOUN Lemma=miembro NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=multicitada CharacterOffsetBegin=547 CharacterOffsetEnd=558 PartOfSpeech=ADJ Lemma=multicitada NamedEntityTag=ORGANIZATION]
+[Text=Brigada CharacterOffsetBegin=559 CharacterOffsetEnd=566 PartOfSpeech=PROPN Lemma=brigada NamedEntityTag=ORGANIZATION]
+[Text=Roja CharacterOffsetBegin=567 CharacterOffsetEnd=571 PartOfSpeech=PROPN Lemma=roja NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=571 CharacterOffsetEnd=572 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=cuya CharacterOffsetBegin=573 CharacterOffsetEnd=577 PartOfSpeech=PRON Lemma=cuya NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=578 CharacterOffsetEnd=580 PartOfSpeech=NOUN Lemma=-- NamedEntityTag=O]
+[Text=ubicación CharacterOffsetBegin=581 CharacterOffsetEnd=590 PartOfSpeech=NOUN Lemma=ubicación NamedEntityTag=O]
+[Text=ignora CharacterOffsetBegin=591 CharacterOffsetEnd=597 PartOfSpeech=VERB Lemma=ignora NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=celebraron CharacterOffsetBegin=599 CharacterOffsetEnd=609 PartOfSpeech=VERB Lemma=celebraron NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=3 CharacterOffsetBegin=613 CharacterOffsetEnd=614 PartOfSpeech=NUM Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=/ CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=615 CharacterOffsetEnd=616 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=reunión CharacterOffsetBegin=617 CharacterOffsetEnd=624 PartOfSpeech=NOUN Lemma=reunión NamedEntityTag=O]
+[Text=nacio CharacterOffsetBegin=625 CharacterOffsetEnd=630 PartOfSpeech=ADJ Lemma=nacio NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=nalde CharacterOffsetBegin=633 CharacterOffsetEnd=638 PartOfSpeech=VERB Lemma=nalde NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Liga CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=PROPN Lemma=liga NamedEntityTag=MISC]
+[Text=a CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=652 CharacterOffsetEnd=655 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=asistieron CharacterOffsetBegin=656 CharacterOffsetEnd=666 PartOfSpeech=VERB Lemma=asistieron NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=propio CharacterOffsetBegin=670 CharacterOffsetEnd=676 PartOfSpeech=DET Lemma=propio NamedEntityTag=O]
+[Text=RICARDO CharacterOffsetBegin=677 CharacterOffsetEnd=684 PartOfSpeech=PROPN Lemma=ricardo NamedEntityTag=PERSON]
+[Text=RODOLFOGOMEZ CharacterOffsetBegin=685 CharacterOffsetEnd=697 PartOfSpeech=PROPN Lemma=rodolfogomez NamedEntityTag=PERSON]
+[Text=GARCIA CharacterOffsetBegin=698 CharacterOffsetEnd=704 PartOfSpeech=PROPN Lemma=garcia NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=704 CharacterOffsetEnd=705 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=dAVID CharacterOffsetBegin=706 CharacterOffsetEnd=711 PartOfSpeech=PROPN Lemma=david NamedEntityTag=PERSON]
+[Text=JIMENEZ CharacterOffsetBegin=712 CharacterOffsetEnd=719 PartOfSpeech=PROPN Lemma=jimenez NamedEntityTag=PERSON]
+[Text=SARMIENTO CharacterOffsetBegin=720 CharacterOffsetEnd=729 PartOfSpeech=PROPN Lemma=sarmiento NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=729 CharacterOffsetEnd=730 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=BON CharacterOffsetBegin=731 CharacterOffsetEnd=734 PartOfSpeech=PROPN Lemma=bon NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, BON-81)
+mark(realizado-3, por-1)
+aux(realizado-3, haber-2)
+acl(BON-81, realizado-3)
+det(acción-5, esa-4)
+obj(realizado-3, acción-5)
+det(miembros-7, los-6)
+nsubj(realizado-3, miembros-7)
+case(Brigada-10, de-8)
+det(Brigada-10, la-9)
+nmod(miembros-7, Brigada-10)
+flat(Brigada-10, Roja-11)
+punct(celebraron-56, ,-12)
+nsubj(celebraron-56, que-13)
+det(día-15, el-14)
+obl(celebraron-56, día-15)
+punct(2-17, --16)
+appos(día-15, 2-17)
+case(abril-19, de-18)
+compound(2-17, abril-19)
+amod(2-17, último-20)
+case(casa-23, en-21)
+det(casa-23, una-22)
+nmod(2-17, casa-23)
+amod(casa-23, rentada-24)
+case(Capi-27, en-25)
+det(Capi-27, esta-26)
+nmod(casa-23, Capi-27)
+punct(2-17, --28)
+obl(celebraron-56, tal-29)
+case(compañero-32, por-30)
+det(compañero-32, un-31)
+nmod(tal-29, compañero-32)
+nsubj(usa-34, que-33)
+acl(compañero-32, usa-34)
+det(a-37, el-35)
+punct(a-37, (-36)
+obj(usa-34, a-37)
+punct(a-37, )-38)
+case(Ricardo-40, de-39)
+nmod(a-37, Ricardo-40)
+cc(miembro-44, y-41)
+punct(miembro-44, --42)
+cop(miembro-44, es-43)
+nmod(a-37, miembro-44)
+conj:y(Ricardo-40, miembro-44)
+case(Brigada-48, de-45)
+det(Brigada-48, la-46)
+amod(Brigada-48, multicitada-47)
+nmod(miembro-44, Brigada-48)
+flat(Brigada-48, Roja-49)
+punct(ignora-54, ,-50)
+nmod(---52, cuya-51)
+obj(ignora-54, ---52)
+nsubj(ignora-54, ubicación-53)
+acl(Brigada-48, ignora-54)
+punct(ignora-54, ,-55)
+acl(Brigada-10, celebraron-56)
+det(3-58, la-57)
+advmod(celebraron-56, 3-58)
+punct(3-58, /-59)
+case(reunión-61, a-60)
+obl(nalde-64, reunión-61)
+amod(reunión-61, nacio-62)
+nsubj(nalde-64, ---63)
+advcl(celebraron-56, nalde-64)
+det(Liga-66, la-65)
+obj(nalde-64, Liga-66)
+case(que-69, a-67)
+det(que-69, la-68)
+obj(asistieron-70, que-69)
+acl(Liga-66, asistieron-70)
+det(RICARDO-73, el-71)
+amod(RICARDO-73, propio-72)
+nsubj(asistieron-70, RICARDO-73)
+flat(RICARDO-73, RODOLFOGOMEZ-74)
+flat(RICARDO-73, GARCIA-75)
+punct(dAVID-77, ,-76)
+conj(RICARDO-73, dAVID-77)
+flat(dAVID-77, JIMENEZ-78)
+flat(dAVID-77, SARMIENTO-79)
+punct(realizado-3, ,-80)
+
+Extracted the following NER entity mentions:
+Brigada Roja	ORGANIZATION	ORGANIZATION:0.8579169239164272
+2 de abril	DATE	DATE:-1.0
+último	TITLE	-
+Capi-	MISC	MISC:0.8432859220907959
+compañero	TITLE	-
+Ricardo	PERSON	PERSON:0.9974169427784235
+multicitada Brigada Roja	ORGANIZATION	ORGANIZATION:0.9112142528686336
+3	NUMBER	NUMBER:-1.0
+Liga	MISC	MISC:0.9942478470612717
+RICARDO
+RODOLFOGOMEZ GARCIA	PERSON	PERSON:0.9894602587827935
+dAVID JIMENEZ SARMIENTO	PERSON	PERSON:0.8828285740410372

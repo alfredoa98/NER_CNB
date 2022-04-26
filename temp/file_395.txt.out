@@ -1,0 +1,134 @@
+Document: ID=file_395.txt (5 sentences, 41 tokens)
+
+Sentence #1 (12 tokens):
+HERNANDEZ Díaz, JUAN Guillermo 009-011-007
+-3- 28-Oct-82.
+
+Tokens:
+[Text=HERNANDEZ CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=PROPN Lemma=hernandez NamedEntityTag=PERSON]
+[Text=Díaz CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=PROPN Lemma=díaz NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=JUAN CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=juan NamedEntityTag=PERSON]
+[Text=Guillermo CharacterOffsetBegin=21 CharacterOffsetEnd=30 PartOfSpeech=PROPN Lemma=guillermo NamedEntityTag=PERSON]
+[Text=009-011-007 CharacterOffsetBegin=31 CharacterOffsetEnd=42 PartOfSpeech=NUM Lemma=009-011-007 NamedEntityTag=O]
+[Text=-3 CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=NUM Lemma=-3 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=28 CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=NUM Lemma=28 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Oct-82 CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NUM Lemma=oct-82 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, HERNANDEZ-1)
+flat(HERNANDEZ-1, Díaz-2)
+punct(JUAN-4, ,-3)
+flat(HERNANDEZ-1, JUAN-4)
+flat(JUAN-4, Guillermo-5)
+nummod(-3-7, 009-011-007-6)
+nummod(JUAN-4, -3-7)
+punct(28-9, --8)
+appos(-3-7, 28-9)
+punct(28-9, --10)
+nummod(JUAN-4, Oct-82-11)
+punct(HERNANDEZ-1, .-12)
+
+Extracted the following NER entity mentions:
+HERNANDEZ Díaz	PERSON	PERSON:0.9800056888908005
+JUAN Guillermo	PERSON	PERSON:0.9885809371130059
+
+Sentence #2 (4 tokens):
+-
+del Edo.
+
+Tokens:
+[Text=- CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Edo CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=PROPN Lemma=edo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Edo-3)
+punct(Edo-3, --1)
+case(Edo-3, del-2)
+punct(Edo-3, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (22 tokens):
+, además de que en una clinica se le apli
+có suero por el grado de debilidad que presenta-
+ba.
+
+Tokens:
+[Text=, CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=además CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=ADV Lemma=además NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=clinica CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NOUN Lemma=clinica NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=le CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=PRON Lemma=le NamedEntityTag=O]
+[Text=apli CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=VERB Lemma=apli NamedEntityTag=O]
+[Text=có CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=VERB Lemma=có NamedEntityTag=O]
+[Text=suero CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=NOUN Lemma=suero NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=grado CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NOUN Lemma=grado NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=debilidad CharacterOffsetBegin=134 CharacterOffsetEnd=143 PartOfSpeech=NOUN Lemma=debilidad NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=presenta CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=VERB Lemma=presenta NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ba CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=INTJ Lemma=ba NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, apli-10)
+punct(apli-10, ,-1)
+mark(apli-10, además-2)
+fixed(además-2, de-3)
+mark(apli-10, que-4)
+case(clinica-7, en-5)
+det(clinica-7, una-6)
+obl(apli-10, clinica-7)
+obj(apli-10, se-8)
+obj(apli-10, le-9)
+advcl(apli-10, có-11)
+obj(có-11, suero-12)
+case(grado-15, por-13)
+det(grado-15, el-14)
+obl(có-11, grado-15)
+case(debilidad-17, de-16)
+nmod(grado-15, debilidad-17)
+obj(presenta-19, que-18)
+acl(grado-15, presenta-19)
+punct(grado-15, --20)
+obj(apli-10, ba-21)
+punct(apli-10, .-22)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (2 tokens):
+hbs.
+
+Tokens:
+[Text=hbs CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=NOUN Lemma=hbs NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, hbs-1)
+punct(hbs-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #5 (1 tokens):
+-
+
+Tokens:
+[Text=- CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, --1)
+
+Extracted the following NER entity mentions:

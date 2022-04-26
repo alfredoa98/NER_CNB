@@ -1,0 +1,185 @@
+Document: ID=file_68.txt (7 sentences, 53 tokens)
+
+Sentence #1 (4 tokens):
+Exp-100-10-16-2-62
+H-94 L-1.
+
+Tokens:
+[Text=Exp-100-10-16-2-62 CharacterOffsetBegin=0 CharacterOffsetEnd=18 PartOfSpeech=PROPN Lemma=exp-100-10-16-2-62 NamedEntityTag=O]
+[Text=H-94 CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=PROPN Lemma=h-94 NamedEntityTag=O]
+[Text=L-1 CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=PROPN Lemma=l-1 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-100-10-16-2-62-1)
+flat(Exp-100-10-16-2-62-1, H-94-2)
+flat(Exp-100-10-16-2-62-1, L-1-3)
+punct(Exp-100-10-16-2-62-1, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (4 tokens):
+24-Jul-62.
+
+Tokens:
+[Text=24 CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=NUM Lemma=24 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Jul-62 CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NUM Lemma=jul-62 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 24-1)
+punct(24-1, --2)
+compound(24-1, Jul-62-3)
+punct(24-1, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (9 tokens):
+- El dia 22 del actual en IgualamGro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=dia CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=NOUN Lemma=dia NamedEntityTag=O]
+[Text=22 CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=NUM Lemma=22 NamedEntityTag=NUMBER NormalizedNamedEntityTag=22.0]
+[Text=del CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=actual CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=IgualamGro CharacterOffsetBegin=66 CharacterOffsetEnd=76 PartOfSpeech=PROPN Lemma=igualamgro NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, --1)
+det(dia-3, El-2)
+parataxis(--1, dia-3)
+appos(dia-3, 22-4)
+case(actual-6, del-5)
+amod(dia-3, actual-6)
+case(IgualamGro-8, en-7)
+nmod(actual-6, IgualamGro-8)
+punct(dia-3, .-9)
+
+Extracted the following NER entity mentions:
+22	NUMBER	NUMBER:-1.0
+IgualamGro	MISC	MISC:0.6985394506575653
+
+Sentence #4 (5 tokens):
+en el Congreso Mapl.
+
+Tokens:
+[Text=en CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Congreso CharacterOffsetBegin=84 CharacterOffsetEnd=92 PartOfSpeech=PROPN Lemma=congreso NamedEntityTag=ORGANIZATION]
+[Text=Mapl CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=PROPN Lemma=mapl NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Congreso-3)
+case(Congreso-3, en-1)
+det(Congreso-3, el-2)
+flat(Congreso-3, Mapl-4)
+punct(Congreso-3, .-5)
+
+Extracted the following NER entity mentions:
+Congreso Mapl	ORGANIZATION	ORGANIZATION:0.5060490610396257
+
+Sentence #5 (16 tokens):
+y Distrital dela Ascociacip
+on Civica Guerrerense, se le designo como Vice-
+Pte.
+
+Tokens:
+[Text=y CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=Distrital CharacterOffsetBegin=101 CharacterOffsetEnd=110 PartOfSpeech=PROPN Lemma=distrital NamedEntityTag=PERSON]
+[Text=dela CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=ADP Lemma=dela NamedEntityTag=PERSON]
+[Text=Ascociacip CharacterOffsetBegin=116 CharacterOffsetEnd=126 PartOfSpeech=PROPN Lemma=ascociacip NamedEntityTag=PERSON]
+[Text=on CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=ADJ Lemma=on NamedEntityTag=PERSON]
+[Text=Civica CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=PROPN Lemma=civica NamedEntityTag=PERSON]
+[Text=Guerrerense CharacterOffsetBegin=137 CharacterOffsetEnd=148 PartOfSpeech=PROPN Lemma=guerrerense NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=le CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=PRON Lemma=le NamedEntityTag=O]
+[Text=designo CharacterOffsetBegin=156 CharacterOffsetEnd=163 PartOfSpeech=VERB Lemma=designo NamedEntityTag=O]
+[Text=como CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=SCONJ Lemma=como NamedEntityTag=O]
+[Text=Vice CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=PROPN Lemma=vice NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=MISC]
+[Text=Pte CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=PROPN Lemma=pte NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, designo-11)
+cc(Distrital-2, y-1)
+nsubj(designo-11, Distrital-2)
+case(Ascociacip-4, dela-3)
+flat(Distrital-2, Ascociacip-4)
+amod(Distrital-2, on-5)
+flat(Distrital-2, Civica-6)
+flat(Distrital-2, Guerrerense-7)
+punct(Distrital-2, ,-8)
+obj(designo-11, se-9)
+obj(designo-11, le-10)
+mark(Vice-13, como-12)
+obl(designo-11, Vice-13)
+punct(Vice-13, --14)
+flat(Vice-13, Pte-15)
+punct(designo-11, .-16)
+
+Extracted the following NER entity mentions:
+Distrital dela Ascociacip
+on Civica Guerrerense	PERSON	PERSON:0.3788785450733149
+Vice-
+Pte	MISC	MISC:0.27198991554012864
+
+Sentence #6 (14 tokens):
+de la Nueva Directiva de dicha Asociacion
+Civica Guerrerense en Iguala,Gro.
+
+Tokens:
+[Text=de CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Nueva CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=PROPN Lemma=nueva NamedEntityTag=LOCATION]
+[Text=Directiva CharacterOffsetBegin=192 CharacterOffsetEnd=201 PartOfSpeech=PROPN Lemma=directiva NamedEntityTag=LOCATION]
+[Text=de CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=dicha CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=ADJ Lemma=dicha NamedEntityTag=O]
+[Text=Asociacion CharacterOffsetBegin=211 CharacterOffsetEnd=221 PartOfSpeech=PROPN Lemma=asociacion NamedEntityTag=ORGANIZATION]
+[Text=Civica CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=PROPN Lemma=civica NamedEntityTag=ORGANIZATION]
+[Text=Guerrerense CharacterOffsetBegin=229 CharacterOffsetEnd=240 PartOfSpeech=PROPN Lemma=guerrerense NamedEntityTag=ORGANIZATION]
+[Text=en CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Iguala CharacterOffsetBegin=244 CharacterOffsetEnd=250 PartOfSpeech=PROPN Lemma=iguala NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Nueva-3)
+case(Nueva-3, de-1)
+det(Nueva-3, la-2)
+flat(Nueva-3, Directiva-4)
+case(Asociacion-7, de-5)
+amod(Asociacion-7, dicha-6)
+flat(Nueva-3, Asociacion-7)
+flat(Nueva-3, Civica-8)
+flat(Nueva-3, Guerrerense-9)
+case(Iguala-11, en-10)
+flat(Nueva-3, Iguala-11)
+punct(Gro-13, ,-12)
+flat(Nueva-3, Gro-13)
+punct(Nueva-3, .-14)
+
+Extracted the following NER entity mentions:
+Nueva Directiva	LOCATION	LOCATION:0.4277360746723736
+Asociacion
+Civica Guerrerense	ORGANIZATION	ORGANIZATION:0.6705207052219001
+Iguala	CITY	LOCATION:0.8839199369241504
+
+Sentence #7 (1 tokens):
+.
+
+Tokens:
+[Text=. CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, .-1)
+
+Extracted the following NER entity mentions:

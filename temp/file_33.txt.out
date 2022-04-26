@@ -1,0 +1,358 @@
+Document: ID=file_33.txt (9 sentences, 122 tokens)
+
+Sentence #1 (6 tokens):
+EN EL ESTADO DE GRO.
+
+Tokens:
+[Text=EN CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=ESTADO CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GRO CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ESTADO-3)
+case(ESTADO-3, EN-1)
+det(ESTADO-3, EL-2)
+case(GRO-5, DE-4)
+flat(ESTADO-3, GRO-5)
+punct(ESTADO-3, .-6)
+
+Extracted the following NER entity mentions:
+GRO	ORGANIZATION	ORGANIZATION:0.31919722743552537
+
+Sentence #2 (3 tokens):
+Exp-100-10-1-78
+H-76.
+
+Tokens:
+[Text=Exp-100-10-1-78 CharacterOffsetBegin=21 CharacterOffsetEnd=36 PartOfSpeech=PROPN Lemma=exp-100-10-1-78 NamedEntityTag=O]
+[Text=H-76 CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=PROPN Lemma=h-76 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-100-10-1-78-1)
+flat(Exp-100-10-1-78-1, H-76-2)
+punct(Exp-100-10-1-78-1, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (2 tokens):
+L-79.
+
+Tokens:
+[Text=L-79 CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=NUM Lemma=l-79 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, L-79-1)
+punct(L-79-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (22 tokens):
+-8-
+irresponsable actitud de VICTORICO LOPEZ FIGUERO
+ROA, Asesor en Materia de Transporte del Gobier-
+no del Edo.
+
+Tokens:
+[Text=-8 CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=NUM Lemma=-8 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=irresponsable CharacterOffsetBegin=53 CharacterOffsetEnd=66 PartOfSpeech=ADJ Lemma=irresponsable NamedEntityTag=O]
+[Text=actitud CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=NOUN Lemma=actitud NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=VICTORICO CharacterOffsetBegin=78 CharacterOffsetEnd=87 PartOfSpeech=PROPN Lemma=victorico NamedEntityTag=PERSON]
+[Text=LOPEZ CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=PROPN Lemma=lopez NamedEntityTag=PERSON]
+[Text=FIGUERO CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=PROPN Lemma=figuero NamedEntityTag=PERSON]
+[Text=ROA CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=PROPN Lemma=roa NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Asesor CharacterOffsetBegin=107 CharacterOffsetEnd=113 PartOfSpeech=PROPN Lemma=asesor NamedEntityTag=TITLE]
+[Text=en CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Materia CharacterOffsetBegin=117 CharacterOffsetEnd=124 PartOfSpeech=PROPN Lemma=materia NamedEntityTag=LOCATION]
+[Text=de CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=ADP Lemma=de NamedEntityTag=LOCATION]
+[Text=Transporte CharacterOffsetBegin=128 CharacterOffsetEnd=138 PartOfSpeech=PROPN Lemma=transporte NamedEntityTag=LOCATION]
+[Text=del CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=ADP Lemma=del NamedEntityTag=LOCATION]
+[Text=Gobier CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=PROPN Lemma=gobier NamedEntityTag=LOCATION]
+[Text=- CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=LOCATION]
+[Text=no CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Edo CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=PROPN Lemma=edo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, actitud-4)
+nummod(actitud-4, -8-1)
+punct(actitud-4, --2)
+amod(actitud-4, irresponsable-3)
+case(VICTORICO-6, de-5)
+nmod(actitud-4, VICTORICO-6)
+flat(VICTORICO-6, LOPEZ-7)
+flat(VICTORICO-6, FIGUERO-8)
+flat(VICTORICO-6, ROA-9)
+punct(Asesor-11, ,-10)
+appos(actitud-4, Asesor-11)
+case(Materia-13, en-12)
+flat(Asesor-11, Materia-13)
+case(Transporte-15, de-14)
+flat(Asesor-11, Transporte-15)
+case(Gobier-17, del-16)
+flat(Asesor-11, Gobier-17)
+punct(Asesor-11, --18)
+advmod(actitud-4, no-19)
+case(no-19, del-20)
+nmod(no-19, Edo-21)
+punct(actitud-4, .-22)
+
+Extracted the following NER entity mentions:
+VICTORICO LOPEZ FIGUERO
+ROA	PERSON	PERSON:0.5463442185637434
+Asesor	TITLE	-
+Materia de Transporte del Gobier-	LOCATION	LOCATION:0.6056242138627551
+
+Sentence #5 (26 tokens):
+Y sus seguidores, quienes de hace --
+tiempo vienen mangoneando la situación de la Di-
+rección Gral. de Policía y Tránsito del Edo.
+
+Tokens:
+[Text=Y CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=sus CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=DET Lemma=sus NamedEntityTag=O]
+[Text=seguidores CharacterOffsetBegin=169 CharacterOffsetEnd=179 PartOfSpeech=NOUN Lemma=seguidores NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=quienes CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=PRON Lemma=quienes NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=hace CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=AUX Lemma=hace NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=tiempo CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=NOUN Lemma=tiempo NamedEntityTag=O]
+[Text=vienen CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=VERB Lemma=vienen NamedEntityTag=O]
+[Text=mangoneando CharacterOffsetBegin=214 CharacterOffsetEnd=225 PartOfSpeech=VERB Lemma=mangoneando NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=situación CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=NOUN Lemma=situación NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Di CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=PROPN Lemma=di NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=rección CharacterOffsetBegin=249 CharacterOffsetEnd=256 PartOfSpeech=NOUN Lemma=rección NamedEntityTag=O]
+[Text=Gral. CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=PROPN Lemma=gral. NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Policía CharacterOffsetBegin=266 CharacterOffsetEnd=273 PartOfSpeech=PROPN Lemma=policía NamedEntityTag=ORGANIZATION]
+[Text=y CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=Tránsito CharacterOffsetBegin=276 CharacterOffsetEnd=284 PartOfSpeech=PROPN Lemma=tránsito NamedEntityTag=LOCATION]
+[Text=del CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=ADP Lemma=del NamedEntityTag=LOCATION]
+[Text=Edo CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=PROPN Lemma=edo NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=292 CharacterOffsetEnd=293 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, seguidores-3)
+cc(seguidores-3, Y-1)
+det(seguidores-3, sus-2)
+punct(vienen-10, ,-4)
+nsubj(vienen-10, quienes-5)
+case(tiempo-9, de-6)
+aux(tiempo-9, hace-7)
+nummod(tiempo-9, ---8)
+obl(vienen-10, tiempo-9)
+acl(seguidores-3, vienen-10)
+advcl(vienen-10, mangoneando-11)
+det(situación-13, la-12)
+obj(mangoneando-11, situación-13)
+case(Di-16, de-14)
+det(Di-16, la-15)
+nmod(situación-13, Di-16)
+punct(rección-18, --17)
+appos(situación-13, rección-18)
+appos(rección-18, Gral.-19)
+case(Policía-21, de-20)
+flat(Gral.-19, Policía-21)
+cc(Tránsito-23, y-22)
+appos(situación-13, Tránsito-23)
+conj:y(rección-18, Tránsito-23)
+case(Edo-25, del-24)
+flat(Tránsito-23, Edo-25)
+punct(seguidores-3, .-26)
+
+Extracted the following NER entity mentions:
+Policía	ORGANIZATION	ORGANIZATION:0.9095563035394518
+Tránsito del Edo	LOCATION	LOCATION:0.2738962992852293
+
+Sentence #6 (6 tokens):
+Exp.100-10-1-79
+H-149 L-82
+29 may-79.
+
+Tokens:
+[Text=Exp.100-10-1-79 CharacterOffsetBegin=294 CharacterOffsetEnd=309 PartOfSpeech=ADP Lemma=exp.100-10-1-79 NamedEntityTag=O]
+[Text=H-149 CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=PROPN Lemma=h-149 NamedEntityTag=O]
+[Text=L-82 CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=PROPN Lemma=l-82 NamedEntityTag=O]
+[Text=29 CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=NUM Lemma=29 NamedEntityTag=NUMBER NormalizedNamedEntityTag=29.0]
+[Text=may-79 CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NUM Lemma=may-79 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-149-2)
+case(H-149-2, Exp.100-10-1-79-1)
+flat(H-149-2, L-82-3)
+nummod(H-149-2, 29-4)
+nummod(H-149-2, may-79-5)
+punct(H-149-2, .-6)
+
+Extracted the following NER entity mentions:
+29	NUMBER	NUMBER:-1.0
+
+Sentence #7 (5 tokens):
+- ACAPULCO, Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ACAPULCO CharacterOffsetBegin=333 CharacterOffsetEnd=341 PartOfSpeech=NOUN Lemma=acapulco NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ACAPULCO-2)
+punct(ACAPULCO-2, --1)
+punct(ACAPULCO-2, ,-3)
+appos(ACAPULCO-2, Gro-4)
+punct(ACAPULCO-2, .-5)
+
+Extracted the following NER entity mentions:
+ACAPULCO	ORGANIZATION	ORGANIZATION:0.6526104968098686
+Gro	PERSON	PERSON:0.57767675120154
+
+Sentence #8 (11 tokens):
+El 28 del actual los Agentes de
+la Policia Jud.
+
+Tokens:
+[Text=El CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=28 CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=NUM Lemma=28 NamedEntityTag=NUMBER NormalizedNamedEntityTag=28.0]
+[Text=del CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=actual CharacterOffsetBegin=358 CharacterOffsetEnd=364 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=Agentes CharacterOffsetBegin=369 CharacterOffsetEnd=376 PartOfSpeech=NOUN Lemma=agentes NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Policia CharacterOffsetBegin=383 CharacterOffsetEnd=390 PartOfSpeech=PROPN Lemma=policia NamedEntityTag=ORGANIZATION]
+[Text=Jud CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=PROPN Lemma=jud NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 28-2)
+det(28-2, El-1)
+case(Agentes-6, del-3)
+amod(Agentes-6, actual-4)
+det(Agentes-6, los-5)
+nmod(28-2, Agentes-6)
+case(Policia-9, de-7)
+det(Policia-9, la-8)
+nmod(Agentes-6, Policia-9)
+flat(Policia-9, Jud-10)
+punct(28-2, .-11)
+
+Extracted the following NER entity mentions:
+28	NUMBER	NUMBER:-1.0
+Policia Jud	ORGANIZATION	ORGANIZATION:0.9311067908505282
+
+Sentence #9 (41 tokens):
+del Estado JOSE LUIS BUSTOS ARELLANES y CONS
+TANCIO PATRICIO GARCIA ARELLANES tuvieron un incidente sin
+consecuencia alguna con el Agente de la Policia Judicial Fe
+deral Eusebio METODIO GUERRERO quien se encuentra de vaca-
+ciones en dicho lugar.
+
+Tokens:
+[Text=del CharacterOffsetBegin=395 CharacterOffsetEnd=398 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Estado CharacterOffsetBegin=399 CharacterOffsetEnd=405 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=ORGANIZATION]
+[Text=JOSE CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=O]
+[Text=LUIS CharacterOffsetBegin=411 CharacterOffsetEnd=415 PartOfSpeech=PROPN Lemma=luis NamedEntityTag=PERSON]
+[Text=BUSTOS CharacterOffsetBegin=416 CharacterOffsetEnd=422 PartOfSpeech=PROPN Lemma=bustos NamedEntityTag=PERSON]
+[Text=ARELLANES CharacterOffsetBegin=423 CharacterOffsetEnd=432 PartOfSpeech=PROPN Lemma=arellanes NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=CONS CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=PROPN Lemma=cons NamedEntityTag=O]
+[Text=TANCIO CharacterOffsetBegin=440 CharacterOffsetEnd=446 PartOfSpeech=PROPN Lemma=tancio NamedEntityTag=O]
+[Text=PATRICIO CharacterOffsetBegin=447 CharacterOffsetEnd=455 PartOfSpeech=PROPN Lemma=patricio NamedEntityTag=PERSON]
+[Text=GARCIA CharacterOffsetBegin=456 CharacterOffsetEnd=462 PartOfSpeech=PROPN Lemma=garcia NamedEntityTag=PERSON]
+[Text=ARELLANES CharacterOffsetBegin=463 CharacterOffsetEnd=472 PartOfSpeech=PROPN Lemma=arellanes NamedEntityTag=PERSON]
+[Text=tuvieron CharacterOffsetBegin=473 CharacterOffsetEnd=481 PartOfSpeech=VERB Lemma=tuvieron NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=incidente CharacterOffsetBegin=485 CharacterOffsetEnd=494 PartOfSpeech=NOUN Lemma=incidente NamedEntityTag=O]
+[Text=sin CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=ADP Lemma=sin NamedEntityTag=O]
+[Text=consecuencia CharacterOffsetBegin=499 CharacterOffsetEnd=511 PartOfSpeech=NOUN Lemma=consecuencia NamedEntityTag=O]
+[Text=alguna CharacterOffsetBegin=512 CharacterOffsetEnd=518 PartOfSpeech=PRON Lemma=alguna NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=523 CharacterOffsetEnd=525 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Agente CharacterOffsetBegin=526 CharacterOffsetEnd=532 PartOfSpeech=PROPN Lemma=agente NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=533 CharacterOffsetEnd=535 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=la CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=DET Lemma=la NamedEntityTag=ORGANIZATION]
+[Text=Policia CharacterOffsetBegin=539 CharacterOffsetEnd=546 PartOfSpeech=PROPN Lemma=policia NamedEntityTag=ORGANIZATION]
+[Text=Judicial CharacterOffsetBegin=547 CharacterOffsetEnd=555 PartOfSpeech=PROPN Lemma=judicial NamedEntityTag=ORGANIZATION]
+[Text=Fe CharacterOffsetBegin=556 CharacterOffsetEnd=558 PartOfSpeech=PROPN Lemma=fe NamedEntityTag=ORGANIZATION]
+[Text=deral CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=PROPN Lemma=deral NamedEntityTag=ORGANIZATION]
+[Text=Eusebio CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=PROPN Lemma=eusebio NamedEntityTag=ORGANIZATION]
+[Text=METODIO CharacterOffsetBegin=573 CharacterOffsetEnd=580 PartOfSpeech=PROPN Lemma=metodio NamedEntityTag=ORGANIZATION]
+[Text=GUERRERO CharacterOffsetBegin=581 CharacterOffsetEnd=589 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=ORGANIZATION]
+[Text=quien CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=PRON Lemma=quien NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encuentra CharacterOffsetBegin=599 CharacterOffsetEnd=608 PartOfSpeech=VERB Lemma=encuentra NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=vaca CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=NOUN Lemma=vaca NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=616 CharacterOffsetEnd=617 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ciones CharacterOffsetBegin=618 CharacterOffsetEnd=624 PartOfSpeech=NOUN Lemma=ciones NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=dicho CharacterOffsetBegin=628 CharacterOffsetEnd=633 PartOfSpeech=ADJ Lemma=dicho NamedEntityTag=O]
+[Text=lugar CharacterOffsetBegin=634 CharacterOffsetEnd=639 PartOfSpeech=NOUN Lemma=lugar NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, tuvieron-13)
+case(Estado-2, del-1)
+obl(tuvieron-13, Estado-2)
+flat(Estado-2, JOSE-3)
+flat(Estado-2, LUIS-4)
+flat(Estado-2, BUSTOS-5)
+flat(Estado-2, ARELLANES-6)
+cc(CONS-8, y-7)
+conj:y(Estado-2, CONS-8)
+obl(tuvieron-13, CONS-8)
+flat(CONS-8, TANCIO-9)
+flat(CONS-8, PATRICIO-10)
+flat(CONS-8, GARCIA-11)
+flat(CONS-8, ARELLANES-12)
+det(incidente-15, un-14)
+obj(tuvieron-13, incidente-15)
+case(alguna-18, sin-16)
+fixed(sin-16, consecuencia-17)
+nmod(incidente-15, alguna-18)
+case(Agente-21, con-19)
+det(Agente-21, el-20)
+nmod(alguna-18, Agente-21)
+case(Policia-24, de-22)
+det(Policia-24, la-23)
+flat(Agente-21, Policia-24)
+flat(Policia-24, Judicial-25)
+flat(Policia-24, Fe-26)
+flat(Policia-24, deral-27)
+flat(Policia-24, Eusebio-28)
+flat(Policia-24, METODIO-29)
+flat(Policia-24, GUERRERO-30)
+nsubj(encuentra-33, quien-31)
+obj(encuentra-33, se-32)
+acl(Agente-21, encuentra-33)
+case(vaca-35, de-34)
+obl(encuentra-33, vaca-35)
+punct(ciones-37, --36)
+appos(Agente-21, ciones-37)
+case(lugar-40, en-38)
+amod(lugar-40, dicho-39)
+nmod(ciones-37, lugar-40)
+punct(tuvieron-13, .-41)
+
+Extracted the following NER entity mentions:
+Estado	ORGANIZATION	ORGANIZATION:0.900504833301379
+LUIS BUSTOS ARELLANES	PERSON	PERSON:0.8917306111328438
+PATRICIO GARCIA ARELLANES	PERSON	PERSON:0.48901432727385846
+Agente de la Policia Judicial Fe
+deral Eusebio METODIO GUERRERO	ORGANIZATION	ORGANIZATION:0.37218674226016585

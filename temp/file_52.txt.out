@@ -1,0 +1,279 @@
+Document: ID=file_52.txt (7 sentences, 95 tokens)
+
+Sentence #1 (5 tokens):
+POLICIA EN EL EDO.
+
+Tokens:
+[Text=POLICIA CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=PROPN Lemma=policia NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=EDO CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=PROPN Lemma=edo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, POLICIA-1)
+case(EDO-4, EN-2)
+det(EDO-4, EL-3)
+flat(POLICIA-1, EDO-4)
+punct(POLICIA-1, .-5)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (3 tokens):
+DE GUERRERO.
+
+Tokens:
+[Text=DE CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=22 CharacterOffsetEnd=30 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, GUERRERO-2)
+case(GUERRERO-2, DE-1)
+punct(GUERRERO-2, .-3)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	-
+
+Sentence #3 (37 tokens):
+Exp-100-10-1-78
+-75- L-71 H-123
+LLADARES MENDOZA, ELEAZAR VALLADARES CHAVEZ, ADRIAN VALLADA-
+RES CHAVEZ y LIBORIO VALLADARES CHAVEZ, los cadaveres fue--
+rón inhumados en el Panteón Municipal de Papnoa, Gro.
+
+Tokens:
+[Text=Exp-100-10-1-78 CharacterOffsetBegin=32 CharacterOffsetEnd=47 PartOfSpeech=ADP Lemma=exp-100-10-1-78 NamedEntityTag=O]
+[Text=-75 CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=NUM Lemma=-75 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=L-71 CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=NUM Lemma=l-71 NamedEntityTag=O]
+[Text=H-123 CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NUM Lemma=h-123 NamedEntityTag=O]
+[Text=LLADARES CharacterOffsetBegin=64 CharacterOffsetEnd=72 PartOfSpeech=PROPN Lemma=lladares NamedEntityTag=PERSON]
+[Text=MENDOZA CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=PROPN Lemma=mendoza NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ELEAZAR CharacterOffsetBegin=82 CharacterOffsetEnd=89 PartOfSpeech=PROPN Lemma=eleazar NamedEntityTag=PERSON]
+[Text=VALLADARES CharacterOffsetBegin=90 CharacterOffsetEnd=100 PartOfSpeech=PROPN Lemma=valladares NamedEntityTag=PERSON]
+[Text=CHAVEZ CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=PROPN Lemma=chavez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ADRIAN CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=PROPN Lemma=adrian NamedEntityTag=PERSON]
+[Text=VALLADA CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=PROPN Lemma=vallada NamedEntityTag=PERSON]
+[Text=- CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=PERSON]
+[Text=RES CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=PROPN Lemma=res NamedEntityTag=PERSON]
+[Text=CHAVEZ CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=PROPN Lemma=chavez NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=136 CharacterOffsetEnd=137 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=LIBORIO CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=PROPN Lemma=liborio NamedEntityTag=PERSON]
+[Text=VALLADARES CharacterOffsetBegin=146 CharacterOffsetEnd=156 PartOfSpeech=PROPN Lemma=valladares NamedEntityTag=PERSON]
+[Text=CHAVEZ CharacterOffsetBegin=157 CharacterOffsetEnd=163 PartOfSpeech=PROPN Lemma=chavez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=cadaveres CharacterOffsetBegin=169 CharacterOffsetEnd=178 PartOfSpeech=NOUN Lemma=cadaveres NamedEntityTag=O]
+[Text=fue CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=AUX Lemma=fue NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=VERB Lemma=--_VERB NamedEntityTag=O]
+[Text=rón CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=NOUN Lemma=rón NamedEntityTag=O]
+[Text=inhumados CharacterOffsetBegin=189 CharacterOffsetEnd=198 PartOfSpeech=ADJ Lemma=inhumados NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Panteón CharacterOffsetBegin=205 CharacterOffsetEnd=212 PartOfSpeech=PROPN Lemma=panteón NamedEntityTag=LOCATION]
+[Text=Municipal CharacterOffsetBegin=213 CharacterOffsetEnd=222 PartOfSpeech=PROPN Lemma=municipal NamedEntityTag=LOCATION]
+[Text=de CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=ADP Lemma=de NamedEntityTag=LOCATION]
+[Text=Papnoa CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=PROPN Lemma=papnoa NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ---26)
+case(-75-2, Exp-100-10-1-78-1)
+obl(---26, -75-2)
+punct(-75-2, --3)
+appos(-75-2, L-71-4)
+nummod(LLADARES-6, H-123-5)
+appos(L-71-4, LLADARES-6)
+flat(LLADARES-6, MENDOZA-7)
+punct(-75-2, ,-8)
+appos(-75-2, ELEAZAR-9)
+flat(ELEAZAR-9, VALLADARES-10)
+flat(ELEAZAR-9, CHAVEZ-11)
+punct(ADRIAN-13, ,-12)
+conj(ELEAZAR-9, ADRIAN-13)
+flat(ADRIAN-13, VALLADA-14)
+punct(RES-16, --15)
+conj(ELEAZAR-9, RES-16)
+flat(RES-16, CHAVEZ-17)
+cc(LIBORIO-19, y-18)
+appos(-75-2, LIBORIO-19)
+conj:y(ELEAZAR-9, LIBORIO-19)
+flat(LIBORIO-19, VALLADARES-20)
+flat(LIBORIO-19, CHAVEZ-21)
+punct(-75-2, ,-22)
+det(cadaveres-24, los-23)
+nsubj(---26, cadaveres-24)
+aux(---26, fue-25)
+obj(---26, rón-27)
+amod(rón-27, inhumados-28)
+case(Panteón-31, en-29)
+det(Panteón-31, el-30)
+obl(---26, Panteón-31)
+flat(Panteón-31, Municipal-32)
+case(Papnoa-34, de-33)
+flat(Panteón-31, Papnoa-34)
+punct(Gro-36, ,-35)
+obj(---26, Gro-36)
+punct(---26, .-37)
+
+Extracted the following NER entity mentions:
+LLADARES MENDOZA	PERSON	PERSON:0.47615879642922676
+ELEAZAR VALLADARES CHAVEZ	PERSON	PERSON:0.9909661791139047
+ADRIAN VALLADA-
+RES CHAVEZ	PERSON	PERSON:0.48093825970712406
+LIBORIO VALLADARES CHAVEZ	PERSON	PERSON:0.8928718426842299
+Panteón Municipal de Papnoa	LOCATION	LOCATION:0.8983296667706899
+Gro	PERSON	PERSON:0.44904138538355504
+
+Sentence #4 (10 tokens):
+, los
+policias heridos fuerón transladados a la Cd.
+
+Tokens:
+[Text=, CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=policias CharacterOffsetBegin=244 CharacterOffsetEnd=252 PartOfSpeech=NOUN Lemma=policias NamedEntityTag=O]
+[Text=heridos CharacterOffsetBegin=253 CharacterOffsetEnd=260 PartOfSpeech=ADJ Lemma=heridos NamedEntityTag=O]
+[Text=fuerón CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=ADJ Lemma=fuerón NamedEntityTag=O]
+[Text=transladados CharacterOffsetBegin=268 CharacterOffsetEnd=280 PartOfSpeech=ADJ Lemma=transladados NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Cd CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=PROPN Lemma=cd NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, policias-3)
+punct(policias-3, ,-1)
+det(policias-3, los-2)
+amod(policias-3, heridos-4)
+amod(policias-3, fuerón-5)
+amod(policias-3, transladados-6)
+case(Cd-9, a-7)
+det(Cd-9, la-8)
+obj(transladados-6, Cd-9)
+punct(policias-3, .-10)
+
+Extracted the following NER entity mentions:
+Cd	MISC	MISC:0.3178679893650123
+
+Sentence #5 (7 tokens):
+de Chilpancin-
+go, GRo.
+
+Tokens:
+[Text=de CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Chilpancin CharacterOffsetBegin=293 CharacterOffsetEnd=303 PartOfSpeech=PROPN Lemma=chilpancin NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=MISC]
+[Text=go CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=INTJ Lemma=go NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=GRo CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=INTJ Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Chilpancin-2)
+case(Chilpancin-2, de-1)
+punct(go-4, --3)
+dep(Chilpancin-2, go-4)
+punct(go-4, ,-5)
+dep(go-4, GRo-6)
+punct(Chilpancin-2, .-7)
+
+Extracted the following NER entity mentions:
+Chilpancin-
+go	MISC	MISC:0.42506164968258503
+GRo	PERSON	PERSON:0.5459782515190958
+
+Sentence #6 (9 tokens):
+por considerarse de poca gravedad sus heridas.
+
+Tokens:
+[Text=por CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=considerar CharacterOffsetBegin=318 CharacterOffsetEnd=330 PartOfSpeech=VERB Lemma=considerar NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=318 CharacterOffsetEnd=330 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=poca CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=DET Lemma=poca NamedEntityTag=O]
+[Text=gravedad CharacterOffsetBegin=339 CharacterOffsetEnd=347 PartOfSpeech=NOUN Lemma=gravedad NamedEntityTag=O]
+[Text=sus CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=DET Lemma=sus NamedEntityTag=O]
+[Text=heridas CharacterOffsetBegin=352 CharacterOffsetEnd=359 PartOfSpeech=NOUN Lemma=heridas NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, considerar-2)
+obj(considerar-2, se-3)
+mark(considerar-2, por-1)
+case(gravedad-6, de-4)
+det(gravedad-6, poca-5)
+obj(considerar-2, gravedad-6)
+det(heridas-8, sus-7)
+obj(considerar-2, heridas-8)
+punct(considerar-2, .-9)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (24 tokens):
+La
+policia está realizando investigaciones del lugar en donde
+habían ocultado las armas de fuego y a la detención de los
+8 prófugos.
+
+Tokens:
+[Text=La CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=policia CharacterOffsetBegin=364 CharacterOffsetEnd=371 PartOfSpeech=NOUN Lemma=policia NamedEntityTag=O]
+[Text=está CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=AUX Lemma=está NamedEntityTag=O]
+[Text=realizando CharacterOffsetBegin=377 CharacterOffsetEnd=387 PartOfSpeech=VERB Lemma=realizando NamedEntityTag=O]
+[Text=investigaciones CharacterOffsetBegin=388 CharacterOffsetEnd=403 PartOfSpeech=NOUN Lemma=investigaciones NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=lugar CharacterOffsetBegin=408 CharacterOffsetEnd=413 PartOfSpeech=NOUN Lemma=lugar NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=donde CharacterOffsetBegin=417 CharacterOffsetEnd=422 PartOfSpeech=PRON Lemma=donde NamedEntityTag=O]
+[Text=habían CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=AUX Lemma=habían NamedEntityTag=O]
+[Text=ocultado CharacterOffsetBegin=430 CharacterOffsetEnd=438 PartOfSpeech=VERB Lemma=ocultado NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=DET Lemma=las NamedEntityTag=CRIMINAL_CHARGE]
+[Text=armas CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NOUN Lemma=armas NamedEntityTag=CRIMINAL_CHARGE]
+[Text=de CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=ADP Lemma=de NamedEntityTag=CRIMINAL_CHARGE]
+[Text=fuego CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=NOUN Lemma=fuego NamedEntityTag=CRIMINAL_CHARGE]
+[Text=y CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=detención CharacterOffsetBegin=465 CharacterOffsetEnd=474 PartOfSpeech=NOUN Lemma=detención NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=8 CharacterOffsetBegin=482 CharacterOffsetEnd=483 PartOfSpeech=NUM Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0]
+[Text=prófugos CharacterOffsetBegin=484 CharacterOffsetEnd=492 PartOfSpeech=ADJ Lemma=prófugos NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, realizando-4)
+det(policia-2, La-1)
+nsubj(realizando-4, policia-2)
+aux(realizando-4, está-3)
+obj(realizando-4, investigaciones-5)
+case(lugar-7, del-6)
+nmod(investigaciones-5, lugar-7)
+case(donde-9, en-8)
+obl(ocultado-11, donde-9)
+aux(ocultado-11, habían-10)
+acl(investigaciones-5, ocultado-11)
+det(armas-13, las-12)
+obj(ocultado-11, armas-13)
+case(fuego-15, de-14)
+nmod(armas-13, fuego-15)
+cc(detención-19, y-16)
+case(detención-19, a-17)
+det(detención-19, la-18)
+obj(ocultado-11, detención-19)
+conj:y(armas-13, detención-19)
+case(8-22, de-20)
+det(8-22, los-21)
+nummod(detención-19, 8-22)
+amod(8-22, prófugos-23)
+punct(realizando-4, .-24)
+
+Extracted the following NER entity mentions:
+las armas de fuego	CRIMINAL_CHARGE	-
+8	NUMBER	NUMBER:-1.0

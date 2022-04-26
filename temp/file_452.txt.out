@@ -1,0 +1,565 @@
+Document: ID=file_452.txt (15 sentences, 188 tokens)
+
+Sentence #1 (5 tokens):
+FIERRO LOZA, Francisco.
+
+Tokens:
+[Text=FIERRO CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NOUN Lemma=fierro NamedEntityTag=PERSON]
+[Text=LOZA CharacterOffsetBegin=7 CharacterOffsetEnd=11 PartOfSpeech=ADJ Lemma=loza NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Francisco CharacterOffsetBegin=13 CharacterOffsetEnd=22 PartOfSpeech=PROPN Lemma=francisco NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, FIERRO-1)
+amod(FIERRO-1, LOZA-2)
+punct(Francisco-4, ,-3)
+appos(FIERRO-1, Francisco-4)
+punct(FIERRO-1, .-5)
+
+Extracted the following NER entity mentions:
+FIERRO LOZA	PERSON	PERSON:0.959936838467863
+Francisco	PERSON	PERSON:0.9873751554822924
+
+Sentence #2 (3 tokens):
+- Exp-100-10-1-78.
+
+Tokens:
+[Text=- CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Exp-100-10-1-78 CharacterOffsetBegin=25 CharacterOffsetEnd=40 PartOfSpeech=NUM Lemma=exp-100-10-1-78 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-100-10-1-78-2)
+punct(Exp-100-10-1-78-2, --1)
+punct(Exp-100-10-1-78-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (17 tokens):
+(19) H-99 L-78
+a quemarlos, quedando únicamente en circulación 10 eje
+plares.
+
+Tokens:
+[Text=( CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=19 CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=NUM Lemma=19 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.0]
+[Text=) CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=H-99 CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=PROPN Lemma=h-99 NamedEntityTag=O]
+[Text=L-78 CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=PROPN Lemma=l-78 NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=quemar CharacterOffsetBegin=59 CharacterOffsetEnd=68 PartOfSpeech=VERB Lemma=quemar NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=59 CharacterOffsetEnd=68 PartOfSpeech=PRON Lemma=los NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=quedando CharacterOffsetBegin=70 CharacterOffsetEnd=78 PartOfSpeech=VERB Lemma=quedando NamedEntityTag=O]
+[Text=únicamente CharacterOffsetBegin=79 CharacterOffsetEnd=89 PartOfSpeech=ADV Lemma=únicamente NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=circulación CharacterOffsetBegin=93 CharacterOffsetEnd=104 PartOfSpeech=NOUN Lemma=circulación NamedEntityTag=O]
+[Text=10 CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=NUM Lemma=10 NamedEntityTag=NUMBER NormalizedNamedEntityTag=10.0]
+[Text=eje CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=NOUN Lemma=eje NamedEntityTag=O]
+[Text=plares CharacterOffsetBegin=112 CharacterOffsetEnd=118 PartOfSpeech=ADJ Lemma=plares NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 19-2)
+acl(H-99-4, quemar-7)
+obj(quemar-7, los-8)
+punct(19-2, (-1)
+punct(19-2, )-3)
+appos(19-2, H-99-4)
+flat(H-99-4, L-78-5)
+mark(quemar-7, a-6)
+punct(19-2, ,-9)
+advcl(19-2, quedando-10)
+advmod(quedando-10, únicamente-11)
+case(únicamente-11, en-12)
+nmod(eje-15, circulación-13)
+nummod(circulación-13, 10-14)
+nmod(únicamente-11, eje-15)
+amod(eje-15, plares-16)
+punct(19-2, .-17)
+
+Extracted the following NER entity mentions:
+19	NUMBER	NUMBER:-1.0
+10	NUMBER	NUMBER:-1.0
+
+Sentence #4 (29 tokens):
+-En dicha propaganda exhortaban al Ejército y
+a las Policías a que tomen conciencia del papel de Me
+cenarios que juegan y que FIERRO LOZA, Francisco.
+
+Tokens:
+[Text=- CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=En CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=dicha CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=ADJ Lemma=dicha NamedEntityTag=O]
+[Text=propaganda CharacterOffsetBegin=129 CharacterOffsetEnd=139 PartOfSpeech=NOUN Lemma=propaganda NamedEntityTag=O]
+[Text=exhortaban CharacterOffsetBegin=140 CharacterOffsetEnd=150 PartOfSpeech=VERB Lemma=exhortaban NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=Ejército CharacterOffsetBegin=154 CharacterOffsetEnd=162 PartOfSpeech=PROPN Lemma=ejército NamedEntityTag=ORGANIZATION]
+[Text=y CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=Policías CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=PROPN Lemma=policías NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=tomen CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=VERB Lemma=tomen NamedEntityTag=O]
+[Text=conciencia CharacterOffsetBegin=192 CharacterOffsetEnd=202 PartOfSpeech=NOUN Lemma=conciencia NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=papel CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NOUN Lemma=papel NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Me CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=PRON Lemma=I NamedEntityTag=O]
+[Text=cenarios CharacterOffsetBegin=219 CharacterOffsetEnd=227 PartOfSpeech=VERB Lemma=cenario NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=juegan CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=VERB Lemma=juegan NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=FIERRO CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=PROPN Lemma=fierro NamedEntityTag=PERSON]
+[Text=LOZA CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=PROPN Lemma=loza NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Francisco CharacterOffsetBegin=258 CharacterOffsetEnd=267 PartOfSpeech=PROPN Lemma=francisco NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, exhortaban-5)
+punct(exhortaban-5, --1)
+case(propaganda-4, En-2)
+amod(propaganda-4, dicha-3)
+obl(exhortaban-5, propaganda-4)
+case(Ejército-7, al-6)
+iobj(exhortaban-5, Ejército-7)
+cc(Policías-11, y-8)
+case(Policías-11, a-9)
+det(Policías-11, las-10)
+iobj(exhortaban-5, Policías-11)
+conj:y(Ejército-7, Policías-11)
+mark(tomen-14, a-12)
+mark(tomen-14, que-13)
+ccomp(exhortaban-5, tomen-14)
+nsubj(cenarios-20, conciencia-15)
+case(papel-17, del-16)
+obl(cenarios-20, papel-17)
+case(Me-19, de-18)
+iobj(cenarios-20, Me-19)
+ccomp(tomen-14, cenarios-20)
+mark(juegan-22, que-21)
+ccomp(cenarios-20, juegan-22)
+cc(juegan-22, y-23)
+mark(y-23, que-24)
+csubj:pass(que-24, FIERRO-25)
+flat(FIERRO-25, LOZA-26)
+punct(Francisco-28, ,-27)
+flat(FIERRO-25, Francisco-28)
+punct(FIERRO-25, .-29)
+
+Extracted the following NER entity mentions:
+Ejército	ORGANIZATION	ORGANIZATION:0.9924633713515729
+FIERRO LOZA	PERSON	PERSON:0.9285541298113532
+Francisco	PERSON	PERSON:0.9817186603578565
+
+Sentence #5 (34 tokens):
+Exp 100-10-16-4-76
+-15- H-155 L-12
+que pertenece también al comando que encabeza FIERRO
+LOZA y fue una de las participaciones en el secuestro
+de El fego Coronel Ocampo en compañía del Ing.
+
+Tokens:
+[Text=Exp CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=O]
+[Text=100-10-16-4-76 CharacterOffsetBegin=273 CharacterOffsetEnd=287 PartOfSpeech=NUM Lemma=100-10-16-4-76 NamedEntityTag=O]
+[Text=-15 CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=NUM Lemma=-15 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=H-155 CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=NUM Lemma=h-155 NamedEntityTag=MISC]
+[Text=L-12 CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NUM Lemma=l-12 NamedEntityTag=MISC]
+[Text=que CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=pertenece CharacterOffsetBegin=308 CharacterOffsetEnd=317 PartOfSpeech=VERB Lemma=pertenece NamedEntityTag=O]
+[Text=también CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=ADV Lemma=también NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=comando CharacterOffsetBegin=329 CharacterOffsetEnd=336 PartOfSpeech=NOUN Lemma=comando NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=encabeza CharacterOffsetBegin=341 CharacterOffsetEnd=349 PartOfSpeech=VERB Lemma=encabeza NamedEntityTag=O]
+[Text=FIERRO CharacterOffsetBegin=350 CharacterOffsetEnd=356 PartOfSpeech=PROPN Lemma=fierro NamedEntityTag=PERSON]
+[Text=LOZA CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=PROPN Lemma=loza NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=fue CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=AUX Lemma=fue NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=PRON Lemma=una NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=375 CharacterOffsetEnd=378 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=participaciones CharacterOffsetBegin=379 CharacterOffsetEnd=394 PartOfSpeech=NOUN Lemma=participaciones NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=secuestro CharacterOffsetBegin=401 CharacterOffsetEnd=410 PartOfSpeech=NOUN Lemma=secuestro NamedEntityTag=CRIMINAL_CHARGE]
+[Text=de CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=DET Lemma=el NamedEntityTag=LOCATION]
+[Text=fego CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=PROPN Lemma=fego NamedEntityTag=LOCATION]
+[Text=Coronel CharacterOffsetBegin=422 CharacterOffsetEnd=429 PartOfSpeech=PROPN Lemma=coronel NamedEntityTag=TITLE]
+[Text=Ocampo CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=PROPN Lemma=ocampo NamedEntityTag=CITY]
+[Text=en CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=compañía CharacterOffsetBegin=440 CharacterOffsetEnd=448 PartOfSpeech=NOUN Lemma=compañía NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Ing CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=PROPN Lemma=ing NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-1)
+nummod(Exp-1, 100-10-16-4-76-2)
+flat(Exp-1, -15-3)
+punct(H-155-5, --4)
+appos(Exp-1, H-155-5)
+compound(H-155-5, L-12-6)
+nsubj(pertenece-8, que-7)
+advcl(H-155-5, pertenece-8)
+advmod(pertenece-8, también-9)
+case(comando-11, al-10)
+obj(pertenece-8, comando-11)
+obj(encabeza-13, que-12)
+acl(comando-11, encabeza-13)
+nsubj(encabeza-13, FIERRO-14)
+flat(FIERRO-14, LOZA-15)
+cc(una-18, y-16)
+cop(una-18, fue-17)
+appos(Exp-1, una-18)
+conj:y(H-155-5, una-18)
+case(participaciones-21, de-19)
+det(participaciones-21, las-20)
+nmod(una-18, participaciones-21)
+case(secuestro-24, en-22)
+det(secuestro-24, el-23)
+nmod(participaciones-21, secuestro-24)
+case(fego-27, de-25)
+det(fego-27, El-26)
+nmod(secuestro-24, fego-27)
+flat(fego-27, Coronel-28)
+flat(fego-27, Ocampo-29)
+case(Ing-33, en-30)
+fixed(en-30, compañía-31)
+fixed(en-30, del-32)
+nmod(secuestro-24, Ing-33)
+nmod(secuestro-24, Ing-33)
+punct(Exp-1, .-34)
+
+Extracted the following NER entity mentions:
+H-155 L-12	MISC	MISC:0.37224214423601293
+FIERRO
+LOZA	PERSON	PERSON:0.8539589804138762
+secuestro	CRIMINAL_CHARGE	-
+El fego	LOCATION	LOCATION:0.48011128828557087
+Coronel	TITLE	LOCATION:0.3306133257122651
+Ocampo	CITY	LOCATION:0.31754965934355267
+Ing	ORGANIZATION	ORGANIZATION:0.34001263437656404
+
+Sentence #6 (13 tokens):
+CANTU,
+plagio que se efectuó en Puente de Ixtla, Mor.
+
+Tokens:
+[Text=CANTU CharacterOffsetBegin=458 CharacterOffsetEnd=463 PartOfSpeech=PROPN Lemma=cantu NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=463 CharacterOffsetEnd=464 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=plagio CharacterOffsetBegin=465 CharacterOffsetEnd=471 PartOfSpeech=NOUN Lemma=plagio NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=efectuó CharacterOffsetBegin=479 CharacterOffsetEnd=486 PartOfSpeech=VERB Lemma=efectuó NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Puente CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=PROPN Lemma=puente NamedEntityTag=CITY]
+[Text=de CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=ADP Lemma=de NamedEntityTag=CITY]
+[Text=Ixtla CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=PROPN Lemma=ixtla NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=505 CharacterOffsetEnd=506 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Mor CharacterOffsetBegin=507 CharacterOffsetEnd=510 PartOfSpeech=PROPN Lemma=mor NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, CANTU-1)
+punct(plagio-3, ,-2)
+appos(CANTU-1, plagio-3)
+nsubj(efectuó-6, que-4)
+obj(efectuó-6, se-5)
+acl(plagio-3, efectuó-6)
+case(Puente-8, en-7)
+obl(efectuó-6, Puente-8)
+case(Ixtla-10, de-9)
+flat(Puente-8, Ixtla-10)
+punct(Mor-12, ,-11)
+flat(Puente-8, Mor-12)
+punct(CANTU-1, .-13)
+
+Extracted the following NER entity mentions:
+CANTU	ORGANIZATION	ORGANIZATION:0.8039234699260361
+Puente de Ixtla	CITY	LOCATION:0.5791422230387605
+Mor	PERSON	PERSON:0.8322151731252276
+
+Sentence #7 (1 tokens):
+.
+
+Tokens:
+[Text=. CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, .-1)
+
+Extracted the following NER entity mentions:
+
+Sentence #8 (16 tokens):
+-Que
+el Comando Armado Revolucionario de Morelos es diri-
+gido por FIERRO LOZA.
+
+Tokens:
+[Text=- CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Que CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Comando CharacterOffsetBegin=520 CharacterOffsetEnd=527 PartOfSpeech=PROPN Lemma=comando NamedEntityTag=ORGANIZATION]
+[Text=Armado CharacterOffsetBegin=528 CharacterOffsetEnd=534 PartOfSpeech=PROPN Lemma=armado NamedEntityTag=ORGANIZATION]
+[Text=Revolucionario CharacterOffsetBegin=535 CharacterOffsetEnd=549 PartOfSpeech=PROPN Lemma=revolucionario NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Morelos CharacterOffsetBegin=553 CharacterOffsetEnd=560 PartOfSpeech=PROPN Lemma=morelos NamedEntityTag=ORGANIZATION]
+[Text=es CharacterOffsetBegin=561 CharacterOffsetEnd=563 PartOfSpeech=AUX Lemma=es NamedEntityTag=O]
+[Text=diri CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=VERB Lemma=diri NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=gido CharacterOffsetBegin=570 CharacterOffsetEnd=574 PartOfSpeech=ADJ Lemma=gido NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=FIERRO CharacterOffsetBegin=579 CharacterOffsetEnd=585 PartOfSpeech=PROPN Lemma=fierro NamedEntityTag=PERSON]
+[Text=LOZA CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=PROPN Lemma=loza NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, diri-10)
+punct(diri-10, --1)
+mark(diri-10, Que-2)
+det(Comando-4, el-3)
+nsubj(diri-10, Comando-4)
+flat(Comando-4, Armado-5)
+flat(Comando-4, Revolucionario-6)
+case(Morelos-8, de-7)
+flat(Comando-4, Morelos-8)
+aux(diri-10, es-9)
+punct(diri-10, --11)
+obj(diri-10, gido-12)
+case(FIERRO-14, por-13)
+obl(diri-10, FIERRO-14)
+flat(FIERRO-14, LOZA-15)
+punct(diri-10, .-16)
+
+Extracted the following NER entity mentions:
+Comando Armado Revolucionario de Morelos	ORGANIZATION	ORGANIZATION:0.959064162104816
+FIERRO LOZA	PERSON	PERSON:0.7617138234638219
+
+Sentence #9 (9 tokens):
+-Asimismo dijo que en Ometepec,
+Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=591 CharacterOffsetEnd=592 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Asimismo CharacterOffsetBegin=592 CharacterOffsetEnd=600 PartOfSpeech=ADV Lemma=asimismo NamedEntityTag=O]
+[Text=dijo CharacterOffsetBegin=601 CharacterOffsetEnd=605 PartOfSpeech=VERB Lemma=dijo NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Ometepec CharacterOffsetBegin=613 CharacterOffsetEnd=621 PartOfSpeech=PROPN Lemma=ometepec NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=621 CharacterOffsetEnd=622 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, dijo-3)
+punct(dijo-3, --1)
+advmod(dijo-3, Asimismo-2)
+mark(Ometepec-6, que-4)
+case(Ometepec-6, en-5)
+obl(dijo-3, Ometepec-6)
+punct(Ometepec-6, ,-7)
+flat(Ometepec-6, Gro-8)
+punct(dijo-3, .-9)
+
+Extracted the following NER entity mentions:
+Ometepec	CITY	LOCATION:0.9581250208701841
+Gro	PERSON	PERSON:0.4591182293173465
+
+Sentence #10 (10 tokens):
+se encuentra una célula reclutada por FIERRO LO
+ZA.
+
+Tokens:
+[Text=se CharacterOffsetBegin=628 CharacterOffsetEnd=630 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encuentra CharacterOffsetBegin=631 CharacterOffsetEnd=640 PartOfSpeech=VERB Lemma=encuentra NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=célula CharacterOffsetBegin=645 CharacterOffsetEnd=651 PartOfSpeech=NOUN Lemma=célula NamedEntityTag=O]
+[Text=reclutada CharacterOffsetBegin=652 CharacterOffsetEnd=661 PartOfSpeech=ADJ Lemma=reclutada NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=FIERRO CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=PROPN Lemma=fierro NamedEntityTag=ORGANIZATION]
+[Text=LO CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=PROPN Lemma=lo NamedEntityTag=O]
+[Text=ZA CharacterOffsetBegin=676 CharacterOffsetEnd=678 PartOfSpeech=PROPN Lemma=za NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, encuentra-2)
+obj(encuentra-2, se-1)
+det(célula-4, una-3)
+nsubj(encuentra-2, célula-4)
+amod(célula-4, reclutada-5)
+case(FIERRO-7, por-6)
+obj(reclutada-5, FIERRO-7)
+flat(FIERRO-7, LO-8)
+flat(FIERRO-7, ZA-9)
+punct(encuentra-2, .-10)
+
+Extracted the following NER entity mentions:
+FIERRO	ORGANIZATION	ORGANIZATION:0.5274141050348599
+
+Sentence #11 (3 tokens):
+- Exp.
+
+Tokens:
+[Text=- CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Exp CharacterOffsetBegin=681 CharacterOffsetEnd=684 PartOfSpeech=INTJ Lemma=exp NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=684 CharacterOffsetEnd=685 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-2)
+punct(Exp-2, --1)
+punct(Exp-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #12 (5 tokens):
+-100-10-16-4-77
+H-228 L-12
+8.
+
+Tokens:
+[Text=-100-10-16-4-77 CharacterOffsetBegin=685 CharacterOffsetEnd=700 PartOfSpeech=NUM Lemma=-100-10-16-4-77 NamedEntityTag=O]
+[Text=H-228 CharacterOffsetBegin=701 CharacterOffsetEnd=706 PartOfSpeech=PROPN Lemma=h-228 NamedEntityTag=O]
+[Text=L-12 CharacterOffsetBegin=707 CharacterOffsetEnd=711 PartOfSpeech=PROPN Lemma=l-12 NamedEntityTag=O]
+[Text=8 CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=NUM Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0]
+[Text=. CharacterOffsetBegin=713 CharacterOffsetEnd=714 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-228-2)
+nummod(H-228-2, -100-10-16-4-77-1)
+flat(H-228-2, L-12-3)
+nummod(H-228-2, 8-4)
+punct(H-228-2, .-5)
+
+Extracted the following NER entity mentions:
+8	NUMBER	NUMBER:-1.0
+
+Sentence #13 (2 tokens):
+Feb.77.
+
+Tokens:
+[Text=Feb.77 CharacterOffsetBegin=714 CharacterOffsetEnd=720 PartOfSpeech=NOUN Lemma=feb.77 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=720 CharacterOffsetEnd=721 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Feb.77-1)
+punct(Feb.77-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #14 (8 tokens):
+-El 6 actual en Chilpancingo Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=721 CharacterOffsetEnd=722 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=722 CharacterOffsetEnd=724 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=NUM Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=actual CharacterOffsetBegin=727 CharacterOffsetEnd=733 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=734 CharacterOffsetEnd=736 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Chilpancingo CharacterOffsetBegin=737 CharacterOffsetEnd=749 PartOfSpeech=PROPN Lemma=chilpancingo NamedEntityTag=CITY]
+[Text=Gro CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 6-3)
+punct(6-3, --1)
+det(6-3, El-2)
+amod(6-3, actual-4)
+case(Chilpancingo-6, en-5)
+nmod(6-3, Chilpancingo-6)
+flat(Chilpancingo-6, Gro-7)
+punct(6-3, .-8)
+
+Extracted the following NER entity mentions:
+6	NUMBER	NUMBER:-1.0
+Chilpancingo	CITY	LOCATION:0.9989347267775918
+Gro	LOCATION	LOCATION:0.8582171449795758
+
+Sentence #15 (33 tokens):
+,--
+cuando se encontraba haciendo guardia frente-
+al edificio del Departamento de Planeación --
+Universitaria de la U.A.G., la esposa de este
+elemento FABIOLA RODRÍGUEZ RAMOS, miembro del-
+
+Tokens:
+[Text=, CharacterOffsetBegin=754 CharacterOffsetEnd=755 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=cuando CharacterOffsetBegin=758 CharacterOffsetEnd=764 PartOfSpeech=SCONJ Lemma=cuando NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encontraba CharacterOffsetBegin=768 CharacterOffsetEnd=778 PartOfSpeech=VERB Lemma=encontraba NamedEntityTag=O]
+[Text=haciendo CharacterOffsetBegin=779 CharacterOffsetEnd=787 PartOfSpeech=VERB Lemma=haciendo NamedEntityTag=O]
+[Text=guardia CharacterOffsetBegin=788 CharacterOffsetEnd=795 PartOfSpeech=NOUN Lemma=guardia NamedEntityTag=TITLE]
+[Text=frente CharacterOffsetBegin=796 CharacterOffsetEnd=802 PartOfSpeech=NOUN Lemma=frente NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=802 CharacterOffsetEnd=803 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=804 CharacterOffsetEnd=806 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=edificio CharacterOffsetBegin=807 CharacterOffsetEnd=815 PartOfSpeech=NOUN Lemma=edificio NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=816 CharacterOffsetEnd=819 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Departamento CharacterOffsetBegin=820 CharacterOffsetEnd=832 PartOfSpeech=PROPN Lemma=departamento NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=833 CharacterOffsetEnd=835 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Planeación CharacterOffsetBegin=836 CharacterOffsetEnd=846 PartOfSpeech=PROPN Lemma=planeación NamedEntityTag=ORGANIZATION]
+[Text=-- CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=ORGANIZATION]
+[Text=Universitaria CharacterOffsetBegin=850 CharacterOffsetEnd=863 PartOfSpeech=PROPN Lemma=universitaria NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=864 CharacterOffsetEnd=866 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=la CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=DET Lemma=la NamedEntityTag=ORGANIZATION]
+[Text=U.A.G. CharacterOffsetBegin=870 CharacterOffsetEnd=876 PartOfSpeech=PROPN Lemma=u.a.g. NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=876 CharacterOffsetEnd=877 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=878 CharacterOffsetEnd=880 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=esposa CharacterOffsetBegin=881 CharacterOffsetEnd=887 PartOfSpeech=NOUN Lemma=esposa NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=888 CharacterOffsetEnd=890 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=891 CharacterOffsetEnd=895 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=elemento CharacterOffsetBegin=896 CharacterOffsetEnd=904 PartOfSpeech=NOUN Lemma=elemento NamedEntityTag=O]
+[Text=FABIOLA CharacterOffsetBegin=905 CharacterOffsetEnd=912 PartOfSpeech=PROPN Lemma=fabiola NamedEntityTag=PERSON]
+[Text=RODRÍGUEZ CharacterOffsetBegin=913 CharacterOffsetEnd=922 PartOfSpeech=PROPN Lemma=rodríguez NamedEntityTag=PERSON]
+[Text=RAMOS CharacterOffsetBegin=923 CharacterOffsetEnd=928 PartOfSpeech=PROPN Lemma=ramos NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=928 CharacterOffsetEnd=929 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=miembro CharacterOffsetBegin=930 CharacterOffsetEnd=937 PartOfSpeech=NOUN Lemma=miembro NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=938 CharacterOffsetEnd=941 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=941 CharacterOffsetEnd=942 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ---2)
+punct(---2, ,-1)
+mark(encontraba-5, cuando-3)
+obj(encontraba-5, se-4)
+advcl(---2, encontraba-5)
+advcl(encontraba-5, haciendo-6)
+obj(haciendo-6, guardia-7)
+advmod(haciendo-6, frente-8)
+punct(edificio-11, --9)
+case(edificio-11, al-10)
+obl(frente-8, edificio-11)
+case(Departamento-13, del-12)
+nmod(edificio-11, Departamento-13)
+case(Planeación-15, de-14)
+flat(Departamento-13, Planeación-15)
+flat(Planeación-15, ---16)
+flat(Planeación-15, Universitaria-17)
+case(U.A.G.-20, de-18)
+det(U.A.G.-20, la-19)
+flat(Departamento-13, U.A.G.-20)
+punct(esposa-23, ,-21)
+det(esposa-23, la-22)
+appos(edificio-11, esposa-23)
+case(elemento-26, de-24)
+det(elemento-26, este-25)
+nmod(esposa-23, elemento-26)
+appos(esposa-23, FABIOLA-27)
+flat(FABIOLA-27, RODRÍGUEZ-28)
+flat(FABIOLA-27, RAMOS-29)
+punct(miembro-31, ,-30)
+appos(esposa-23, miembro-31)
+advmod(miembro-31, del-32)
+punct(del-32, --33)
+
+Extracted the following NER entity mentions:
+guardia	TITLE	-
+Departamento de Planeación --
+Universitaria de la U.A.G.	ORGANIZATION	ORGANIZATION:0.6625745598845948
+FABIOLA RODRÍGUEZ RAMOS	PERSON	PERSON:0.7080266914743601

@@ -1,0 +1,394 @@
+Document: ID=file_174.txt (5 sentences, 156 tokens)
+
+Sentence #1 (6 tokens):
+partir del Dr. WENCES REZA.
+
+Tokens:
+[Text=partir CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NOUN Lemma=partir NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Dr. CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=PROPN Lemma=dr. NamedEntityTag=O]
+[Text=WENCES CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=PROPN Lemma=wences NamedEntityTag=O]
+[Text=REZA CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=PROPN Lemma=reza NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, partir-1)
+case(Dr.-3, del-2)
+obl(partir-1, Dr.-3)
+flat(Dr.-3, WENCES-4)
+flat(Dr.-3, REZA-5)
+punct(partir-1, .-6)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (18 tokens):
+- Tambien pidió la -
+solidaridad de los estudiantes con los Uni ---
+versi arios de Guerrero.
+
+Tokens:
+[Text=- CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Tambien CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=PROPN Lemma=tambien NamedEntityTag=O]
+[Text=pidió CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=VERB Lemma=pidió NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=solidaridad CharacterOffsetBegin=48 CharacterOffsetEnd=59 PartOfSpeech=NOUN Lemma=solidaridad NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=estudiantes CharacterOffsetBegin=67 CharacterOffsetEnd=78 PartOfSpeech=NOUN Lemma=estudiantes NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=Uni CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=PROPN Lemma=uni NamedEntityTag=O]
+[Text=--- CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=PROPN Lemma=--- NamedEntityTag=O]
+[Text=versi CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=PROPN Lemma=versi NamedEntityTag=O]
+[Text=arios CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=PROPN Lemma=arios NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Guerrero CharacterOffsetBegin=110 CharacterOffsetEnd=118 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, pidió-3)
+punct(pidió-3, --1)
+nsubj(pidió-3, Tambien-2)
+det(solidaridad-6, la-4)
+punct(solidaridad-6, --5)
+obj(pidió-3, solidaridad-6)
+case(estudiantes-9, de-7)
+det(estudiantes-9, los-8)
+nmod(solidaridad-6, estudiantes-9)
+case(Uni-12, con-10)
+det(Uni-12, los-11)
+nmod(solidaridad-6, Uni-12)
+flat(Uni-12, ----13)
+flat(Uni-12, versi-14)
+flat(Uni-12, arios-15)
+case(Guerrero-17, de-16)
+flat(Uni-12, Guerrero-17)
+punct(pidió-3, .-18)
+
+Extracted the following NER entity mentions:
+Guerrero	PERSON	PERSON:0.6192610161923752
+
+Sentence #3 (53 tokens):
+- GUTIERREZ BANDALES,
+leyó un comunicado de la Preparatoria Popular -
+de Tacuba, en el que se manifiesta lo siguien-
+te: "Con motivo de los sucesos del pasado 14 -
+de marzo en el auditorio de la Facultad de Me-
+dicina por la visita del Lic.
+
+Tokens:
+[Text=- CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=GUTIERREZ CharacterOffsetBegin=121 CharacterOffsetEnd=130 PartOfSpeech=NOUN Lemma=gutierrez NamedEntityTag=PERSON]
+[Text=BANDALES CharacterOffsetBegin=131 CharacterOffsetEnd=139 PartOfSpeech=ADJ Lemma=bandales NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=leyó CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=VERB Lemma=leyó NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=comunicado CharacterOffsetBegin=149 CharacterOffsetEnd=159 PartOfSpeech=NOUN Lemma=comunicado NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Preparatoria CharacterOffsetBegin=166 CharacterOffsetEnd=178 PartOfSpeech=PROPN Lemma=preparatoria NamedEntityTag=ORGANIZATION]
+[Text=Popular CharacterOffsetBegin=179 CharacterOffsetEnd=186 PartOfSpeech=PROPN Lemma=popular NamedEntityTag=ORGANIZATION]
+[Text=- CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Tacuba CharacterOffsetBegin=192 CharacterOffsetEnd=198 PartOfSpeech=PROPN Lemma=tacuba NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=manifiesta CharacterOffsetBegin=213 CharacterOffsetEnd=223 PartOfSpeech=VERB Lemma=manifiesta NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=DET Lemma=lo NamedEntityTag=O]
+[Text=siguien CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=NOUN Lemma=siguien NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=te CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=PRON Lemma=te NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Con CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=motivo CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NOUN Lemma=motivo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=sucesos CharacterOffsetBegin=259 CharacterOffsetEnd=266 PartOfSpeech=NOUN Lemma=sucesos NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=pasado CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=ADJ Lemma=pasado NamedEntityTag=O]
+[Text=14 CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=NUM Lemma=14 NamedEntityTag=NUMBER NormalizedNamedEntityTag=14.0]
+[Text=- CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=marzo CharacterOffsetBegin=286 CharacterOffsetEnd=291 PartOfSpeech=NOUN Lemma=marzo NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-03 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-03">marzo</TIMEX3>]
+[Text=en CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=auditorio CharacterOffsetBegin=298 CharacterOffsetEnd=307 PartOfSpeech=NOUN Lemma=auditorio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Facultad CharacterOffsetBegin=314 CharacterOffsetEnd=322 PartOfSpeech=PROPN Lemma=facultad NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Me CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=PRON Lemma=I NamedEntityTag=ORGANIZATION]
+[Text=- CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=ORGANIZATION]
+[Text=dicina CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=ADJ Lemma=dicina NamedEntityTag=ORGANIZATION]
+[Text=por CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=visita CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=NOUN Lemma=visita NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Lic CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=PROPN Lemma=lic NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, leyó-5)
+punct(GUTIERREZ-2, --1)
+obl(leyó-5, GUTIERREZ-2)
+amod(GUTIERREZ-2, BANDALES-3)
+punct(GUTIERREZ-2, ,-4)
+det(comunicado-7, un-6)
+obj(leyó-5, comunicado-7)
+case(Preparatoria-10, de-8)
+det(Preparatoria-10, la-9)
+nmod(comunicado-7, Preparatoria-10)
+flat(Preparatoria-10, Popular-11)
+punct(Tacuba-14, --12)
+case(Tacuba-14, de-13)
+nmod(Preparatoria-10, Tacuba-14)
+punct(manifiesta-20, ,-15)
+case(que-18, en-16)
+det(que-18, el-17)
+obl(manifiesta-20, que-18)
+obj(manifiesta-20, se-19)
+acl(Tacuba-14, manifiesta-20)
+det(siguien-22, lo-21)
+nsubj(manifiesta-20, siguien-22)
+punct(te-24, --23)
+obj(siguien-22, te-24)
+punct("-26, :-25)
+punct(te-24, "-26)
+case(sucesos-31, Con-27)
+fixed(Con-27, motivo-28)
+fixed(Con-27, de-29)
+det(sucesos-31, los-30)
+nmod("-26, sucesos-31)
+nmod("-26, sucesos-31)
+case(14-34, del-32)
+amod(14-34, pasado-33)
+nmod(sucesos-31, 14-34)
+punct(marzo-37, --35)
+case(marzo-37, de-36)
+nmod(sucesos-31, marzo-37)
+case(auditorio-40, en-38)
+det(auditorio-40, el-39)
+nmod(marzo-37, auditorio-40)
+case(Facultad-43, de-41)
+det(Facultad-43, la-42)
+nmod(auditorio-40, Facultad-43)
+case(Me-45, de-44)
+flat(Facultad-43, Me-45)
+punct(marzo-37, --46)
+amod(sucesos-31, dicina-47)
+case(visita-50, por-48)
+det(visita-50, la-49)
+obj(dicina-47, visita-50)
+case(Lic-52, del-51)
+nmod(visita-50, Lic-52)
+punct(sucesos-31, .-53)
+
+Extracted the following NER entity mentions:
+GUTIERREZ BANDALES	PERSON	PERSON:0.8006840524136798
+Preparatoria Popular	ORGANIZATION	ORGANIZATION:0.9930371228531165
+Tacuba	PERSON	PERSON:0.5443165340125339
+14	NUMBER	NUMBER:-1.0
+marzo	DATE	DATE:-1.0
+Facultad de Me-
+dicina	ORGANIZATION	ORGANIZATION:0.45100694567955063
+Lic	ORGANIZATION	ORGANIZATION:0.21859727690297043
+
+Sentence #4 (51 tokens):
+LUIS ECHEVERRIA-
+ALVAREZ, Presidente de la República, la Policía
+ha detenido a algunos activistas de esta escuel
+entre los que se encuentra MAGDALEONO LEZAMA -
+ARAGON, y a otro que se les está tratando de sacar de --
+claraciones que los culpen de esos hechos".
+
+Tokens:
+[Text=LUIS CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=PROPN Lemma=luis NamedEntityTag=PERSON]
+[Text=ECHEVERRIA CharacterOffsetBegin=365 CharacterOffsetEnd=375 PartOfSpeech=PROPN Lemma=echeverria NamedEntityTag=PERSON]
+[Text=- CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=PERSON]
+[Text=ALVAREZ CharacterOffsetBegin=377 CharacterOffsetEnd=384 PartOfSpeech=PROPN Lemma=alvarez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Presidente CharacterOffsetBegin=386 CharacterOffsetEnd=396 PartOfSpeech=PROPN Lemma=presidente NamedEntityTag=PERSON]
+[Text=de CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=ADP Lemma=de NamedEntityTag=PERSON]
+[Text=la CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=DET Lemma=la NamedEntityTag=PERSON]
+[Text=República CharacterOffsetBegin=403 CharacterOffsetEnd=412 PartOfSpeech=PROPN Lemma=república NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Policía CharacterOffsetBegin=417 CharacterOffsetEnd=424 PartOfSpeech=PROPN Lemma=policía NamedEntityTag=ORGANIZATION]
+[Text=ha CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=AUX Lemma=ha NamedEntityTag=O]
+[Text=detenido CharacterOffsetBegin=428 CharacterOffsetEnd=436 PartOfSpeech=VERB Lemma=detenido NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=algunos CharacterOffsetBegin=439 CharacterOffsetEnd=446 PartOfSpeech=DET Lemma=algunos NamedEntityTag=O]
+[Text=activistas CharacterOffsetBegin=447 CharacterOffsetEnd=457 PartOfSpeech=NOUN Lemma=activistas NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=458 CharacterOffsetEnd=460 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=escuel CharacterOffsetBegin=466 CharacterOffsetEnd=472 PartOfSpeech=NOUN Lemma=escuel NamedEntityTag=O]
+[Text=entre CharacterOffsetBegin=473 CharacterOffsetEnd=478 PartOfSpeech=ADP Lemma=entre NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encuentra CharacterOffsetBegin=490 CharacterOffsetEnd=499 PartOfSpeech=VERB Lemma=encuentra NamedEntityTag=O]
+[Text=MAGDALEONO CharacterOffsetBegin=500 CharacterOffsetEnd=510 PartOfSpeech=PROPN Lemma=magdaleono NamedEntityTag=MISC]
+[Text=LEZAMA CharacterOffsetBegin=511 CharacterOffsetEnd=517 PartOfSpeech=PROPN Lemma=lezama NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ARAGON CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=PROPN Lemma=aragon NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=otro CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=DET Lemma=otro NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=les CharacterOffsetBegin=544 CharacterOffsetEnd=547 PartOfSpeech=PRON Lemma=les NamedEntityTag=O]
+[Text=está CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=AUX Lemma=está NamedEntityTag=O]
+[Text=tratando CharacterOffsetBegin=553 CharacterOffsetEnd=561 PartOfSpeech=AUX Lemma=tratando NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=sacar CharacterOffsetBegin=565 CharacterOffsetEnd=570 PartOfSpeech=VERB Lemma=sacar NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=571 CharacterOffsetEnd=573 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=claraciones CharacterOffsetBegin=577 CharacterOffsetEnd=588 PartOfSpeech=NOUN Lemma=claraciones NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=589 CharacterOffsetEnd=592 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=culpen CharacterOffsetBegin=597 CharacterOffsetEnd=603 PartOfSpeech=NOUN Lemma=culpen NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esos CharacterOffsetBegin=607 CharacterOffsetEnd=611 PartOfSpeech=DET Lemma=esos NamedEntityTag=O]
+[Text=hechos CharacterOffsetBegin=612 CharacterOffsetEnd=618 PartOfSpeech=NOUN Lemma=hechos NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=619 CharacterOffsetEnd=620 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, detenido-14)
+nsubj(detenido-14, LUIS-1)
+flat(LUIS-1, ECHEVERRIA-2)
+punct(ALVAREZ-4, --3)
+flat(LUIS-1, ALVAREZ-4)
+punct(Presidente-6, ,-5)
+conj(ALVAREZ-4, Presidente-6)
+case(República-9, de-7)
+det(República-9, la-8)
+flat(Presidente-6, República-9)
+punct(ALVAREZ-4, ,-10)
+det(Policía-12, la-11)
+flat(LUIS-1, Policía-12)
+aux(detenido-14, ha-13)
+case(activistas-17, a-15)
+det(activistas-17, algunos-16)
+obj(detenido-14, activistas-17)
+case(escuel-20, de-18)
+det(escuel-20, esta-19)
+nmod(activistas-17, escuel-20)
+case(que-23, entre-21)
+det(que-23, los-22)
+obl(encuentra-25, que-23)
+obj(encuentra-25, se-24)
+acl(activistas-17, encuentra-25)
+nsubj(encuentra-25, MAGDALEONO-26)
+flat(MAGDALEONO-26, LEZAMA-27)
+punct(ARAGON-29, --28)
+appos(activistas-17, ARAGON-29)
+punct(ARAGON-29, ,-30)
+cc(otro-33, y-31)
+case(otro-33, a-32)
+conj:y(detenido-14, otro-33)
+nsubj(sacar-40, que-34)
+obj(sacar-40, se-35)
+obj(sacar-40, les-36)
+aux(sacar-40, está-37)
+aux(sacar-40, tratando-38)
+mark(sacar-40, de-39)
+acl(otro-33, sacar-40)
+case(claraciones-43, de-41)
+nummod(claraciones-43, ---42)
+obj(sacar-40, claraciones-43)
+appos(claraciones-43, que-44)
+det(culpen-46, los-45)
+appos(que-44, culpen-46)
+case(hechos-49, de-47)
+det(hechos-49, esos-48)
+nmod(culpen-46, hechos-49)
+punct(culpen-46, "-50)
+punct(detenido-14, .-51)
+
+Extracted the following NER entity mentions:
+LUIS ECHEVERRIA-
+ALVAREZ	PERSON	PERSON:0.8920413892699656
+Presidente de la República	PERSON	PERSON:0.9097809128978199
+Policía	ORGANIZATION	ORGANIZATION:0.9770889050986744
+MAGDALEONO LEZAMA	MISC	MISC:0.2622229024601475
+
+Sentence #5 (28 tokens):
+- Tam
+bien dio lectura a un documento firmado por la Agrupación Independiente de Camioneros "Flecha-
+Roja" del Puerto de Acapulco, mencionando que -
+
+Tokens:
+[Text=- CharacterOffsetBegin=620 CharacterOffsetEnd=621 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Tam CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=NOUN Lemma=tam NamedEntityTag=ORGANIZATION]
+[Text=bien CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=ADV Lemma=bien NamedEntityTag=O]
+[Text=dio CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=VERB Lemma=dio NamedEntityTag=O]
+[Text=lectura CharacterOffsetBegin=635 CharacterOffsetEnd=642 PartOfSpeech=NOUN Lemma=lectura NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=645 CharacterOffsetEnd=647 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=documento CharacterOffsetBegin=648 CharacterOffsetEnd=657 PartOfSpeech=NOUN Lemma=documento NamedEntityTag=O]
+[Text=firmado CharacterOffsetBegin=658 CharacterOffsetEnd=665 PartOfSpeech=ADJ Lemma=firmado NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=670 CharacterOffsetEnd=672 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Agrupación CharacterOffsetBegin=673 CharacterOffsetEnd=683 PartOfSpeech=PROPN Lemma=agrupación NamedEntityTag=ORGANIZATION]
+[Text=Independiente CharacterOffsetBegin=684 CharacterOffsetEnd=697 PartOfSpeech=PROPN Lemma=independiente NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=698 CharacterOffsetEnd=700 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Camioneros CharacterOffsetBegin=701 CharacterOffsetEnd=711 PartOfSpeech=PROPN Lemma=camioneros NamedEntityTag=ORGANIZATION]
+[Text=" CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Flecha CharacterOffsetBegin=713 CharacterOffsetEnd=719 PartOfSpeech=PROPN Lemma=flecha NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=719 CharacterOffsetEnd=720 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=MISC]
+[Text=Roja CharacterOffsetBegin=721 CharacterOffsetEnd=725 PartOfSpeech=PROPN Lemma=roja NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Puerto CharacterOffsetBegin=731 CharacterOffsetEnd=737 PartOfSpeech=PROPN Lemma=puerto NamedEntityTag=CITY]
+[Text=de CharacterOffsetBegin=738 CharacterOffsetEnd=740 PartOfSpeech=ADP Lemma=de NamedEntityTag=LOCATION]
+[Text=Acapulco CharacterOffsetBegin=741 CharacterOffsetEnd=749 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=749 CharacterOffsetEnd=750 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=mencionando CharacterOffsetBegin=751 CharacterOffsetEnd=762 PartOfSpeech=VERB Lemma=mencionando NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, mencionando-26)
+punct(dio-4, --1)
+advmod(dio-4, Tam-2)
+fixed(Tam-2, bien-3)
+ccomp(mencionando-26, dio-4)
+obj(dio-4, lectura-5)
+case(documento-8, a-6)
+det(documento-8, un-7)
+obj(dio-4, documento-8)
+amod(documento-8, firmado-9)
+case(Agrupación-12, por-10)
+det(Agrupación-12, la-11)
+obj(firmado-9, Agrupación-12)
+flat(Agrupación-12, Independiente-13)
+case(Camioneros-15, de-14)
+flat(Agrupación-12, Camioneros-15)
+punct(Agrupación-12, "-16)
+flat(Agrupación-12, Flecha-17)
+punct(Roja-19, --18)
+flat(Agrupación-12, Roja-19)
+punct(Roja-19, "-20)
+case(Puerto-22, del-21)
+flat(Agrupación-12, Puerto-22)
+case(Acapulco-24, de-23)
+flat(Agrupación-12, Acapulco-24)
+punct(dio-4, ,-25)
+advmod(mencionando-26, que-27)
+punct(que-27, --28)
+
+Extracted the following NER entity mentions:
+Tam	ORGANIZATION	ORGANIZATION:0.4646537202680154
+Agrupación Independiente de Camioneros	ORGANIZATION	ORGANIZATION:0.9794714068097634
+Flecha-
+Roja	MISC	MISC:0.5512691001987238
+Puerto	CITY	LOCATION:0.5701571027409335
+de	LOCATION	LOCATION:0.5609960384855305
+Acapulco	CITY	LOCATION:0.5776146740440233

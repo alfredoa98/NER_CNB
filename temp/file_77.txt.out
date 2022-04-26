@@ -1,0 +1,370 @@
+Document: ID=file_77.txt (11 sentences, 120 tokens)
+
+Sentence #1 (4 tokens):
+22-Sep-72.
+
+Tokens:
+[Text=22 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NUM Lemma=22 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=2 CharacterOffsetEnd=3 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Sep-72 CharacterOffsetBegin=3 CharacterOffsetEnd=9 PartOfSpeech=NUM Lemma=sep-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 22-1)
+punct(22-1, --2)
+appos(22-1, Sep-72-3)
+punct(22-1, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (16 tokens):
+- El 21 actual fueron capturados en la
+Sierra y llevados a Acapulco, Gro.
+
+Tokens:
+[Text=- CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=21 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NUM Lemma=21 NamedEntityTag=NUMBER NormalizedNamedEntityTag=21.0]
+[Text=actual CharacterOffsetBegin=18 CharacterOffsetEnd=24 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=fueron CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=AUX Lemma=fueron NamedEntityTag=O]
+[Text=capturados CharacterOffsetBegin=32 CharacterOffsetEnd=42 PartOfSpeech=VERB Lemma=capturado NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=DET Lemma=la NamedEntityTag=CITY]
+[Text=Sierra CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=PROPN Lemma=sierra NamedEntityTag=CITY]
+[Text=y CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=llevados CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=ADJ Lemma=llevados NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=69 CharacterOffsetEnd=77 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, capturados-6)
+punct(capturados-6, --1)
+det(21-3, El-2)
+nsubj(capturados-6, 21-3)
+amod(21-3, actual-4)
+aux(capturados-6, fueron-5)
+case(Sierra-9, en-7)
+det(Sierra-9, la-8)
+obl(capturados-6, Sierra-9)
+cc(llevados-11, y-10)
+conj:y(capturados-6, llevados-11)
+case(Acapulco-13, a-12)
+obj(llevados-11, Acapulco-13)
+punct(Gro-15, ,-14)
+flat(Acapulco-13, Gro-15)
+punct(capturados-6, .-16)
+
+Extracted the following NER entity mentions:
+21	NUMBER	NUMBER:-1.0
+la
+Sierra	CITY	-
+Acapulco	CITY	LOCATION:0.8878328917067879
+Gro	PERSON	PERSON:0.5239308245301709
+
+Sentence #3 (24 tokens):
+, a los siguie
+tes elementos, sospechosos de haber participado
+en la emboscada a tropa de esta Unidad:
+SALUSTIO VALDEZ PALACIOS.
+
+Tokens:
+[Text=, CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=siguie CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NOUN Lemma=siguie NamedEntityTag=O]
+[Text=tes CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=ADJ Lemma=tes NamedEntityTag=O]
+[Text=elementos CharacterOffsetBegin=102 CharacterOffsetEnd=111 PartOfSpeech=NOUN Lemma=elementos NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=sospechosos CharacterOffsetBegin=113 CharacterOffsetEnd=124 PartOfSpeech=ADJ Lemma=sospechosos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=haber CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=AUX Lemma=haber NamedEntityTag=O]
+[Text=participado CharacterOffsetBegin=134 CharacterOffsetEnd=145 PartOfSpeech=VERB Lemma=participado NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=emboscada CharacterOffsetBegin=152 CharacterOffsetEnd=161 PartOfSpeech=NOUN Lemma=emboscada NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=tropa CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NOUN Lemma=tropa NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=Unidad CharacterOffsetBegin=178 CharacterOffsetEnd=184 PartOfSpeech=PROPN Lemma=unidad NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=SALUSTIO CharacterOffsetBegin=186 CharacterOffsetEnd=194 PartOfSpeech=PROPN Lemma=salustio NamedEntityTag=MISC]
+[Text=VALDEZ CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=PROPN Lemma=valdez NamedEntityTag=O]
+[Text=PALACIOS CharacterOffsetBegin=202 CharacterOffsetEnd=210 PartOfSpeech=PROPN Lemma=palacios NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, siguie-4)
+punct(siguie-4, ,-1)
+case(siguie-4, a-2)
+det(siguie-4, los-3)
+amod(elementos-6, tes-5)
+appos(siguie-4, elementos-6)
+punct(sospechosos-8, ,-7)
+amod(elementos-6, sospechosos-8)
+mark(participado-11, de-9)
+aux(participado-11, haber-10)
+acl(sospechosos-8, participado-11)
+case(emboscada-14, en-12)
+det(emboscada-14, la-13)
+obl(participado-11, emboscada-14)
+case(Unidad-19, a-15)
+fixed(a-15, tropa-16)
+fixed(a-15, de-17)
+det(Unidad-19, esta-18)
+obj(participado-11, Unidad-19)
+punct(siguie-4, :-20)
+appos(siguie-4, SALUSTIO-21)
+flat(SALUSTIO-21, VALDEZ-22)
+flat(SALUSTIO-21, PALACIOS-23)
+punct(siguie-4, .-24)
+
+Extracted the following NER entity mentions:
+SALUSTIO	MISC	MISC:0.4725550392238167
+
+Sentence #4 (4 tokens):
+JOSE RAMOS PANO.
+
+Tokens:
+[Text=JOSE CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=O]
+[Text=RAMOS CharacterOffsetBegin=217 CharacterOffsetEnd=222 PartOfSpeech=PROPN Lemma=ramos NamedEntityTag=O]
+[Text=PANO CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=PROPN Lemma=pano NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, JOSE-1)
+flat(JOSE-1, RAMOS-2)
+flat(JOSE-1, PANO-3)
+punct(JOSE-1, .-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #5 (4 tokens):
+TELESFORO VALDEZ PALACIOS.
+
+Tokens:
+[Text=TELESFORO CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=PROPN Lemma=telesforo NamedEntityTag=PERSON]
+[Text=VALDEZ CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=PROPN Lemma=valdez NamedEntityTag=PERSON]
+[Text=PALACIOS CharacterOffsetBegin=246 CharacterOffsetEnd=254 PartOfSpeech=PROPN Lemma=palacios NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, TELESFORO-1)
+flat(TELESFORO-1, VALDEZ-2)
+flat(TELESFORO-1, PALACIOS-3)
+punct(TELESFORO-1, .-4)
+
+Extracted the following NER entity mentions:
+TELESFORO VALDEZ PALACIOS	PERSON	PERSON:0.8300180007853777
+
+Sentence #6 (4 tokens):
+CELSO PINO HERNANDEZ.
+
+Tokens:
+[Text=CELSO CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=PROPN Lemma=celso NamedEntityTag=PERSON]
+[Text=PINO CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=PROPN Lemma=pino NamedEntityTag=PERSON]
+[Text=HERNANDEZ CharacterOffsetBegin=267 CharacterOffsetEnd=276 PartOfSpeech=PROPN Lemma=hernandez NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, CELSO-1)
+flat(CELSO-1, PINO-2)
+flat(CELSO-1, HERNANDEZ-3)
+punct(CELSO-1, .-4)
+
+Extracted the following NER entity mentions:
+CELSO PINO HERNANDEZ	PERSON	PERSON:0.8272403426749785
+
+Sentence #7 (6 tokens):
+VICTORIANO FLORES DE LA CRUZ.
+
+Tokens:
+[Text=VICTORIANO CharacterOffsetBegin=278 CharacterOffsetEnd=288 PartOfSpeech=PROPN Lemma=victoriano NamedEntityTag=O]
+[Text=FLORES CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=PROPN Lemma=flores NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=CRUZ CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=PROPN Lemma=cruz NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, VICTORIANO-1)
+flat(VICTORIANO-1, FLORES-2)
+case(CRUZ-5, DE-3)
+det(CRUZ-5, LA-4)
+flat(VICTORIANO-1, CRUZ-5)
+punct(VICTORIANO-1, .-6)
+
+Extracted the following NER entity mentions:
+
+Sentence #8 (7 tokens):
+JUAN RODRIGUEZ DIA
+LEONARDO GARCIA TELLEZ.
+
+Tokens:
+[Text=JUAN CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=PROPN Lemma=juan NamedEntityTag=PERSON]
+[Text=RODRIGUEZ CharacterOffsetBegin=313 CharacterOffsetEnd=322 PartOfSpeech=PROPN Lemma=rodriguez NamedEntityTag=PERSON]
+[Text=DIA CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=PROPN Lemma=dia NamedEntityTag=PERSON]
+[Text=LEONARDO CharacterOffsetBegin=327 CharacterOffsetEnd=335 PartOfSpeech=PROPN Lemma=leonardo NamedEntityTag=PERSON]
+[Text=GARCIA CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=PROPN Lemma=garcia NamedEntityTag=PERSON]
+[Text=TELLEZ CharacterOffsetBegin=343 CharacterOffsetEnd=349 PartOfSpeech=PROPN Lemma=tellez NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, JUAN-1)
+flat(JUAN-1, RODRIGUEZ-2)
+flat(JUAN-1, DIA-3)
+flat(JUAN-1, LEONARDO-4)
+flat(JUAN-1, GARCIA-5)
+flat(JUAN-1, TELLEZ-6)
+punct(JUAN-1, .-7)
+
+Extracted the following NER entity mentions:
+JUAN RODRIGUEZ DIA
+LEONARDO GARCIA TELLEZ	PERSON	PERSON:0.660992425064358
+
+Sentence #9 (8 tokens):
+AGUSTIN RIOS OCAMPO
+e HIPOLITO MORALEZ PIZA.
+
+Tokens:
+[Text=AGUSTIN CharacterOffsetBegin=351 CharacterOffsetEnd=358 PartOfSpeech=PROPN Lemma=agustin NamedEntityTag=PERSON]
+[Text=RIOS CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=PROPN Lemma=rios NamedEntityTag=PERSON]
+[Text=OCAMPO CharacterOffsetBegin=364 CharacterOffsetEnd=370 PartOfSpeech=PROPN Lemma=ocampo NamedEntityTag=PERSON]
+[Text=e CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=CCONJ Lemma=e NamedEntityTag=O]
+[Text=HIPOLITO CharacterOffsetBegin=373 CharacterOffsetEnd=381 PartOfSpeech=PROPN Lemma=hipolito NamedEntityTag=PERSON]
+[Text=MORALEZ CharacterOffsetBegin=382 CharacterOffsetEnd=389 PartOfSpeech=PROPN Lemma=moralez NamedEntityTag=PERSON]
+[Text=PIZA CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=PROPN Lemma=piza NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, AGUSTIN-1)
+flat(AGUSTIN-1, RIOS-2)
+flat(AGUSTIN-1, OCAMPO-3)
+cc(HIPOLITO-5, e-4)
+conj:e(AGUSTIN-1, HIPOLITO-5)
+flat(HIPOLITO-5, MORALEZ-6)
+flat(HIPOLITO-5, PIZA-7)
+punct(AGUSTIN-1, .-8)
+
+Extracted the following NER entity mentions:
+AGUSTIN RIOS OCAMPO	PERSON	PERSON:0.5172998079194233
+HIPOLITO MORALEZ PIZA	PERSON	PERSON:0.5713505180467121
+
+Sentence #10 (7 tokens):
+Exp.100-10-16-4-72
+H-214 L-6
+25-Sep-72.
+
+Tokens:
+[Text=Exp.100-10-16-4-72 CharacterOffsetBegin=396 CharacterOffsetEnd=414 PartOfSpeech=ADP Lemma=exp.100-10-16-4-72 NamedEntityTag=O]
+[Text=H-214 CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=NUM Lemma=h-214 NamedEntityTag=O]
+[Text=L-6 CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=NUM Lemma=l-6 NamedEntityTag=O]
+[Text=25 CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=NUM Lemma=25 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Sep-72 CharacterOffsetBegin=428 CharacterOffsetEnd=434 PartOfSpeech=NUM Lemma=sep-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-214-2)
+case(H-214-2, Exp.100-10-16-4-72-1)
+appos(H-214-2, L-6-3)
+compound(L-6-3, 25-4)
+punct(H-214-2, --5)
+appos(H-214-2, Sep-72-6)
+punct(H-214-2, .-7)
+
+Extracted the following NER entity mentions:
+
+Sentence #11 (36 tokens):
+-El 23 actual fueron puestos a dispo
+sición del AMPF, JUAN ONOFRE GOMEZ y CIRILO GA
+TICA RAMIREZ, quienes estan confesos de haber
+participado en la emboscada a tropa de esta
+Unida.
+
+Tokens:
+[Text=- CharacterOffsetBegin=435 CharacterOffsetEnd=436 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=23 CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=NUM Lemma=23 NamedEntityTag=NUMBER NormalizedNamedEntityTag=23.0]
+[Text=actual CharacterOffsetBegin=442 CharacterOffsetEnd=448 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=fueron CharacterOffsetBegin=449 CharacterOffsetEnd=455 PartOfSpeech=AUX Lemma=fueron NamedEntityTag=O]
+[Text=puestos CharacterOffsetBegin=456 CharacterOffsetEnd=463 PartOfSpeech=VERB Lemma=puesto NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=464 CharacterOffsetEnd=465 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=dispo CharacterOffsetBegin=466 CharacterOffsetEnd=471 PartOfSpeech=NOUN Lemma=dispo NamedEntityTag=O]
+[Text=sición CharacterOffsetBegin=472 CharacterOffsetEnd=478 PartOfSpeech=NOUN Lemma=sición NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=AMPF CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=PROPN Lemma=ampf NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=JUAN CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=PROPN Lemma=juan NamedEntityTag=PERSON]
+[Text=ONOFRE CharacterOffsetBegin=494 CharacterOffsetEnd=500 PartOfSpeech=PROPN Lemma=onofre NamedEntityTag=PERSON]
+[Text=GOMEZ CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=PROPN Lemma=gomez NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=CIRILO CharacterOffsetBegin=509 CharacterOffsetEnd=515 PartOfSpeech=PROPN Lemma=cirilo NamedEntityTag=ORGANIZATION]
+[Text=GA CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=PROPN Lemma=ga NamedEntityTag=ORGANIZATION]
+[Text=TICA CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=PROPN Lemma=tica NamedEntityTag=ORGANIZATION]
+[Text=RAMIREZ CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=PROPN Lemma=ramirez NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=quienes CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=PRON Lemma=quienes NamedEntityTag=O]
+[Text=estan CharacterOffsetBegin=541 CharacterOffsetEnd=546 PartOfSpeech=VERB Lemma=estan NamedEntityTag=O]
+[Text=confesos CharacterOffsetBegin=547 CharacterOffsetEnd=555 PartOfSpeech=NOUN Lemma=confesos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=556 CharacterOffsetEnd=558 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=haber CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=AUX Lemma=haber NamedEntityTag=O]
+[Text=participado CharacterOffsetBegin=565 CharacterOffsetEnd=576 PartOfSpeech=VERB Lemma=participado NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=emboscada CharacterOffsetBegin=583 CharacterOffsetEnd=592 PartOfSpeech=NOUN Lemma=emboscada NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=tropa CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=NOUN Lemma=tropa NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=604 CharacterOffsetEnd=608 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=Unida CharacterOffsetBegin=609 CharacterOffsetEnd=614 PartOfSpeech=PROPN Lemma=unida NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=614 CharacterOffsetEnd=615 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, puestos-6)
+punct(puestos-6, --1)
+det(23-3, El-2)
+nsubj(puestos-6, 23-3)
+amod(23-3, actual-4)
+aux(puestos-6, fueron-5)
+case(dispo-8, a-7)
+obl(puestos-6, dispo-8)
+compound(dispo-8, sición-9)
+case(AMPF-11, del-10)
+nmod(dispo-8, AMPF-11)
+punct(puestos-6, ,-12)
+obj(puestos-6, JUAN-13)
+flat(JUAN-13, ONOFRE-14)
+flat(JUAN-13, GOMEZ-15)
+cc(CIRILO-17, y-16)
+obj(puestos-6, CIRILO-17)
+conj:y(JUAN-13, CIRILO-17)
+flat(CIRILO-17, GA-18)
+flat(CIRILO-17, TICA-19)
+flat(CIRILO-17, RAMIREZ-20)
+punct(estan-23, ,-21)
+nsubj(estan-23, quienes-22)
+acl(JUAN-13, estan-23)
+obj(estan-23, confesos-24)
+mark(participado-27, de-25)
+aux(participado-27, haber-26)
+acl(confesos-24, participado-27)
+case(emboscada-30, en-28)
+det(emboscada-30, la-29)
+obl(participado-27, emboscada-30)
+case(Unida-35, a-31)
+fixed(a-31, tropa-32)
+fixed(a-31, de-33)
+det(Unida-35, esta-34)
+obj(participado-27, Unida-35)
+punct(puestos-6, .-36)
+
+Extracted the following NER entity mentions:
+23	NUMBER	NUMBER:-1.0
+AMPF	ORGANIZATION	ORGANIZATION:0.9038749849398512
+JUAN ONOFRE GOMEZ	PERSON	PERSON:0.9957888959786295
+CIRILO GA
+TICA RAMIREZ	ORGANIZATION	ORGANIZATION:0.3457546814202991

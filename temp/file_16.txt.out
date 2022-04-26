@@ -1,0 +1,358 @@
+Document: ID=file_16.txt (10 sentences, 119 tokens)
+
+Sentence #1 (5 tokens):
+MARTINEZ ADAME Arturo Lic.
+
+Tokens:
+[Text=MARTINEZ CharacterOffsetBegin=0 CharacterOffsetEnd=8 PartOfSpeech=PROPN Lemma=martinez NamedEntityTag=PERSON]
+[Text=ADAME CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=PROPN Lemma=adame NamedEntityTag=PERSON]
+[Text=Arturo CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=PROPN Lemma=arturo NamedEntityTag=PERSON]
+[Text=Lic CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=PROPN Lemma=lic NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, MARTINEZ-1)
+flat(MARTINEZ-1, ADAME-2)
+flat(MARTINEZ-1, Arturo-3)
+flat(MARTINEZ-1, Lic-4)
+punct(MARTINEZ-1, .-5)
+
+Extracted the following NER entity mentions:
+MARTINEZ ADAME Arturo Lic	PERSON	PERSON:0.9644014164721919
+
+Sentence #2 (12 tokens):
+Exp-100-10-1-0
+6 H259 L-7
+Nombramiento parao parece que ha sido peor.
+
+Tokens:
+[Text=Exp-100-10-1-0 CharacterOffsetBegin=27 CharacterOffsetEnd=41 PartOfSpeech=ADP Lemma=exp-100-10-1-0 NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=42 CharacterOffsetEnd=43 PartOfSpeech=NUM Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=H259 CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NUM Lemma=h259 NamedEntityTag=O]
+[Text=L-7 CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=NUM Lemma=l-7 NamedEntityTag=O]
+[Text=Nombramiento CharacterOffsetBegin=53 CharacterOffsetEnd=65 PartOfSpeech=NOUN Lemma=nombramiento NamedEntityTag=O]
+[Text=parao CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=ADJ Lemma=parao NamedEntityTag=O]
+[Text=parece CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=AUX Lemma=parece NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=ha CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=AUX Lemma=ha NamedEntityTag=O]
+[Text=sido CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=AUX Lemma=sido NamedEntityTag=O]
+[Text=peor CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=ADJ Lemma=peor NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Nombramiento-5)
+case(Nombramiento-5, Exp-100-10-1-0-1)
+nummod(Nombramiento-5, 6-2)
+compound(6-2, H259-3)
+compound(6-2, L-7-4)
+amod(Nombramiento-5, parao-6)
+cop(peor-11, parece-7)
+mark(peor-11, que-8)
+aux(peor-11, ha-9)
+cop(peor-11, sido-10)
+acl(Nombramiento-5, peor-11)
+punct(Nombramiento-5, .-12)
+
+Extracted the following NER entity mentions:
+6	NUMBER	NUMBER:-1.0
+
+Sentence #3 (2 tokens):
+FOLIO.
+
+Tokens:
+[Text=FOLIO CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=PROPN Lemma=folio NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, FOLIO-1)
+punct(FOLIO-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (2 tokens):
+-262.
+
+Tokens:
+[Text=-262 CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NUM Lemma=-262 NamedEntityTag=NUMBER NormalizedNamedEntityTag=-262.0]
+[Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -262-1)
+punct(-262-1, .-2)
+
+Extracted the following NER entity mentions:
+-262	NUMBER	NUMBER:-1.0
+
+Sentence #5 (10 tokens):
+- Este elemento anuncio ue visitara-
+el lo.
+
+Tokens:
+[Text=- CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Este CharacterOffsetBegin=110 CharacterOffsetEnd=114 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=elemento CharacterOffsetBegin=115 CharacterOffsetEnd=123 PartOfSpeech=NOUN Lemma=elemento NamedEntityTag=O]
+[Text=anuncio CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=NOUN Lemma=anuncio NamedEntityTag=O]
+[Text=ue CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=PROPN Lemma=ue NamedEntityTag=O]
+[Text=visitara CharacterOffsetBegin=135 CharacterOffsetEnd=143 PartOfSpeech=VERB Lemma=visitara NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRON Lemma=lo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, visitara-6)
+punct(visitara-6, --1)
+det(elemento-3, Este-2)
+nsubj(visitara-6, elemento-3)
+appos(elemento-3, anuncio-4)
+appos(anuncio-4, ue-5)
+punct(visitara-6, --7)
+det(lo-9, el-8)
+obj(visitara-6, lo-9)
+punct(visitara-6, .-10)
+
+Extracted the following NER entity mentions:
+
+Sentence #6 (6 tokens):
+del actual Chilpancingo, Gro.
+
+Tokens:
+[Text=del CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=actual CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=Chilpancingo CharacterOffsetBegin=163 CharacterOffsetEnd=175 PartOfSpeech=PROPN Lemma=chilpancingo NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Chilpancingo-3)
+case(Chilpancingo-3, del-1)
+amod(Chilpancingo-3, actual-2)
+punct(Gro-5, ,-4)
+flat(Chilpancingo-3, Gro-5)
+punct(Chilpancingo-3, .-6)
+
+Extracted the following NER entity mentions:
+Chilpancingo	CITY	LOCATION:0.9621022433903667
+Gro	PERSON	PERSON:0.6128546278012371
+
+Sentence #7 (48 tokens):
+, los camion
+neros de Acapulco , Gro, que se encunnt an en pug
+na expresaron que enviarían comisiones para que
+le expongan a ste elemento las cuasas que origi
+naron el conflicto entre ellos, los grupos en Pu
+gan son por el Sindicato Nal.
+
+Tokens:
+[Text=, CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=camion CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=NOUN Lemma=camion NamedEntityTag=O]
+[Text=neros CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=ADJ Lemma=neros NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=encunnt CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=VERB Lemma=encunnt NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=VERB Lemma=an NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=pug CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=NOUN Lemma=pug NamedEntityTag=O]
+[Text=na CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=PROPN Lemma=na NamedEntityTag=O]
+[Text=expresaron CharacterOffsetBegin=247 CharacterOffsetEnd=257 PartOfSpeech=VERB Lemma=expresaron NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=enviarían CharacterOffsetBegin=262 CharacterOffsetEnd=271 PartOfSpeech=VERB Lemma=enviarían NamedEntityTag=O]
+[Text=comisiones CharacterOffsetBegin=272 CharacterOffsetEnd=282 PartOfSpeech=NOUN Lemma=comisiones NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=le CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=PRON Lemma=le NamedEntityTag=O]
+[Text=expongan CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=VERB Lemma=expongan NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=ste CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=DET Lemma=ste NamedEntityTag=O]
+[Text=elemento CharacterOffsetBegin=310 CharacterOffsetEnd=318 PartOfSpeech=NOUN Lemma=elemento NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=cuasas CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=NOUN Lemma=cuasas NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=origi CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=VERB Lemma=origi NamedEntityTag=O]
+[Text=naron CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=VERB Lemma=naron NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=conflicto CharacterOffsetBegin=349 CharacterOffsetEnd=358 PartOfSpeech=NOUN Lemma=conflicto NamedEntityTag=O]
+[Text=entre CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=ADP Lemma=entre NamedEntityTag=O]
+[Text=ellos CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=PRON Lemma=ellos NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=grupos CharacterOffsetBegin=376 CharacterOffsetEnd=382 PartOfSpeech=NOUN Lemma=grupos NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Pu CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=PROPN Lemma=pu NamedEntityTag=LOCATION]
+[Text=gan CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=PROPN Lemma=gan NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=AUX Lemma=son NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Sindicato CharacterOffsetBegin=404 CharacterOffsetEnd=413 PartOfSpeech=PROPN Lemma=sindicato NamedEntityTag=MISC]
+[Text=Nal CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=PROPN Lemma=nal NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, expresaron-17)
+punct(camion-3, ,-1)
+det(camion-3, los-2)
+nsubj(expresaron-17, camion-3)
+amod(camion-3, neros-4)
+case(Acapulco-6, de-5)
+nmod(camion-3, Acapulco-6)
+punct(Gro-8, ,-7)
+flat(Acapulco-6, Gro-8)
+punct(Gro-8, ,-9)
+nsubj(encunnt-12, que-10)
+obj(encunnt-12, se-11)
+acl(camion-3, encunnt-12)
+amod(camion-3, an-13)
+case(pug-15, en-14)
+obl(an-13, pug-15)
+appos(pug-15, na-16)
+mark(enviarían-19, que-18)
+ccomp(expresaron-17, enviarían-19)
+obj(enviarían-19, comisiones-20)
+mark(expongan-24, para-21)
+mark(expongan-24, que-22)
+obj(expongan-24, le-23)
+advcl(enviarían-19, expongan-24)
+case(elemento-27, a-25)
+det(elemento-27, ste-26)
+obl(expongan-24, elemento-27)
+det(cuasas-29, las-28)
+obj(expongan-24, cuasas-29)
+nsubj(origi-31, que-30)
+acl(cuasas-29, origi-31)
+advcl(enviarían-19, naron-32)
+det(conflicto-34, el-33)
+obj(naron-32, conflicto-34)
+case(ellos-36, entre-35)
+nmod(conflicto-34, ellos-36)
+punct(expresaron-17, ,-37)
+det(grupos-39, los-38)
+nsubj(Sindicato-46, grupos-39)
+case(Pu-41, en-40)
+nmod(grupos-39, Pu-41)
+flat(Pu-41, gan-42)
+cop(Sindicato-46, son-43)
+case(Sindicato-46, por-44)
+det(Sindicato-46, el-45)
+advcl(expresaron-17, Sindicato-46)
+flat(Sindicato-46, Nal-47)
+punct(expresaron-17, .-48)
+
+Extracted the following NER entity mentions:
+Acapulco	CITY	LOCATION:0.9083800928189179
+Gro	PERSON	PERSON:0.7658048123185189
+Pu	LOCATION	LOCATION:0.6341915934217315
+Sindicato Nal	MISC	MISC:0.6636656266751741
+
+Sentence #8 (10 tokens):
+de Trabajadores de
+Autotransportes"FERNANDO AMILPA " Sec.
+
+Tokens:
+[Text=de CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Trabajadores CharacterOffsetBegin=422 CharacterOffsetEnd=434 PartOfSpeech=PROPN Lemma=trabajadores NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Autotransportes CharacterOffsetBegin=438 CharacterOffsetEnd=453 PartOfSpeech=PROPN Lemma=autotransportes NamedEntityTag=ORGANIZATION]
+[Text=" CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=FERNANDO CharacterOffsetBegin=454 CharacterOffsetEnd=462 PartOfSpeech=PROPN Lemma=fernando NamedEntityTag=MISC]
+[Text=AMILPA CharacterOffsetBegin=463 CharacterOffsetEnd=469 PartOfSpeech=PROPN Lemma=amilpa NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=470 CharacterOffsetEnd=471 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Sec CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=PROPN Lemma=sec NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=475 CharacterOffsetEnd=476 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Trabajadores-2)
+case(Trabajadores-2, de-1)
+case(Autotransportes-4, de-3)
+flat(Trabajadores-2, Autotransportes-4)
+punct(Trabajadores-2, "-5)
+flat(Trabajadores-2, FERNANDO-6)
+flat(FERNANDO-6, AMILPA-7)
+punct(Sec-9, "-8)
+flat(FERNANDO-6, Sec-9)
+punct(Trabajadores-2, .-10)
+
+Extracted the following NER entity mentions:
+Trabajadores de
+Autotransportes	ORGANIZATION	ORGANIZATION:0.8798826081590615
+FERNANDO AMILPA	MISC	MISC:0.6173724066379611
+
+Sentence #9 (2 tokens):
+1.
+
+Tokens:
+[Text=1 CharacterOffsetBegin=477 CharacterOffsetEnd=478 PartOfSpeech=NUM Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=. CharacterOffsetBegin=478 CharacterOffsetEnd=479 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 1-1)
+punct(1-1, .-2)
+
+Extracted the following NER entity mentions:
+1	NUMBER	NUMBER:-1.0
+
+Sentence #10 (22 tokens):
+enca
+bezados por ABEL GALEANA, y por el Sindicato de
+Industrial de Transportes Urbanos de Acapulco,
+ANGEL ZAVALA NAVARRO.
+
+Tokens:
+[Text=enca CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=NOUN Lemma=enca NamedEntityTag=O]
+[Text=bezados CharacterOffsetBegin=485 CharacterOffsetEnd=492 PartOfSpeech=ADJ Lemma=bezados NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=ABEL CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=PROPN Lemma=abel NamedEntityTag=PERSON]
+[Text=GALEANA CharacterOffsetBegin=502 CharacterOffsetEnd=509 PartOfSpeech=PROPN Lemma=galeana NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Sindicato CharacterOffsetBegin=520 CharacterOffsetEnd=529 PartOfSpeech=PROPN Lemma=sindicato NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Industrial CharacterOffsetBegin=533 CharacterOffsetEnd=543 PartOfSpeech=PROPN Lemma=industrial NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Transportes CharacterOffsetBegin=547 CharacterOffsetEnd=558 PartOfSpeech=PROPN Lemma=transportes NamedEntityTag=ORGANIZATION]
+[Text=Urbanos CharacterOffsetBegin=559 CharacterOffsetEnd=566 PartOfSpeech=PROPN Lemma=urbanos NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Acapulco CharacterOffsetBegin=570 CharacterOffsetEnd=578 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ANGEL CharacterOffsetBegin=580 CharacterOffsetEnd=585 PartOfSpeech=PROPN Lemma=angel NamedEntityTag=PERSON]
+[Text=ZAVALA CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=PROPN Lemma=zavala NamedEntityTag=PERSON]
+[Text=NAVARRO CharacterOffsetBegin=593 CharacterOffsetEnd=600 PartOfSpeech=PROPN Lemma=navarro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=600 CharacterOffsetEnd=601 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, enca-1)
+amod(enca-1, bezados-2)
+case(ABEL-4, por-3)
+obj(bezados-2, ABEL-4)
+flat(ABEL-4, GALEANA-5)
+punct(Sindicato-10, ,-6)
+cc(Sindicato-10, y-7)
+case(Sindicato-10, por-8)
+det(Sindicato-10, el-9)
+conj:y(enca-1, Sindicato-10)
+case(Industrial-12, de-11)
+flat(Sindicato-10, Industrial-12)
+case(Transportes-14, de-13)
+flat(Sindicato-10, Transportes-14)
+flat(Sindicato-10, Urbanos-15)
+case(Acapulco-17, de-16)
+flat(Sindicato-10, Acapulco-17)
+punct(ANGEL-19, ,-18)
+appos(enca-1, ANGEL-19)
+flat(ANGEL-19, ZAVALA-20)
+flat(ANGEL-19, NAVARRO-21)
+punct(enca-1, .-22)
+
+Extracted the following NER entity mentions:
+ABEL GALEANA	PERSON	PERSON:0.990407419332782
+Sindicato de
+Industrial de Transportes Urbanos de Acapulco	ORGANIZATION	ORGANIZATION:0.9292644884526224
+ANGEL ZAVALA NAVARRO	PERSON	PERSON:0.7232637851358016

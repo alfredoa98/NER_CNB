@@ -1,0 +1,379 @@
+Document: ID=file_477.txt (6 sentences, 146 tokens)
+
+Sentence #1 (25 tokens):
+de distancia de la Calzada de Tlalpan, ahí esta-
+blecieron contacto con el referido RAMON, del que
+ignora su verdadero nombre.
+
+Tokens:
+[Text=de CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=distancia CharacterOffsetBegin=3 CharacterOffsetEnd=12 PartOfSpeech=NOUN Lemma=distancia NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Calzada CharacterOffsetBegin=19 CharacterOffsetEnd=26 PartOfSpeech=PROPN Lemma=calzada NamedEntityTag=LOCATION]
+[Text=de CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=ADP Lemma=de NamedEntityTag=LOCATION]
+[Text=Tlalpan CharacterOffsetBegin=30 CharacterOffsetEnd=37 PartOfSpeech=PROPN Lemma=tlalpan NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ahí CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=ADV Lemma=ahí NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=blecieron CharacterOffsetBegin=49 CharacterOffsetEnd=58 PartOfSpeech=VERB Lemma=blecieron NamedEntityTag=O]
+[Text=contacto CharacterOffsetBegin=59 CharacterOffsetEnd=67 PartOfSpeech=NOUN Lemma=contacto NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=referido CharacterOffsetBegin=75 CharacterOffsetEnd=83 PartOfSpeech=VERB Lemma=referido NamedEntityTag=O]
+[Text=RAMON CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=PROPN Lemma=ramon NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=ignora CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=VERB Lemma=ignora NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=verdadero CharacterOffsetBegin=109 CharacterOffsetEnd=118 PartOfSpeech=ADJ Lemma=verdadero NamedEntityTag=O]
+[Text=nombre CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=NOUN Lemma=nombre NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, distancia-2)
+case(distancia-2, de-1)
+case(Calzada-5, de-3)
+det(Calzada-5, la-4)
+nmod(distancia-2, Calzada-5)
+case(Tlalpan-7, de-6)
+flat(Calzada-5, Tlalpan-7)
+punct(ahí-9, ,-8)
+advmod(distancia-2, ahí-9)
+det(ahí-9, esta-10)
+punct(blecieron-12, --11)
+acl(esta-10, blecieron-12)
+obj(blecieron-12, contacto-13)
+mark(referido-16, con-14)
+obj(referido-16, el-15)
+advcl(blecieron-12, referido-16)
+nsubj(referido-16, RAMON-17)
+punct(ignora-21, ,-18)
+case(que-20, del-19)
+obj(ignora-21, que-20)
+advcl(referido-16, ignora-21)
+det(nombre-24, su-22)
+amod(nombre-24, verdadero-23)
+obj(ignora-21, nombre-24)
+punct(distancia-2, .-25)
+
+Extracted the following NER entity mentions:
+Calzada de Tlalpan	LOCATION	LOCATION:0.6809101706575567
+RAMON	PERSON	PERSON:0.9044620054136359
+
+Sentence #2 (15 tokens):
+Que JAIME Y RAMON,-
+al parecer procedían de algún lugar de OAXACA.
+
+Tokens:
+[Text=Que CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=JAIME CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=PROPN Lemma=jaime NamedEntityTag=O]
+[Text=Y CharacterOffsetBegin=137 CharacterOffsetEnd=138 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=RAMON CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=PROPN Lemma=ramon NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=parecer CharacterOffsetBegin=150 CharacterOffsetEnd=157 PartOfSpeech=NOUN Lemma=parecer NamedEntityTag=O]
+[Text=procedían CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=VERB Lemma=procedían NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=algún CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=DET Lemma=algún NamedEntityTag=O]
+[Text=lugar CharacterOffsetBegin=177 CharacterOffsetEnd=182 PartOfSpeech=NOUN Lemma=lugar NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=OAXACA CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=PROPN Lemma=oaxaca NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Que-1)
+nsubj(Que-1, JAIME-2)
+cc(RAMON-4, Y-3)
+nsubj(Que-1, RAMON-4)
+conj:y(JAIME-2, RAMON-4)
+punct(procedían-9, ,-5)
+punct(procedían-9, --6)
+advmod(procedían-9, al-7)
+fixed(al-7, parecer-8)
+acl(JAIME-2, procedían-9)
+case(lugar-12, de-10)
+det(lugar-12, algún-11)
+obj(procedían-9, lugar-12)
+case(OAXACA-14, de-13)
+nmod(lugar-12, OAXACA-14)
+punct(Que-1, .-15)
+
+Extracted the following NER entity mentions:
+RAMON	PERSON	PERSON:0.7935955618795618
+OAXACA	ORGANIZATION	ORGANIZATION:0.5812607070579277
+
+Sentence #3 (66 tokens):
+-
+Que en otra reunión posterior que sostuvieron -
+en ese departamento, el GUERO dio instrucciones
+al de la voz y a RAMON, para llevar a cabo el -
+asalto a la Sucursal del Banco Azteca que se --
+encuentra sobre la Calzada de Tlalpan, dandoles-
+además armas de fuego, tocandole a RAMON una --
+pistola calibre 38 automática.
+
+Tokens:
+[Text=- CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Que CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=otra CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=DET Lemma=otra NamedEntityTag=O]
+[Text=reunión CharacterOffsetBegin=207 CharacterOffsetEnd=214 PartOfSpeech=NOUN Lemma=reunión NamedEntityTag=O]
+[Text=posterior CharacterOffsetBegin=215 CharacterOffsetEnd=224 PartOfSpeech=ADJ Lemma=posterior NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=sostuvieron CharacterOffsetBegin=229 CharacterOffsetEnd=240 PartOfSpeech=VERB Lemma=sostuvieron NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=ese CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=DET Lemma=ese NamedEntityTag=O]
+[Text=departamento CharacterOffsetBegin=250 CharacterOffsetEnd=262 PartOfSpeech=NOUN Lemma=departamento NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=GUERO CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=PROPN Lemma=guero NamedEntityTag=ORGANIZATION]
+[Text=dio CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=VERB Lemma=dio NamedEntityTag=O]
+[Text=instrucciones CharacterOffsetBegin=277 CharacterOffsetEnd=290 PartOfSpeech=NOUN Lemma=instrucciones NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=voz CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=NOUN Lemma=voz NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=RAMON CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=PROPN Lemma=ramon NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=llevar CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=VERB Lemma=llevar NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=cabo CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=NOUN Lemma=cabo NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=334 CharacterOffsetEnd=336 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=asalto CharacterOffsetBegin=339 CharacterOffsetEnd=345 PartOfSpeech=NOUN Lemma=asalto NamedEntityTag=CRIMINAL_CHARGE]
+[Text=a CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Sucursal CharacterOffsetBegin=351 CharacterOffsetEnd=359 PartOfSpeech=PROPN Lemma=sucursal NamedEntityTag=ORGANIZATION]
+[Text=del CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=ADP Lemma=del NamedEntityTag=ORGANIZATION]
+[Text=Banco CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=PROPN Lemma=banco NamedEntityTag=ORGANIZATION]
+[Text=Azteca CharacterOffsetBegin=370 CharacterOffsetEnd=376 PartOfSpeech=PROPN Lemma=azteca NamedEntityTag=ORGANIZATION]
+[Text=que CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=AUX Lemma=-- NamedEntityTag=O]
+[Text=encuentra CharacterOffsetBegin=387 CharacterOffsetEnd=396 PartOfSpeech=VERB Lemma=encuentra NamedEntityTag=O]
+[Text=sobre CharacterOffsetBegin=397 CharacterOffsetEnd=402 PartOfSpeech=ADP Lemma=sobre NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=403 CharacterOffsetEnd=405 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Calzada CharacterOffsetBegin=406 CharacterOffsetEnd=413 PartOfSpeech=PROPN Lemma=calzada NamedEntityTag=LOCATION]
+[Text=de CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=ADP Lemma=de NamedEntityTag=LOCATION]
+[Text=Tlalpan CharacterOffsetBegin=417 CharacterOffsetEnd=424 PartOfSpeech=PROPN Lemma=tlalpan NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=dando CharacterOffsetBegin=426 CharacterOffsetEnd=434 PartOfSpeech=VERB Lemma=dando NamedEntityTag=O]
+[Text=les CharacterOffsetBegin=426 CharacterOffsetEnd=434 PartOfSpeech=PRON Lemma=les NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=además CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=ADV Lemma=además NamedEntityTag=O]
+[Text=armas CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NOUN Lemma=armas NamedEntityTag=CRIMINAL_CHARGE]
+[Text=de CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=ADP Lemma=de NamedEntityTag=CRIMINAL_CHARGE]
+[Text=fuego CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=NOUN Lemma=fuego NamedEntityTag=CRIMINAL_CHARGE]
+[Text=, CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=tocandole CharacterOffsetBegin=459 CharacterOffsetEnd=468 PartOfSpeech=NOUN Lemma=tocandole NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=RAMON CharacterOffsetBegin=471 CharacterOffsetEnd=476 PartOfSpeech=PROPN Lemma=ramon NamedEntityTag=ORGANIZATION]
+[Text=una CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=481 CharacterOffsetEnd=483 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=pistola CharacterOffsetBegin=484 CharacterOffsetEnd=491 PartOfSpeech=NOUN Lemma=pistola NamedEntityTag=O]
+[Text=calibre CharacterOffsetBegin=492 CharacterOffsetEnd=499 PartOfSpeech=NOUN Lemma=calibre NamedEntityTag=O]
+[Text=38 CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=NUM Lemma=38 NamedEntityTag=NUMBER NormalizedNamedEntityTag=38.0]
+[Text=automática CharacterOffsetBegin=503 CharacterOffsetEnd=513 PartOfSpeech=ADJ Lemma=automática NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=513 CharacterOffsetEnd=514 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, dio-16)
+acl(asalto-32, dando-49)
+obj(dando-49, les-50)
+punct(dio-16, --1)
+mark(dio-16, Que-2)
+case(reunión-5, en-3)
+det(reunión-5, otra-4)
+obl(dio-16, reunión-5)
+amod(reunión-5, posterior-6)
+obj(sostuvieron-8, que-7)
+acl(reunión-5, sostuvieron-8)
+punct(departamento-12, --9)
+case(departamento-12, en-10)
+det(departamento-12, ese-11)
+obl(sostuvieron-8, departamento-12)
+punct(departamento-12, ,-13)
+det(GUERO-15, el-14)
+nsubj(dio-16, GUERO-15)
+obj(dio-16, instrucciones-17)
+case(voz-21, al-18)
+case(voz-21, de-19)
+det(voz-21, la-20)
+obj(dio-16, voz-21)
+cc(RAMON-24, y-22)
+case(RAMON-24, a-23)
+obj(dio-16, RAMON-24)
+conj:y(voz-21, RAMON-24)
+punct(llevar-27, ,-25)
+mark(llevar-27, para-26)
+advcl(dio-16, llevar-27)
+case(cabo-29, a-28)
+compound(llevar-27, cabo-29)
+det(asalto-32, el-30)
+punct(asalto-32, --31)
+obj(llevar-27, asalto-32)
+case(Sucursal-35, a-33)
+det(Sucursal-35, la-34)
+nmod(asalto-32, Sucursal-35)
+case(Banco-37, del-36)
+flat(Sucursal-35, Banco-37)
+flat(Banco-37, Azteca-38)
+nsubj(encuentra-42, que-39)
+obj(encuentra-42, se-40)
+aux(encuentra-42, ---41)
+acl(asalto-32, encuentra-42)
+case(Calzada-45, sobre-43)
+det(Calzada-45, la-44)
+obl(encuentra-42, Calzada-45)
+case(Tlalpan-47, de-46)
+flat(Calzada-45, Tlalpan-47)
+punct(dando-49, ,-48)
+punct(dando-49, --51)
+advmod(dando-49, además-52)
+obj(dando-49, armas-53)
+case(fuego-55, de-54)
+nmod(armas-53, fuego-55)
+punct(dando-49, ,-56)
+obj(llevar-27, tocandole-57)
+case(RAMON-59, a-58)
+nmod(tocandole-57, RAMON-59)
+det(---61, una-60)
+appos(tocandole-57, ---61)
+flat(---61, pistola-62)
+appos(---61, calibre-63)
+nummod(calibre-63, 38-64)
+amod(calibre-63, automática-65)
+punct(dio-16, .-66)
+
+Extracted the following NER entity mentions:
+GUERO	ORGANIZATION	ORGANIZATION:0.8624208493901833
+RAMON	ORGANIZATION	ORGANIZATION:0.6595201139179091
+asalto	CRIMINAL_CHARGE	-
+Sucursal del Banco Azteca	ORGANIZATION	ORGANIZATION:0.6512673670902729
+Calzada de Tlalpan	LOCATION	LOCATION:0.840576633547955
+armas de fuego	CRIMINAL_CHARGE	-
+RAMON	ORGANIZATION	ORGANIZATION:0.602057237580003
+38	NUMBER	NUMBER:-1.0
+
+Sentence #4 (2 tokens):
+Exp.
+
+Tokens:
+[Text=Exp CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-1)
+punct(Exp-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #5 (7 tokens):
+11-235-75
+H-170 L-25
+20-Feb-75.
+
+Tokens:
+[Text=11-235-75 CharacterOffsetBegin=520 CharacterOffsetEnd=529 PartOfSpeech=NUM Lemma=11-235-75 NamedEntityTag=O]
+[Text=H-170 CharacterOffsetBegin=530 CharacterOffsetEnd=535 PartOfSpeech=NUM Lemma=h-170 NamedEntityTag=O]
+[Text=L-25 CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=NUM Lemma=l-25 NamedEntityTag=O]
+[Text=20 CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=NUM Lemma=20 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=543 CharacterOffsetEnd=544 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Feb-75 CharacterOffsetBegin=544 CharacterOffsetEnd=550 PartOfSpeech=NUM Lemma=feb-75 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 11-235-75-1)
+compound(11-235-75-1, H-170-2)
+compound(11-235-75-1, L-25-3)
+compound(11-235-75-1, 20-4)
+punct(11-235-75-1, --5)
+appos(11-235-75-1, Feb-75-6)
+punct(11-235-75-1, .-7)
+
+Extracted the following NER entity mentions:
+
+Sentence #6 (31 tokens):
+-ALBERTO VAZQUEZ CASTELLANOS, detenido
+por sus actividadessubversivas dentro de la L.
+C. 23 de Sep., en su declaración dijo entre otras
+cosas, que este elemento entre otros
+
+Tokens:
+[Text=- CharacterOffsetBegin=551 CharacterOffsetEnd=552 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ALBERTO CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=PROPN Lemma=alberto NamedEntityTag=O]
+[Text=VAZQUEZ CharacterOffsetBegin=560 CharacterOffsetEnd=567 PartOfSpeech=PROPN Lemma=vazquez NamedEntityTag=PERSON]
+[Text=CASTELLANOS CharacterOffsetBegin=568 CharacterOffsetEnd=579 PartOfSpeech=PROPN Lemma=castellanos NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=detenido CharacterOffsetBegin=581 CharacterOffsetEnd=589 PartOfSpeech=ADJ Lemma=detenido NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=sus CharacterOffsetBegin=594 CharacterOffsetEnd=597 PartOfSpeech=DET Lemma=sus NamedEntityTag=O]
+[Text=actividadessubversivas CharacterOffsetBegin=598 CharacterOffsetEnd=620 PartOfSpeech=NOUN Lemma=actividadessubversivas NamedEntityTag=O]
+[Text=dentro CharacterOffsetBegin=621 CharacterOffsetEnd=627 PartOfSpeech=ADV Lemma=dentro NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=628 CharacterOffsetEnd=630 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=631 CharacterOffsetEnd=633 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=L. CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=PROPN Lemma=l. NamedEntityTag=LOCATION]
+[Text=C. CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=PROPN Lemma=c. NamedEntityTag=O]
+[Text=23 CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=NUM Lemma=23 NamedEntityTag=NUMBER NormalizedNamedEntityTag=23.0]
+[Text=de CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Sep. CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=PROPN Lemma=sep. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=652 CharacterOffsetEnd=654 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=655 CharacterOffsetEnd=657 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=declaración CharacterOffsetBegin=658 CharacterOffsetEnd=669 PartOfSpeech=NOUN Lemma=declaración NamedEntityTag=O]
+[Text=dijo CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=VERB Lemma=dijo NamedEntityTag=O]
+[Text=entre CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=ADP Lemma=entre NamedEntityTag=O]
+[Text=otras CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=DET Lemma=otras NamedEntityTag=O]
+[Text=cosas CharacterOffsetBegin=687 CharacterOffsetEnd=692 PartOfSpeech=NOUN Lemma=cosas NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=692 CharacterOffsetEnd=693 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=elemento CharacterOffsetBegin=703 CharacterOffsetEnd=711 PartOfSpeech=NOUN Lemma=elemento NamedEntityTag=O]
+[Text=entre CharacterOffsetBegin=712 CharacterOffsetEnd=717 PartOfSpeech=ADP Lemma=entre NamedEntityTag=O]
+[Text=otros CharacterOffsetBegin=718 CharacterOffsetEnd=723 PartOfSpeech=DET Lemma=otros NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ALBERTO-2)
+punct(ALBERTO-2, --1)
+flat(ALBERTO-2, VAZQUEZ-3)
+flat(ALBERTO-2, CASTELLANOS-4)
+punct(detenido-6, ,-5)
+amod(ALBERTO-2, detenido-6)
+case(actividadessubversivas-9, por-7)
+det(actividadessubversivas-9, sus-8)
+obj(detenido-6, actividadessubversivas-9)
+advmod(detenido-6, dentro-10)
+case(L.-13, de-11)
+det(L.-13, la-12)
+obl(dentro-10, L.-13)
+flat(L.-13, C.-14)
+nummod(L.-13, 23-15)
+case(Sep.-17, de-16)
+flat(L.-13, Sep.-17)
+punct(detenido-6, ,-18)
+case(declaración-21, en-19)
+det(declaración-21, su-20)
+obl(dijo-22, declaración-21)
+acl(ALBERTO-2, dijo-22)
+case(cosas-25, entre-23)
+det(cosas-25, otras-24)
+obl(dijo-22, cosas-25)
+punct(que-27, ,-26)
+conj(cosas-25, que-27)
+det(elemento-29, este-28)
+nsubj:pass(que-27, elemento-29)
+case(otros-31, entre-30)
+det(elemento-29, otros-31)
+
+Extracted the following NER entity mentions:
+VAZQUEZ CASTELLANOS	PERSON	PERSON:0.9669287007746368
+L.	LOCATION	LOCATION:0.34721579157745847
+23	NUMBER	NUMBER:-1.0

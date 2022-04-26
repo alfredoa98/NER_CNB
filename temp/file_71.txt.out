@@ -1,0 +1,243 @@
+Document: ID=file_71.txt (6 sentences, 83 tokens)
+
+Sentence #1 (12 tokens):
+TARIN Chavez, MANUEL 012-001-001
+24 Abr .85
+Acapulco, Gro.
+
+Tokens:
+[Text=TARIN CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=PROPN Lemma=tarin NamedEntityTag=PERSON]
+[Text=Chavez CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=PROPN Lemma=chavez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=MANUEL CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=manuel NamedEntityTag=PERSON]
+[Text=012-001-001 CharacterOffsetBegin=21 CharacterOffsetEnd=32 PartOfSpeech=NUM Lemma=012-001-001 NamedEntityTag=O]
+[Text=24 CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=NUM Lemma=24 NamedEntityTag=NUMBER NormalizedNamedEntityTag=24.0]
+[Text=Abr CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=PROPN Lemma=abr NamedEntityTag=O]
+[Text=.85 CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=PROPN Lemma=.85 NamedEntityTag=NUMBER NormalizedNamedEntityTag=0.85]
+[Text=Acapulco CharacterOffsetBegin=44 CharacterOffsetEnd=52 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, TARIN-1)
+flat(TARIN-1, Chavez-2)
+punct(MANUEL-4, ,-3)
+conj(TARIN-1, MANUEL-4)
+nummod(MANUEL-4, 012-001-001-5)
+nummod(MANUEL-4, 24-6)
+flat(MANUEL-4, Abr-7)
+flat(MANUEL-4, .85-8)
+flat(MANUEL-4, Acapulco-9)
+punct(Gro-11, ,-10)
+conj(TARIN-1, Gro-11)
+punct(TARIN-1, .-12)
+
+Extracted the following NER entity mentions:
+TARIN Chavez	PERSON	PERSON:0.9392238743799434
+MANUEL	PERSON	PERSON:0.9248806916149744
+24	NUMBER	NUMBER:-1.0
+.85	NUMBER	NUMBER:-1.0
+Acapulco	CITY	LOCATION:0.8319279559128875
+Gro	PERSON	PERSON:0.43695268735135784
+
+Sentence #2 (10 tokens):
+-El periodista de Excelsior, JOSE LUIS ME.
+
+Tokens:
+[Text=- CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=periodista CharacterOffsetBegin=63 CharacterOffsetEnd=73 PartOfSpeech=NOUN Lemma=periodista NamedEntityTag=TITLE]
+[Text=de CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Excelsior CharacterOffsetBegin=77 CharacterOffsetEnd=86 PartOfSpeech=PROPN Lemma=excelsior NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=JOSE CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=O]
+[Text=LUIS CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=PROPN Lemma=luis NamedEntityTag=O]
+[Text=ME CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=PRON Lemma=I NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, periodista-3)
+punct(periodista-3, --1)
+det(periodista-3, El-2)
+case(Excelsior-5, de-4)
+nmod(periodista-3, Excelsior-5)
+punct(JOSE-7, ,-6)
+appos(periodista-3, JOSE-7)
+flat(JOSE-7, LUIS-8)
+flat(JOSE-7, ME-9)
+punct(periodista-3, .-10)
+
+Extracted the following NER entity mentions:
+periodista	TITLE	-
+Excelsior	LOCATION	LOCATION:0.39269678083703863
+
+Sentence #3 (26 tokens):
+JIA, esta tratando de revivir el caso de los cementerios
+clandestinos de Copacabana, indicando que la información
+sera enfocada en contra del Lic.
+
+Tokens:
+[Text=JIA CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=PROPN Lemma=jia NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=PRON Lemma=esta NamedEntityTag=O]
+[Text=tratando CharacterOffsetBegin=112 CharacterOffsetEnd=120 PartOfSpeech=AUX Lemma=tratando NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=revivir CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=VERB Lemma=revivir NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=caso CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NOUN Lemma=caso NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=cementerios CharacterOffsetBegin=147 CharacterOffsetEnd=158 PartOfSpeech=NOUN Lemma=cementerios NamedEntityTag=O]
+[Text=clandestinos CharacterOffsetBegin=159 CharacterOffsetEnd=171 PartOfSpeech=ADJ Lemma=clandestinos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Copacabana CharacterOffsetBegin=175 CharacterOffsetEnd=185 PartOfSpeech=PROPN Lemma=copacabana NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=indicando CharacterOffsetBegin=187 CharacterOffsetEnd=196 PartOfSpeech=AUX Lemma=indicando NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=información CharacterOffsetBegin=204 CharacterOffsetEnd=215 PartOfSpeech=NOUN Lemma=información NamedEntityTag=O]
+[Text=sera CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=ADJ Lemma=sera NamedEntityTag=O]
+[Text=enfocada CharacterOffsetBegin=221 CharacterOffsetEnd=229 PartOfSpeech=ADJ Lemma=enfocada NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=contra CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=NOUN Lemma=contra NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Lic CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=PROPN Lemma=lic NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, JIA-1)
+punct(revivir-6, ,-2)
+nsubj(revivir-6, esta-3)
+aux(revivir-6, tratando-4)
+mark(revivir-6, de-5)
+acl(JIA-1, revivir-6)
+det(caso-8, el-7)
+obj(revivir-6, caso-8)
+case(cementerios-11, de-9)
+det(cementerios-11, los-10)
+nmod(caso-8, cementerios-11)
+amod(cementerios-11, clandestinos-12)
+case(Copacabana-14, de-13)
+nmod(cementerios-11, Copacabana-14)
+punct(revivir-6, ,-15)
+acl(JIA-1, indicando-16)
+ccomp(indicando-16, que-17)
+det(información-19, la-18)
+obj(que-17, información-19)
+amod(información-19, sera-20)
+amod(información-19, enfocada-21)
+case(Lic-25, en-22)
+fixed(en-22, contra-23)
+fixed(en-22, del-24)
+nmod(información-19, Lic-25)
+nmod(información-19, Lic-25)
+punct(JIA-1, .-26)
+
+Extracted the following NER entity mentions:
+JIA	ORGANIZATION	ORGANIZATION:0.4255073743571597
+Copacabana	CITY	LOCATION:0.9735366899561334
+Lic	LOCATION	LOCATION:0.2737813024192681
+
+Sentence #4 (12 tokens):
+ALEJANDRO NOGUEDA LUD - -
+WING, Director de Gobernación Mpal.
+
+Tokens:
+[Text=ALEJANDRO CharacterOffsetBegin=248 CharacterOffsetEnd=257 PartOfSpeech=PROPN Lemma=alejandro NamedEntityTag=PERSON]
+[Text=NOGUEDA CharacterOffsetBegin=258 CharacterOffsetEnd=265 PartOfSpeech=PROPN Lemma=nogueda NamedEntityTag=PERSON]
+[Text=LUD CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=PROPN Lemma=lud NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=WING CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=PROPN Lemma=wing NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Director CharacterOffsetBegin=280 CharacterOffsetEnd=288 PartOfSpeech=PROPN Lemma=director NamedEntityTag=PERSON]
+[Text=de CharacterOffsetBegin=289 CharacterOffsetEnd=291 PartOfSpeech=ADP Lemma=de NamedEntityTag=PERSON]
+[Text=Gobernación CharacterOffsetBegin=292 CharacterOffsetEnd=303 PartOfSpeech=PROPN Lemma=gobernación NamedEntityTag=PERSON]
+[Text=Mpal CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=PROPN Lemma=mpal NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ALEJANDRO-1)
+flat(ALEJANDRO-1, NOGUEDA-2)
+flat(ALEJANDRO-1, LUD-3)
+punct(WING-6, --4)
+punct(WING-6, --5)
+conj(ALEJANDRO-1, WING-6)
+punct(Director-8, ,-7)
+appos(WING-6, Director-8)
+case(Gobernación-10, de-9)
+flat(Director-8, Gobernación-10)
+flat(Gobernación-10, Mpal-11)
+punct(ALEJANDRO-1, .-12)
+
+Extracted the following NER entity mentions:
+ALEJANDRO NOGUEDA	PERSON	PERSON:0.9436845967642149
+Director de Gobernación Mpal	PERSON	PERSON:0.38138923967925764
+
+Sentence #5 (21 tokens):
+quien en ese en tonces
+era Agente del M.P. e indica que este Ex-Judicial es uno
+de los brazos ejecutores.
+
+Tokens:
+[Text=quien CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=PRON Lemma=quien NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=ese CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=DET Lemma=ese NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=tonces CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=NOUN Lemma=tonces NamedEntityTag=O]
+[Text=era CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=AUX Lemma=era NamedEntityTag=O]
+[Text=Agente CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=PROPN Lemma=agente NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=M.P. CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=PROPN Lemma=m.p. NamedEntityTag=O]
+[Text=e CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=CCONJ Lemma=e NamedEntityTag=O]
+[Text=indica CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=VERB Lemma=indica NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=Ex-Judicial CharacterOffsetBegin=371 CharacterOffsetEnd=382 PartOfSpeech=PROPN Lemma=ex-judicial NamedEntityTag=MISC]
+[Text=es CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=AUX Lemma=es NamedEntityTag=O]
+[Text=uno CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=PRON Lemma=uno NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=brazos CharacterOffsetBegin=397 CharacterOffsetEnd=403 PartOfSpeech=NOUN Lemma=brazos NamedEntityTag=O]
+[Text=ejecutores CharacterOffsetBegin=404 CharacterOffsetEnd=414 PartOfSpeech=ADJ Lemma=ejecutores NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Agente-7)
+nsubj(Agente-7, quien-1)
+case(tonces-5, en-2)
+det(tonces-5, ese-3)
+case(tonces-5, en-4)
+obl(Agente-7, tonces-5)
+cop(Agente-7, era-6)
+case(M.P.-9, del-8)
+flat(Agente-7, M.P.-9)
+cc(indica-11, e-10)
+conj:e(Agente-7, indica-11)
+mark(uno-16, que-12)
+det(Ex-Judicial-14, este-13)
+nsubj(uno-16, Ex-Judicial-14)
+cop(uno-16, es-15)
+ccomp(indica-11, uno-16)
+case(brazos-19, de-17)
+det(brazos-19, los-18)
+nmod(uno-16, brazos-19)
+amod(brazos-19, ejecutores-20)
+punct(Agente-7, .-21)
+
+Extracted the following NER entity mentions:
+Ex-Judicial	MISC	MISC:0.4449971218030805
+
+Sentence #6 (2 tokens):
+-Pmmc
+
+Tokens:
+[Text=- CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Pmmc CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=PROPN Lemma=pmmc NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Pmmc-2)
+punct(Pmmc-2, --1)
+
+Extracted the following NER entity mentions:

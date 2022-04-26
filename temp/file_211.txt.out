@@ -1,0 +1,399 @@
+Document: ID=file_211.txt (9 sentences, 144 tokens)
+
+Sentence #1 (32 tokens):
+el Contador General manifestó que los Universi
+tarios deben de seguir en la lucha por la li--
+bertad de los secuestrados políticos en el Es-
+tado de Guerrero….
+
+Tokens:
+[Text=el CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Contador CharacterOffsetBegin=3 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=contador NamedEntityTag=ORGANIZATION]
+[Text=General CharacterOffsetBegin=12 CharacterOffsetEnd=19 PartOfSpeech=PROPN Lemma=general NamedEntityTag=ORGANIZATION]
+[Text=manifestó CharacterOffsetBegin=20 CharacterOffsetEnd=29 PartOfSpeech=VERB Lemma=manifestó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=Universi CharacterOffsetBegin=38 CharacterOffsetEnd=46 PartOfSpeech=PROPN Lemma=universi NamedEntityTag=ORGANIZATION]
+[Text=tarios CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=PROPN Lemma=tarios NamedEntityTag=O]
+[Text=deben CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=AUX Lemma=deben NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=seguir CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=VERB Lemma=seguir NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=lucha CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=NOUN Lemma=lucha NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=li CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=PROPN Lemma=li NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=bertad CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=PROPN Lemma=bertad NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=secuestrados CharacterOffsetBegin=108 CharacterOffsetEnd=120 PartOfSpeech=VERB Lemma=secuestrado NamedEntityTag=O]
+[Text=políticos CharacterOffsetBegin=121 CharacterOffsetEnd=130 PartOfSpeech=NOUN Lemma=políticos NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Es CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=PROPN Lemma=es NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=tado CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=ADJ Lemma=tado NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Guerrero CharacterOffsetBegin=149 CharacterOffsetEnd=157 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=... CharacterOffsetBegin=157 CharacterOffsetEnd=158 PartOfSpeech=PUNCT Lemma=... NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, manifestó-4)
+det(Contador-2, el-1)
+nsubj(manifestó-4, Contador-2)
+flat(Contador-2, General-3)
+mark(seguir-11, que-5)
+det(Universi-7, los-6)
+nsubj(seguir-11, Universi-7)
+flat(Universi-7, tarios-8)
+aux(seguir-11, deben-9)
+mark(seguir-11, de-10)
+xcomp(manifestó-4, seguir-11)
+case(lucha-14, en-12)
+det(lucha-14, la-13)
+obl(seguir-11, lucha-14)
+case(li-17, por-15)
+det(li-17, la-16)
+nmod(lucha-14, li-17)
+flat(li-17, ---18)
+flat(li-17, bertad-19)
+mark(secuestrados-22, de-20)
+obj(secuestrados-22, los-21)
+acl(li-17, secuestrados-22)
+nsubj(secuestrados-22, políticos-23)
+case(Es-26, en-24)
+det(Es-26, el-25)
+obl(secuestrados-22, Es-26)
+punct(tado-28, --27)
+amod(Es-26, tado-28)
+case(Guerrero-30, de-29)
+nmod(tado-28, Guerrero-30)
+punct(manifestó-4, ...-31)
+punct(manifestó-4, .-32)
+
+Extracted the following NER entity mentions:
+Contador General	ORGANIZATION	ORGANIZATION:0.8739485549778597
+Universi	ORGANIZATION	ORGANIZATION:0.506160182552726
+Guerrero	TITLE	-
+
+Sentence #2 (18 tokens):
+El Rector, manifestó que -
+la mesa traía elaboradas tres propuestas a dis
+cutir:
+1.
+
+Tokens:
+[Text=El CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Rector CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=PROPN Lemma=rector NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=manifestó CharacterOffsetBegin=170 CharacterOffsetEnd=179 PartOfSpeech=VERB Lemma=manifestó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=mesa CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=NOUN Lemma=mesa NamedEntityTag=O]
+[Text=traía CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=VERB Lemma=traía NamedEntityTag=O]
+[Text=elaboradas CharacterOffsetBegin=200 CharacterOffsetEnd=210 PartOfSpeech=ADJ Lemma=elaboradas NamedEntityTag=O]
+[Text=tres CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=NUM Lemma=tres NamedEntityTag=NUMBER]
+[Text=propuestas CharacterOffsetBegin=216 CharacterOffsetEnd=226 PartOfSpeech=NOUN Lemma=propuestas NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=dis CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=NOUN Lemma=dis NamedEntityTag=O]
+[Text=cutir CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=VERB Lemma=cutir NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=1 CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=NUM Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, manifestó-4)
+det(Rector-2, El-1)
+nsubj(manifestó-4, Rector-2)
+punct(manifestó-4, ,-3)
+mark(traía-9, que-5)
+punct(traía-9, --6)
+det(mesa-8, la-7)
+nsubj(traía-9, mesa-8)
+ccomp(manifestó-4, traía-9)
+amod(propuestas-12, elaboradas-10)
+nummod(propuestas-12, tres-11)
+obj(traía-9, propuestas-12)
+case(dis-14, a-13)
+nmod(propuestas-12, dis-14)
+advcl(traía-9, cutir-15)
+punct(1-17, :-16)
+obj(cutir-15, 1-17)
+punct(manifestó-4, .-18)
+
+Extracted the following NER entity mentions:
+Rector	ORGANIZATION	ORGANIZATION:0.43508051831046657
+tres	NUMBER	-
+1	NUMBER	NUMBER:-1.0
+
+Sentence #3 (18 tokens):
+-Tener platicas con el Gobierno del Estado,-
+para pedir el aumento de subsidio necesario.
+
+Tokens:
+[Text=- CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Tener CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=VERB Lemma=tener NamedEntityTag=O]
+[Text=platicas CharacterOffsetBegin=249 CharacterOffsetEnd=257 PartOfSpeech=NOUN Lemma=platicas NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Gobierno CharacterOffsetBegin=265 CharacterOffsetEnd=273 PartOfSpeech=PROPN Lemma=gobierno NamedEntityTag=ORGANIZATION]
+[Text=del CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=ADP Lemma=del NamedEntityTag=ORGANIZATION]
+[Text=Estado CharacterOffsetBegin=278 CharacterOffsetEnd=284 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=pedir CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=VERB Lemma=pedir NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=aumento CharacterOffsetBegin=301 CharacterOffsetEnd=308 PartOfSpeech=NOUN Lemma=aumento NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=subsidio CharacterOffsetBegin=312 CharacterOffsetEnd=320 PartOfSpeech=NOUN Lemma=subsidio NamedEntityTag=O]
+[Text=necesario CharacterOffsetBegin=321 CharacterOffsetEnd=330 PartOfSpeech=ADJ Lemma=necesario NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Tener-2)
+punct(Tener-2, --1)
+obj(Tener-2, platicas-3)
+case(Gobierno-6, con-4)
+det(Gobierno-6, el-5)
+obl(Tener-2, Gobierno-6)
+case(Estado-8, del-7)
+flat(Gobierno-6, Estado-8)
+punct(Tener-2, ,-9)
+punct(Tener-2, --10)
+mark(pedir-12, para-11)
+advcl(Tener-2, pedir-12)
+det(aumento-14, el-13)
+obj(pedir-12, aumento-14)
+case(subsidio-16, de-15)
+nmod(aumento-14, subsidio-16)
+amod(aumento-14, necesario-17)
+punct(Tener-2, .-18)
+
+Extracted the following NER entity mentions:
+Gobierno del Estado	ORGANIZATION	ORGANIZATION:0.7661007271542388
+
+Sentence #4 (2 tokens):
+2.
+
+Tokens:
+[Text=2 CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=NUM Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 2-1)
+punct(2-1, .-2)
+
+Extracted the following NER entity mentions:
+2	NUMBER	NUMBER:-1.0
+
+Sentence #5 (38 tokens):
+-Llamamiento público a favor de una amnistía
+nacional de presos políticos y mandas unas pro-
+testa enérgica a la Comisión de los Derechos -
+Humanos de la O.N.U., escrita por la Adminis--
+tración.
+
+Tokens:
+[Text=- CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Llamamiento CharacterOffsetBegin=335 CharacterOffsetEnd=346 PartOfSpeech=NOUN Lemma=llamamiento NamedEntityTag=O]
+[Text=público CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=ADJ Lemma=público NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=355 CharacterOffsetEnd=356 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=favor CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=NOUN Lemma=favor NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=amnistía CharacterOffsetBegin=370 CharacterOffsetEnd=378 PartOfSpeech=NOUN Lemma=amnistía NamedEntityTag=O]
+[Text=nacional CharacterOffsetBegin=379 CharacterOffsetEnd=387 PartOfSpeech=ADJ Lemma=nacional NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=presos CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=NOUN Lemma=presos NamedEntityTag=O]
+[Text=políticos CharacterOffsetBegin=398 CharacterOffsetEnd=407 PartOfSpeech=ADJ Lemma=políticos NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=mandas CharacterOffsetBegin=410 CharacterOffsetEnd=416 PartOfSpeech=VERB Lemma=manda NamedEntityTag=O]
+[Text=unas CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=PRON Lemma=unas NamedEntityTag=O]
+[Text=pro CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=PROPN Lemma=pro NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=testa CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=NOUN Lemma=testa NamedEntityTag=O]
+[Text=enérgica CharacterOffsetBegin=433 CharacterOffsetEnd=441 PartOfSpeech=ADJ Lemma=enérgica NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=442 CharacterOffsetEnd=443 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Comisión CharacterOffsetBegin=447 CharacterOffsetEnd=455 PartOfSpeech=PROPN Lemma=comisión NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=los CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=DET Lemma=los NamedEntityTag=ORGANIZATION]
+[Text=Derechos CharacterOffsetBegin=463 CharacterOffsetEnd=471 PartOfSpeech=PROPN Lemma=derechos NamedEntityTag=ORGANIZATION]
+[Text=- CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Humanos CharacterOffsetBegin=474 CharacterOffsetEnd=481 PartOfSpeech=PROPN Lemma=humanos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=O.N.U. CharacterOffsetBegin=488 CharacterOffsetEnd=494 PartOfSpeech=PROPN Lemma=o.n.u. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=escrita CharacterOffsetBegin=496 CharacterOffsetEnd=503 PartOfSpeech=ADJ Lemma=escrita NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Adminis CharacterOffsetBegin=511 CharacterOffsetEnd=518 PartOfSpeech=PROPN Lemma=adminis NamedEntityTag=ORGANIZATION]
+[Text=-- CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=tración CharacterOffsetBegin=521 CharacterOffsetEnd=528 PartOfSpeech=PROPN Lemma=tración NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Llamamiento-2)
+punct(Llamamiento-2, --1)
+amod(Llamamiento-2, público-3)
+case(amnistía-8, a-4)
+fixed(a-4, favor-5)
+fixed(a-4, de-6)
+det(amnistía-8, una-7)
+nmod(Llamamiento-2, amnistía-8)
+nmod(Llamamiento-2, amnistía-8)
+amod(amnistía-8, nacional-9)
+case(presos-11, de-10)
+nmod(amnistía-8, presos-11)
+amod(presos-11, políticos-12)
+cc(mandas-14, y-13)
+conj:y(Llamamiento-2, mandas-14)
+nmod(pro-16, unas-15)
+obj(mandas-14, pro-16)
+punct(testa-18, --17)
+appos(pro-16, testa-18)
+amod(testa-18, enérgica-19)
+case(Comisión-22, a-20)
+det(Comisión-22, la-21)
+nmod(testa-18, Comisión-22)
+case(Derechos-25, de-23)
+det(Derechos-25, los-24)
+flat(Comisión-22, Derechos-25)
+punct(Comisión-22, --26)
+flat(Comisión-22, Humanos-27)
+case(O.N.U.-30, de-28)
+det(O.N.U.-30, la-29)
+flat(Comisión-22, O.N.U.-30)
+punct(escrita-32, ,-31)
+amod(testa-18, escrita-32)
+case(Adminis-35, por-33)
+det(Adminis-35, la-34)
+obj(escrita-32, Adminis-35)
+flat(Adminis-35, ---36)
+flat(Adminis-35, tración-37)
+punct(Llamamiento-2, .-38)
+
+Extracted the following NER entity mentions:
+Comisión de los Derechos	ORGANIZATION	ORGANIZATION:0.9953291827520214
+Adminis	ORGANIZATION	ORGANIZATION:0.7544184765960316
+
+Sentence #6 (3 tokens):
+-
+3.
+
+Tokens:
+[Text=- CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=3 CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=NUM Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 3-2)
+punct(3-2, --1)
+punct(3-2, .-3)
+
+Extracted the following NER entity mentions:
+3	NUMBER	NUMBER:-1.0
+
+Sentence #7 (22 tokens):
+-Participación abierta y decidida en el Con-
+sejo Universitario en todos los problemas que -
+aquejan a la Universidad.
+
+Tokens:
+[Text=- CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Participación CharacterOffsetBegin=534 CharacterOffsetEnd=547 PartOfSpeech=PROPN Lemma=participación NamedEntityTag=O]
+[Text=abierta CharacterOffsetBegin=548 CharacterOffsetEnd=555 PartOfSpeech=ADJ Lemma=abierta NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=decidida CharacterOffsetBegin=558 CharacterOffsetEnd=566 PartOfSpeech=ADJ Lemma=decidida NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=570 CharacterOffsetEnd=572 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Con CharacterOffsetBegin=573 CharacterOffsetEnd=576 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=sejo CharacterOffsetBegin=578 CharacterOffsetEnd=582 PartOfSpeech=NOUN Lemma=sejo NamedEntityTag=O]
+[Text=Universitario CharacterOffsetBegin=583 CharacterOffsetEnd=596 PartOfSpeech=PROPN Lemma=universitario NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=597 CharacterOffsetEnd=599 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=todos CharacterOffsetBegin=600 CharacterOffsetEnd=605 PartOfSpeech=DET Lemma=todos NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=problemas CharacterOffsetBegin=610 CharacterOffsetEnd=619 PartOfSpeech=NOUN Lemma=problemas NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=aquejan CharacterOffsetBegin=626 CharacterOffsetEnd=633 PartOfSpeech=VERB Lemma=aquejan NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Universidad CharacterOffsetBegin=639 CharacterOffsetEnd=650 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Participación-2)
+punct(Participación-2, --1)
+amod(Participación-2, abierta-3)
+cc(decidida-5, y-4)
+amod(Participación-2, decidida-5)
+conj:y(abierta-3, decidida-5)
+case(el-7, en-6)
+det(Participación-2, el-7)
+case(el-7, Con-8)
+punct(sejo-10, --9)
+nmod(el-7, sejo-10)
+appos(sejo-10, Universitario-11)
+case(problemas-15, en-12)
+det(los-14, todos-13)
+det(problemas-15, los-14)
+nmod(sejo-10, problemas-15)
+nmod(problemas-15, que-16)
+punct(aquejan-18, --17)
+acl(que-16, aquejan-18)
+case(Universidad-21, a-19)
+det(Universidad-21, la-20)
+obj(aquejan-18, Universidad-21)
+punct(Participación-2, .-22)
+
+Extracted the following NER entity mentions:
+Universidad	ORGANIZATION	ORGANIZATION:0.9913535712039562
+
+Sentence #8 (2 tokens):
+4.
+
+Tokens:
+[Text=4 CharacterOffsetBegin=652 CharacterOffsetEnd=653 PartOfSpeech=NUM Lemma=4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0]
+[Text=. CharacterOffsetBegin=653 CharacterOffsetEnd=654 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 4-1)
+punct(4-1, .-2)
+
+Extracted the following NER entity mentions:
+4	NUMBER	NUMBER:-1.0
+
+Sentence #9 (9 tokens):
+-Señalamiento a la U.S.C.U.A.G., de iniciar--
+
+Tokens:
+[Text=- CharacterOffsetBegin=654 CharacterOffsetEnd=655 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Señalamiento CharacterOffsetBegin=655 CharacterOffsetEnd=667 PartOfSpeech=AUX Lemma=señalamiento NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=668 CharacterOffsetEnd=669 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=670 CharacterOffsetEnd=672 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=U.S.C.U.A.G. CharacterOffsetBegin=673 CharacterOffsetEnd=685 PartOfSpeech=PROPN Lemma=u.s.c.u.a.g. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=685 CharacterOffsetEnd=686 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=687 CharacterOffsetEnd=689 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=iniciar CharacterOffsetBegin=690 CharacterOffsetEnd=697 PartOfSpeech=VERB Lemma=iniciar NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=697 CharacterOffsetEnd=699 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Señalamiento-2)
+punct(Señalamiento-2, --1)
+case(U.S.C.U.A.G.-5, a-3)
+det(U.S.C.U.A.G.-5, la-4)
+obj(Señalamiento-2, U.S.C.U.A.G.-5)
+punct(iniciar-8, ,-6)
+mark(iniciar-8, de-7)
+advcl(Señalamiento-2, iniciar-8)
+obj(iniciar-8, ---9)
+
+Extracted the following NER entity mentions:

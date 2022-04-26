@@ -1,0 +1,215 @@
+Document: ID=file_392.txt (5 sentences, 73 tokens)
+
+Sentence #1 (5 tokens):
+VILLAMAR PEREZ, Exp.
+
+Tokens:
+[Text=VILLAMAR CharacterOffsetBegin=0 CharacterOffsetEnd=8 PartOfSpeech=ADJ Lemma=villamar NamedEntityTag=PERSON]
+[Text=PEREZ CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NOUN Lemma=perez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Exp CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, PEREZ-2)
+amod(PEREZ-2, VILLAMAR-1)
+punct(Exp-4, ,-3)
+appos(PEREZ-2, Exp-4)
+punct(PEREZ-2, .-5)
+
+Extracted the following NER entity mentions:
+VILLAMAR PEREZ	PERSON	PERSON:0.9271110888092587
+Exp	MISC	MISC:0.4026567479799237
+
+Sentence #2 (12 tokens):
+-100-10-1-76
+(a) “Laura” H-240 L-57
+PROFUGA
+31.
+
+Tokens:
+[Text=-100-10-1-76 CharacterOffsetBegin=21 CharacterOffsetEnd=33 PartOfSpeech=NUM Lemma=-100-10-1-76 NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=) CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Laura CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=PROPN Lemma=laura NamedEntityTag=PERSON]
+[Text=" CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=H-240 CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=PROPN Lemma=h-240 NamedEntityTag=O]
+[Text=L-57 CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=PROPN Lemma=l-57 NamedEntityTag=O]
+[Text=PROFUGA CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=PROPN Lemma=profuga NamedEntityTag=O]
+[Text=31 CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=NUM Lemma=31 NamedEntityTag=NUMBER NormalizedNamedEntityTag=31.0]
+[Text=. CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -100-10-1-76-1)
+punct(Laura-6, (-2)
+case(Laura-6, a-3)
+punct(Laura-6, )-4)
+punct(Laura-6, "-5)
+obl(-100-10-1-76-1, Laura-6)
+punct(Laura-6, "-7)
+flat(Laura-6, H-240-8)
+flat(H-240-8, L-57-9)
+flat(H-240-8, PROFUGA-10)
+nummod(H-240-8, 31-11)
+punct(-100-10-1-76-1, .-12)
+
+Extracted the following NER entity mentions:
+Laura	PERSON	PERSON:0.9728882611384814
+31	NUMBER	NUMBER:-1.0
+
+Sentence #3 (2 tokens):
+Ene.76.
+
+Tokens:
+[Text=Ene.76 CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=NOUN Lemma=ene.76 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Ene.76-1)
+punct(Ene.76-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (7 tokens):
+-HERMANA DE BERNARDO VILLAMAR PEREZ.
+
+Tokens:
+[Text=- CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=HERMANA CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=NOUN Lemma=hermana NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=BERNARDO CharacterOffsetBegin=88 CharacterOffsetEnd=96 PartOfSpeech=PROPN Lemma=bernardo NamedEntityTag=PERSON]
+[Text=VILLAMAR CharacterOffsetBegin=97 CharacterOffsetEnd=105 PartOfSpeech=PROPN Lemma=villamar NamedEntityTag=PERSON]
+[Text=PEREZ CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=PROPN Lemma=perez NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, HERMANA-2)
+punct(HERMANA-2, --1)
+case(BERNARDO-4, DE-3)
+nmod(HERMANA-2, BERNARDO-4)
+flat(BERNARDO-4, VILLAMAR-5)
+flat(BERNARDO-4, PEREZ-6)
+punct(HERMANA-2, .-7)
+
+Extracted the following NER entity mentions:
+BERNARDO VILLAMAR PEREZ	PERSON	PERSON:0.9519390646107532
+
+Sentence #5 (47 tokens):
+-
+El 29 actual GUILLERMO MENA RIVERA Y ALEJANDRO-
+RIVERA PATIÑO, al ser detenidos en Acapulco Gro
+coincidieron en afirmar que “Laura”, junto con-
+ellos participaron en el secuestro de THELMA - -
+GUADALUPE SOTO MARTINEZ, en dicho puerto.
+
+Tokens:
+[Text=- CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=29 CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=NUM Lemma=29 NamedEntityTag=NUMBER NormalizedNamedEntityTag=29.0]
+[Text=actual CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=GUILLERMO CharacterOffsetBegin=127 CharacterOffsetEnd=136 PartOfSpeech=PROPN Lemma=guillermo NamedEntityTag=PERSON]
+[Text=MENA CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=PROPN Lemma=mena NamedEntityTag=PERSON]
+[Text=RIVERA CharacterOffsetBegin=142 CharacterOffsetEnd=148 PartOfSpeech=PROPN Lemma=rivera NamedEntityTag=PERSON]
+[Text=Y CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=ALEJANDRO CharacterOffsetBegin=151 CharacterOffsetEnd=160 PartOfSpeech=PROPN Lemma=alejandro NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=RIVERA CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=PROPN Lemma=rivera NamedEntityTag=PERSON]
+[Text=PATIÑO CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=PROPN Lemma=patiño NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=ser CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=AUX Lemma=ser NamedEntityTag=O]
+[Text=detenidos CharacterOffsetBegin=184 CharacterOffsetEnd=193 PartOfSpeech=VERB Lemma=detenido NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=197 CharacterOffsetEnd=205 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=Gro CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=LOCATION]
+[Text=coincidieron CharacterOffsetBegin=210 CharacterOffsetEnd=222 PartOfSpeech=VERB Lemma=coincidieron NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=afirmar CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=AUX Lemma=afirmar NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Laura CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=PROPN Lemma=laura NamedEntityTag=PERSON]
+[Text=" CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=junto CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=ADJ Lemma=junto NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ellos CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=PRON Lemma=ellos NamedEntityTag=O]
+[Text=participaron CharacterOffsetBegin=264 CharacterOffsetEnd=276 PartOfSpeech=VERB Lemma=participaron NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=secuestro CharacterOffsetBegin=283 CharacterOffsetEnd=292 PartOfSpeech=NOUN Lemma=secuestro NamedEntityTag=CRIMINAL_CHARGE]
+[Text=de CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=THELMA CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=PROPN Lemma=thelma NamedEntityTag=ORGANIZATION]
+[Text=- CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=GUADALUPE CharacterOffsetBegin=307 CharacterOffsetEnd=316 PartOfSpeech=PROPN Lemma=guadalupe NamedEntityTag=PERSON]
+[Text=SOTO CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=PROPN Lemma=soto NamedEntityTag=PERSON]
+[Text=MARTINEZ CharacterOffsetBegin=322 CharacterOffsetEnd=330 PartOfSpeech=PROPN Lemma=martinez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=dicho CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=ADJ Lemma=dicho NamedEntityTag=O]
+[Text=puerto CharacterOffsetBegin=341 CharacterOffsetEnd=347 PartOfSpeech=NOUN Lemma=puerto NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, coincidieron-20)
+punct(coincidieron-20, --1)
+det(29-3, El-2)
+nsubj(coincidieron-20, 29-3)
+amod(29-3, actual-4)
+appos(29-3, GUILLERMO-5)
+flat(GUILLERMO-5, MENA-6)
+flat(GUILLERMO-5, RIVERA-7)
+cc(ALEJANDRO-9, Y-8)
+appos(29-3, ALEJANDRO-9)
+conj:y(GUILLERMO-5, ALEJANDRO-9)
+punct(29-3, --10)
+appos(29-3, RIVERA-11)
+flat(RIVERA-11, PATIÑO-12)
+punct(29-3, ,-13)
+mark(detenidos-16, al-14)
+aux(detenidos-16, ser-15)
+advcl(coincidieron-20, detenidos-16)
+case(Acapulco-18, en-17)
+obl(detenidos-16, Acapulco-18)
+flat(Acapulco-18, Gro-19)
+mark(afirmar-22, en-21)
+xcomp(coincidieron-20, afirmar-22)
+mark(Laura-25, que-23)
+punct(Laura-25, "-24)
+ccomp(afirmar-22, Laura-25)
+punct(Laura-25, "-26)
+punct(participaron-32, ,-27)
+mark(participaron-32, junto-28)
+fixed(junto-28, con-29)
+punct(participaron-32, --30)
+nsubj(participaron-32, ellos-31)
+advcl(Laura-25, participaron-32)
+case(secuestro-35, en-33)
+det(secuestro-35, el-34)
+obj(participaron-32, secuestro-35)
+case(THELMA-37, de-36)
+nmod(secuestro-35, THELMA-37)
+punct(participaron-32, --38)
+punct(participaron-32, --39)
+flat(Laura-25, GUADALUPE-40)
+flat(GUADALUPE-40, SOTO-41)
+flat(GUADALUPE-40, MARTINEZ-42)
+punct(puerto-46, ,-43)
+case(puerto-46, en-44)
+amod(puerto-46, dicho-45)
+nmod(Laura-25, puerto-46)
+punct(Laura-25, .-47)
+
+Extracted the following NER entity mentions:
+29	NUMBER	NUMBER:-1.0
+GUILLERMO MENA RIVERA	PERSON	PERSON:0.9703133893408177
+RIVERA PATIÑO	PERSON	PERSON:0.9740679910453321
+Acapulco	CITY	LOCATION:0.9650163897591918
+Gro	LOCATION	LOCATION:0.6476396884376237
+Laura	PERSON	PERSON:0.8896239117079227
+secuestro	CRIMINAL_CHARGE	-
+THELMA	ORGANIZATION	ORGANIZATION:0.36706740418735906
+GUADALUPE SOTO MARTINEZ	PERSON	PERSON:0.4967105166867015

@@ -1,0 +1,353 @@
+Document: ID=file_232.txt (5 sentences, 141 tokens)
+
+Sentence #1 (16 tokens):
+pal la separación de las preparatorias de las
+Universidades…PABLO SANDOVAL RAMIREZ, Srio.
+
+Tokens:
+[Text=pal CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=ADP Lemma=pal NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=separación CharacterOffsetBegin=7 CharacterOffsetEnd=17 PartOfSpeech=NOUN Lemma=separación NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=preparatorias CharacterOffsetBegin=25 CharacterOffsetEnd=38 PartOfSpeech=ADJ Lemma=preparatorias NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=Universidades CharacterOffsetBegin=46 CharacterOffsetEnd=59 PartOfSpeech=PROPN Lemma=universidades NamedEntityTag=ORGANIZATION]
+[Text=... CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=PUNCT Lemma=... NamedEntityTag=O]
+[Text=PABLO CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=PROPN Lemma=pablo NamedEntityTag=PERSON]
+[Text=SANDOVAL CharacterOffsetBegin=66 CharacterOffsetEnd=74 PartOfSpeech=PROPN Lemma=sandoval NamedEntityTag=PERSON]
+[Text=RAMIREZ CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=PROPN Lemma=ramirez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Srio CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=PROPN Lemma=srio NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, separación-3)
+case(separación-3, pal-1)
+det(separación-3, la-2)
+case(preparatorias-6, de-4)
+det(preparatorias-6, las-5)
+amod(separación-3, preparatorias-6)
+case(Universidades-9, de-7)
+det(Universidades-9, las-8)
+nmod(preparatorias-6, Universidades-9)
+punct(separación-3, ...-10)
+appos(separación-3, PABLO-11)
+flat(PABLO-11, SANDOVAL-12)
+flat(PABLO-11, RAMIREZ-13)
+punct(Srio-15, ,-14)
+flat(PABLO-11, Srio-15)
+punct(separación-3, .-16)
+
+Extracted the following NER entity mentions:
+Universidades	ORGANIZATION	ORGANIZATION:0.5021587936247643
+PABLO SANDOVAL RAMIREZ	PERSON	PERSON:0.8963178166490227
+Srio	PERSON	PERSON:0.7300265557194391
+
+Sentence #2 (44 tokens):
+Gral.de la U.S.C.U.A.G., manifestó que no era
+necesario esperar a que se reunieran en la--
+asamblea general universitaria, porque ésto-
+llevaría tiempo y que las autoridades univer-
+sitarias, deberían dar una respuesta a la ---
+ANUIES.
+
+Tokens:
+[Text=Gral. CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NOUN Lemma=gral. NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=U.S.C.U.A.G. CharacterOffsetBegin=101 CharacterOffsetEnd=113 PartOfSpeech=PROPN Lemma=u.s.c.u.a.g. NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=manifestó CharacterOffsetBegin=115 CharacterOffsetEnd=124 PartOfSpeech=VERB Lemma=manifestó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=era CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=AUX Lemma=era NamedEntityTag=O]
+[Text=necesario CharacterOffsetBegin=136 CharacterOffsetEnd=145 PartOfSpeech=ADJ Lemma=necesario NamedEntityTag=O]
+[Text=esperar CharacterOffsetBegin=146 CharacterOffsetEnd=153 PartOfSpeech=VERB Lemma=esperar NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=reunieran CharacterOffsetBegin=163 CharacterOffsetEnd=172 PartOfSpeech=VERB Lemma=reunieran NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=asamblea CharacterOffsetBegin=181 CharacterOffsetEnd=189 PartOfSpeech=NOUN Lemma=asamblea NamedEntityTag=O]
+[Text=general CharacterOffsetBegin=190 CharacterOffsetEnd=197 PartOfSpeech=ADJ Lemma=general NamedEntityTag=TITLE]
+[Text=universitaria CharacterOffsetBegin=198 CharacterOffsetEnd=211 PartOfSpeech=ADJ Lemma=universitaria NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=porque CharacterOffsetBegin=213 CharacterOffsetEnd=219 PartOfSpeech=SCONJ Lemma=porque NamedEntityTag=O]
+[Text=ésto CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=PRON Lemma=ésto NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=llevaría CharacterOffsetBegin=226 CharacterOffsetEnd=234 PartOfSpeech=VERB Lemma=llevaría NamedEntityTag=O]
+[Text=tiempo CharacterOffsetBegin=235 CharacterOffsetEnd=241 PartOfSpeech=NOUN Lemma=tiempo NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=autoridades CharacterOffsetBegin=252 CharacterOffsetEnd=263 PartOfSpeech=NOUN Lemma=autoridades NamedEntityTag=O]
+[Text=univer CharacterOffsetBegin=264 CharacterOffsetEnd=270 PartOfSpeech=ADJ Lemma=univer NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=sitarias CharacterOffsetBegin=272 CharacterOffsetEnd=280 PartOfSpeech=ADJ Lemma=sitarias NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=deberían CharacterOffsetBegin=282 CharacterOffsetEnd=290 PartOfSpeech=AUX Lemma=deberían NamedEntityTag=O]
+[Text=dar CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=VERB Lemma=dar NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=respuesta CharacterOffsetBegin=299 CharacterOffsetEnd=308 PartOfSpeech=NOUN Lemma=respuesta NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=--- CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=PROPN Lemma=--- NamedEntityTag=O]
+[Text=ANUIES CharacterOffsetBegin=318 CharacterOffsetEnd=324 PartOfSpeech=PROPN Lemma=anuies NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, manifestó-6)
+nsubj(manifestó-6, Gral.-1)
+case(U.S.C.U.A.G.-4, de-2)
+det(U.S.C.U.A.G.-4, la-3)
+nmod(Gral.-1, U.S.C.U.A.G.-4)
+punct(Gral.-1, ,-5)
+mark(necesario-10, que-7)
+advmod(necesario-10, no-8)
+cop(necesario-10, era-9)
+ccomp(manifestó-6, necesario-10)
+ccomp(manifestó-6, necesario-10''')
+conj:y(necesario-10, necesario-10''')
+csubj(necesario-10, esperar-11)
+mark(reunieran-15, a-12)
+mark(reunieran-15, que-13)
+obj(reunieran-15, se-14)
+ccomp(esperar-11, reunieran-15)
+case(---18, en-16)
+det(---18, la-17)
+nummod(asamblea-19, ---18)
+nsubj(reunieran-15, asamblea-19)
+amod(asamblea-19, general-20)
+amod(asamblea-19, universitaria-21)
+punct(llevaría-26, ,-22)
+mark(llevaría-26, porque-23)
+nsubj(llevaría-26, ésto-24)
+punct(llevaría-26, --25)
+advcl(necesario-10, llevaría-26)
+obj(llevaría-26, tiempo-27)
+cc(necesario-10''', y-28)
+mark(dar-37, que-29)
+det(autoridades-31, las-30)
+nsubj(dar-37, autoridades-31)
+amod(autoridades-31, univer-32)
+punct(sitarias-34, --33)
+amod(univer-32, sitarias-34)
+punct(sitarias-34, ,-35)
+aux(dar-37, deberían-36)
+advcl(necesario-10''', dar-37)
+det(respuesta-39, una-38)
+obj(dar-37, respuesta-39)
+case(----42, a-40)
+det(----42, la-41)
+obj(dar-37, ----42)
+flat(----42, ANUIES-43)
+punct(manifestó-6, .-44)
+
+Extracted the following NER entity mentions:
+U.S.C.U.A.G.	ORGANIZATION	ORGANIZATION:0.5069762217840992
+general	TITLE	-
+ANUIES	ORGANIZATION	ORGANIZATION:0.9315465649142145
+
+Sentence #3 (33 tokens):
+; que este Consejo Universitario debe-
+dar su voto de confianza para que el Rector--
+dé una respuesta, no salida de la base,pero--
+democrática al fin.
+
+Tokens:
+[Text=; CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=Consejo CharacterOffsetBegin=336 CharacterOffsetEnd=343 PartOfSpeech=PROPN Lemma=consejo NamedEntityTag=ORGANIZATION]
+[Text=Universitario CharacterOffsetBegin=344 CharacterOffsetEnd=357 PartOfSpeech=PROPN Lemma=universitario NamedEntityTag=ORGANIZATION]
+[Text=debe CharacterOffsetBegin=358 CharacterOffsetEnd=362 PartOfSpeech=AUX Lemma=debe NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=dar CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=VERB Lemma=dar NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=voto CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=NOUN Lemma=voto NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=confianza CharacterOffsetBegin=379 CharacterOffsetEnd=388 PartOfSpeech=NOUN Lemma=confianza NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Rector CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=PROPN Lemma=rector NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=dé CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=VERB Lemma=dé NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=respuesta CharacterOffsetBegin=417 CharacterOffsetEnd=426 PartOfSpeech=NOUN Lemma=respuesta NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=salida CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=NOUN Lemma=salida NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=base CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=NOUN Lemma=base NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=pero CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=CCONJ Lemma=pero NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=democrática CharacterOffsetBegin=456 CharacterOffsetEnd=467 PartOfSpeech=ADJ Lemma=democrática NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=468 CharacterOffsetEnd=470 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=fin CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=NOUN Lemma=fin NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, salida-23)
+punct(dar-8, ;-1)
+mark(dar-8, que-2)
+det(Consejo-4, este-3)
+nsubj(dar-8, Consejo-4)
+flat(Consejo-4, Universitario-5)
+aux(dar-8, debe-6)
+punct(dar-8, --7)
+advcl(salida-23, dar-8)
+det(voto-10, su-9)
+obj(dar-8, voto-10)
+case(confianza-12, de-11)
+nmod(voto-10, confianza-12)
+mark(dé-18, para-13)
+mark(dé-18, que-14)
+det(Rector-16, el-15)
+nsubj(dé-18, Rector-16)
+flat(Rector-16, ---17)
+advcl(dar-8, dé-18)
+det(respuesta-20, una-19)
+obj(dé-18, respuesta-20)
+punct(dar-8, ,-21)
+advmod(salida-23, no-22)
+case(base-26, de-24)
+det(base-26, la-25)
+nmod(salida-23, base-26)
+punct(---29, ,-27)
+cc(---29, pero-28)
+conj:pero(salida-23, ---29)
+amod(---29, democrática-30)
+case(fin-32, al-31)
+nmod(---29, fin-32)
+punct(salida-23, .-33)
+
+Extracted the following NER entity mentions:
+Consejo Universitario	ORGANIZATION	ORGANIZATION:0.9929306098529307
+
+Sentence #4 (18 tokens):
+Indicó que el Rector hace-
+notar que esta propuesta no fue aceptada por-
+la ANUIES.
+
+Tokens:
+[Text=Indicó CharacterOffsetBegin=476 CharacterOffsetEnd=482 PartOfSpeech=VERB Lemma=indicó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Rector CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=PROPN Lemma=rector NamedEntityTag=O]
+[Text=hace CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=VERB Lemma=hace NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=notar CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=VERB Lemma=notar NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=propuesta CharacterOffsetBegin=518 CharacterOffsetEnd=527 PartOfSpeech=NOUN Lemma=propuesta NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=528 CharacterOffsetEnd=530 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=fue CharacterOffsetBegin=531 CharacterOffsetEnd=534 PartOfSpeech=AUX Lemma=fue NamedEntityTag=O]
+[Text=aceptada CharacterOffsetBegin=535 CharacterOffsetEnd=543 PartOfSpeech=VERB Lemma=aceptada NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=544 CharacterOffsetEnd=547 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=549 CharacterOffsetEnd=551 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=ANUIES CharacterOffsetBegin=552 CharacterOffsetEnd=558 PartOfSpeech=PROPN Lemma=anuies NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Indicó-1)
+mark(hace-5, que-2)
+det(Rector-4, el-3)
+nsubj(hace-5, Rector-4)
+ccomp(Indicó-1, hace-5)
+punct(notar-7, --6)
+xcomp(hace-5, notar-7)
+mark(aceptada-13, que-8)
+det(propuesta-10, esta-9)
+nsubj(aceptada-13, propuesta-10)
+advmod(aceptada-13, no-11)
+aux(aceptada-13, fue-12)
+ccomp(notar-7, aceptada-13)
+case(ANUIES-17, por-14)
+punct(ANUIES-17, --15)
+det(ANUIES-17, la-16)
+obl(aceptada-13, ANUIES-17)
+punct(Indicó-1, .-18)
+
+Extracted the following NER entity mentions:
+ANUIES	ORGANIZATION	ORGANIZATION:0.9823534721974765
+
+Sentence #5 (30 tokens):
+y que se discutirá en las bases --
+universitarias, para lo cual se celebrará el-
+Congreso al que se invitarán personalidades--
+de diferentes universidades democráticas del -
+
+Tokens:
+[Text=y CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=discutirá CharacterOffsetBegin=569 CharacterOffsetEnd=578 PartOfSpeech=VERB Lemma=discutirá NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=579 CharacterOffsetEnd=581 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=bases CharacterOffsetBegin=586 CharacterOffsetEnd=591 PartOfSpeech=NOUN Lemma=bases NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=592 CharacterOffsetEnd=594 PartOfSpeech=ADJ Lemma=-- NamedEntityTag=O]
+[Text=universitarias CharacterOffsetBegin=595 CharacterOffsetEnd=609 PartOfSpeech=ADJ Lemma=universitarias NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=611 CharacterOffsetEnd=615 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=DET Lemma=lo NamedEntityTag=O]
+[Text=cual CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=PRON Lemma=cual NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=celebrará CharacterOffsetBegin=627 CharacterOffsetEnd=636 PartOfSpeech=VERB Lemma=celebrará NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=639 CharacterOffsetEnd=640 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Congreso CharacterOffsetBegin=641 CharacterOffsetEnd=649 PartOfSpeech=PROPN Lemma=congreso NamedEntityTag=ORGANIZATION]
+[Text=al CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=653 CharacterOffsetEnd=656 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=invitarán CharacterOffsetBegin=660 CharacterOffsetEnd=669 PartOfSpeech=VERB Lemma=invitarán NamedEntityTag=O]
+[Text=personalidades CharacterOffsetBegin=670 CharacterOffsetEnd=684 PartOfSpeech=NOUN Lemma=personalidades NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=684 CharacterOffsetEnd=686 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=687 CharacterOffsetEnd=689 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=diferentes CharacterOffsetBegin=690 CharacterOffsetEnd=700 PartOfSpeech=DET Lemma=diferentes NamedEntityTag=O]
+[Text=universidades CharacterOffsetBegin=701 CharacterOffsetEnd=714 PartOfSpeech=NOUN Lemma=universidades NamedEntityTag=O]
+[Text=democráticas CharacterOffsetBegin=715 CharacterOffsetEnd=727 PartOfSpeech=ADJ Lemma=democráticas NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=728 CharacterOffsetEnd=731 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=732 CharacterOffsetEnd=733 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, discutirá-4)
+cc(discutirá-4, y-1)
+mark(discutirá-4, que-2)
+obj(discutirá-4, se-3)
+case(bases-7, en-5)
+det(bases-7, las-6)
+obl(discutirá-4, bases-7)
+amod(bases-7, ---8)
+amod(bases-7, universitarias-9)
+punct(celebrará-15, ,-10)
+case(cual-13, para-11)
+det(cual-13, lo-12)
+obl(celebrará-15, cual-13)
+obj(celebrará-15, se-14)
+advcl(discutirá-4, celebrará-15)
+det(Congreso-18, el-16)
+punct(Congreso-18, --17)
+nsubj(celebrará-15, Congreso-18)
+case(que-20, al-19)
+obl(invitarán-22, que-20)
+obj(invitarán-22, se-21)
+ccomp(celebrará-15, invitarán-22)
+nmod(---24, personalidades-23)
+nsubj(invitarán-22, ---24)
+case(universidades-27, de-25)
+det(universidades-27, diferentes-26)
+nmod(---24, universidades-27)
+amod(universidades-27, democráticas-28)
+nmod(universidades-27, del-29)
+punct(del-29, --30)
+
+Extracted the following NER entity mentions:
+Congreso	ORGANIZATION	ORGANIZATION:0.6861678369825027

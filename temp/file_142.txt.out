@@ -1,0 +1,410 @@
+Document: ID=file_142.txt (13 sentences, 133 tokens)
+
+Sentence #1 (5 tokens):
+UNIVERSIDAD AUTONOMA DE Exp-100-10-1-72.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=O]
+[Text=AUTONOMA CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=autonoma NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Exp-100-10-1-72 CharacterOffsetBegin=24 CharacterOffsetEnd=39 PartOfSpeech=PROPN Lemma=exp-100-10-1-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUTONOMA-2)
+case(Exp-100-10-1-72-4, DE-3)
+flat(UNIVERSIDAD-1, Exp-100-10-1-72-4)
+punct(UNIVERSIDAD-1, .-5)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (2 tokens):
+GUERRERO.
+
+Tokens:
+[Text=GUERRERO CharacterOffsetBegin=41 CharacterOffsetEnd=49 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, GUERRERO-1)
+punct(GUERRERO-1, .-2)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	-
+
+Sentence #3 (4 tokens):
+96 H-92 L-40.
+
+Tokens:
+[Text=96 CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=NUM Lemma=96 NamedEntityTag=NUMBER NormalizedNamedEntityTag=96.0]
+[Text=H-92 CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=PROPN Lemma=h-92 NamedEntityTag=O]
+[Text=L-40 CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=PROPN Lemma=l-40 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-92-2)
+nummod(H-92-2, 96-1)
+flat(H-92-2, L-40-3)
+punct(H-92-2, .-4)
+
+Extracted the following NER entity mentions:
+96	NUMBER	NUMBER:-1.0
+
+Sentence #4 (16 tokens):
+GUEL ANGEL SALGADO CASTILLO, entre otros ente --
+unos 40 universitarios de diversas facultades.
+
+Tokens:
+[Text=GUEL CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=PROPN Lemma=guel NamedEntityTag=PERSON]
+[Text=ANGEL CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=PROPN Lemma=angel NamedEntityTag=PERSON]
+[Text=SALGADO CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=PROPN Lemma=salgado NamedEntityTag=PERSON]
+[Text=CASTILLO CharacterOffsetBegin=85 CharacterOffsetEnd=93 PartOfSpeech=PROPN Lemma=castillo NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=entre CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=ADP Lemma=entre NamedEntityTag=O]
+[Text=otros CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=DET Lemma=otros NamedEntityTag=O]
+[Text=ente CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=NOUN Lemma=ente NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=unos CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=PRON Lemma=unos NamedEntityTag=O]
+[Text=40 CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=NUM Lemma=40 NamedEntityTag=NUMBER NormalizedNamedEntityTag=40.0]
+[Text=universitarios CharacterOffsetBegin=123 CharacterOffsetEnd=137 PartOfSpeech=NOUN Lemma=universitarios NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=diversas CharacterOffsetBegin=141 CharacterOffsetEnd=149 PartOfSpeech=DET Lemma=diversas NamedEntityTag=O]
+[Text=facultades CharacterOffsetBegin=150 CharacterOffsetEnd=160 PartOfSpeech=NOUN Lemma=facultades NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, GUEL-1)
+flat(GUEL-1, ANGEL-2)
+flat(GUEL-1, SALGADO-3)
+flat(GUEL-1, CASTILLO-4)
+punct(ente-8, ,-5)
+case(ente-8, entre-6)
+det(ente-8, otros-7)
+nmod(GUEL-1, ente-8)
+appos(ente-8, ---9)
+nmod(40-11, unos-10)
+nummod(---9, 40-11)
+flat(---9, universitarios-12)
+case(facultades-15, de-13)
+det(facultades-15, diversas-14)
+nmod(ente-8, facultades-15)
+punct(GUEL-1, .-16)
+
+Extracted the following NER entity mentions:
+GUEL ANGEL SALGADO CASTILLO	PERSON	PERSON:0.971328209854384
+40	NUMBER	NUMBER:-1.0
+
+Sentence #5 (25 tokens):
+--
+Durante las interveciones de los oradores se --
+hizo notar que por medio de telegramas se solici
+tará al Primer Magistrado del País.
+
+Tokens:
+[Text=-- CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=Durante CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=ADP Lemma=durante NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=173 CharacterOffsetEnd=176 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=interveciones CharacterOffsetBegin=177 CharacterOffsetEnd=190 PartOfSpeech=NOUN Lemma=interveciones NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=oradores CharacterOffsetBegin=198 CharacterOffsetEnd=206 PartOfSpeech=NOUN Lemma=oradores NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=hizo CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=VERB Lemma=hizo NamedEntityTag=O]
+[Text=notar CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=VERB Lemma=notar NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=medio CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=NOUN Lemma=medio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=telegramas CharacterOffsetBegin=241 CharacterOffsetEnd=251 PartOfSpeech=NOUN Lemma=telegramas NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=solici CharacterOffsetBegin=255 CharacterOffsetEnd=261 PartOfSpeech=VERB Lemma=solici NamedEntityTag=O]
+[Text=tará CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=VERB Lemma=tará NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=Primer CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=PROPN Lemma=primer NamedEntityTag=MISC]
+[Text=Magistrado CharacterOffsetBegin=277 CharacterOffsetEnd=287 PartOfSpeech=PROPN Lemma=magistrado NamedEntityTag=TITLE]
+[Text=del CharacterOffsetBegin=288 CharacterOffsetEnd=291 PartOfSpeech=ADP Lemma=del NamedEntityTag=MISC]
+[Text=País CharacterOffsetBegin=292 CharacterOffsetEnd=296 PartOfSpeech=PROPN Lemma=país NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, hizo-10)
+advmod(hizo-10, ---1)
+case(interveciones-4, Durante-2)
+det(interveciones-4, las-3)
+nmod(---1, interveciones-4)
+case(oradores-7, de-5)
+det(oradores-7, los-6)
+nmod(interveciones-4, oradores-7)
+iobj(hizo-10, se-8)
+nsubj(hizo-10, ---9)
+aux(solici-18, notar-11)
+mark(solici-18, que-12)
+case(telegramas-16, por-13)
+fixed(por-13, medio-14)
+fixed(por-13, de-15)
+obl(solici-18, telegramas-16)
+obl(solici-18, telegramas-16)
+obj(solici-18, se-17)
+ccomp(hizo-10, solici-18)
+xcomp(solici-18, tará-19)
+case(Primer-21, al-20)
+obj(tará-19, Primer-21)
+flat(Primer-21, Magistrado-22)
+case(País-24, del-23)
+flat(Primer-21, País-24)
+punct(hizo-10, .-25)
+
+Extracted the following NER entity mentions:
+Primer	MISC	MISC:0.8920707343464198
+Magistrado	TITLE	MISC:0.8957277877627491
+del País	MISC	MISC:0.8771494980633601
+
+Sentence #6 (18 tokens):
+la reshluci-
+on que ha sido archivada del castigo para los --
+llamados "Halcones".
+
+Tokens:
+[Text=la CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=reshluci CharacterOffsetBegin=301 CharacterOffsetEnd=309 PartOfSpeech=NOUN Lemma=reshluci NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=ADJ Lemma=on NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=ha CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=AUX Lemma=ha NamedEntityTag=O]
+[Text=sido CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=AUX Lemma=sido NamedEntityTag=O]
+[Text=archivada CharacterOffsetBegin=326 CharacterOffsetEnd=335 PartOfSpeech=VERB Lemma=archivada NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=castigo CharacterOffsetBegin=340 CharacterOffsetEnd=347 PartOfSpeech=NOUN Lemma=castigo NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=llamados CharacterOffsetBegin=360 CharacterOffsetEnd=368 PartOfSpeech=ADJ Lemma=llamados NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=Halcones CharacterOffsetBegin=370 CharacterOffsetEnd=378 PartOfSpeech=PROPN Lemma=halcones NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, reshluci-2)
+det(reshluci-2, la-1)
+punct(archivada-8, --3)
+amod(archivada-8, on-4)
+nsubj(archivada-8, que-5)
+aux(archivada-8, ha-6)
+aux(archivada-8, sido-7)
+acl(reshluci-2, archivada-8)
+case(castigo-10, del-9)
+obj(archivada-8, castigo-10)
+case(llamados-14, para-11)
+det(---13, los-12)
+nummod(llamados-14, ---13)
+obj(archivada-8, llamados-14)
+punct(Halcones-16, "-15)
+obj(llamados-14, Halcones-16)
+punct(Halcones-16, "-17)
+punct(reshluci-2, .-18)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (2 tokens):
+Exp.100-10-3-72.
+
+Tokens:
+[Text=Exp.100-10-3-72 CharacterOffsetBegin=381 CharacterOffsetEnd=396 PartOfSpeech=NUM Lemma=exp.100-10-3-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp.100-10-3-72-1)
+punct(Exp.100-10-3-72-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #8 (6 tokens):
+H-244 L-1
+25-Julio-72.
+
+Tokens:
+[Text=H-244 CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=NUM Lemma=h-244 NamedEntityTag=O]
+[Text=L-1 CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=NUM Lemma=l-1 NamedEntityTag=O]
+[Text=25 CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=NUM Lemma=25 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Julio-72 CharacterOffsetBegin=411 CharacterOffsetEnd=419 PartOfSpeech=NUM Lemma=julio-72 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-244-1)
+appos(H-244-1, L-1-2)
+compound(L-1-2, 25-3)
+punct(H-244-1, --4)
+appos(H-244-1, Julio-72-5)
+punct(H-244-1, .-6)
+
+Extracted the following NER entity mentions:
+
+Sentence #9 (18 tokens):
+-El 24 actual, en un salón de la Rectoría
+de esta universidad, el Ing.
+
+Tokens:
+[Text=- CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=24 CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=NUM Lemma=24 NamedEntityTag=NUMBER NormalizedNamedEntityTag=24.0]
+[Text=actual CharacterOffsetBegin=427 CharacterOffsetEnd=433 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=salón CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=NOUN Lemma=salón NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=450 CharacterOffsetEnd=452 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Rectoría CharacterOffsetBegin=453 CharacterOffsetEnd=461 PartOfSpeech=PROPN Lemma=rectoría NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=462 CharacterOffsetEnd=464 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=universidad CharacterOffsetBegin=470 CharacterOffsetEnd=481 PartOfSpeech=NOUN Lemma=universidad NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=481 CharacterOffsetEnd=482 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Ing CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=PROPN Lemma=ing NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 24-3)
+punct(24-3, --1)
+det(24-3, El-2)
+amod(24-3, actual-4)
+punct(salón-8, ,-5)
+case(salón-8, en-6)
+det(salón-8, un-7)
+nmod(24-3, salón-8)
+case(Rectoría-11, de-9)
+det(Rectoría-11, la-10)
+nmod(salón-8, Rectoría-11)
+case(universidad-14, de-12)
+det(universidad-14, esta-13)
+nmod(salón-8, universidad-14)
+punct(salón-8, ,-15)
+det(Ing-17, el-16)
+appos(24-3, Ing-17)
+punct(24-3, .-18)
+
+Extracted the following NER entity mentions:
+24	NUMBER	NUMBER:-1.0
+Rectoría	ORGANIZATION	ORGANIZATION:0.6450092279150469
+Ing	ORGANIZATION	ORGANIZATION:0.3545730195114371
+
+Sentence #10 (8 tokens):
+HEBERTO CASTILLO MARTINEZ
+a las 19.30 hs.
+
+Tokens:
+[Text=HEBERTO CharacterOffsetBegin=491 CharacterOffsetEnd=498 PartOfSpeech=PROPN Lemma=heberto NamedEntityTag=PERSON]
+[Text=CASTILLO CharacterOffsetBegin=499 CharacterOffsetEnd=507 PartOfSpeech=PROPN Lemma=castillo NamedEntityTag=PERSON]
+[Text=MARTINEZ CharacterOffsetBegin=508 CharacterOffsetEnd=516 PartOfSpeech=PROPN Lemma=martinez NamedEntityTag=PERSON]
+[Text=a CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=19.30 CharacterOffsetBegin=523 CharacterOffsetEnd=528 PartOfSpeech=NOUN Lemma=19.30 NamedEntityTag=NUMBER NormalizedNamedEntityTag=19.3]
+[Text=hs CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=NOUN Lemma=hs NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, HEBERTO-1)
+flat(HEBERTO-1, CASTILLO-2)
+flat(HEBERTO-1, MARTINEZ-3)
+case(19.30-6, a-4)
+det(19.30-6, las-5)
+nmod(HEBERTO-1, 19.30-6)
+appos(19.30-6, hs-7)
+punct(HEBERTO-1, .-8)
+
+Extracted the following NER entity mentions:
+HEBERTO CASTILLO MARTINEZ	PERSON	PERSON:0.9302956864618972
+19.30	NUMBER	NUMBER:-1.0
+
+Sentence #11 (19 tokens):
+presidio una conferencia con el titulo
+de: "LA UNIVERSIDAD Y EL CANSO SOCIAL DE MEXICO".
+
+Tokens:
+[Text=presidio CharacterOffsetBegin=533 CharacterOffsetEnd=541 PartOfSpeech=NOUN Lemma=presidio NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=542 CharacterOffsetEnd=545 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=conferencia CharacterOffsetBegin=546 CharacterOffsetEnd=557 PartOfSpeech=NOUN Lemma=conferencia NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=titulo CharacterOffsetBegin=565 CharacterOffsetEnd=571 PartOfSpeech=NOUN Lemma=titulo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=UNIVERSIDAD CharacterOffsetBegin=580 CharacterOffsetEnd=591 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=O]
+[Text=Y CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=CANSO CharacterOffsetBegin=597 CharacterOffsetEnd=602 PartOfSpeech=PROPN Lemma=canso NamedEntityTag=O]
+[Text=SOCIAL CharacterOffsetBegin=603 CharacterOffsetEnd=609 PartOfSpeech=PROPN Lemma=social NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=MEXICO CharacterOffsetBegin=613 CharacterOffsetEnd=619 PartOfSpeech=PROPN Lemma=mexico NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=619 CharacterOffsetEnd=620 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=620 CharacterOffsetEnd=621 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, presidio-1)
+det(conferencia-3, una-2)
+appos(presidio-1, conferencia-3)
+case(titulo-6, con-4)
+det(titulo-6, el-5)
+nmod(conferencia-3, titulo-6)
+case(UNIVERSIDAD-11, de-7)
+punct(UNIVERSIDAD-11, :-8)
+punct(UNIVERSIDAD-11, "-9)
+det(UNIVERSIDAD-11, LA-10)
+nmod(titulo-6, UNIVERSIDAD-11)
+cc(CANSO-14, Y-12)
+det(CANSO-14, EL-13)
+nmod(titulo-6, CANSO-14)
+conj:y(UNIVERSIDAD-11, CANSO-14)
+flat(CANSO-14, SOCIAL-15)
+case(MEXICO-17, DE-16)
+flat(UNIVERSIDAD-11, MEXICO-17)
+punct(UNIVERSIDAD-11, "-18)
+punct(presidio-1, .-19)
+
+Extracted the following NER entity mentions:
+
+Sentence #12 (6 tokens):
+-S. encontraban presentes Lic.
+
+Tokens:
+[Text=- CharacterOffsetBegin=621 CharacterOffsetEnd=622 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=S. CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=NOUN Lemma=s. NamedEntityTag=O]
+[Text=encontraban CharacterOffsetBegin=625 CharacterOffsetEnd=636 PartOfSpeech=VERB Lemma=encontraban NamedEntityTag=O]
+[Text=presentes CharacterOffsetBegin=637 CharacterOffsetEnd=646 PartOfSpeech=ADJ Lemma=presentes NamedEntityTag=O]
+[Text=Lic CharacterOffsetBegin=647 CharacterOffsetEnd=650 PartOfSpeech=PROPN Lemma=lic NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, encontraban-3)
+punct(encontraban-3, --1)
+nsubj(encontraban-3, S.-2)
+amod(Lic-5, presentes-4)
+obj(encontraban-3, Lic-5)
+punct(encontraban-3, .-6)
+
+Extracted the following NER entity mentions:
+Lic	PERSON	PERSON:0.622913296883376
+
+Sentence #13 (4 tokens):
+EDUARDO MURRUETA URRUTIA,
+
+Tokens:
+[Text=EDUARDO CharacterOffsetBegin=652 CharacterOffsetEnd=659 PartOfSpeech=PROPN Lemma=eduardo NamedEntityTag=O]
+[Text=MURRUETA CharacterOffsetBegin=660 CharacterOffsetEnd=668 PartOfSpeech=PROPN Lemma=murrueta NamedEntityTag=MISC]
+[Text=URRUTIA CharacterOffsetBegin=669 CharacterOffsetEnd=676 PartOfSpeech=PROPN Lemma=urrutia NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, EDUARDO-1)
+flat(EDUARDO-1, MURRUETA-2)
+flat(EDUARDO-1, URRUTIA-3)
+punct(EDUARDO-1, ,-4)
+
+Extracted the following NER entity mentions:
+MURRUETA	MISC	MISC:0.3848978452662563

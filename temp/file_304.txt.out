@@ -1,0 +1,460 @@
+Document: ID=file_304.txt (16 sentences, 143 tokens)
+
+Sentence #1 (2 tokens):
+3.
+
+Tokens:
+[Text=3 CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=NUM Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=. CharacterOffsetBegin=1 CharacterOffsetEnd=2 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 3-1)
+punct(3-1, .-2)
+
+Extracted the following NER entity mentions:
+3	NUMBER	NUMBER:-1.0
+
+Sentence #2 (17 tokens):
+-Mes y medio de aguinaldo para el personal --
+docente, administrativo y de confianza.
+
+Tokens:
+[Text=- CharacterOffsetBegin=2 CharacterOffsetEnd=3 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Mes CharacterOffsetBegin=3 CharacterOffsetEnd=6 PartOfSpeech=NOUN Lemma=mes NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=medio CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NUM Lemma=medio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=aguinaldo CharacterOffsetBegin=18 CharacterOffsetEnd=27 PartOfSpeech=NOUN Lemma=aguinaldo NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=personal CharacterOffsetBegin=36 CharacterOffsetEnd=44 PartOfSpeech=NOUN Lemma=personal NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=ADJ Lemma=-- NamedEntityTag=O]
+[Text=docente CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=ADJ Lemma=docente NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=administrativo CharacterOffsetBegin=57 CharacterOffsetEnd=71 PartOfSpeech=ADJ Lemma=administrativo NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=confianza CharacterOffsetBegin=77 CharacterOffsetEnd=86 PartOfSpeech=NOUN Lemma=confianza NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Mes-2)
+punct(Mes-2, --1)
+cc(medio-4, y-3)
+conj:y(Mes-2, medio-4)
+case(aguinaldo-6, de-5)
+nmod(Mes-2, aguinaldo-6)
+case(personal-9, para-7)
+det(personal-9, el-8)
+nmod(Mes-2, personal-9)
+amod(personal-9, ---10)
+amod(personal-9, docente-11)
+punct(administrativo-13, ,-12)
+conj(docente-11, administrativo-13)
+cc(confianza-16, y-14)
+case(confianza-16, de-15)
+amod(personal-9, confianza-16)
+conj:y(docente-11, confianza-16)
+punct(Mes-2, .-17)
+
+Extracted the following NER entity mentions:
+
+Sentence #3 (3 tokens):
+-
+4.
+
+Tokens:
+[Text=- CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=4 CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=NUM Lemma=4 NamedEntityTag=NUMBER NormalizedNamedEntityTag=4.0]
+[Text=. CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 4-2)
+punct(4-2, --1)
+punct(4-2, .-3)
+
+Extracted the following NER entity mentions:
+4	NUMBER	NUMBER:-1.0
+
+Sentence #4 (8 tokens):
+-Seguro de Vida por $100.000.00.
+
+Tokens:
+[Text=- CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Seguro CharacterOffsetBegin=92 CharacterOffsetEnd=98 PartOfSpeech=ADJ Lemma=seguro NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Vida CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=PROPN Lemma=vida NamedEntityTag=PERSON]
+[Text=por CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=O]
+[Text=100.000.00 CharacterOffsetBegin=112 CharacterOffsetEnd=122 PartOfSpeech=NUM Lemma=100.000.00 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Seguro-2)
+punct(Seguro-2, --1)
+case(Vida-4, de-3)
+nmod(Seguro-2, Vida-4)
+case($-6, por-5)
+obj(Seguro-2, $-6)
+nummod($-6, 100.000.00-7)
+punct(Seguro-2, .-8)
+
+Extracted the following NER entity mentions:
+Vida	PERSON	PERSON:0.2652595821644403
+
+Sentence #5 (2 tokens):
+5.
+
+Tokens:
+[Text=5 CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=NUM Lemma=5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0]
+[Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 5-1)
+punct(5-1, .-2)
+
+Extracted the following NER entity mentions:
+5	NUMBER	NUMBER:-1.0
+
+Sentence #6 (14 tokens):
+-Prima de antigüedad de 1% por cada año de -
+servicio.
+
+Tokens:
+[Text=- CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Prima CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=NOUN Lemma=prima NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=antigüedad CharacterOffsetBegin=136 CharacterOffsetEnd=146 PartOfSpeech=NOUN Lemma=antigüedad NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=1 CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=NUM Lemma=1 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.0]
+[Text=% CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=SYM Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%1.0]
+[Text=por CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=cada CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=DET Lemma=cada NamedEntityTag=O]
+[Text=año CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=NOUN Lemma=año NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=servicio CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=NOUN Lemma=servicio NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Prima-2)
+punct(Prima-2, --1)
+case(antigüedad-4, de-3)
+nmod(Prima-2, antigüedad-4)
+case(1-6, de-5)
+nummod(Prima-2, 1-6)
+nmod(1-6, %-7)
+case(año-10, por-8)
+det(año-10, cada-9)
+nmod(1-6, año-10)
+case(servicio-13, de-11)
+punct(servicio-13, --12)
+nmod(año-10, servicio-13)
+punct(Prima-2, .-14)
+
+Extracted the following NER entity mentions:
+1%	PERCENT	PERCENT:-1.0
+
+Sentence #7 (3 tokens):
+-
+6.
+
+Tokens:
+[Text=- CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=NUM Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=. CharacterOffsetBegin=183 CharacterOffsetEnd=184 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 6-2)
+punct(6-2, --1)
+punct(6-2, .-3)
+
+Extracted the following NER entity mentions:
+6	NUMBER	NUMBER:-1.0
+
+Sentence #8 (9 tokens):
+-Pago de exámenes extraordinario y a título.
+
+Tokens:
+[Text=- CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Pago CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NOUN Lemma=pago NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=exámenes CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=NOUN Lemma=exámenes NamedEntityTag=O]
+[Text=extraordinario CharacterOffsetBegin=202 CharacterOffsetEnd=216 PartOfSpeech=ADJ Lemma=extraordinario NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=título CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=NOUN Lemma=título NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Pago-2)
+punct(Pago-2, --1)
+conj:y(Pago-2, Pago-2''')
+case(exámenes-4, de-3)
+nmod(Pago-2, exámenes-4)
+amod(exámenes-4, extraordinario-5)
+cc(Pago-2''', y-6)
+case(título-8, a-7)
+nmod(Pago-2''', título-8)
+punct(Pago-2, .-9)
+
+Extracted the following NER entity mentions:
+
+Sentence #9 (2 tokens):
+7.
+
+Tokens:
+[Text=7 CharacterOffsetBegin=229 CharacterOffsetEnd=230 PartOfSpeech=NUM Lemma=7 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0]
+[Text=. CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 7-1)
+punct(7-1, .-2)
+
+Extracted the following NER entity mentions:
+7	NUMBER	NUMBER:-1.0
+
+Sentence #10 (17 tokens):
+-Vender a los profesores los libros al precio
+de costo, más de 5%.
+
+Tokens:
+[Text=- CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Vender CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=VERB Lemma=vender NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=profesores CharacterOffsetBegin=245 CharacterOffsetEnd=255 PartOfSpeech=NOUN Lemma=profesores NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=libros CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=NOUN Lemma=libros NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=precio CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NOUN Lemma=precio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=costo CharacterOffsetBegin=280 CharacterOffsetEnd=285 PartOfSpeech=NOUN Lemma=costo NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=más CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=ADV Lemma=más NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=291 CharacterOffsetEnd=293 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=5 CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=NUM Lemma=5 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%5.0]
+[Text=% CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=SYM Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%5.0]
+[Text=. CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Vender-2)
+punct(Vender-2, --1)
+case(profesores-5, a-3)
+det(profesores-5, los-4)
+obj(Vender-2, profesores-5)
+det(libros-7, los-6)
+obj(Vender-2, libros-7)
+case(precio-9, al-8)
+nmod(libros-7, precio-9)
+case(costo-11, de-10)
+nmod(precio-9, costo-11)
+punct(más-13, ,-12)
+advmod(libros-7, más-13)
+case(5-15, de-14)
+advmod(más-13, 5-15)
+nmod(5-15, %-16)
+punct(Vender-2, .-17)
+
+Extracted the following NER entity mentions:
+5%	PERCENT	PERCENT:-1.0
+
+Sentence #11 (3 tokens):
+-
+8.
+
+Tokens:
+[Text=- CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=8 CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=NUM Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0]
+[Text=. CharacterOffsetBegin=300 CharacterOffsetEnd=301 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 8-2)
+punct(8-2, --1)
+punct(8-2, .-3)
+
+Extracted the following NER entity mentions:
+8	NUMBER	NUMBER:-1.0
+
+Sentence #12 (23 tokens):
+- Creaci/on de guarderías en Iguala y Acapulco-
+y ayuda a trabajadores que no tienen acceso a -
+guarderías.
+
+Tokens:
+[Text=- CharacterOffsetBegin=301 CharacterOffsetEnd=302 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Creaci CharacterOffsetBegin=303 CharacterOffsetEnd=309 PartOfSpeech=PROPN Lemma=creaci NamedEntityTag=O]
+[Text=/ CharacterOffsetBegin=309 CharacterOffsetEnd=310 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=ADJ Lemma=on NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=guarderías CharacterOffsetBegin=316 CharacterOffsetEnd=326 PartOfSpeech=NOUN Lemma=guarderías NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Iguala CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=PROPN Lemma=iguala NamedEntityTag=CITY]
+[Text=y CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=339 CharacterOffsetEnd=347 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=MISC]
+[Text=y CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=ayuda CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=NOUN Lemma=ayuda NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=trabajadores CharacterOffsetBegin=359 CharacterOffsetEnd=371 PartOfSpeech=NOUN Lemma=trabajadores NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=372 CharacterOffsetEnd=375 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=tienen CharacterOffsetBegin=379 CharacterOffsetEnd=385 PartOfSpeech=VERB Lemma=tienen NamedEntityTag=O]
+[Text=acceso CharacterOffsetBegin=386 CharacterOffsetEnd=392 PartOfSpeech=NOUN Lemma=acceso NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=guarderías CharacterOffsetBegin=397 CharacterOffsetEnd=407 PartOfSpeech=NOUN Lemma=guarderías NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Creaci-2)
+punct(Creaci-2, --1)
+punct(Creaci-2, /-3)
+amod(Creaci-2, on-4)
+case(guarderías-6, de-5)
+nmod(on-4, guarderías-6)
+case(Iguala-8, en-7)
+nmod(guarderías-6, Iguala-8)
+cc(Acapulco-10, y-9)
+nmod(guarderías-6, Acapulco-10)
+conj:y(Iguala-8, Acapulco-10)
+punct(Creaci-2, --11)
+cc(ayuda-13, y-12)
+conj:y(Creaci-2, ayuda-13)
+case(trabajadores-15, a-14)
+nmod(ayuda-13, trabajadores-15)
+nsubj(tienen-18, que-16)
+advmod(tienen-18, no-17)
+acl(trabajadores-15, tienen-18)
+obj(tienen-18, acceso-19)
+case(guarderías-22, a-20)
+punct(guarderías-22, --21)
+nmod(acceso-19, guarderías-22)
+punct(Creaci-2, .-23)
+
+Extracted the following NER entity mentions:
+Iguala	CITY	LOCATION:0.9762343568723657
+Acapulco-	MISC	MISC:0.6321617179040674
+
+Sentence #13 (3 tokens):
+-
+9.
+
+Tokens:
+[Text=- CharacterOffsetBegin=408 CharacterOffsetEnd=409 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=9 CharacterOffsetBegin=410 CharacterOffsetEnd=411 PartOfSpeech=NUM Lemma=9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0]
+[Text=. CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 9-2)
+punct(9-2, --1)
+punct(9-2, .-3)
+
+Extracted the following NER entity mentions:
+9	NUMBER	NUMBER:-1.0
+
+Sentence #14 (25 tokens):
+-Año sabático, que consiste en gozar de un --
+año para proyectos de superación académica por-
+cada 6 años de trabajo.
+
+Tokens:
+[Text=- CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Año CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=PROPN Lemma=año NamedEntityTag=O]
+[Text=sabático CharacterOffsetBegin=417 CharacterOffsetEnd=425 PartOfSpeech=PROPN Lemma=sabático NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=consiste CharacterOffsetBegin=431 CharacterOffsetEnd=439 PartOfSpeech=VERB Lemma=consiste NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=440 CharacterOffsetEnd=442 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=gozar CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=VERB Lemma=gozar NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=449 CharacterOffsetEnd=451 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=NOUN Lemma=-- NamedEntityTag=O]
+[Text=año CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=NOUN Lemma=año NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=462 CharacterOffsetEnd=466 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=proyectos CharacterOffsetBegin=467 CharacterOffsetEnd=476 PartOfSpeech=NOUN Lemma=proyectos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=superación CharacterOffsetBegin=480 CharacterOffsetEnd=490 PartOfSpeech=NOUN Lemma=superación NamedEntityTag=O]
+[Text=académica CharacterOffsetBegin=491 CharacterOffsetEnd=500 PartOfSpeech=ADJ Lemma=académica NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=504 CharacterOffsetEnd=505 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=cada CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=DET Lemma=cada NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=NUM Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=años CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=NOUN Lemma=años NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=trabajo CharacterOffsetBegin=521 CharacterOffsetEnd=528 PartOfSpeech=NOUN Lemma=trabajo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Año-2)
+punct(Año-2, --1)
+flat(Año-2, sabático-3)
+punct(consiste-6, ,-4)
+nsubj(consiste-6, que-5)
+acl(Año-2, consiste-6)
+mark(gozar-8, en-7)
+xcomp(consiste-6, gozar-8)
+case(---11, de-9)
+det(---11, un-10)
+obj(gozar-8, ---11)
+nmod(---11, año-12)
+case(proyectos-14, para-13)
+nmod(---11, proyectos-14)
+case(superación-16, de-15)
+nmod(proyectos-14, superación-16)
+amod(proyectos-14, académica-17)
+case(años-22, por-18)
+punct(años-22, --19)
+det(años-22, cada-20)
+nummod(cada-20, 6-21)
+obj(académica-17, años-22)
+case(trabajo-24, de-23)
+nmod(años-22, trabajo-24)
+punct(Año-2, .-25)
+
+Extracted the following NER entity mentions:
+6	NUMBER	NUMBER:-1.0
+
+Sentence #15 (3 tokens):
+-
+10.
+
+Tokens:
+[Text=- CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=10 CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=NUM Lemma=10 NamedEntityTag=NUMBER NormalizedNamedEntityTag=10.0]
+[Text=. CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 10-2)
+punct(10-2, --1)
+punct(10-2, .-3)
+
+Extracted the following NER entity mentions:
+10	NUMBER	NUMBER:-1.0
+
+Sentence #16 (9 tokens):
+- Dar una beca para familiares directos de tr
+
+Tokens:
+[Text=- CharacterOffsetBegin=534 CharacterOffsetEnd=535 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Dar CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=VERB Lemma=dar NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=beca CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=NOUN Lemma=beca NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=familiares CharacterOffsetBegin=554 CharacterOffsetEnd=564 PartOfSpeech=NOUN Lemma=familiares NamedEntityTag=O]
+[Text=directos CharacterOffsetBegin=565 CharacterOffsetEnd=573 PartOfSpeech=ADJ Lemma=directos NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=tr CharacterOffsetBegin=577 CharacterOffsetEnd=579 PartOfSpeech=NOUN Lemma=tr NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Dar-2)
+punct(Dar-2, --1)
+det(beca-4, una-3)
+obj(Dar-2, beca-4)
+case(familiares-6, para-5)
+obl(Dar-2, familiares-6)
+amod(familiares-6, directos-7)
+case(tr-9, de-8)
+nmod(familiares-6, tr-9)
+
+Extracted the following NER entity mentions:

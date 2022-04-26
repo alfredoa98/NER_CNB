@@ -1,0 +1,376 @@
+Document: ID=file_221.txt (8 sentences, 135 tokens)
+
+Sentence #1 (4 tokens):
+EL VERDADERO FIGUEROBAS?
+
+Tokens:
+[Text=EL CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=VERDADERO CharacterOffsetBegin=3 CharacterOffsetEnd=12 PartOfSpeech=ADJ Lemma=verdadero NamedEntityTag=O]
+[Text=FIGUEROBAS CharacterOffsetBegin=13 CharacterOffsetEnd=23 PartOfSpeech=NOUN Lemma=figuerobas NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=PUNCT Lemma=? NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, FIGUEROBAS-3)
+det(FIGUEROBAS-3, EL-1)
+amod(FIGUEROBAS-3, VERDADERO-2)
+punct(FIGUEROBAS-3, ?-4)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (15 tokens):
+EL BOCON Y MAS HORRI- -
+PILANTE MONSTRUO QUE TENEMO COMO GOBERNADOR”.
+
+Tokens:
+[Text=EL CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=BOCON CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=PROPN Lemma=bocon NamedEntityTag=ORGANIZATION]
+[Text=Y CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=MAS CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=PROPN Lemma=mas NamedEntityTag=O]
+[Text=HORRI CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=PROPN Lemma=horri NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=PILANTE CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=ADJ Lemma=pilante NamedEntityTag=O]
+[Text=MONSTRUO CharacterOffsetBegin=57 CharacterOffsetEnd=65 PartOfSpeech=NOUN Lemma=monstruo NamedEntityTag=O]
+[Text=QUE CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=TENEMO CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=VERB Lemma=tenemo NamedEntityTag=O]
+[Text=COMO CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=ADP Lemma=como NamedEntityTag=O]
+[Text=GOBERNADOR CharacterOffsetBegin=82 CharacterOffsetEnd=92 PartOfSpeech=NOUN Lemma=gobernador NamedEntityTag=TITLE]
+[Text=" CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=93 CharacterOffsetEnd=94 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, BOCON-2)
+det(BOCON-2, EL-1)
+cc(MAS-4, Y-3)
+conj:y(BOCON-2, MAS-4)
+flat(MAS-4, HORRI-5)
+punct(MONSTRUO-9, --6)
+punct(MONSTRUO-9, --7)
+amod(MONSTRUO-9, PILANTE-8)
+appos(BOCON-2, MONSTRUO-9)
+nsubj(TENEMO-11, QUE-10)
+acl(MONSTRUO-9, TENEMO-11)
+case(GOBERNADOR-13, COMO-12)
+obj(TENEMO-11, GOBERNADOR-13)
+punct(MONSTRUO-9, "-14)
+punct(BOCON-2, .-15)
+
+Extracted the following NER entity mentions:
+BOCON	ORGANIZATION	ORGANIZATION:0.40001018990143905
+GOBERNADOR	TITLE	-
+
+Sentence #3 (2 tokens):
+Exp-100-19-1-76.
+
+Tokens:
+[Text=Exp-100-19-1-76 CharacterOffsetBegin=95 CharacterOffsetEnd=110 PartOfSpeech=NUM Lemma=exp-100-19-1-76 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-100-19-1-76-1)
+punct(Exp-100-19-1-76-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (7 tokens):
+-
+H-88 L-50
+25-Mayo-76.
+
+Tokens:
+[Text=- CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=H-88 CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=NUM Lemma=h-88 NamedEntityTag=O]
+[Text=L-50 CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=NUM Lemma=l-50 NamedEntityTag=O]
+[Text=25 CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=NUM Lemma=25 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Mayo-76 CharacterOffsetBegin=126 CharacterOffsetEnd=133 PartOfSpeech=NUM Lemma=mayo-76 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-88-2)
+punct(H-88-2, --1)
+appos(H-88-2, L-50-3)
+compound(L-50-3, 25-4)
+punct(H-88-2, --5)
+appos(H-88-2, Mayo-76-6)
+punct(H-88-2, .-7)
+
+Extracted the following NER entity mentions:
+
+Sentence #5 (53 tokens):
+-El día 24 actual, se inauguró en el -
+Salón deActos del Edificio Carolino, el intercam-
+bio de las Universidades Autónoma de Puebla, y - -
+guerrero ante una asistencia de 50 personas, es -
+tando una representación de las dos Casas de Es-
+tudios.
+
+Tokens:
+[Text=- CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=día CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=NOUN Lemma=día NamedEntityTag=O]
+[Text=24 CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=NUM Lemma=24 NamedEntityTag=NUMBER NormalizedNamedEntityTag=24.0]
+[Text=actual CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=inauguró CharacterOffsetBegin=157 CharacterOffsetEnd=165 PartOfSpeech=VERB Lemma=inauguró NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Salón CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=PROPN Lemma=salón NamedEntityTag=O]
+[Text=deActos CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=PROPN Lemma=deactos NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Edificio CharacterOffsetBegin=192 CharacterOffsetEnd=200 PartOfSpeech=PROPN Lemma=edificio NamedEntityTag=ORGANIZATION]
+[Text=Carolino CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=PROPN Lemma=carolino NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=intercam CharacterOffsetBegin=214 CharacterOffsetEnd=222 PartOfSpeech=NOUN Lemma=intercam NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=bio CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=NOUN Lemma=bio NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=228 CharacterOffsetEnd=230 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=Universidades CharacterOffsetBegin=235 CharacterOffsetEnd=248 PartOfSpeech=PROPN Lemma=universidades NamedEntityTag=LOCATION]
+[Text=Autónoma CharacterOffsetBegin=249 CharacterOffsetEnd=257 PartOfSpeech=PROPN Lemma=autónoma NamedEntityTag=LOCATION]
+[Text=de CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=ADP Lemma=de NamedEntityTag=LOCATION]
+[Text=Puebla CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=PROPN Lemma=puebla NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=273 CharacterOffsetEnd=274 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=guerrero CharacterOffsetBegin=275 CharacterOffsetEnd=283 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=ante CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=ADP Lemma=ante NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=asistencia CharacterOffsetBegin=293 CharacterOffsetEnd=303 PartOfSpeech=NOUN Lemma=asistencia NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=50 CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=NUM Lemma=50 NamedEntityTag=NUMBER NormalizedNamedEntityTag=50.0]
+[Text=personas CharacterOffsetBegin=310 CharacterOffsetEnd=318 PartOfSpeech=NOUN Lemma=personas NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=es CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=AUX Lemma=es NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=323 CharacterOffsetEnd=324 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=tando CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=VERB Lemma=tando NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=representación CharacterOffsetBegin=335 CharacterOffsetEnd=349 PartOfSpeech=NOUN Lemma=representación NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=dos CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=NUM Lemma=dos NamedEntityTag=NUMBER]
+[Text=Casas CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=PROPN Lemma=casas NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=Es CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=PROPN Lemma=es NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=MISC]
+[Text=tudios CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=ADJ Lemma=tudios NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, tando-42)
+punct(inauguró-8, --1)
+det(día-3, El-2)
+obl(inauguró-8, día-3)
+appos(día-3, 24-4)
+amod(24-4, actual-5)
+punct(día-3, ,-6)
+obj(inauguró-8, se-7)
+advcl(tando-42, inauguró-8)
+case(Salón-12, en-9)
+det(Salón-12, el-10)
+punct(Salón-12, --11)
+obl(inauguró-8, Salón-12)
+flat(Salón-12, deActos-13)
+case(Edificio-15, del-14)
+flat(Salón-12, Edificio-15)
+flat(Salón-12, Carolino-16)
+punct(inauguró-8, ,-17)
+det(intercam-19, el-18)
+nsubj(tando-42, intercam-19)
+punct(bio-21, --20)
+appos(intercam-19, bio-21)
+case(Universidades-24, de-22)
+det(Universidades-24, las-23)
+nmod(bio-21, Universidades-24)
+flat(Universidades-24, Autónoma-25)
+case(Puebla-27, de-26)
+flat(Universidades-24, Puebla-27)
+punct(guerrero-32, ,-28)
+cc(guerrero-32, y-29)
+punct(guerrero-32, --30)
+punct(guerrero-32, --31)
+appos(intercam-19, guerrero-32)
+conj:y(bio-21, guerrero-32)
+case(asistencia-35, ante-33)
+det(asistencia-35, una-34)
+nmod(guerrero-32, asistencia-35)
+case(personas-38, de-36)
+nummod(personas-38, 50-37)
+nmod(asistencia-35, personas-38)
+punct(bio-21, ,-39)
+aux(tando-42, es-40)
+punct(tando-42, --41)
+det(representación-44, una-43)
+obj(tando-42, representación-44)
+case(Casas-48, de-45)
+det(Casas-48, las-46)
+nummod(las-46, dos-47)
+nmod(representación-44, Casas-48)
+case(Es-50, de-49)
+flat(Casas-48, Es-50)
+punct(Casas-48, --51)
+amod(Casas-48, tudios-52)
+punct(tando-42, .-53)
+
+Extracted the following NER entity mentions:
+24	NUMBER	NUMBER:-1.0
+Edificio Carolino	ORGANIZATION	ORGANIZATION:0.34660372457026334
+Universidades Autónoma de	LOCATION	LOCATION:0.678366941440345
+Puebla	CITY	LOCATION:0.8465765411293981
+guerrero	TITLE	-
+50	NUMBER	NUMBER:-1.0
+dos	NUMBER	-
+Casas de Es-
+tudios	MISC	MISC:0.3749681900137438
+
+Sentence #6 (3 tokens):
+- Exp-100-19-1-76.
+
+Tokens:
+[Text=- CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Exp-100-19-1-76 CharacterOffsetBegin=383 CharacterOffsetEnd=398 PartOfSpeech=NUM Lemma=exp-100-19-1-76 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-100-19-1-76-2)
+punct(Exp-100-19-1-76-2, --1)
+punct(Exp-100-19-1-76-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (7 tokens):
+-
+H-96 L-50
+26-Mayo-76.
+
+Tokens:
+[Text=- CharacterOffsetBegin=399 CharacterOffsetEnd=400 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=H-96 CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=NUM Lemma=h-96 NamedEntityTag=O]
+[Text=L-50 CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=NUM Lemma=l-50 NamedEntityTag=O]
+[Text=26 CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=NUM Lemma=26 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Mayo-76 CharacterOffsetBegin=414 CharacterOffsetEnd=421 PartOfSpeech=NUM Lemma=mayo-76 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-96-2)
+punct(H-96-2, --1)
+appos(H-96-2, L-50-3)
+compound(L-50-3, 26-4)
+punct(H-96-2, --5)
+appos(H-96-2, Mayo-76-6)
+punct(H-96-2, .-7)
+
+Extracted the following NER entity mentions:
+
+Sentence #8 (44 tokens):
+-El día 25 actual, en el Salón Barroco-
+del Edificio Carolino se llevó al cabo una confe
+rencia con el tema LAS GUERRILLAS EN CHINA EN 1927, y Posterorme te en otros Países Latinoame
+ricanos, sustentada por ALEJANDRO MOHANO
+
+Tokens:
+[Text=- CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=423 CharacterOffsetEnd=425 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=día CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=NOUN Lemma=día NamedEntityTag=O]
+[Text=25 CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=NUM Lemma=25 NamedEntityTag=NUMBER NormalizedNamedEntityTag=25.0]
+[Text=actual CharacterOffsetBegin=433 CharacterOffsetEnd=439 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=439 CharacterOffsetEnd=440 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Salón CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=PROPN Lemma=salón NamedEntityTag=MISC]
+[Text=Barroco CharacterOffsetBegin=453 CharacterOffsetEnd=460 PartOfSpeech=PROPN Lemma=barroco NamedEntityTag=MISC]
+[Text=- CharacterOffsetBegin=460 CharacterOffsetEnd=461 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=MISC]
+[Text=del CharacterOffsetBegin=462 CharacterOffsetEnd=465 PartOfSpeech=ADP Lemma=del NamedEntityTag=MISC]
+[Text=Edificio CharacterOffsetBegin=466 CharacterOffsetEnd=474 PartOfSpeech=PROPN Lemma=edificio NamedEntityTag=MISC]
+[Text=Carolino CharacterOffsetBegin=475 CharacterOffsetEnd=483 PartOfSpeech=PROPN Lemma=carolino NamedEntityTag=MISC]
+[Text=se CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=llevó CharacterOffsetBegin=487 CharacterOffsetEnd=492 PartOfSpeech=VERB Lemma=llevó NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=493 CharacterOffsetEnd=495 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=cabo CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=NOUN Lemma=cabo NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=confe CharacterOffsetBegin=505 CharacterOffsetEnd=510 PartOfSpeech=NOUN Lemma=confe NamedEntityTag=O]
+[Text=rencia CharacterOffsetBegin=511 CharacterOffsetEnd=517 PartOfSpeech=ADJ Lemma=rencia NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=518 CharacterOffsetEnd=521 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=tema CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=NOUN Lemma=tema NamedEntityTag=O]
+[Text=LAS CharacterOffsetBegin=530 CharacterOffsetEnd=533 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=GUERRILLAS CharacterOffsetBegin=534 CharacterOffsetEnd=544 PartOfSpeech=NOUN Lemma=guerrillas NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=CHINA CharacterOffsetBegin=548 CharacterOffsetEnd=553 PartOfSpeech=PROPN Lemma=china NamedEntityTag=COUNTRY]
+[Text=EN CharacterOffsetBegin=554 CharacterOffsetEnd=556 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=1927 CharacterOffsetBegin=557 CharacterOffsetEnd=561 PartOfSpeech=NOUN Lemma=1927 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1927.0]
+[Text=, CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=y CharacterOffsetBegin=563 CharacterOffsetEnd=564 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=Posterorme CharacterOffsetBegin=565 CharacterOffsetEnd=575 PartOfSpeech=PROPN Lemma=posterorme NamedEntityTag=PERSON]
+[Text=te CharacterOffsetBegin=576 CharacterOffsetEnd=578 PartOfSpeech=PRON Lemma=te NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=579 CharacterOffsetEnd=581 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=otros CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=DET Lemma=otros NamedEntityTag=O]
+[Text=Países CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=PROPN Lemma=países NamedEntityTag=LOCATION]
+[Text=Latinoame CharacterOffsetBegin=595 CharacterOffsetEnd=604 PartOfSpeech=PROPN Lemma=latinoame NamedEntityTag=LOCATION]
+[Text=ricanos CharacterOffsetBegin=605 CharacterOffsetEnd=612 PartOfSpeech=ADJ Lemma=ricanos NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=612 CharacterOffsetEnd=613 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=sustentada CharacterOffsetBegin=614 CharacterOffsetEnd=624 PartOfSpeech=ADJ Lemma=sustentada NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=625 CharacterOffsetEnd=628 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=ALEJANDRO CharacterOffsetBegin=629 CharacterOffsetEnd=638 PartOfSpeech=PROPN Lemma=alejandro NamedEntityTag=PERSON]
+[Text=MOHANO CharacterOffsetBegin=639 CharacterOffsetEnd=645 PartOfSpeech=PROPN Lemma=mohano NamedEntityTag=PERSON]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, llevó-16)
+punct(llevó-16, --1)
+det(día-3, El-2)
+obl(llevó-16, día-3)
+compound(día-3, 25-4)
+amod(25-4, actual-5)
+punct(día-3, ,-6)
+case(Salón-9, en-7)
+det(Salón-9, el-8)
+obl(llevó-16, Salón-9)
+flat(Salón-9, Barroco-10)
+punct(Salón-9, --11)
+case(Edificio-13, del-12)
+flat(Salón-9, Edificio-13)
+flat(Edificio-13, Carolino-14)
+obj(llevó-16, se-15)
+case(cabo-18, al-17)
+compound(llevó-16, cabo-18)
+det(confe-20, una-19)
+obj(llevó-16, confe-20)
+amod(confe-20, rencia-21)
+case(tema-24, con-22)
+det(tema-24, el-23)
+nmod(confe-20, tema-24)
+det(GUERRILLAS-26, LAS-25)
+nsubj(llevó-16, GUERRILLAS-26)
+case(CHINA-28, EN-27)
+nmod(GUERRILLAS-26, CHINA-28)
+case(1927-30, EN-29)
+nmod(GUERRILLAS-26, 1927-30)
+punct(Posterorme-33, ,-31)
+cc(Posterorme-33, y-32)
+conj:y(llevó-16, Posterorme-33)
+flat(Posterorme-33, te-34)
+case(Países-37, en-35)
+det(Países-37, otros-36)
+flat(Posterorme-33, Países-37)
+flat(Países-37, Latinoame-38)
+flat(Posterorme-33, ricanos-39)
+punct(sustentada-41, ,-40)
+obj(llevó-16, sustentada-41)
+case(ALEJANDRO-43, por-42)
+obj(sustentada-41, ALEJANDRO-43)
+flat(ALEJANDRO-43, MOHANO-44)
+
+Extracted the following NER entity mentions:
+25	NUMBER	NUMBER:-1.0
+Salón Barroco-
+del Edificio Carolino	MISC	MISC:0.5252561214889654
+CHINA	COUNTRY	LOCATION:0.6257831319689022
+1927	NUMBER	NUMBER:-1.0
+Posterorme	PERSON	PERSON:0.7275507609202891
+Países Latinoame	LOCATION	LOCATION:0.7111624718667159
+ALEJANDRO MOHANO	PERSON	PERSON:0.9036446827960236

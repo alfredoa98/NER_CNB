@@ -1,0 +1,328 @@
+Document: ID=file_485.txt (4 sentences, 128 tokens)
+
+Sentence #1 (12 tokens):
+ZONA MILITAR 27/a. EN 012-001-001
+EL ESTADO DE GUERRERO.
+
+Tokens:
+[Text=ZONA CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NOUN Lemma=zona NamedEntityTag=O]
+[Text=MILITAR CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=ADJ Lemma=militar NamedEntityTag=O]
+[Text=27 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=NUM Lemma=27 NamedEntityTag=NUMBER NormalizedNamedEntityTag=27.0]
+[Text=/ CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=O]
+[Text=a. CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=NOUN Lemma=a. NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=012-001-001 CharacterOffsetBegin=22 CharacterOffsetEnd=33 PartOfSpeech=NUM Lemma=012-001-001 NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=ESTADO CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=44 CharacterOffsetEnd=46 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=47 CharacterOffsetEnd=55 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ZONA-1)
+amod(ZONA-1, MILITAR-2)
+appos(ZONA-1, 27-3)
+punct(ZONA-1, /-4)
+appos(ZONA-1, a.-5)
+case(012-001-001-7, EN-6)
+nummod(a.-5, 012-001-001-7)
+det(ESTADO-9, EL-8)
+appos(ZONA-1, ESTADO-9)
+case(GUERRERO-11, DE-10)
+flat(ESTADO-9, GUERRERO-11)
+punct(ZONA-1, .-12)
+
+Extracted the following NER entity mentions:
+27	NUMBER	NUMBER:-1.0
+GUERRERO	TITLE	-
+
+Sentence #2 (9 tokens):
+=6= 17 Jul.82
+Acapulco, Gro.
+
+Tokens:
+[Text== CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=SYM Lemma== NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=NUM Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text== CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=NUM Lemma== NamedEntityTag=O]
+[Text=17 CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=NUM Lemma=17 NamedEntityTag=NUMBER NormalizedNamedEntityTag=17.0]
+[Text=Jul.82 CharacterOffsetBegin=64 CharacterOffsetEnd=70 PartOfSpeech=PROPN Lemma=jul.82 NamedEntityTag=O]
+[Text=Acapulco CharacterOffsetBegin=71 CharacterOffsetEnd=79 PartOfSpeech=PROPN Lemma=acapulco NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gro CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, =-1)
+nummod(Jul.82-5, 6-2)
+compound(6-2, =-3)
+compound(6-2, 17-4)
+appos(=-1, Jul.82-5)
+flat(Jul.82-5, Acapulco-6)
+punct(Gro-8, ,-7)
+flat(Jul.82-5, Gro-8)
+punct(=-1, .-9)
+
+Extracted the following NER entity mentions:
+6	NUMBER	NUMBER:-1.0
+17	NUMBER	NUMBER:-1.0
+Acapulco	CITY	LOCATION:0.8631149873301883
+Gro	PERSON	PERSON:0.428330470547457
+
+Sentence #3 (105 tokens):
+-El Comandante de esta Zona, Gral.
+JOSE HERNANDEZ TOLEDO, ordeno cerrar la circula-
+ción a la calle de Hornitos, al parecer porque
+estuvo a punto de ser atropellado ; por lo ante-
+rior todos los Partidos Políticos, estan en su
+contra; El Prof. GILBERTO SILVA GAMBOA, dirigente del PSUM, califico este acto como violación a la
+Constitución y que su partido gestiona ante las
+autoridades se llame a cuentas a dicho Gral.;
+CATALINO MENDOZA VAZQUEZ, líder del PST, afirmó
+que solo el Cabildo puede decir el cierre de la
+mencionada calle.
+
+Tokens:
+[Text=- CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Comandante CharacterOffsetBegin=89 CharacterOffsetEnd=99 PartOfSpeech=PROPN Lemma=comandante NamedEntityTag=TITLE]
+[Text=de CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=esta CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=DET Lemma=esta NamedEntityTag=O]
+[Text=Zona CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=PROPN Lemma=zona NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Gral. CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=PROPN Lemma=gral. NamedEntityTag=O]
+[Text=JOSE CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=O]
+[Text=HERNANDEZ CharacterOffsetBegin=125 CharacterOffsetEnd=134 PartOfSpeech=PROPN Lemma=hernandez NamedEntityTag=O]
+[Text=TOLEDO CharacterOffsetBegin=135 CharacterOffsetEnd=141 PartOfSpeech=PROPN Lemma=toledo NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ordeno CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=VERB Lemma=ordeno NamedEntityTag=O]
+[Text=cerrar CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=VERB Lemma=cerrar NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=circula CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=NOUN Lemma=circula NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=ción CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=NOUN Lemma=ción NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=calle CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=NOUN Lemma=calle NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Hornitos CharacterOffsetBegin=188 CharacterOffsetEnd=196 PartOfSpeech=PROPN Lemma=hornitos NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=parecer CharacterOffsetBegin=201 CharacterOffsetEnd=208 PartOfSpeech=NOUN Lemma=parecer NamedEntityTag=O]
+[Text=porque CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=SCONJ Lemma=porque NamedEntityTag=O]
+[Text=estuvo CharacterOffsetBegin=216 CharacterOffsetEnd=222 PartOfSpeech=AUX Lemma=estuvo NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=punto CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=NOUN Lemma=punto NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=ser CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=AUX Lemma=ser NamedEntityTag=O]
+[Text=atropellado CharacterOffsetBegin=238 CharacterOffsetEnd=249 PartOfSpeech=VERB Lemma=atropellado NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=PRON Lemma=lo NamedEntityTag=O]
+[Text=ante CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=ADP Lemma=ante NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=rior CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=NOUN Lemma=rior NamedEntityTag=O]
+[Text=todos CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=DET Lemma=todos NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=Partidos CharacterOffsetBegin=280 CharacterOffsetEnd=288 PartOfSpeech=PROPN Lemma=partidos NamedEntityTag=ORGANIZATION]
+[Text=Políticos CharacterOffsetBegin=289 CharacterOffsetEnd=298 PartOfSpeech=PROPN Lemma=políticos NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=estan CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=VERB Lemma=estan NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=contra CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=NOUN Lemma=contra NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=DET Lemma=el NamedEntityTag=MISC]
+[Text=Prof. CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=PROPN Lemma=prof. NamedEntityTag=MISC]
+[Text=GILBERTO CharacterOffsetBegin=329 CharacterOffsetEnd=337 PartOfSpeech=PROPN Lemma=gilberto NamedEntityTag=MISC]
+[Text=SILVA CharacterOffsetBegin=338 CharacterOffsetEnd=343 PartOfSpeech=PROPN Lemma=silva NamedEntityTag=MISC]
+[Text=GAMBOA CharacterOffsetBegin=344 CharacterOffsetEnd=350 PartOfSpeech=PROPN Lemma=gamboa NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=dirigente CharacterOffsetBegin=352 CharacterOffsetEnd=361 PartOfSpeech=NOUN Lemma=dirigente NamedEntityTag=TITLE]
+[Text=del CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=PSUM CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=PROPN Lemma=psum NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=califico CharacterOffsetBegin=372 CharacterOffsetEnd=380 PartOfSpeech=VERB Lemma=califico NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=acto CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=NOUN Lemma=acto NamedEntityTag=O]
+[Text=como CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=SCONJ Lemma=como NamedEntityTag=O]
+[Text=violación CharacterOffsetBegin=396 CharacterOffsetEnd=405 PartOfSpeech=NOUN Lemma=violación NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Constitución CharacterOffsetBegin=411 CharacterOffsetEnd=423 PartOfSpeech=PROPN Lemma=constitución NamedEntityTag=MISC]
+[Text=y CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=partido CharacterOffsetBegin=433 CharacterOffsetEnd=440 PartOfSpeech=NOUN Lemma=partido NamedEntityTag=O]
+[Text=gestiona CharacterOffsetBegin=441 CharacterOffsetEnd=449 PartOfSpeech=VERB Lemma=gestiona NamedEntityTag=O]
+[Text=ante CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=ADP Lemma=ante NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=autoridades CharacterOffsetBegin=459 CharacterOffsetEnd=470 PartOfSpeech=NOUN Lemma=autoridades NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=471 CharacterOffsetEnd=473 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=llame CharacterOffsetBegin=474 CharacterOffsetEnd=479 PartOfSpeech=VERB Lemma=llame NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=480 CharacterOffsetEnd=481 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=cuentas CharacterOffsetBegin=482 CharacterOffsetEnd=489 PartOfSpeech=NOUN Lemma=cuentas NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=dicho CharacterOffsetBegin=492 CharacterOffsetEnd=497 PartOfSpeech=ADJ Lemma=dicho NamedEntityTag=O]
+[Text=Gral. CharacterOffsetBegin=498 CharacterOffsetEnd=503 PartOfSpeech=PROPN Lemma=gral. NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=503 CharacterOffsetEnd=504 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=CATALINO CharacterOffsetBegin=505 CharacterOffsetEnd=513 PartOfSpeech=PROPN Lemma=catalino NamedEntityTag=PERSON]
+[Text=MENDOZA CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=PROPN Lemma=mendoza NamedEntityTag=PERSON]
+[Text=VAZQUEZ CharacterOffsetBegin=522 CharacterOffsetEnd=529 PartOfSpeech=PROPN Lemma=vazquez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=líder CharacterOffsetBegin=531 CharacterOffsetEnd=536 PartOfSpeech=NOUN Lemma=líder NamedEntityTag=TITLE]
+[Text=del CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=PST CharacterOffsetBegin=541 CharacterOffsetEnd=544 PartOfSpeech=PROPN Lemma=pst NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=afirmó CharacterOffsetBegin=546 CharacterOffsetEnd=552 PartOfSpeech=VERB Lemma=afirmó NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=solo CharacterOffsetBegin=557 CharacterOffsetEnd=561 PartOfSpeech=ADV Lemma=solo NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Cabildo CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=PROPN Lemma=cabildo NamedEntityTag=ORGANIZATION]
+[Text=puede CharacterOffsetBegin=573 CharacterOffsetEnd=578 PartOfSpeech=AUX Lemma=puede NamedEntityTag=O]
+[Text=decir CharacterOffsetBegin=579 CharacterOffsetEnd=584 PartOfSpeech=VERB Lemma=decir NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=585 CharacterOffsetEnd=587 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=cierre CharacterOffsetBegin=588 CharacterOffsetEnd=594 PartOfSpeech=NOUN Lemma=cierre NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=595 CharacterOffsetEnd=597 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=mencionada CharacterOffsetBegin=601 CharacterOffsetEnd=611 PartOfSpeech=ADJ Lemma=mencionada NamedEntityTag=O]
+[Text=calle CharacterOffsetBegin=612 CharacterOffsetEnd=617 PartOfSpeech=NOUN Lemma=calle NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=617 CharacterOffsetEnd=618 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ordeno-13)
+punct(ordeno-13, --1)
+det(Comandante-3, El-2)
+nsubj(ordeno-13, Comandante-3)
+case(Zona-6, de-4)
+det(Zona-6, esta-5)
+flat(Comandante-3, Zona-6)
+punct(Gral.-8, ,-7)
+flat(Comandante-3, Gral.-8)
+flat(Gral.-8, JOSE-9)
+flat(Gral.-8, HERNANDEZ-10)
+flat(Gral.-8, TOLEDO-11)
+punct(Gral.-8, ,-12)
+xcomp(ordeno-13, cerrar-14)
+det(circula-16, la-15)
+obj(cerrar-14, circula-16)
+punct(ordeno-13, --17)
+obl(ordeno-13, ción-18)
+case(calle-21, a-19)
+det(calle-21, la-20)
+nmod(ción-18, calle-21)
+case(Hornitos-23, de-22)
+nmod(calle-21, Hornitos-23)
+punct(punto-30, ,-24)
+advmod(punto-30, al-25)
+fixed(al-25, parecer-26)
+mark(punto-30, porque-27)
+cop(punto-30, estuvo-28)
+case(punto-30, a-29)
+advcl(ordeno-13, punto-30)
+mark(atropellado-33, de-31)
+aux(atropellado-33, ser-32)
+acl(punto-30, atropellado-33)
+punct(ordeno-13, ;-34)
+advmod(ordeno-13, por-35)
+fixed(por-35, lo-36)
+fixed(por-35, ante-37)
+punct(por-35, --38)
+case(Partidos-42, rior-39)
+det(los-41, todos-40)
+det(Partidos-42, los-41)
+obl(por-35, Partidos-42)
+flat(Partidos-42, Políticos-43)
+punct(estan-45, ,-44)
+advcl(por-35, estan-45)
+case(contra-48, en-46)
+det(contra-48, su-47)
+obl(estan-45, contra-48)
+punct(ordeno-13, ;-49)
+det(Prof.-51, El-50)
+nsubj(califico-60, Prof.-51)
+flat(Prof.-51, GILBERTO-52)
+flat(Prof.-51, SILVA-53)
+flat(Prof.-51, GAMBOA-54)
+punct(dirigente-56, ,-55)
+appos(Prof.-51, dirigente-56)
+case(PSUM-58, del-57)
+nmod(dirigente-56, PSUM-58)
+punct(dirigente-56, ,-59)
+advcl(ordeno-13, califico-60)
+det(acto-62, este-61)
+obj(califico-60, acto-62)
+mark(violación-64, como-63)
+obj(califico-60, violación-64)
+case(Constitución-67, a-65)
+det(Constitución-67, la-66)
+nmod(violación-64, Constitución-67)
+cc(gestiona-72, y-68)
+mark(gestiona-72, que-69)
+det(partido-71, su-70)
+nsubj(gestiona-72, partido-71)
+advcl(ordeno-13, gestiona-72)
+conj:y(califico-60, gestiona-72)
+case(autoridades-75, ante-73)
+det(autoridades-75, las-74)
+obl(gestiona-72, autoridades-75)
+expl:pass(llame-77, se-76)
+advcl(gestiona-72, llame-77)
+advmod(llame-77, a-78)
+fixed(a-78, cuentas-79)
+case(Gral.-82, a-80)
+amod(Gral.-82, dicho-81)
+obj(llame-77, Gral.-82)
+punct(ordeno-13, ;-83)
+nsubj(afirmó-92, CATALINO-84)
+flat(CATALINO-84, MENDOZA-85)
+flat(CATALINO-84, VAZQUEZ-86)
+punct(líder-88, ,-87)
+appos(CATALINO-84, líder-88)
+case(PST-90, del-89)
+nmod(líder-88, PST-90)
+punct(líder-88, ,-91)
+advcl(ordeno-13, afirmó-92)
+mark(decir-98, que-93)
+advmod(decir-98, solo-94)
+det(Cabildo-96, el-95)
+nsubj(decir-98, Cabildo-96)
+aux(decir-98, puede-97)
+xcomp(afirmó-92, decir-98)
+det(cierre-100, el-99)
+obj(decir-98, cierre-100)
+case(calle-104, de-101)
+det(calle-104, la-102)
+amod(calle-104, mencionada-103)
+nmod(cierre-100, calle-104)
+punct(ordeno-13, .-105)
+
+Extracted the following NER entity mentions:
+Comandante	TITLE	-
+Hornitos	PERSON	PERSON:0.6471529970128663
+Partidos Políticos	ORGANIZATION	ORGANIZATION:0.7222644357324085
+El Prof. GILBERTO SILVA GAMBOA	MISC	MISC:0.3782056599187894
+dirigente	TITLE	-
+PSUM	ORGANIZATION	ORGANIZATION:0.9948157495141731
+Constitución	MISC	MISC:0.9978172051767374
+CATALINO MENDOZA VAZQUEZ	PERSON	PERSON:0.9946214551012346
+líder	TITLE	-
+PST	ORGANIZATION	ORGANIZATION:0.8034974779925107
+Cabildo	ORGANIZATION	ORGANIZATION:0.8783092283416304
+
+Extracted the following KBP triples:
+1.0	PST	org:top_members_employees	CATALINO MENDOZA VAZQUEZ
+1.0	CATALINO MENDOZA VAZQUEZ	per:employee_or_member_of	PST
+1.0	CATALINO MENDOZA VAZQUEZ	per:title	líder
+
+Sentence #4 (2 tokens):
+-Pmmc
+
+Tokens:
+[Text=- CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Pmmc CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=PROPN Lemma=pmmc NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Pmmc-2)
+punct(Pmmc-2, --1)
+
+Extracted the following NER entity mentions:

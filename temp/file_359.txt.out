@@ -1,0 +1,428 @@
+Document: ID=file_359.txt (9 sentences, 155 tokens)
+
+Sentence #1 (6 tokens):
+UNION DE CAMPESINOS INDEPENDIENTES Exp-100-19-1-78.
+
+Tokens:
+[Text=UNION CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=PROPN Lemma=union NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=CAMPESINOS CharacterOffsetBegin=9 CharacterOffsetEnd=19 PartOfSpeech=PROPN Lemma=campesinos NamedEntityTag=O]
+[Text=INDEPENDIENTES CharacterOffsetBegin=20 CharacterOffsetEnd=34 PartOfSpeech=PROPN Lemma=independientes NamedEntityTag=O]
+[Text=Exp-100-19-1-78 CharacterOffsetBegin=35 CharacterOffsetEnd=50 PartOfSpeech=NUM Lemma=exp-100-19-1-78 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNION-1)
+case(CAMPESINOS-3, DE-2)
+flat(UNION-1, CAMPESINOS-3)
+flat(CAMPESINOS-3, INDEPENDIENTES-4)
+nummod(UNION-1, Exp-100-19-1-78-5)
+punct(UNION-1, .-6)
+
+Extracted the following NER entity mentions:
+
+Sentence #2 (7 tokens):
+-
+EN EL ESTADO DE PUEBLA.
+
+Tokens:
+[Text=- CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=ESTADO CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=PUEBLA CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=PROPN Lemma=puebla NamedEntityTag=CITY]
+[Text=. CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, ESTADO-4)
+punct(ESTADO-4, --1)
+case(ESTADO-4, EN-2)
+det(ESTADO-4, EL-3)
+case(PUEBLA-6, DE-5)
+flat(ESTADO-4, PUEBLA-6)
+punct(ESTADO-4, .-7)
+
+Extracted the following NER entity mentions:
+PUEBLA	CITY	LOCATION:0.5493384681491865
+
+Sentence #3 (19 tokens):
+15 H-53 L-67
+en la manifestación programada por los vendedores citados -
+para el 2 de Octubre próximo.
+
+Tokens:
+[Text=15 CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=NUM Lemma=15 NamedEntityTag=NUMBER NormalizedNamedEntityTag=15.0]
+[Text=H-53 CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=NUM Lemma=h-53 NamedEntityTag=O]
+[Text=L-67 CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=NUM Lemma=l-67 NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=manifestación CharacterOffsetBegin=96 CharacterOffsetEnd=109 PartOfSpeech=NOUN Lemma=manifestación NamedEntityTag=O]
+[Text=programada CharacterOffsetBegin=110 CharacterOffsetEnd=120 PartOfSpeech=ADJ Lemma=programada NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=vendedores CharacterOffsetBegin=129 CharacterOffsetEnd=139 PartOfSpeech=NOUN Lemma=vendedores NamedEntityTag=O]
+[Text=citados CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=ADJ Lemma=citados NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=DET Lemma=el NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-XX-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-XX-02">el 2 de Octubre</TIMEX3>]
+[Text=2 CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=NUM Lemma=2 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-XX-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-XX-02">el 2 de Octubre</TIMEX3>]
+[Text=de CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=ADP Lemma=de NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-XX-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-XX-02">el 2 de Octubre</TIMEX3>]
+[Text=Octubre CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=NOUN Lemma=octubre NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-XX-02 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-XX-02">el 2 de Octubre</TIMEX3>]
+[Text=próximo CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=ADJ Lemma=próximo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 15-1)
+compound(15-1, H-53-2)
+compound(15-1, L-67-3)
+case(manifestación-6, en-4)
+det(manifestación-6, la-5)
+nmod(15-1, manifestación-6)
+amod(manifestación-6, programada-7)
+case(vendedores-10, por-8)
+det(vendedores-10, los-9)
+obj(programada-7, vendedores-10)
+amod(vendedores-10, citados-11)
+punct(2-15, --12)
+case(2-15, para-13)
+det(2-15, el-14)
+nmod(vendedores-10, 2-15)
+case(Octubre-17, de-16)
+compound(2-15, Octubre-17)
+amod(2-15, próximo-18)
+punct(15-1, .-19)
+
+Extracted the following NER entity mentions:
+15	NUMBER	NUMBER:-1.0
+el 2 de Octubre	DATE	DATE:-1.0
+
+Sentence #4 (3 tokens):
+-
+Exp-100-19-1-78.
+
+Tokens:
+[Text=- CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Exp-100-19-1-78 CharacterOffsetBegin=181 CharacterOffsetEnd=196 PartOfSpeech=NUM Lemma=exp-100-19-1-78 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Exp-100-19-1-78-2)
+punct(Exp-100-19-1-78-2, --1)
+punct(Exp-100-19-1-78-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #5 (1 tokens):
+.
+
+Tokens:
+[Text=. CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, .-1)
+
+Extracted the following NER entity mentions:
+
+Sentence #6 (6 tokens):
+H-34 L-68
+18-Oct-78.
+
+Tokens:
+[Text=H-34 CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NUM Lemma=h-34 NamedEntityTag=O]
+[Text=L-68 CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=NUM Lemma=l-68 NamedEntityTag=O]
+[Text=18 CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=NUM Lemma=18 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Oct-78 CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=NUM Lemma=oct-78 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, H-34-1)
+appos(H-34-1, L-68-2)
+compound(L-68-2, 18-3)
+punct(H-34-1, --4)
+appos(H-34-1, Oct-78-5)
+punct(H-34-1, .-6)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (63 tokens):
+-El 17 actual, una comisión de 60 personas entre-
+vendedores ambulantes, del Mercado 28 de Ocubre, miembros
+del Consejo General Campesino de la Región de Tecamachalco
+y de la Unión Campesina Independiete de la Sierra Norte --
+del Estado, encabezados por JOSE MARTINEZ HERRERO, fueron re
+cibidos por el Secretario General de Gobierno del Edo.
+
+Tokens:
+[Text=- CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=17 CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=NUM Lemma=17 NamedEntityTag=NUMBER NormalizedNamedEntityTag=17.0]
+[Text=actual CharacterOffsetBegin=226 CharacterOffsetEnd=232 PartOfSpeech=ADJ Lemma=actual NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=comisión CharacterOffsetBegin=238 CharacterOffsetEnd=246 PartOfSpeech=NOUN Lemma=comisión NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=60 CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=NUM Lemma=60 NamedEntityTag=NUMBER NormalizedNamedEntityTag=60.0]
+[Text=personas CharacterOffsetBegin=253 CharacterOffsetEnd=261 PartOfSpeech=NOUN Lemma=personas NamedEntityTag=O]
+[Text=entre CharacterOffsetBegin=262 CharacterOffsetEnd=267 PartOfSpeech=ADP Lemma=entre NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=vendedores CharacterOffsetBegin=269 CharacterOffsetEnd=279 PartOfSpeech=NOUN Lemma=vendedores NamedEntityTag=O]
+[Text=ambulantes CharacterOffsetBegin=280 CharacterOffsetEnd=290 PartOfSpeech=ADJ Lemma=ambulantes NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Mercado CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=PROPN Lemma=mercado NamedEntityTag=O]
+[Text=28 CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=NUM Lemma=28 NamedEntityTag=NUMBER NormalizedNamedEntityTag=28.0]
+[Text=de CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Ocubre CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=PROPN Lemma=ocubre NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=miembros CharacterOffsetBegin=318 CharacterOffsetEnd=326 PartOfSpeech=NOUN Lemma=miembros NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Consejo CharacterOffsetBegin=331 CharacterOffsetEnd=338 PartOfSpeech=PROPN Lemma=consejo NamedEntityTag=ORGANIZATION]
+[Text=General CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=PROPN Lemma=general NamedEntityTag=ORGANIZATION]
+[Text=Campesino CharacterOffsetBegin=347 CharacterOffsetEnd=356 PartOfSpeech=PROPN Lemma=campesino NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=la CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=DET Lemma=la NamedEntityTag=ORGANIZATION]
+[Text=Región CharacterOffsetBegin=363 CharacterOffsetEnd=369 PartOfSpeech=PROPN Lemma=región NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=Tecamachalco CharacterOffsetBegin=373 CharacterOffsetEnd=385 PartOfSpeech=PROPN Lemma=tecamachalco NamedEntityTag=ORGANIZATION]
+[Text=y CharacterOffsetBegin=386 CharacterOffsetEnd=387 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Unión CharacterOffsetBegin=394 CharacterOffsetEnd=399 PartOfSpeech=PROPN Lemma=unión NamedEntityTag=ORGANIZATION]
+[Text=Campesina CharacterOffsetBegin=400 CharacterOffsetEnd=409 PartOfSpeech=PROPN Lemma=campesina NamedEntityTag=ORGANIZATION]
+[Text=Independiete CharacterOffsetBegin=410 CharacterOffsetEnd=422 PartOfSpeech=PROPN Lemma=independiete NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=423 CharacterOffsetEnd=425 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=la CharacterOffsetBegin=426 CharacterOffsetEnd=428 PartOfSpeech=DET Lemma=la NamedEntityTag=ORGANIZATION]
+[Text=Sierra CharacterOffsetBegin=429 CharacterOffsetEnd=435 PartOfSpeech=PROPN Lemma=sierra NamedEntityTag=ORGANIZATION]
+[Text=Norte CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=PROPN Lemma=norte NamedEntityTag=ORGANIZATION]
+[Text=-- CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=PROPN Lemma=-- NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=Estado CharacterOffsetBegin=449 CharacterOffsetEnd=455 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=encabezados CharacterOffsetBegin=457 CharacterOffsetEnd=468 PartOfSpeech=ADJ Lemma=encabezados NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=JOSE CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=PROPN Lemma=jose NamedEntityTag=PERSON]
+[Text=MARTINEZ CharacterOffsetBegin=478 CharacterOffsetEnd=486 PartOfSpeech=PROPN Lemma=martinez NamedEntityTag=PERSON]
+[Text=HERRERO CharacterOffsetBegin=487 CharacterOffsetEnd=494 PartOfSpeech=PROPN Lemma=herrero NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=fueron CharacterOffsetBegin=496 CharacterOffsetEnd=502 PartOfSpeech=AUX Lemma=fueron NamedEntityTag=O]
+[Text=re CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=VERB Lemma=be NamedEntityTag=O]
+[Text=cibidos CharacterOffsetBegin=506 CharacterOffsetEnd=513 PartOfSpeech=ADJ Lemma=cibidos NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=514 CharacterOffsetEnd=517 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=518 CharacterOffsetEnd=520 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=Secretario CharacterOffsetBegin=521 CharacterOffsetEnd=531 PartOfSpeech=PROPN Lemma=secretario NamedEntityTag=PERSON]
+[Text=General CharacterOffsetBegin=532 CharacterOffsetEnd=539 PartOfSpeech=PROPN Lemma=general NamedEntityTag=PERSON]
+[Text=de CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=ADP Lemma=de NamedEntityTag=PERSON]
+[Text=Gobierno CharacterOffsetBegin=543 CharacterOffsetEnd=551 PartOfSpeech=PROPN Lemma=gobierno NamedEntityTag=PERSON]
+[Text=del CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=ADP Lemma=del NamedEntityTag=PERSON]
+[Text=Edo CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=PROPN Lemma=edo NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=559 CharacterOffsetEnd=560 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, re-53)
+punct(re-53, --1)
+det(17-3, El-2)
+nsubj(re-53, 17-3)
+amod(17-3, actual-4)
+punct(17-3, ,-5)
+det(comisión-7, una-6)
+appos(17-3, comisión-7)
+case(personas-10, de-8)
+nummod(personas-10, 60-9)
+nmod(comisión-7, personas-10)
+case(vendedores-13, entre-11)
+punct(vendedores-13, --12)
+nmod(personas-10, vendedores-13)
+amod(vendedores-13, ambulantes-14)
+punct(Mercado-17, ,-15)
+case(Mercado-17, del-16)
+conj(vendedores-13, Mercado-17)
+nummod(Mercado-17, 28-18)
+case(Ocubre-20, de-19)
+flat(Mercado-17, Ocubre-20)
+punct(miembros-22, ,-21)
+appos(Mercado-17, miembros-22)
+appos(Mercado-17, miembros-22''')
+conj:y(miembros-22, miembros-22''')
+case(Consejo-24, del-23)
+nmod(miembros-22, Consejo-24)
+flat(Consejo-24, General-25)
+flat(Consejo-24, Campesino-26)
+case(Región-29, de-27)
+det(Región-29, la-28)
+flat(Consejo-24, Región-29)
+case(Tecamachalco-31, de-30)
+flat(Consejo-24, Tecamachalco-31)
+cc(miembros-22''', y-32)
+case(Unión-35, de-33)
+det(Unión-35, la-34)
+nmod(miembros-22''', Unión-35)
+flat(Unión-35, Campesina-36)
+flat(Unión-35, Independiete-37)
+case(Sierra-40, de-38)
+det(Sierra-40, la-39)
+flat(Unión-35, Sierra-40)
+flat(Unión-35, Norte-41)
+flat(Unión-35, ---42)
+case(Estado-44, del-43)
+flat(Unión-35, Estado-44)
+punct(miembros-22, ,-45)
+amod(Mercado-17, encabezados-46)
+case(JOSE-48, por-47)
+obj(encabezados-46, JOSE-48)
+flat(JOSE-48, MARTINEZ-49)
+flat(JOSE-48, HERRERO-50)
+punct(17-3, ,-51)
+aux(re-53, fueron-52)
+obj(re-53, cibidos-54)
+case(Secretario-57, por-55)
+det(Secretario-57, el-56)
+obj(cibidos-54, Secretario-57)
+flat(Secretario-57, General-58)
+case(Gobierno-60, de-59)
+flat(Secretario-57, Gobierno-60)
+case(Edo-62, del-61)
+flat(Secretario-57, Edo-62)
+punct(re-53, .-63)
+
+Extracted the following NER entity mentions:
+17	NUMBER	NUMBER:-1.0
+60	NUMBER	NUMBER:-1.0
+28	NUMBER	NUMBER:-1.0
+Ocubre	LOCATION	LOCATION:0.9393257223413475
+Consejo General Campesino de la Región de Tecamachalco	ORGANIZATION	ORGANIZATION:0.626072176701058
+Unión Campesina Independiete de la Sierra Norte	ORGANIZATION	ORGANIZATION:0.9918541807511128
+Estado	ORGANIZATION	ORGANIZATION:0.9980175237085804
+JOSE MARTINEZ HERRERO	PERSON	PERSON:0.6725575382160617
+Secretario General de Gobierno del Edo	PERSON	PERSON:0.9538979423083723
+
+Sentence #8 (6 tokens):
+de --
+Puebla, Lic.
+
+Tokens:
+[Text=de CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=Puebla CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=PROPN Lemma=puebla NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Lic CharacterOffsetBegin=574 CharacterOffsetEnd=577 PartOfSpeech=PROPN Lemma=lic NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Puebla-3)
+case(Puebla-3, de-1)
+nummod(Puebla-3, ---2)
+punct(Puebla-3, ,-4)
+flat(Puebla-3, Lic-5)
+punct(Puebla-3, .-6)
+
+Extracted the following NER entity mentions:
+Puebla	CITY	LOCATION:0.8535886060970272
+Lic	PERSON	PERSON:0.4839472554984557
+
+Sentence #9 (44 tokens):
+TRUJILLO PEREZ,a quien le entregaron un pliego-
+petitorio en el que exigieron la libertad de los presos --
+que participaron en los hechos del 3 del presente en la --
+terminal de la Línea foránea de Autobuses Unidos en Puebla,
+
+Tokens:
+[Text=TRUJILLO CharacterOffsetBegin=578 CharacterOffsetEnd=586 PartOfSpeech=PROPN Lemma=trujillo NamedEntityTag=PERSON]
+[Text=PEREZ CharacterOffsetBegin=587 CharacterOffsetEnd=592 PartOfSpeech=PROPN Lemma=perez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=quien CharacterOffsetBegin=595 CharacterOffsetEnd=600 PartOfSpeech=PRON Lemma=quien NamedEntityTag=O]
+[Text=le CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=PRON Lemma=le NamedEntityTag=O]
+[Text=entregaron CharacterOffsetBegin=604 CharacterOffsetEnd=614 PartOfSpeech=VERB Lemma=entregaron NamedEntityTag=O]
+[Text=un CharacterOffsetBegin=615 CharacterOffsetEnd=617 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=pliego CharacterOffsetBegin=618 CharacterOffsetEnd=624 PartOfSpeech=NOUN Lemma=pliego NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=624 CharacterOffsetEnd=625 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=petitorio CharacterOffsetBegin=626 CharacterOffsetEnd=635 PartOfSpeech=NOUN Lemma=petitorio NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=636 CharacterOffsetEnd=638 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=639 CharacterOffsetEnd=641 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=exigieron CharacterOffsetBegin=646 CharacterOffsetEnd=655 PartOfSpeech=VERB Lemma=exigieron NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=libertad CharacterOffsetBegin=659 CharacterOffsetEnd=667 PartOfSpeech=NOUN Lemma=libertad NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=668 CharacterOffsetEnd=670 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=671 CharacterOffsetEnd=674 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=presos CharacterOffsetBegin=675 CharacterOffsetEnd=681 PartOfSpeech=NOUN Lemma=presos NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=682 CharacterOffsetEnd=684 PartOfSpeech=ADJ Lemma=-- NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=685 CharacterOffsetEnd=688 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=participaron CharacterOffsetBegin=689 CharacterOffsetEnd=701 PartOfSpeech=VERB Lemma=participaron NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=hechos CharacterOffsetBegin=709 CharacterOffsetEnd=715 PartOfSpeech=NOUN Lemma=hechos NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=716 CharacterOffsetEnd=719 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=3 CharacterOffsetBegin=720 CharacterOffsetEnd=721 PartOfSpeech=NUM Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=del CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=presente CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=NOUN Lemma=presente NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=735 CharacterOffsetEnd=737 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=738 CharacterOffsetEnd=740 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=741 CharacterOffsetEnd=743 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=terminal CharacterOffsetBegin=744 CharacterOffsetEnd=752 PartOfSpeech=NOUN Lemma=terminal NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=753 CharacterOffsetEnd=755 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=756 CharacterOffsetEnd=758 PartOfSpeech=DET Lemma=la NamedEntityTag=CITY]
+[Text=Línea CharacterOffsetBegin=759 CharacterOffsetEnd=764 PartOfSpeech=PROPN Lemma=línea NamedEntityTag=CITY]
+[Text=foránea CharacterOffsetBegin=765 CharacterOffsetEnd=772 PartOfSpeech=ADJ Lemma=foránea NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=773 CharacterOffsetEnd=775 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Autobuses CharacterOffsetBegin=776 CharacterOffsetEnd=785 PartOfSpeech=PROPN Lemma=autobuses NamedEntityTag=LOCATION]
+[Text=Unidos CharacterOffsetBegin=786 CharacterOffsetEnd=792 PartOfSpeech=PROPN Lemma=unidos NamedEntityTag=CITY]
+[Text=en CharacterOffsetBegin=793 CharacterOffsetEnd=795 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Puebla CharacterOffsetBegin=796 CharacterOffsetEnd=802 PartOfSpeech=PROPN Lemma=puebla NamedEntityTag=CITY]
+[Text=, CharacterOffsetBegin=802 CharacterOffsetEnd=803 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, TRUJILLO-1)
+flat(TRUJILLO-1, PEREZ-2)
+punct(entregaron-7, ,-3)
+case(quien-5, a-4)
+obj(entregaron-7, quien-5)
+obj(entregaron-7, le-6)
+acl(TRUJILLO-1, entregaron-7)
+det(pliego-9, un-8)
+nsubj(entregaron-7, pliego-9)
+punct(entregaron-7, --10)
+obl(entregaron-7, petitorio-11)
+case(que-14, en-12)
+det(que-14, el-13)
+obl(exigieron-15, que-14)
+acl(petitorio-11, exigieron-15)
+det(libertad-17, la-16)
+obj(exigieron-15, libertad-17)
+case(presos-20, de-18)
+det(presos-20, los-19)
+nmod(libertad-17, presos-20)
+amod(presos-20, ---21)
+nsubj(participaron-23, que-22)
+acl(presos-20, participaron-23)
+case(hechos-26, en-24)
+det(hechos-26, los-25)
+obj(participaron-23, hechos-26)
+case(3-28, del-27)
+nummod(hechos-26, 3-28)
+case(presente-30, del-29)
+nmod(3-28, presente-30)
+case(---33, en-31)
+det(---33, la-32)
+nmod(3-28, ---33)
+compound(---33, terminal-34)
+case(Línea-37, de-35)
+det(Línea-37, la-36)
+nmod(---33, Línea-37)
+amod(Línea-37, foránea-38)
+case(Autobuses-40, de-39)
+flat(Línea-37, Autobuses-40)
+flat(Autobuses-40, Unidos-41)
+case(Puebla-43, en-42)
+nmod(---33, Puebla-43)
+punct(TRUJILLO-1, ,-44)
+
+Extracted the following NER entity mentions:
+TRUJILLO PEREZ	PERSON	PERSON:0.9803240037920388
+3	NUMBER	NUMBER:-1.0
+la Línea	CITY	-
+Autobuses	LOCATION	LOCATION:0.5584682570537318
+Unidos	CITY	LOCATION:0.5586028301018372
+Puebla	CITY	LOCATION:0.9988881132658187

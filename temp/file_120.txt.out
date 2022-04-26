@@ -1,0 +1,399 @@
+Document: ID=file_120.txt (11 sentences, 129 tokens)
+
+Sentence #1 (6 tokens):
+UNIVERSIDAD AUTONOMA DE Exp-100-10-1-66
+Guerrero.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=O]
+[Text=AUTONOMA CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=autonoma NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Exp-100-10-1-66 CharacterOffsetBegin=24 CharacterOffsetEnd=39 PartOfSpeech=PROPN Lemma=exp-100-10-1-66 NamedEntityTag=MISC]
+[Text=Guerrero CharacterOffsetBegin=40 CharacterOffsetEnd=48 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUTONOMA-2)
+case(Exp-100-10-1-66-4, DE-3)
+flat(UNIVERSIDAD-1, Exp-100-10-1-66-4)
+flat(UNIVERSIDAD-1, Guerrero-5)
+punct(UNIVERSIDAD-1, .-6)
+
+Extracted the following NER entity mentions:
+Exp-100-10-1-66	MISC	MISC:0.436286506786274
+Guerrero	TITLE	MISC:0.4718105832141335
+
+Sentence #2 (4 tokens):
+32 H-303 L-21.
+
+Tokens:
+[Text=32 CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=NUM Lemma=32 NamedEntityTag=NUMBER NormalizedNamedEntityTag=32.0]
+[Text=H-303 CharacterOffsetBegin=53 CharacterOffsetEnd=58 PartOfSpeech=NUM Lemma=h-303 NamedEntityTag=O]
+[Text=L-21 CharacterOffsetBegin=59 CharacterOffsetEnd=63 PartOfSpeech=NUM Lemma=l-21 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, L-21-3)
+nummod(L-21-3, 32-1)
+compound(32-1, H-303-2)
+punct(L-21-3, .-4)
+
+Extracted the following NER entity mentions:
+32	NUMBER	NUMBER:-1.0
+
+Sentence #3 (5 tokens):
+versidad Autónoma de Guerrero.
+
+Tokens:
+[Text=versidad CharacterOffsetBegin=65 CharacterOffsetEnd=73 PartOfSpeech=NOUN Lemma=versidad NamedEntityTag=O]
+[Text=Autónoma CharacterOffsetBegin=74 CharacterOffsetEnd=82 PartOfSpeech=PROPN Lemma=autónoma NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=Guerrero CharacterOffsetBegin=86 CharacterOffsetEnd=94 PartOfSpeech=PROPN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Autónoma-2)
+amod(Autónoma-2, versidad-1)
+case(Guerrero-4, de-3)
+flat(Autónoma-2, Guerrero-4)
+punct(Autónoma-2, .-5)
+
+Extracted the following NER entity mentions:
+Autónoma de	MISC	MISC:0.6416326102811956
+Guerrero	TITLE	MISC:0.6480960234431408
+
+Sentence #4 (8 tokens):
+AAv,Juárez S/N.
+Chilpancingo .
+
+Tokens:
+[Text=AAv CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=NOUN Lemma=aav NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Juárez CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=PROPN Lemma=juárez NamedEntityTag=PERSON]
+[Text=S CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=PROPN Lemma=s NamedEntityTag=PERSON]
+[Text=/ CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=PUNCT Lemma=/ NamedEntityTag=PERSON]
+[Text=N. CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PROPN Lemma=n. NamedEntityTag=PERSON]
+[Text=Chilpancingo CharacterOffsetBegin=112 CharacterOffsetEnd=124 PartOfSpeech=PROPN Lemma=chilpancingo NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, AAv-1)
+punct(Juárez-3, ,-2)
+conj(AAv-1, Juárez-3)
+flat(Juárez-3, S-4)
+punct(AAv-1, /-5)
+appos(AAv-1, N.-6)
+flat(N.-6, Chilpancingo-7)
+punct(AAv-1, .-8)
+
+Extracted the following NER entity mentions:
+AAv	ORGANIZATION	ORGANIZATION:0.4498031775153115
+Juárez S/N.
+Chilpancingo	PERSON	PERSON:0.3719883398601078
+
+Sentence #5 (2 tokens):
+Gro.
+
+Tokens:
+[Text=Gro CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Gro-1)
+punct(Gro-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #6 (3 tokens):
+—1.
+
+Tokens:
+[Text=— CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=SYM Lemma=— NamedEntityTag=O]
+[Text=1 CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=NUM Lemma=1 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 1-2)
+nmod(1-2, —-1)
+punct(1-2, .-3)
+
+Extracted the following NER entity mentions:
+1	NUMBER	NUMBER:-1.0
+
+Sentence #7 (3 tokens):
+(UNO.
+
+Tokens:
+[Text=( CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=UNO CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=NOUN Lemma=uno NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNO-2)
+punct(UNO-2, (-1)
+punct(UNO-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #8 (25 tokens):
+- Ómnibus Sultana, Modelo TM-37-7-D (usa
+do) serie 278 de 37 pasajeros, equipado con mo
+toe Cummiss Mod.
+
+Tokens:
+[Text=- CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=Ómnibus CharacterOffsetBegin=141 CharacterOffsetEnd=148 PartOfSpeech=NOUN Lemma=ómnibus NamedEntityTag=ORGANIZATION]
+[Text=Sultana CharacterOffsetBegin=149 CharacterOffsetEnd=156 PartOfSpeech=PROPN Lemma=sultana NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Modelo CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=PROPN Lemma=modelo NamedEntityTag=TITLE]
+[Text=TM-37-7 CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=PROPN Lemma=tm-37-7 NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=D CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=PROPN Lemma=d NamedEntityTag=O]
+[Text=( CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=usa CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=VERB Lemma=usa NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=ADP Lemma=do NamedEntityTag=O]
+[Text=) CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=serie CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NOUN Lemma=serie NamedEntityTag=O]
+[Text=278 CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=NUM Lemma=278 NamedEntityTag=NUMBER NormalizedNamedEntityTag=278.0]
+[Text=de CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=37 CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=NUM Lemma=37 NamedEntityTag=NUMBER NormalizedNamedEntityTag=37.0]
+[Text=pasajeros CharacterOffsetBegin=200 CharacterOffsetEnd=209 PartOfSpeech=NOUN Lemma=pasajeros NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=equipado CharacterOffsetBegin=211 CharacterOffsetEnd=219 PartOfSpeech=ADJ Lemma=equipado NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=mo CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=NOUN Lemma=mo NamedEntityTag=O]
+[Text=toe CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=PROPN Lemma=toe NamedEntityTag=O]
+[Text=Cummiss CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=PROPN Lemma=cummiss NamedEntityTag=MISC]
+[Text=Mod CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=PROPN Lemma=mod NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Ómnibus-2)
+punct(Ómnibus-2, --1)
+appos(Ómnibus-2, Sultana-3)
+punct(Modelo-5, ,-4)
+appos(Ómnibus-2, Modelo-5)
+flat(Modelo-5, TM-37-7-6)
+punct(Modelo-5, --7)
+flat(Modelo-5, D-8)
+punct(usa-10, (-9)
+acl(Ómnibus-2, usa-10)
+case(serie-13, do-11)
+punct(serie-13, )-12)
+obl(usa-10, serie-13)
+compound(serie-13, 278-14)
+case(pasajeros-17, de-15)
+nummod(pasajeros-17, 37-16)
+nmod(serie-13, pasajeros-17)
+punct(equipado-19, ,-18)
+obj(usa-10, equipado-19)
+case(mo-21, con-20)
+obl(equipado-19, mo-21)
+appos(mo-21, toe-22)
+flat(toe-22, Cummiss-23)
+flat(toe-22, Mod-24)
+punct(Ómnibus-2, .-25)
+
+Extracted the following NER entity mentions:
+Ómnibus Sultana	ORGANIZATION	ORGANIZATION:0.5421546946708413
+Modelo	TITLE	LOCATION:0.37596026268489036
+278	NUMBER	NUMBER:-1.0
+37	NUMBER	NUMBER:-1.0
+Cummiss Mod	MISC	MISC:0.6877021652421249
+
+Sentence #9 (43 tokens):
+J7-63 No, 243082 y que ampara la
+cantidad de $260,576,00 Vendido por Taller de
+Monterrey S.A. con domicilio en la Av.Universi-
+dad al Norte, San Nicolas de los Garza N.L.
+— La factura No.0998 de Equipos Automotores.
+
+Tokens:
+[Text=J7-63 CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NUM Lemma=j7-63 NamedEntityTag=O]
+[Text=No CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=243082 CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=NUM Lemma=243082 NamedEntityTag=NUMBER NormalizedNamedEntityTag=243082.0]
+[Text=y CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=ampara CharacterOffsetBegin=266 CharacterOffsetEnd=272 PartOfSpeech=VERB Lemma=ampara NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=cantidad CharacterOffsetBegin=276 CharacterOffsetEnd=284 PartOfSpeech=NOUN Lemma=cantidad NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=O]
+[Text=260,576,00 CharacterOffsetBegin=289 CharacterOffsetEnd=299 PartOfSpeech=PROPN Lemma=260,576,00 NamedEntityTag=O]
+[Text=Vendido CharacterOffsetBegin=300 CharacterOffsetEnd=307 PartOfSpeech=PROPN Lemma=vendido NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=Taller CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=PROPN Lemma=taller NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=Monterrey CharacterOffsetBegin=322 CharacterOffsetEnd=331 PartOfSpeech=PROPN Lemma=monterrey NamedEntityTag=MISC]
+[Text=S.A. CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=PROPN Lemma=s.a. NamedEntityTag=MISC]
+[Text=con CharacterOffsetBegin=337 CharacterOffsetEnd=340 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=domicilio CharacterOffsetBegin=341 CharacterOffsetEnd=350 PartOfSpeech=NOUN Lemma=domicilio NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Av. CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=PROPN Lemma=av. NamedEntityTag=ORGANIZATION]
+[Text=Universi CharacterOffsetBegin=360 CharacterOffsetEnd=368 PartOfSpeech=PROPN Lemma=universi NamedEntityTag=ORGANIZATION]
+[Text=- CharacterOffsetBegin=368 CharacterOffsetEnd=369 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=ORGANIZATION]
+[Text=dad CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=NOUN Lemma=dad NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=Norte CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=PROPN Lemma=norte NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=San CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=PROPN Lemma=san NamedEntityTag=MISC]
+[Text=Nicolas CharacterOffsetBegin=388 CharacterOffsetEnd=395 PartOfSpeech=PROPN Lemma=nicolas NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=396 CharacterOffsetEnd=398 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=los CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=DET Lemma=los NamedEntityTag=MISC]
+[Text=Garza CharacterOffsetBegin=403 CharacterOffsetEnd=408 PartOfSpeech=PROPN Lemma=garza NamedEntityTag=MISC]
+[Text=N.L. CharacterOffsetBegin=409 CharacterOffsetEnd=413 PartOfSpeech=PROPN Lemma=n.l. NamedEntityTag=MISC]
+[Text=— CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=SYM Lemma=— NamedEntityTag=MISC]
+[Text=La CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=DET Lemma=la NamedEntityTag=MISC]
+[Text=factura CharacterOffsetBegin=419 CharacterOffsetEnd=426 PartOfSpeech=NOUN Lemma=factura NamedEntityTag=MISC]
+[Text=No.0998 CharacterOffsetBegin=427 CharacterOffsetEnd=434 PartOfSpeech=PROPN Lemma=no.0998 NamedEntityTag=MISC]
+[Text=de CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=ADP Lemma=de NamedEntityTag=MISC]
+[Text=Equipos CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=PROPN Lemma=equipos NamedEntityTag=MISC]
+[Text=Automotores CharacterOffsetBegin=446 CharacterOffsetEnd=457 PartOfSpeech=PROPN Lemma=automotores NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 243082-4)
+cop(243082-4, J7-63-1)
+advmod(243082-4, No-2)
+punct(243082-4, ,-3)
+cc(ampara-7, y-5)
+mark(ampara-7, que-6)
+conj:y(243082-4, ampara-7)
+det(cantidad-9, la-8)
+nsubj(ampara-7, cantidad-9)
+case($-11, de-10)
+nmod(cantidad-9, $-11)
+flat($-11, 260,576,00-12)
+flat($-11, Vendido-13)
+case(Taller-15, por-14)
+nmod(cantidad-9, Taller-15)
+case(Monterrey-17, de-16)
+flat(Taller-15, Monterrey-17)
+flat(Monterrey-17, S.A.-18)
+case(domicilio-20, con-19)
+nmod(Taller-15, domicilio-20)
+case(Av.-23, en-21)
+det(Av.-23, la-22)
+nmod(domicilio-20, Av.-23)
+flat(Av.-23, Universi-24)
+punct(dad-26, --25)
+appos(cantidad-9, dad-26)
+case(Norte-28, al-27)
+nmod(dad-26, Norte-28)
+punct(San-30, ,-29)
+appos(dad-26, San-30)
+flat(San-30, Nicolas-31)
+case(Garza-34, de-32)
+det(Garza-34, los-33)
+flat(San-30, Garza-34)
+flat(San-30, N.L.-35)
+flat(San-30, —-36)
+det(factura-38, La-37)
+flat(San-30, factura-38)
+flat(San-30, No.0998-39)
+case(Equipos-41, de-40)
+flat(San-30, Equipos-41)
+flat(San-30, Automotores-42)
+punct(243082-4, .-43)
+
+Extracted the following NER entity mentions:
+243082	NUMBER	NUMBER:-1.0
+Taller de
+Monterrey S.A.	MISC	MISC:0.37731459939771084
+Av.Universi-	ORGANIZATION	ORGANIZATION:0.7141854856247313
+Norte	ORGANIZATION	ORGANIZATION:0.7018738754087652
+San Nicolas de los Garza N.L.
+— La factura No.0998 de Equipos Automotores	MISC	MISC:0.36241323597769154
+
+Sentence #10 (8 tokens):
+S.A.
+con domicilio en Norte Es Mo.
+
+Tokens:
+[Text=S.A. CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=NOUN Lemma=s.a. NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=463 CharacterOffsetEnd=466 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=domicilio CharacterOffsetBegin=467 CharacterOffsetEnd=476 PartOfSpeech=NOUN Lemma=domicilio NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=Norte CharacterOffsetBegin=480 CharacterOffsetEnd=485 PartOfSpeech=PROPN Lemma=norte NamedEntityTag=LOCATION]
+[Text=Es CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=PROPN Lemma=es NamedEntityTag=O]
+[Text=Mo CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=PROPN Lemma=mo NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, S.A.-1)
+case(domicilio-3, con-2)
+nmod(S.A.-1, domicilio-3)
+case(Norte-5, en-4)
+nmod(domicilio-3, Norte-5)
+flat(Norte-5, Es-6)
+flat(Norte-5, Mo-7)
+punct(S.A.-1, .-8)
+
+Extracted the following NER entity mentions:
+Norte	LOCATION	LOCATION:0.7814378642233515
+
+Sentence #11 (22 tokens):
+10060 B.Colo Indust
+trial Vallejo, México D.F. que ampara una camio
+neta WILLIS Modelo 1963 con valor de$39,374.00
+
+Tokens:
+[Text=10060 CharacterOffsetBegin=493 CharacterOffsetEnd=498 PartOfSpeech=NUM Lemma=10060 NamedEntityTag=NUMBER NormalizedNamedEntityTag=10060.0]
+[Text=B. CharacterOffsetBegin=499 CharacterOffsetEnd=501 PartOfSpeech=PROPN Lemma=b. NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0E9]
+[Text=Colo CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=PROPN Lemma=colo NamedEntityTag=ORGANIZATION]
+[Text=Indust CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=PROPN Lemma=indust NamedEntityTag=ORGANIZATION]
+[Text=trial CharacterOffsetBegin=513 CharacterOffsetEnd=518 PartOfSpeech=ADJ Lemma=trial NamedEntityTag=O]
+[Text=Vallejo CharacterOffsetBegin=519 CharacterOffsetEnd=526 PartOfSpeech=PROPN Lemma=vallejo NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=México CharacterOffsetBegin=528 CharacterOffsetEnd=534 PartOfSpeech=PROPN Lemma=méxico NamedEntityTag=COUNTRY]
+[Text=D.F. CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=PROPN Lemma=d.f. NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=ampara CharacterOffsetBegin=544 CharacterOffsetEnd=550 PartOfSpeech=VERB Lemma=ampara NamedEntityTag=O]
+[Text=una CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=DET Lemma=una NamedEntityTag=O]
+[Text=camio CharacterOffsetBegin=555 CharacterOffsetEnd=560 PartOfSpeech=NOUN Lemma=camio NamedEntityTag=O]
+[Text=neta CharacterOffsetBegin=561 CharacterOffsetEnd=565 PartOfSpeech=ADJ Lemma=neta NamedEntityTag=O]
+[Text=WILLIS CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=PROPN Lemma=willis NamedEntityTag=O]
+[Text=Modelo CharacterOffsetBegin=573 CharacterOffsetEnd=579 PartOfSpeech=PROPN Lemma=modelo NamedEntityTag=TITLE]
+[Text=1963 CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=NOUN Lemma=1963 NamedEntityTag=NUMBER NormalizedNamedEntityTag=1963.0]
+[Text=con CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=valor CharacterOffsetBegin=589 CharacterOffsetEnd=594 PartOfSpeech=NOUN Lemma=valor NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=595 CharacterOffsetEnd=597 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=$ CharacterOffsetBegin=597 CharacterOffsetEnd=598 PartOfSpeech=PROPN Lemma=$ NamedEntityTag=MONEY NormalizedNamedEntityTag=$39374.0]
+[Text=39,374.00 CharacterOffsetBegin=598 CharacterOffsetEnd=607 PartOfSpeech=NUM Lemma=39,374.00 NamedEntityTag=MONEY NormalizedNamedEntityTag=$39374.0]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, B.-2)
+nummod(B.-2, 10060-1)
+flat(B.-2, Colo-3)
+flat(B.-2, Indust-4)
+amod(Vallejo-6, trial-5)
+flat(B.-2, Vallejo-6)
+punct(México-8, ,-7)
+conj(B.-2, México-8)
+flat(México-8, D.F.-9)
+nsubj(ampara-11, que-10)
+acl(México-8, ampara-11)
+det(camio-13, una-12)
+obj(ampara-11, camio-13)
+amod(camio-13, neta-14)
+appos(camio-13, WILLIS-15)
+flat(WILLIS-15, Modelo-16)
+flat(WILLIS-15, 1963-17)
+case(valor-19, con-18)
+nmod(camio-13, valor-19)
+case($-21, de-20)
+nmod(valor-19, $-21)
+nummod(México-8, 39,374.00-22)
+
+Extracted the following NER entity mentions:
+10060	NUMBER	NUMBER:-1.0
+B.	NUMBER	ORGANIZATION:0.7238004013837439
+Colo Indust	ORGANIZATION	ORGANIZATION:0.7766261276081173
+Vallejo	PERSON	PERSON:0.7614261839498524
+México	COUNTRY	LOCATION:0.8020976275325761
+Modelo	TITLE	-
+1963	NUMBER	NUMBER:-1.0
+$39,374.00	MONEY	MONEY:-1.0

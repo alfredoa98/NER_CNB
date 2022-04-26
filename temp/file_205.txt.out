@@ -1,0 +1,368 @@
+Document: ID=file_205.txt (5 sentences, 149 tokens)
+
+Sentence #1 (4 tokens):
+UNIVERSIDAD AUTONOMA Exp.
+
+Tokens:
+[Text=UNIVERSIDAD CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=PROPN Lemma=universidad NamedEntityTag=ORGANIZATION]
+[Text=AUTONOMA CharacterOffsetBegin=12 CharacterOffsetEnd=20 PartOfSpeech=PROPN Lemma=autonoma NamedEntityTag=ORGANIZATION]
+[Text=Exp CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=PROPN Lemma=exp NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UNIVERSIDAD-1)
+flat(UNIVERSIDAD-1, AUTONOMA-2)
+flat(UNIVERSIDAD-1, Exp-3)
+punct(UNIVERSIDAD-1, .-4)
+
+Extracted the following NER entity mentions:
+UNIVERSIDAD AUTONOMA Exp	ORGANIZATION	ORGANIZATION:0.454763562353262
+
+Sentence #2 (4 tokens):
+-100-10-1-75
+DE GUERRERO.
+
+Tokens:
+[Text=-100-10-1-75 CharacterOffsetBegin=25 CharacterOffsetEnd=37 PartOfSpeech=NUM Lemma=-100-10-1-75 NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=GUERRERO CharacterOffsetBegin=41 CharacterOffsetEnd=49 PartOfSpeech=NOUN Lemma=guerrero NamedEntityTag=TITLE]
+[Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, -100-10-1-75-1)
+case(GUERRERO-3, DE-2)
+nmod(-100-10-1-75-1, GUERRERO-3)
+punct(-100-10-1-75-1, .-4)
+
+Extracted the following NER entity mentions:
+GUERRERO	TITLE	-
+
+Sentence #3 (2 tokens):
+UA.G..
+
+Tokens:
+[Text=UA.G. CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=NOUN Lemma=ua.g. NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, UA.G.-1)
+punct(UA.G.-1, .-2)
+
+Extracted the following NER entity mentions:
+
+Sentence #4 (68 tokens):
+H-126 L-55
+(16)
+“FUERA PORROS DE LA ESCUELA SUPERIOR DE AGRICUL
+TURA Y MILITARES QUE LOS PROTEGEN U.A.AG., ESCUE
+LA CIENCIAS QUIMICAS BIOLOGICAS”, “LA UNIVERSI- -
+DAD PARA EL PUEBLO UNIDOS VENCEREMOS U.A.G.”, “MAS ESCUELAS MENOS CUARTELES PREPA 9” “LA ES - -
+CUELA DE INGENIERÏA EXIGE RESPETO A LA INTEGRI- DAD UNIVERSITARIA!
+
+Tokens:
+[Text=H-126 CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NUM Lemma=h-126 NamedEntityTag=MISC]
+[Text=L-55 CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=PROPN Lemma=l-55 NamedEntityTag=MISC]
+[Text=( CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=16 CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=NUM Lemma=16 NamedEntityTag=NUMBER NormalizedNamedEntityTag=16.0]
+[Text=) CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=FUERA CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=ADV Lemma=fuera NamedEntityTag=O]
+[Text=PORROS CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=VERB Lemma=porro NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=ESCUELA CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=PROPN Lemma=escuela NamedEntityTag=O]
+[Text=SUPERIOR CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=PROPN Lemma=superior NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=AGRICUL CharacterOffsetBegin=114 CharacterOffsetEnd=121 PartOfSpeech=PROPN Lemma=agricul NamedEntityTag=O]
+[Text=TURA CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=PROPN Lemma=tura NamedEntityTag=O]
+[Text=Y CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=MILITARES CharacterOffsetBegin=129 CharacterOffsetEnd=138 PartOfSpeech=PROPN Lemma=militares NamedEntityTag=O]
+[Text=QUE CharacterOffsetBegin=139 CharacterOffsetEnd=142 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=LOS CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=PROTEGEN CharacterOffsetBegin=147 CharacterOffsetEnd=155 PartOfSpeech=PROPN Lemma=protegen NamedEntityTag=O]
+[Text=U.A.AG. CharacterOffsetBegin=156 CharacterOffsetEnd=163 PartOfSpeech=PROPN Lemma=u.a.ag. NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ESCUE CharacterOffsetBegin=165 CharacterOffsetEnd=170 PartOfSpeech=PROPN Lemma=escue NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=171 CharacterOffsetEnd=173 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=CIENCIAS CharacterOffsetBegin=174 CharacterOffsetEnd=182 PartOfSpeech=PROPN Lemma=ciencias NamedEntityTag=O]
+[Text=QUIMICAS CharacterOffsetBegin=183 CharacterOffsetEnd=191 PartOfSpeech=PROPN Lemma=quimicas NamedEntityTag=O]
+[Text=BIOLOGICAS CharacterOffsetBegin=192 CharacterOffsetEnd=202 PartOfSpeech=PROPN Lemma=biologicas NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=205 CharacterOffsetEnd=206 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=UNIVERSI CharacterOffsetBegin=209 CharacterOffsetEnd=217 PartOfSpeech=PROPN Lemma=universi NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=217 CharacterOffsetEnd=218 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=DAD CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=NOUN Lemma=dad NamedEntityTag=O]
+[Text=PARA CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=EL CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=PUEBLO CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=PROPN Lemma=pueblo NamedEntityTag=O]
+[Text=UNIDOS CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=PROPN Lemma=unidos NamedEntityTag=O]
+[Text=VENCEREMOS CharacterOffsetBegin=247 CharacterOffsetEnd=257 PartOfSpeech=PROPN Lemma=venceremos NamedEntityTag=O]
+[Text=U.A.G. CharacterOffsetBegin=258 CharacterOffsetEnd=264 PartOfSpeech=PROPN Lemma=u.a.g. NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=267 CharacterOffsetEnd=268 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=MAS CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=ADV Lemma=mas NamedEntityTag=O]
+[Text=ESCUELAS CharacterOffsetBegin=272 CharacterOffsetEnd=280 PartOfSpeech=PROPN Lemma=escuelas NamedEntityTag=O]
+[Text=MENOS CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=ADV Lemma=menos NamedEntityTag=O]
+[Text=CUARTELES CharacterOffsetBegin=287 CharacterOffsetEnd=296 PartOfSpeech=NOUN Lemma=cuarteles NamedEntityTag=O]
+[Text=PREPA CharacterOffsetBegin=297 CharacterOffsetEnd=302 PartOfSpeech=ADP Lemma=prepa NamedEntityTag=O]
+[Text=9 CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=NUM Lemma=9 NamedEntityTag=NUMBER NormalizedNamedEntityTag=9.0]
+[Text=" CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=ES CharacterOffsetBegin=310 CharacterOffsetEnd=312 PartOfSpeech=AUX Lemma=es NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=CUELA CharacterOffsetBegin=317 CharacterOffsetEnd=322 PartOfSpeech=VERB Lemma=cuela NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=INGENIERÏA CharacterOffsetBegin=326 CharacterOffsetEnd=336 PartOfSpeech=PROPN Lemma=ingenierïa NamedEntityTag=O]
+[Text=EXIGE CharacterOffsetBegin=337 CharacterOffsetEnd=342 PartOfSpeech=PROPN Lemma=exige NamedEntityTag=O]
+[Text=RESPETO CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=PROPN Lemma=respeto NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=ADP Lemma=a NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=INTEGRI CharacterOffsetBegin=356 CharacterOffsetEnd=363 PartOfSpeech=PROPN Lemma=integri NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=DAD CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=PROPN Lemma=dad NamedEntityTag=O]
+[Text=UNIVERSITARIA CharacterOffsetBegin=369 CharacterOffsetEnd=382 PartOfSpeech=PROPN Lemma=universitaria NamedEntityTag=O]
+[Text=! CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=PUNCT Lemma=! NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, PORROS-8)
+nsubj(PORROS-8, H-126-1)
+flat(H-126-1, L-55-2)
+punct(16-4, (-3)
+appos(H-126-1, 16-4)
+punct(16-4, )-5)
+punct(H-126-1, "-6)
+advmod(H-126-1, FUERA-7)
+case(ESCUELA-11, DE-9)
+det(ESCUELA-11, LA-10)
+obl(PORROS-8, ESCUELA-11)
+flat(ESCUELA-11, SUPERIOR-12)
+case(AGRICUL-14, DE-13)
+flat(ESCUELA-11, AGRICUL-14)
+flat(ESCUELA-11, TURA-15)
+cc(MILITARES-17, Y-16)
+obl(PORROS-8, MILITARES-17)
+conj:y(ESCUELA-11, MILITARES-17)
+mark(ES-54, QUE-18)
+det(PROTEGEN-20, LOS-19)
+nsubj(ES-54, PROTEGEN-20)
+flat(PROTEGEN-20, U.A.AG.-21)
+punct(ESCUE-23, ,-22)
+flat(PROTEGEN-20, ESCUE-23)
+det(CIENCIAS-25, LA-24)
+flat(PROTEGEN-20, CIENCIAS-25)
+flat(PROTEGEN-20, QUIMICAS-26)
+flat(PROTEGEN-20, BIOLOGICAS-27)
+punct(UNIVERSI-32, "-28)
+punct(UNIVERSI-32, ,-29)
+punct(UNIVERSI-32, "-30)
+det(UNIVERSI-32, LA-31)
+flat(PROTEGEN-20, UNIVERSI-32)
+punct(UNIVERSI-32, --33)
+punct(UNIVERSI-32, --34)
+nmod(PROTEGEN-20, DAD-35)
+case(PUEBLO-38, PARA-36)
+det(PUEBLO-38, EL-37)
+nmod(DAD-35, PUEBLO-38)
+flat(PUEBLO-38, UNIDOS-39)
+flat(PUEBLO-38, VENCEREMOS-40)
+flat(PUEBLO-38, U.A.G.-41)
+punct(ESCUELAS-46, "-42)
+punct(ESCUELAS-46, ,-43)
+punct(ESCUELAS-46, "-44)
+advmod(ESCUELAS-46, MAS-45)
+flat(PROTEGEN-20, ESCUELAS-46)
+flat(ESCUELAS-46, MENOS-47)
+flat(ESCUELAS-46, CUARTELES-48)
+case(9-50, PREPA-49)
+nummod(ESCUELAS-46, 9-50)
+punct(ESCUELAS-46, "-51)
+punct(ES-54, "-52)
+det(ES-54, LA-53)
+ccomp(PORROS-8, ES-54)
+punct(CUELA-57, --55)
+punct(CUELA-57, --56)
+advcl(PORROS-8, CUELA-57)
+case(INGENIERÏA-59, DE-58)
+obj(CUELA-57, INGENIERÏA-59)
+flat(INGENIERÏA-59, EXIGE-60)
+flat(INGENIERÏA-59, RESPETO-61)
+case(INTEGRI-64, A-62)
+det(INTEGRI-64, LA-63)
+obl(CUELA-57, INTEGRI-64)
+punct(CUELA-57, --65)
+nsubj(CUELA-57, DAD-66)
+flat(DAD-66, UNIVERSITARIA-67)
+punct(PORROS-8, !-68)
+
+Extracted the following NER entity mentions:
+H-126 L-55	MISC	MISC:0.7009329588099795
+16	NUMBER	NUMBER:-1.0
+9	NUMBER	NUMBER:-1.0
+
+Sentence #5 (71 tokens):
+, “POR LOS CAIDOS DE LA LU- - -
+CHA REVOLUCIONARIA VENCEREMOS” , EXIGIMOS LA LIB
+BERTAD INMEDIATA DE NUESTROS COMPAÑEROS””EXIGI-
+MO UN VERDADERO AUMENTO DE SUBSIDIO INMEDIATO
+NO QUEREMOS MIGAJAS” “LIBERTAD DE DESAAPRECIDOS
+FUERA RETENES MILITARES DEL ESTADO UAG”, “EXIGI
+MOS DESALOJO POLITICO MUNICIPALES DE NUESTRA - -
+UAG PREPARA 1o” “LIBERTAD PRESOS POLITICOS RE- -
+
+Tokens:
+[Text=, CharacterOffsetBegin=383 CharacterOffsetEnd=384 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=POR CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=LOS CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=CAIDOS CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=PROPN Lemma=caidos NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=404 CharacterOffsetEnd=406 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=LU CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=PROPN Lemma=lu NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=413 CharacterOffsetEnd=414 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=CHA CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=PROPN Lemma=cha NamedEntityTag=MISC]
+[Text=REVOLUCIONARIA CharacterOffsetBegin=419 CharacterOffsetEnd=433 PartOfSpeech=PROPN Lemma=revolucionaria NamedEntityTag=TITLE]
+[Text=VENCEREMOS CharacterOffsetBegin=434 CharacterOffsetEnd=444 PartOfSpeech=PROPN Lemma=venceremos NamedEntityTag=MISC]
+[Text=" CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=EXIGIMOS CharacterOffsetBegin=448 CharacterOffsetEnd=456 PartOfSpeech=VERB Lemma=exigimo NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=457 CharacterOffsetEnd=459 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=LIB CharacterOffsetBegin=460 CharacterOffsetEnd=463 PartOfSpeech=PROPN Lemma=lib NamedEntityTag=O]
+[Text=BERTAD CharacterOffsetBegin=464 CharacterOffsetEnd=470 PartOfSpeech=PROPN Lemma=bertad NamedEntityTag=O]
+[Text=INMEDIATA CharacterOffsetBegin=471 CharacterOffsetEnd=480 PartOfSpeech=PROPN Lemma=inmediata NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=481 CharacterOffsetEnd=483 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=NUESTROS CharacterOffsetBegin=484 CharacterOffsetEnd=492 PartOfSpeech=PROPN Lemma=nuestros NamedEntityTag=O]
+[Text=COMPAÑEROS CharacterOffsetBegin=493 CharacterOffsetEnd=503 PartOfSpeech=PROPN Lemma=compañeros NamedEntityTag=O]
+[Text="" CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=INTJ Lemma="" NamedEntityTag=O]
+[Text=EXIGI CharacterOffsetBegin=505 CharacterOffsetEnd=510 PartOfSpeech=INTJ Lemma=exigi NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=MO CharacterOffsetBegin=512 CharacterOffsetEnd=514 PartOfSpeech=INTJ Lemma=mo NamedEntityTag=O]
+[Text=UN CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=DET Lemma=un NamedEntityTag=O]
+[Text=VERDADERO CharacterOffsetBegin=518 CharacterOffsetEnd=527 PartOfSpeech=ADJ Lemma=verdadero NamedEntityTag=O]
+[Text=AUMENTO CharacterOffsetBegin=528 CharacterOffsetEnd=535 PartOfSpeech=NOUN Lemma=aumento NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=SUBSIDIO CharacterOffsetBegin=539 CharacterOffsetEnd=547 PartOfSpeech=NOUN Lemma=subsidio NamedEntityTag=O]
+[Text=INMEDIATO CharacterOffsetBegin=548 CharacterOffsetEnd=557 PartOfSpeech=ADJ Lemma=inmediato NamedEntityTag=O]
+[Text=NO CharacterOffsetBegin=558 CharacterOffsetEnd=560 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=QUEREMOS CharacterOffsetBegin=561 CharacterOffsetEnd=569 PartOfSpeech=VERB Lemma=queremo NamedEntityTag=O]
+[Text=MIGAJAS CharacterOffsetBegin=570 CharacterOffsetEnd=577 PartOfSpeech=NOUN Lemma=migajas NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LIBERTAD CharacterOffsetBegin=580 CharacterOffsetEnd=588 PartOfSpeech=NOUN Lemma=libertad NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=589 CharacterOffsetEnd=591 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=DESAAPRECIDOS CharacterOffsetBegin=592 CharacterOffsetEnd=605 PartOfSpeech=NOUN Lemma=desaaprecidos NamedEntityTag=O]
+[Text=FUERA CharacterOffsetBegin=606 CharacterOffsetEnd=611 PartOfSpeech=ADV Lemma=fuera NamedEntityTag=O]
+[Text=RETENES CharacterOffsetBegin=612 CharacterOffsetEnd=619 PartOfSpeech=ADJ Lemma=retenes NamedEntityTag=O]
+[Text=MILITARES CharacterOffsetBegin=620 CharacterOffsetEnd=629 PartOfSpeech=NOUN Lemma=militares NamedEntityTag=O]
+[Text=DEL CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=ESTADO CharacterOffsetBegin=634 CharacterOffsetEnd=640 PartOfSpeech=PROPN Lemma=estado NamedEntityTag=O]
+[Text=UAG CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=PROPN Lemma=uag NamedEntityTag=ORGANIZATION]
+[Text=" CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=EXIGI CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=VERB Lemma=exigi NamedEntityTag=O]
+[Text=MOS CharacterOffsetBegin=654 CharacterOffsetEnd=657 PartOfSpeech=DET Lemma=mos NamedEntityTag=O]
+[Text=DESALOJO CharacterOffsetBegin=658 CharacterOffsetEnd=666 PartOfSpeech=NOUN Lemma=desalojo NamedEntityTag=O]
+[Text=POLITICO CharacterOffsetBegin=667 CharacterOffsetEnd=675 PartOfSpeech=ADJ Lemma=politico NamedEntityTag=O]
+[Text=MUNICIPALES CharacterOffsetBegin=676 CharacterOffsetEnd=687 PartOfSpeech=ADJ Lemma=municipales NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=NUESTRA CharacterOffsetBegin=691 CharacterOffsetEnd=698 PartOfSpeech=NOUN Lemma=nuestra NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=699 CharacterOffsetEnd=700 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=UAG CharacterOffsetBegin=703 CharacterOffsetEnd=706 PartOfSpeech=PROPN Lemma=uag NamedEntityTag=O]
+[Text=PREPARA CharacterOffsetBegin=707 CharacterOffsetEnd=714 PartOfSpeech=PROPN Lemma=prepara NamedEntityTag=O]
+[Text=1o CharacterOffsetBegin=715 CharacterOffsetEnd=717 PartOfSpeech=NUM Lemma=1o NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=717 CharacterOffsetEnd=718 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=719 CharacterOffsetEnd=720 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=LIBERTAD CharacterOffsetBegin=720 CharacterOffsetEnd=728 PartOfSpeech=NOUN Lemma=libertad NamedEntityTag=O]
+[Text=PRESOS CharacterOffsetBegin=729 CharacterOffsetEnd=735 PartOfSpeech=ADJ Lemma=presos NamedEntityTag=O]
+[Text=POLITICOS CharacterOffsetBegin=736 CharacterOffsetEnd=745 PartOfSpeech=ADJ Lemma=politicos NamedEntityTag=O]
+[Text=RE CharacterOffsetBegin=746 CharacterOffsetEnd=748 PartOfSpeech=NOUN Lemma=re NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=748 CharacterOffsetEnd=749 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, QUEREMOS-36)
+punct(CAIDOS-5, ,-1)
+punct(CAIDOS-5, "-2)
+case(CAIDOS-5, POR-3)
+det(CAIDOS-5, LOS-4)
+ccomp(EXIGIMOS-17, CAIDOS-5)
+case(LU-8, DE-6)
+det(LU-8, LA-7)
+flat(CAIDOS-5, LU-8)
+punct(CAIDOS-5, --9)
+punct(CAIDOS-5, --10)
+punct(CAIDOS-5, --11)
+flat(CAIDOS-5, CHA-12)
+flat(CHA-12, REVOLUCIONARIA-13)
+flat(CHA-12, VENCEREMOS-14)
+punct(CAIDOS-5, "-15)
+punct(CAIDOS-5, ,-16)
+advcl(QUEREMOS-36, EXIGIMOS-17)
+det(LIB-19, LA-18)
+nsubj(EXIGIMOS-17, LIB-19)
+flat(LIB-19, BERTAD-20)
+flat(LIB-19, INMEDIATA-21)
+case(NUESTROS-23, DE-22)
+flat(LIB-19, NUESTROS-23)
+flat(LIB-19, COMPAÑEROS-24)
+flat(LIB-19, ""-25)
+flat(LIB-19, EXIGI-26)
+punct(EXIGIMOS-17, --27)
+det(AUMENTO-31, MO-28)
+det(AUMENTO-31, UN-29)
+amod(AUMENTO-31, VERDADERO-30)
+nsubj(QUEREMOS-36, AUMENTO-31)
+case(SUBSIDIO-33, DE-32)
+nmod(AUMENTO-31, SUBSIDIO-33)
+amod(SUBSIDIO-33, INMEDIATO-34)
+advmod(QUEREMOS-36, NO-35)
+obj(QUEREMOS-36, MIGAJAS-37)
+punct(LIBERTAD-40, "-38)
+punct(LIBERTAD-40, "-39)
+obl(QUEREMOS-36, LIBERTAD-40)
+case(DESAAPRECIDOS-42, DE-41)
+nmod(LIBERTAD-40, DESAAPRECIDOS-42)
+advmod(RETENES-44, FUERA-43)
+amod(MILITARES-45, RETENES-44)
+appos(LIBERTAD-40, MILITARES-45)
+case(ESTADO-47, DEL-46)
+nmod(MILITARES-45, ESTADO-47)
+flat(ESTADO-47, UAG-48)
+punct(LIBERTAD-40, "-49)
+punct(LIBERTAD-40, ,-50)
+punct(LIBERTAD-40, "-51)
+punct(LIBERTAD-40, EXIGI-52)
+det(DESALOJO-54, MOS-53)
+appos(LIBERTAD-40, DESALOJO-54)
+amod(DESALOJO-54, POLITICO-55)
+amod(DESALOJO-54, MUNICIPALES-56)
+case(NUESTRA-58, DE-57)
+nmod(DESALOJO-54, NUESTRA-58)
+punct(LIBERTAD-40, --59)
+punct(LIBERTAD-40, --60)
+appos(LIBERTAD-40, UAG-61)
+flat(UAG-61, PREPARA-62)
+nummod(UAG-61, 1o-63)
+punct(LIBERTAD-40, "-64)
+punct(LIBERTAD-40, "-65)
+appos(LIBERTAD-40, LIBERTAD-66)
+amod(LIBERTAD-66, PRESOS-67)
+amod(LIBERTAD-66, POLITICOS-68)
+appos(LIBERTAD-66, RE-69)
+punct(LIBERTAD-40, --70)
+punct(LIBERTAD-40, --71)
+
+Extracted the following NER entity mentions:
+CHA	MISC	MISC:0.6119652010439829
+REVOLUCIONARIA	TITLE	MISC:0.6937304075667313
+VENCEREMOS	MISC	MISC:0.7069255014481477
+UAG	ORGANIZATION	ORGANIZATION:0.7484645751359835

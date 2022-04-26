@@ -1,0 +1,364 @@
+Document: ID=file_30.txt (8 sentences, 127 tokens)
+
+Sentence #1 (8 tokens):
+MORALES CUEVAS Arnulfo Exp-100-10-1-66
+7 H-234 L-22.
+
+Tokens:
+[Text=MORALES CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=ADJ Lemma=morales NamedEntityTag=O]
+[Text=CUEVAS CharacterOffsetBegin=8 CharacterOffsetEnd=14 PartOfSpeech=PROPN Lemma=cuevas NamedEntityTag=O]
+[Text=Arnulfo CharacterOffsetBegin=15 CharacterOffsetEnd=22 PartOfSpeech=PROPN Lemma=arnulfo NamedEntityTag=O]
+[Text=Exp-100-10-1-66 CharacterOffsetBegin=23 CharacterOffsetEnd=38 PartOfSpeech=PROPN Lemma=exp-100-10-1-66 NamedEntityTag=O]
+[Text=7 CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=NUM Lemma=7 NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0]
+[Text=H-234 CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=PROPN Lemma=h-234 NamedEntityTag=O]
+[Text=L-22 CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=PROPN Lemma=l-22 NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, CUEVAS-2)
+amod(CUEVAS-2, MORALES-1)
+flat(CUEVAS-2, Arnulfo-3)
+flat(CUEVAS-2, Exp-100-10-1-66-4)
+nummod(CUEVAS-2, 7-5)
+flat(CUEVAS-2, H-234-6)
+flat(CUEVAS-2, L-22-7)
+punct(CUEVAS-2, .-8)
+
+Extracted the following NER entity mentions:
+7	NUMBER	NUMBER:-1.0
+
+Sentence #2 (18 tokens):
+diantes mencionados acordaron enviar el dia 12
+axtual al C. Juez Mixto de primera Instancia del
+Dto.
+
+Tokens:
+[Text=diantes CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NOUN Lemma=diantes NamedEntityTag=O]
+[Text=mencionados CharacterOffsetBegin=61 CharacterOffsetEnd=72 PartOfSpeech=ADJ Lemma=mencionados NamedEntityTag=O]
+[Text=acordaron CharacterOffsetBegin=73 CharacterOffsetEnd=82 PartOfSpeech=VERB Lemma=acordaron NamedEntityTag=O]
+[Text=enviar CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=VERB Lemma=enviar NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=dia CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=NOUN Lemma=dia NamedEntityTag=O]
+[Text=12 CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=NUM Lemma=12 NamedEntityTag=NUMBER NormalizedNamedEntityTag=12.0]
+[Text=axtual CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=ADJ Lemma=axtual NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=C. CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=PROPN Lemma=c. NamedEntityTag=ORGANIZATION]
+[Text=Juez CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=PROPN Lemma=juez NamedEntityTag=ORGANIZATION]
+[Text=Mixto CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=PROPN Lemma=mixto NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=primera CharacterOffsetBegin=127 CharacterOffsetEnd=134 PartOfSpeech=ADJ Lemma=primera NamedEntityTag=O]
+[Text=Instancia CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=PROPN Lemma=instancia NamedEntityTag=MISC]
+[Text=del CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=ADP Lemma=del NamedEntityTag=MISC]
+[Text=Dto CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=PROPN Lemma=dto NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, acordaron-3)
+nsubj(acordaron-3, diantes-1)
+amod(diantes-1, mencionados-2)
+xcomp(acordaron-3, enviar-4)
+det(dia-6, el-5)
+obj(enviar-4, dia-6)
+nummod(dia-6, 12-7)
+amod(dia-6, axtual-8)
+case(C.-10, al-9)
+obj(axtual-8, C.-10)
+flat(C.-10, Juez-11)
+flat(C.-10, Mixto-12)
+case(Instancia-15, de-13)
+amod(Instancia-15, primera-14)
+flat(C.-10, Instancia-15)
+case(Dto-17, del-16)
+flat(C.-10, Dto-17)
+punct(acordaron-3, .-18)
+
+Extracted the following NER entity mentions:
+12	NUMBER	NUMBER:-1.0
+C. Juez Mixto	ORGANIZATION	ORGANIZATION:0.7031597193975445
+Instancia del
+Dto	MISC	MISC:0.752151975285286
+
+Sentence #3 (8 tokens):
+Judicial de Bravos, G i. LIC.
+
+Tokens:
+[Text=Judicial CharacterOffsetBegin=154 CharacterOffsetEnd=162 PartOfSpeech=PROPN Lemma=judicial NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Bravos CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=PROPN Lemma=bravos NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=G CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=PROPN Lemma=g NamedEntityTag=O]
+[Text=i. CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=PROPN Lemma=i. NamedEntityTag=O]
+[Text=LIC CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=PROPN Lemma=lic NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Judicial-1)
+case(Bravos-3, de-2)
+flat(Judicial-1, Bravos-3)
+punct(G-5, ,-4)
+flat(Judicial-1, G-5)
+flat(G-5, i.-6)
+flat(G-5, LIC-7)
+punct(Judicial-1, .-8)
+
+Extracted the following NER entity mentions:
+Bravos	LOCATION	LOCATION:0.41168565004306706
+LIC	ORGANIZATION	ORGANIZATION:0.3339004722226638
+
+Sentence #4 (21 tokens):
+LEYVA Y CORDO
+BA, con considerarlo ofensivo hacía él ya que
+expresa qye no ha cometdo delito alguno.
+
+Tokens:
+[Text=LEYVA CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=PROPN Lemma=leyva NamedEntityTag=O]
+[Text=Y CharacterOffsetBegin=190 CharacterOffsetEnd=191 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=CORDO CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=PROPN Lemma=cordo NamedEntityTag=PERSON]
+[Text=BA CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=PROPN Lemma=ba NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=con CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=ADP Lemma=con NamedEntityTag=O]
+[Text=considerar CharacterOffsetBegin=206 CharacterOffsetEnd=218 PartOfSpeech=VERB Lemma=considerar NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=206 CharacterOffsetEnd=218 PartOfSpeech=PRON Lemma=lo NamedEntityTag=O]
+[Text=ofensivo CharacterOffsetBegin=219 CharacterOffsetEnd=227 PartOfSpeech=ADJ Lemma=ofensivo NamedEntityTag=O]
+[Text=hacía CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=VERB Lemma=hacía NamedEntityTag=O]
+[Text=él CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=PRON Lemma=él NamedEntityTag=O]
+[Text=ya CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=ADV Lemma=ya NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=expresa CharacterOffsetBegin=244 CharacterOffsetEnd=251 PartOfSpeech=VERB Lemma=expresa NamedEntityTag=O]
+[Text=qye CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=SCONJ Lemma=qye NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=ha CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=AUX Lemma=ha NamedEntityTag=O]
+[Text=cometdo CharacterOffsetBegin=262 CharacterOffsetEnd=269 PartOfSpeech=VERB Lemma=cometdo NamedEntityTag=O]
+[Text=delito CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NOUN Lemma=delito NamedEntityTag=CRIMINAL_CHARGE]
+[Text=alguno CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=PRON Lemma=alguno NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, LEYVA-1)
+advcl(LEYVA-1, considerar-7)
+det(ofensivo-9, lo-8)
+cc(CORDO-3, Y-2)
+conj:y(LEYVA-1, CORDO-3)
+flat(CORDO-3, BA-4)
+punct(considerar-7, ,-5)
+mark(considerar-7, con-6)
+obj(considerar-7, ofensivo-9)
+advcl(considerar-7, hacía-10)
+obj(hacía-10, él-11)
+mark(expresa-14, ya-12)
+fixed(ya-12, que-13)
+advcl(hacía-10, expresa-14)
+mark(cometdo-18, qye-15)
+advmod(cometdo-18, no-16)
+aux(cometdo-18, ha-17)
+advcl(expresa-14, cometdo-18)
+obj(cometdo-18, delito-19)
+det(delito-19, alguno-20)
+punct(LEYVA-1, .-21)
+
+Extracted the following NER entity mentions:
+CORDO
+BA	PERSON	PERSON:0.45806830525886794
+delito	CRIMINAL_CHARGE	-
+
+Sentence #5 (14 tokens):
+- El
+escrito citado dice:
+" C. JUEZ MIXTO DE PRIMERA INSTANCIA.
+
+Tokens:
+[Text=- CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=escrito CharacterOffsetBegin=289 CharacterOffsetEnd=296 PartOfSpeech=NOUN Lemma=escrito NamedEntityTag=O]
+[Text=citado CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=ADJ Lemma=citado NamedEntityTag=O]
+[Text=dice CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=VERB Lemma=dice NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=PUNCT Lemma=: NamedEntityTag=O]
+[Text=" CharacterOffsetBegin=310 CharacterOffsetEnd=311 PartOfSpeech=PUNCT Lemma=" NamedEntityTag=O]
+[Text=C. CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=PROPN Lemma=c. NamedEntityTag=O]
+[Text=JUEZ CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=PROPN Lemma=juez NamedEntityTag=TITLE]
+[Text=MIXTO CharacterOffsetBegin=320 CharacterOffsetEnd=325 PartOfSpeech=PROPN Lemma=mixto NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=PRIMERA CharacterOffsetBegin=329 CharacterOffsetEnd=336 PartOfSpeech=NOUN Lemma=primera NamedEntityTag=O]
+[Text=INSTANCIA CharacterOffsetBegin=337 CharacterOffsetEnd=346 PartOfSpeech=ADJ Lemma=instancia NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, dice-5)
+punct(dice-5, --1)
+det(escrito-3, El-2)
+nsubj(dice-5, escrito-3)
+amod(escrito-3, citado-4)
+punct(C.-8, :-6)
+punct(C.-8, "-7)
+ccomp(dice-5, C.-8)
+flat(C.-8, JUEZ-9)
+flat(C.-8, MIXTO-10)
+case(PRIMERA-12, DE-11)
+flat(C.-8, PRIMERA-12)
+amod(C.-8, INSTANCIA-13)
+punct(dice-5, .-14)
+
+Extracted the following NER entity mentions:
+JUEZ	TITLE	-
+
+Sentence #6 (3 tokens):
+-PRESENTE.
+
+Tokens:
+[Text=- CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=PRESENTE CharacterOffsetBegin=348 CharacterOffsetEnd=356 PartOfSpeech=ADJ Lemma=presente NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, PRESENTE-2)
+punct(PRESENTE-2, --1)
+punct(PRESENTE-2, .-3)
+
+Extracted the following NER entity mentions:
+
+Sentence #7 (47 tokens):
+-
+MARIANO SOLIS LEYVA, ARNULFO MORALES CUEVAS,
+VIRGILIO DE LA CRUZ HDEZ, CARLOS CASTREJON BUSTA
+MANTE, CARMELO CORTES CASTRO, PEDRO HELGUERA JI
+MENEZ, RICARDO GOMEZ RADILLA y GABINO ORGANISTA
+AGUILAR, INTERNADOS ACTUALMENTE EN LA PENITENCIA
+RIA DEL EDO.
+
+Tokens:
+[Text=- CharacterOffsetBegin=357 CharacterOffsetEnd=358 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=MARIANO CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=NOUN Lemma=mariano NamedEntityTag=O]
+[Text=SOLIS CharacterOffsetBegin=367 CharacterOffsetEnd=372 PartOfSpeech=ADJ Lemma=solis NamedEntityTag=O]
+[Text=LEYVA CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=PROPN Lemma=leyva NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ARNULFO CharacterOffsetBegin=380 CharacterOffsetEnd=387 PartOfSpeech=PROPN Lemma=arnulfo NamedEntityTag=PERSON]
+[Text=MORALES CharacterOffsetBegin=388 CharacterOffsetEnd=395 PartOfSpeech=PROPN Lemma=morales NamedEntityTag=O]
+[Text=CUEVAS CharacterOffsetBegin=396 CharacterOffsetEnd=402 PartOfSpeech=PROPN Lemma=cuevas NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=402 CharacterOffsetEnd=403 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=VIRGILIO CharacterOffsetBegin=404 CharacterOffsetEnd=412 PartOfSpeech=PROPN Lemma=virgilio NamedEntityTag=PERSON]
+[Text=DE CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=ADP Lemma=de NamedEntityTag=PERSON]
+[Text=LA CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=DET Lemma=la NamedEntityTag=PERSON]
+[Text=CRUZ CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=PROPN Lemma=cruz NamedEntityTag=PERSON]
+[Text=HDEZ CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=PROPN Lemma=hdez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=428 CharacterOffsetEnd=429 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=CAR CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=PROPN Lemma=car NamedEntityTag=O]
+[Text=LOS CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=CASTREJON CharacterOffsetBegin=437 CharacterOffsetEnd=446 PartOfSpeech=PROPN Lemma=castrejon NamedEntityTag=O]
+[Text=BUSTA CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=PROPN Lemma=busta NamedEntityTag=PERSON]
+[Text=MANTE CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=PROPN Lemma=mante NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=CARMELO CharacterOffsetBegin=460 CharacterOffsetEnd=467 PartOfSpeech=PROPN Lemma=carmelo NamedEntityTag=PERSON]
+[Text=CORTES CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=PROPN Lemma=cortes NamedEntityTag=PERSON]
+[Text=CASTRO CharacterOffsetBegin=475 CharacterOffsetEnd=481 PartOfSpeech=PROPN Lemma=castro NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=481 CharacterOffsetEnd=482 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=PEDRO CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=PROPN Lemma=pedro NamedEntityTag=PERSON]
+[Text=HELGUERA CharacterOffsetBegin=489 CharacterOffsetEnd=497 PartOfSpeech=PROPN Lemma=helguera NamedEntityTag=PERSON]
+[Text=JI CharacterOffsetBegin=498 CharacterOffsetEnd=500 PartOfSpeech=PROPN Lemma=ji NamedEntityTag=PERSON]
+[Text=MENEZ CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=PROPN Lemma=menez NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=RICARDO CharacterOffsetBegin=508 CharacterOffsetEnd=515 PartOfSpeech=PROPN Lemma=ricardo NamedEntityTag=PERSON]
+[Text=GOMEZ CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=PROPN Lemma=gomez NamedEntityTag=PERSON]
+[Text=RADILLA CharacterOffsetBegin=522 CharacterOffsetEnd=529 PartOfSpeech=PROPN Lemma=radilla NamedEntityTag=PERSON]
+[Text=y CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=GABINO CharacterOffsetBegin=532 CharacterOffsetEnd=538 PartOfSpeech=PROPN Lemma=gabino NamedEntityTag=PERSON]
+[Text=ORGANISTA CharacterOffsetBegin=539 CharacterOffsetEnd=548 PartOfSpeech=PROPN Lemma=organista NamedEntityTag=PERSON]
+[Text=AGUILAR CharacterOffsetBegin=549 CharacterOffsetEnd=556 PartOfSpeech=PROPN Lemma=aguilar NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=INTERNADOS CharacterOffsetBegin=558 CharacterOffsetEnd=568 PartOfSpeech=PROPN Lemma=internados NamedEntityTag=O]
+[Text=ACTUALMENTE CharacterOffsetBegin=569 CharacterOffsetEnd=580 PartOfSpeech=PROPN Lemma=actualmente NamedEntityTag=O]
+[Text=EN CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=LA CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=PENITENCIA CharacterOffsetBegin=587 CharacterOffsetEnd=597 PartOfSpeech=PROPN Lemma=penitencia NamedEntityTag=MISC]
+[Text=RIA CharacterOffsetBegin=598 CharacterOffsetEnd=601 PartOfSpeech=PROPN Lemma=ria NamedEntityTag=MISC]
+[Text=DEL CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=ADP Lemma=del NamedEntityTag=MISC]
+[Text=EDO CharacterOffsetBegin=606 CharacterOffsetEnd=609 PartOfSpeech=PROPN Lemma=edo NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, MARIANO-2)
+appos(MARIANO-2, CAR-16)
+det(CASTREJON-18, LOS-17)
+punct(MARIANO-2, --1)
+amod(MARIANO-2, SOLIS-3)
+appos(MARIANO-2, LEYVA-4)
+punct(MARIANO-2, ,-5)
+appos(MARIANO-2, ARNULFO-6)
+flat(ARNULFO-6, MORALES-7)
+flat(ARNULFO-6, CUEVAS-8)
+punct(MARIANO-2, ,-9)
+appos(MARIANO-2, VIRGILIO-10)
+case(CRUZ-13, DE-11)
+det(CRUZ-13, LA-12)
+flat(VIRGILIO-10, CRUZ-13)
+flat(CRUZ-13, HDEZ-14)
+punct(MARIANO-2, ,-15)
+flat(CAR-16, CASTREJON-18)
+flat(CAR-16, BUSTA-19)
+flat(CAR-16, MANTE-20)
+punct(MARIANO-2, ,-21)
+appos(MARIANO-2, CARMELO-22)
+flat(CARMELO-22, CORTES-23)
+flat(CARMELO-22, CASTRO-24)
+punct(MARIANO-2, ,-25)
+appos(MARIANO-2, PEDRO-26)
+flat(PEDRO-26, HELGUERA-27)
+flat(PEDRO-26, JI-28)
+flat(PEDRO-26, MENEZ-29)
+punct(MARIANO-2, ,-30)
+appos(MARIANO-2, RICARDO-31)
+flat(RICARDO-31, GOMEZ-32)
+flat(RICARDO-31, RADILLA-33)
+cc(GABINO-35, y-34)
+appos(MARIANO-2, GABINO-35)
+conj:y(RICARDO-31, GABINO-35)
+flat(GABINO-35, ORGANISTA-36)
+flat(GABINO-35, AGUILAR-37)
+punct(MARIANO-2, ,-38)
+appos(MARIANO-2, INTERNADOS-39)
+flat(INTERNADOS-39, ACTUALMENTE-40)
+case(PENITENCIA-43, EN-41)
+det(PENITENCIA-43, LA-42)
+flat(INTERNADOS-39, PENITENCIA-43)
+flat(INTERNADOS-39, RIA-44)
+case(EDO-46, DEL-45)
+flat(INTERNADOS-39, EDO-46)
+punct(MARIANO-2, .-47)
+
+Extracted the following NER entity mentions:
+ARNULFO	PERSON	PERSON:0.6738581538053785
+VIRGILIO DE LA CRUZ HDEZ	PERSON	PERSON:0.39955644892461367
+BUSTA
+MANTE	PERSON	PERSON:0.7771010109832026
+CARMELO CORTES CASTRO	PERSON	PERSON:0.5282978958226825
+PEDRO HELGUERA JI
+MENEZ	PERSON	PERSON:0.9003070288557353
+RICARDO GOMEZ RADILLA	PERSON	PERSON:0.9469817302632653
+GABINO ORGANISTA
+AGUILAR	PERSON	PERSON:0.4622131880645568
+PENITENCIA
+RIA DEL EDO	MISC	MISC:0.4301962811589349
+
+Sentence #8 (8 tokens):
+POR LOS DELIOOS DE DESPOJO, ROVO Y
+
+Tokens:
+[Text=POR CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=LOS CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=DELIOOS CharacterOffsetBegin=619 CharacterOffsetEnd=626 PartOfSpeech=PROPN Lemma=delioos NamedEntityTag=O]
+[Text=DE CharacterOffsetBegin=627 CharacterOffsetEnd=629 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=DESPOJO CharacterOffsetBegin=630 CharacterOffsetEnd=637 PartOfSpeech=PROPN Lemma=despojo NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=637 CharacterOffsetEnd=638 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=ROVO CharacterOffsetBegin=639 CharacterOffsetEnd=643 PartOfSpeech=PROPN Lemma=rovo NamedEntityTag=O]
+[Text=Y CharacterOffsetBegin=644 CharacterOffsetEnd=645 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, DELIOOS-3)
+case(DELIOOS-3, POR-1)
+det(DELIOOS-3, LOS-2)
+case(DESPOJO-5, DE-4)
+flat(DELIOOS-3, DESPOJO-5)
+punct(DELIOOS-3, ,-6)
+flat(DELIOOS-3, ROVO-7)
+flat(DELIOOS-3, Y-8)
+
+Extracted the following NER entity mentions:

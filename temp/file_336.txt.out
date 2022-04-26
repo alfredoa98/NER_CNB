@@ -1,0 +1,350 @@
+Document: ID=file_336.txt (4 sentences, 143 tokens)
+
+Sentence #1 (28 tokens):
+ficiente que apoye las solicitudes hechas; por
+lo que se refiere al pago del pasivo UAG, corres-
+pondiente al ISSSTE (Delegación Gro.)
+
+Tokens:
+[Text=ficiente CharacterOffsetBegin=0 CharacterOffsetEnd=8 PartOfSpeech=NOUN Lemma=ficiente NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=apoye CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=VERB Lemma=apoye NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=solicitudes CharacterOffsetBegin=23 CharacterOffsetEnd=34 PartOfSpeech=NOUN Lemma=solicitudes NamedEntityTag=O]
+[Text=hechas CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=ADJ Lemma=hechas NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=lo CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=DET Lemma=lo NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=refiere CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=VERB Lemma=refiere NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=pago CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NOUN Lemma=pago NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=pasivo CharacterOffsetBegin=77 CharacterOffsetEnd=83 PartOfSpeech=ADJ Lemma=pasivo NamedEntityTag=O]
+[Text=UAG CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=PROPN Lemma=uag NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=corres CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=VERB Lemma=corre NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=pondiente CharacterOffsetBegin=97 CharacterOffsetEnd=106 PartOfSpeech=ADJ Lemma=pondiente NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=ISSSTE CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=PROPN Lemma=issste NamedEntityTag=ORGANIZATION]
+[Text=( CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=PUNCT Lemma=( NamedEntityTag=O]
+[Text=Delegación CharacterOffsetBegin=118 CharacterOffsetEnd=128 PartOfSpeech=PROPN Lemma=delegación NamedEntityTag=MISC]
+[Text=Gro CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=PROPN Lemma=gro NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+[Text=) CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=PUNCT Lemma=) NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, corres-19)
+nsubj(corres-19, ficiente-1)
+nsubj(apoye-3, que-2)
+acl(ficiente-1, apoye-3)
+det(solicitudes-5, las-4)
+obj(apoye-3, solicitudes-5)
+amod(solicitudes-5, hechas-6)
+punct(ficiente-1, ;-7)
+mark(refiere-12, por-8)
+det(refiere-12, lo-9)
+nsubj(refiere-12, que-10)
+obj(refiere-12, se-11)
+advcl(corres-19, refiere-12)
+case(pago-14, al-13)
+obj(refiere-12, pago-14)
+case(UAG-17, del-15)
+amod(UAG-17, pasivo-16)
+nmod(pago-14, UAG-17)
+punct(refiere-12, ,-18)
+punct(corres-19, --20)
+obj(corres-19, pondiente-21)
+case(ISSSTE-23, al-22)
+obj(pondiente-21, ISSSTE-23)
+punct(Delegación-25, (-24)
+flat(ISSSTE-23, Delegación-25)
+flat(Delegación-25, Gro-26)
+punct(Delegación-25, .-27)
+punct(corres-19, )-28)
+
+Extracted the following NER entity mentions:
+UAG	ORGANIZATION	ORGANIZATION:0.7404484390260069
+ISSSTE	ORGANIZATION	ORGANIZATION:0.9861910490910519
+Delegación Gro	MISC	MISC:0.43318500221581807
+
+Sentence #2 (92 tokens):
+prima por
+antigüedad,Banco SOMEX y Proveedores ,así como
+los intereses bancarios que el año pasado se pa
+garon por retraso en la entrega del subsidio, to-
+do ésto se sujeta al mismo analisis presupuestal
+que se menciona; El ingreso al ISSSTE de los tra
+bajadores Universitarios; no depende de estas De
+pendencias; pero apoyan las gestiones ante dicho
+Instituto ,para que se logre su ingreso; Que el
+financiamiento para que opere Redio Educación,--
+unicamente se estudiará si la UAG.
+
+Tokens:
+[Text=prima CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=NOUN Lemma=prima NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=antigüedad CharacterOffsetBegin=145 CharacterOffsetEnd=155 PartOfSpeech=NOUN Lemma=antigüedad NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=Banco CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=PROPN Lemma=banco NamedEntityTag=ORGANIZATION]
+[Text=SOMEX CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=PROPN Lemma=somex NamedEntityTag=ORGANIZATION]
+[Text=y CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=CCONJ Lemma=y NamedEntityTag=O]
+[Text=Proveedores CharacterOffsetBegin=170 CharacterOffsetEnd=181 PartOfSpeech=PROPN Lemma=proveedores NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=182 CharacterOffsetEnd=183 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=así CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=ADV Lemma=así NamedEntityTag=O]
+[Text=como CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=SCONJ Lemma=como NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=intereses CharacterOffsetBegin=196 CharacterOffsetEnd=205 PartOfSpeech=NOUN Lemma=intereses NamedEntityTag=O]
+[Text=bancarios CharacterOffsetBegin=206 CharacterOffsetEnd=215 PartOfSpeech=ADJ Lemma=bancarios NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=año CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=NOUN Lemma=año NamedEntityTag=O]
+[Text=pasado CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=ADJ Lemma=pasado NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=pa CharacterOffsetBegin=237 CharacterOffsetEnd=239 PartOfSpeech=ADP Lemma=pa NamedEntityTag=O]
+[Text=garon CharacterOffsetBegin=240 CharacterOffsetEnd=245 PartOfSpeech=VERB Lemma=garon NamedEntityTag=O]
+[Text=por CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=ADP Lemma=por NamedEntityTag=O]
+[Text=retraso CharacterOffsetBegin=250 CharacterOffsetEnd=257 PartOfSpeech=NOUN Lemma=retraso NamedEntityTag=O]
+[Text=en CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=ADP Lemma=en NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=entrega CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=NOUN Lemma=entrega NamedEntityTag=O]
+[Text=del CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=ADP Lemma=del NamedEntityTag=O]
+[Text=subsidio CharacterOffsetBegin=276 CharacterOffsetEnd=284 PartOfSpeech=NOUN Lemma=subsidio NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=PROPN Lemma=to NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=288 CharacterOffsetEnd=289 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=ADP Lemma=do NamedEntityTag=O]
+[Text=ésto CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=NOUN Lemma=ésto NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=sujeta CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=ADJ Lemma=sujeta NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=mismo CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=DET Lemma=mismo NamedEntityTag=O]
+[Text=analisis CharacterOffsetBegin=317 CharacterOffsetEnd=325 PartOfSpeech=NOUN Lemma=analisis NamedEntityTag=O]
+[Text=presupuestal CharacterOffsetBegin=326 CharacterOffsetEnd=338 PartOfSpeech=ADJ Lemma=presupuestal NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=PRON Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=menciona CharacterOffsetBegin=346 CharacterOffsetEnd=354 PartOfSpeech=VERB Lemma=menciona NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=El CharacterOffsetBegin=356 CharacterOffsetEnd=358 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=ingreso CharacterOffsetBegin=359 CharacterOffsetEnd=366 PartOfSpeech=NOUN Lemma=ingreso NamedEntityTag=O]
+[Text=al CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=ADP Lemma=al NamedEntityTag=O]
+[Text=ISSSTE CharacterOffsetBegin=370 CharacterOffsetEnd=376 PartOfSpeech=PROPN Lemma=issste NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=los CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=DET Lemma=los NamedEntityTag=O]
+[Text=tra CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=NOUN Lemma=tra NamedEntityTag=O]
+[Text=bajadores CharacterOffsetBegin=388 CharacterOffsetEnd=397 PartOfSpeech=ADJ Lemma=bajadores NamedEntityTag=O]
+[Text=Universitarios CharacterOffsetBegin=398 CharacterOffsetEnd=412 PartOfSpeech=PROPN Lemma=universitarios NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=412 CharacterOffsetEnd=413 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=ADV Lemma=no NamedEntityTag=O]
+[Text=depende CharacterOffsetBegin=417 CharacterOffsetEnd=424 PartOfSpeech=VERB Lemma=depende NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=estas CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=DET Lemma=estas NamedEntityTag=O]
+[Text=De CharacterOffsetBegin=434 CharacterOffsetEnd=436 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=pendencias CharacterOffsetBegin=437 CharacterOffsetEnd=447 PartOfSpeech=NOUN Lemma=pendencias NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=pero CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=CCONJ Lemma=pero NamedEntityTag=O]
+[Text=apoyan CharacterOffsetBegin=454 CharacterOffsetEnd=460 PartOfSpeech=VERB Lemma=apoyan NamedEntityTag=O]
+[Text=las CharacterOffsetBegin=461 CharacterOffsetEnd=464 PartOfSpeech=DET Lemma=las NamedEntityTag=O]
+[Text=gestiones CharacterOffsetBegin=465 CharacterOffsetEnd=474 PartOfSpeech=NOUN Lemma=gestiones NamedEntityTag=O]
+[Text=ante CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=ADP Lemma=ante NamedEntityTag=O]
+[Text=dicho CharacterOffsetBegin=480 CharacterOffsetEnd=485 PartOfSpeech=ADJ Lemma=dicho NamedEntityTag=O]
+[Text=Instituto CharacterOffsetBegin=486 CharacterOffsetEnd=495 PartOfSpeech=PROPN Lemma=instituto NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=496 CharacterOffsetEnd=497 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=logre CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=VERB Lemma=logre NamedEntityTag=O]
+[Text=su CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=DET Lemma=su NamedEntityTag=O]
+[Text=ingreso CharacterOffsetBegin=518 CharacterOffsetEnd=525 PartOfSpeech=NOUN Lemma=ingreso NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=525 CharacterOffsetEnd=526 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=Que CharacterOffsetBegin=527 CharacterOffsetEnd=530 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=el CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=DET Lemma=el NamedEntityTag=O]
+[Text=financiamiento CharacterOffsetBegin=534 CharacterOffsetEnd=548 PartOfSpeech=NOUN Lemma=financiamiento NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=opere CharacterOffsetBegin=558 CharacterOffsetEnd=563 PartOfSpeech=VERB Lemma=opere NamedEntityTag=O]
+[Text=Redio CharacterOffsetBegin=564 CharacterOffsetEnd=569 PartOfSpeech=PROPN Lemma=redio NamedEntityTag=ORGANIZATION]
+[Text=Educación CharacterOffsetBegin=570 CharacterOffsetEnd=579 PartOfSpeech=PROPN Lemma=educación NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=PUNCT Lemma=, NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=580 CharacterOffsetEnd=582 PartOfSpeech=NUM Lemma=-- NamedEntityTag=O]
+[Text=unicamente CharacterOffsetBegin=583 CharacterOffsetEnd=593 PartOfSpeech=ADV Lemma=unicamente NamedEntityTag=O]
+[Text=se CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=PRON Lemma=se NamedEntityTag=O]
+[Text=estudiará CharacterOffsetBegin=597 CharacterOffsetEnd=606 PartOfSpeech=VERB Lemma=estudiará NamedEntityTag=O]
+[Text=si CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=SCONJ Lemma=si NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=UAG CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=PROPN Lemma=uag NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=616 CharacterOffsetEnd=617 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, depende-55)
+nsubj(depende-55, prima-1)
+case(antigüedad-3, por-2)
+nmod(prima-1, antigüedad-3)
+punct(Banco-5, ,-4)
+appos(prima-1, Banco-5)
+flat(Banco-5, SOMEX-6)
+cc(Proveedores-8, y-7)
+appos(prima-1, Proveedores-8)
+conj:y(Banco-5, Proveedores-8)
+punct(Banco-5, ,-9)
+cc(intereses-13, así-10)
+fixed(así-10, como-11)
+det(intereses-13, los-12)
+conj:así(prima-1, intereses-13)
+nsubj(depende-55, intereses-13)
+amod(intereses-13, bancarios-14)
+nsubj(garon-21, que-15)
+det(año-17, el-16)
+obl(garon-21, año-17)
+amod(año-17, pasado-18)
+obj(garon-21, se-19)
+mark(garon-21, pa-20)
+acl(intereses-13, garon-21)
+case(retraso-23, por-22)
+obl(garon-21, retraso-23)
+case(entrega-26, en-24)
+det(entrega-26, la-25)
+obl(garon-21, entrega-26)
+case(subsidio-28, del-27)
+nmod(entrega-26, subsidio-28)
+punct(to-30, ,-29)
+appos(intereses-13, to-30)
+punct(to-30, --31)
+case(ésto-33, do-32)
+nmod(intereses-13, ésto-33)
+obj(sujeta-35, se-34)
+amod(intereses-13, sujeta-35)
+case(analisis-38, al-36)
+det(analisis-38, mismo-37)
+obj(sujeta-35, analisis-38)
+amod(analisis-38, presupuestal-39)
+nsubj(menciona-42, que-40)
+obj(menciona-42, se-41)
+acl(analisis-38, menciona-42)
+punct(intereses-13, ;-43)
+det(ingreso-45, El-44)
+nmod(intereses-13, ingreso-45)
+case(ISSSTE-47, al-46)
+nmod(ingreso-45, ISSSTE-47)
+case(tra-50, de-48)
+det(tra-50, los-49)
+nmod(ISSSTE-47, tra-50)
+amod(tra-50, bajadores-51)
+appos(tra-50, Universitarios-52)
+punct(prima-1, ;-53)
+advmod(depende-55, no-54)
+case(estas-57, de-56)
+obj(depende-55, estas-57)
+case(estas-57, De-58)
+nmod(estas-57, pendencias-59)
+punct(apoyan-62, ;-60)
+cc(apoyan-62, pero-61)
+conj:pero(depende-55, apoyan-62)
+det(gestiones-64, las-63)
+obj(apoyan-62, gestiones-64)
+case(Instituto-67, ante-65)
+amod(Instituto-67, dicho-66)
+obl(apoyan-62, Instituto-67)
+punct(logre-72, ,-68)
+mark(logre-72, para-69)
+mark(logre-72, que-70)
+obj(logre-72, se-71)
+advcl(apoyan-62, logre-72)
+det(ingreso-74, su-73)
+obj(logre-72, ingreso-74)
+punct(depende-55, ;-75)
+mark(estudiará-88, Que-76)
+det(financiamiento-78, el-77)
+nsubj(estudiará-88, financiamiento-78)
+mark(opere-81, para-79)
+mark(opere-81, que-80)
+acl(financiamiento-78, opere-81)
+nsubj(opere-81, Redio-82)
+flat(Redio-82, Educación-83)
+punct(---85, ,-84)
+advmod(estudiará-88, ---85)
+advmod(---85, unicamente-86)
+obj(estudiará-88, se-87)
+advcl(depende-55, estudiará-88)
+mark(UAG-91, si-89)
+det(UAG-91, la-90)
+obl(estudiará-88, UAG-91)
+punct(depende-55, .-92)
+
+Extracted the following NER entity mentions:
+Banco SOMEX	ORGANIZATION	ORGANIZATION:0.8412274030218443
+Proveedores	ORGANIZATION	ORGANIZATION:0.5944107055585277
+ISSSTE	ORGANIZATION	ORGANIZATION:0.9564681716757831
+Instituto	ORGANIZATION	ORGANIZATION:0.8404031565675539
+Redio Educación	ORGANIZATION	ORGANIZATION:0.8930885034479212
+UAG	ORGANIZATION	ORGANIZATION:0.9361103151099587
+
+Sentence #3 (21 tokens):
+tiene la auto-
+rización para este tipo de comunicaciones; que -
+la Entrega de las Instalaciones E.S.A. UAG.
+
+Tokens:
+[Text=tiene CharacterOffsetBegin=617 CharacterOffsetEnd=622 PartOfSpeech=VERB Lemma=tiene NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=auto CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=NOUN Lemma=auto NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=rización CharacterOffsetBegin=632 CharacterOffsetEnd=640 PartOfSpeech=NOUN Lemma=rización NamedEntityTag=O]
+[Text=para CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=ADP Lemma=para NamedEntityTag=O]
+[Text=este CharacterOffsetBegin=646 CharacterOffsetEnd=650 PartOfSpeech=DET Lemma=este NamedEntityTag=O]
+[Text=tipo CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=NOUN Lemma=tipo NamedEntityTag=O]
+[Text=de CharacterOffsetBegin=656 CharacterOffsetEnd=658 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=comunicaciones CharacterOffsetBegin=659 CharacterOffsetEnd=673 PartOfSpeech=NOUN Lemma=comunicaciones NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=673 CharacterOffsetEnd=674 PartOfSpeech=PUNCT Lemma=; NamedEntityTag=O]
+[Text=que CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=SCONJ Lemma=que NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=679 CharacterOffsetEnd=680 PartOfSpeech=PUNCT Lemma=- NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=681 CharacterOffsetEnd=683 PartOfSpeech=DET Lemma=la NamedEntityTag=O]
+[Text=Entrega CharacterOffsetBegin=684 CharacterOffsetEnd=691 PartOfSpeech=PROPN Lemma=entrega NamedEntityTag=ORGANIZATION]
+[Text=de CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=ADP Lemma=de NamedEntityTag=ORGANIZATION]
+[Text=las CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=DET Lemma=las NamedEntityTag=ORGANIZATION]
+[Text=Instalaciones CharacterOffsetBegin=699 CharacterOffsetEnd=712 PartOfSpeech=PROPN Lemma=instalaciones NamedEntityTag=ORGANIZATION]
+[Text=E.S.A. CharacterOffsetBegin=713 CharacterOffsetEnd=719 PartOfSpeech=PROPN Lemma=e.s.a. NamedEntityTag=ORGANIZATION]
+[Text=UAG CharacterOffsetBegin=720 CharacterOffsetEnd=723 PartOfSpeech=PROPN Lemma=uag NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=723 CharacterOffsetEnd=724 PartOfSpeech=PUNCT Lemma=. NamedEntityTag=O]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, tiene-1)
+det(auto-3, la-2)
+obj(tiene-1, auto-3)
+punct(rización-5, --4)
+appos(auto-3, rización-5)
+case(tipo-8, para-6)
+det(tipo-8, este-7)
+nmod(rización-5, tipo-8)
+case(comunicaciones-10, de-9)
+nmod(tipo-8, comunicaciones-10)
+punct(rización-5, ;-11)
+mark(Entrega-15, que-12)
+punct(Entrega-15, --13)
+det(Entrega-15, la-14)
+nmod(auto-3, Entrega-15)
+case(Instalaciones-18, de-16)
+det(Instalaciones-18, las-17)
+flat(Entrega-15, Instalaciones-18)
+flat(Instalaciones-18, E.S.A.-19)
+flat(Instalaciones-18, UAG-20)
+punct(tiene-1, .-21)
+
+Extracted the following NER entity mentions:
+Entrega de las Instalaciones E.S.A. UAG	ORGANIZATION	ORGANIZATION:0.3393257870218701
+
+Sentence #4 (2 tokens):
+de Tux
+
+Tokens:
+[Text=de CharacterOffsetBegin=724 CharacterOffsetEnd=726 PartOfSpeech=ADP Lemma=de NamedEntityTag=O]
+[Text=Tux CharacterOffsetBegin=727 CharacterOffsetEnd=730 PartOfSpeech=PROPN Lemma=tux NamedEntityTag=PERSON]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, Tux-2)
+case(Tux-2, de-1)
+
+Extracted the following NER entity mentions:
+Tux	PERSON	PERSON:0.6598907885229658
